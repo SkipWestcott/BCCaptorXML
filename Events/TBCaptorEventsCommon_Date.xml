@@ -4,7 +4,7 @@
     <!-- #region Devoted events -->
     <CEEvent>
         <Name>TB_captor_date_talk_devoted</Name>
-        <Text>{=TBCaptorEvents_Common_004}You lead {CAPTIVE_NAME} to an intimate setting and {?ISCAPTIVEFEMALE}she smiles at you, sitting down to talk about the day's troubles. She's an excellent listener, and curious about every facet of your life, providing an attentive audience and insightful commentary as you describe the challenges of leading your clan. Once you've exhausted the relevant topics of conversation, she gently brushes a hand against your sex and asks if perhaps there's some way she can help relieve your stress...{?}he smiles at you, sitting down to talk about the day's troubles. He's an excellent listener, and curious about every facet of your life, providing an attentive audience and insightful commentary as you describe the challenges of leading your clan. Once you've exhausted the relevant topics of conversation, he gently brushes a hand against your sex and asks if perhaps there's some way he can help relieve your stress?{\?}</Text>
+        <Text>You lead {CAPTIVE_NAME} to an intimate setting and {?ISCAPTIVEFEMALE}she smiles at you, sitting down to talk about the day's troubles. She's an excellent listener, and curious about every facet of your life, providing an attentive audience and insightful commentary as you describe the challenges of leading your clan. Once you've exhausted the relevant topics of conversation, she gently brushes a hand against your sex and asks if perhaps there's some way she can help relieve your stress...{?}he smiles at you, sitting down to talk about the day's troubles. He's an excellent listener, and curious about every facet of your life, providing an attentive audience and insightful commentary as you describe the challenges of leading your clan. Once you've exhausted the relevant topics of conversation, he gently brushes a hand against your sex and asks if perhaps there's some way he can help relieve your stress?{\?}</Text>
         <Backgrounds>
             <Background Name="TB_scion_naked_dinner_happy" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_naked_dinner_happy" UseConditions="BC_event_conditions_captive_pregnant" />
@@ -27,7 +27,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12007}What shall you do next?</OptionText>
+                <OptionText>What shall you do next?</OptionText>
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R -3 -6" Ref="Hero" Color="Cyan"/>
@@ -54,7 +54,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_date_meal_devoted</Name>
-        <Text>{=TBCaptorEvents_Common_005}You lead {CAPTIVE_NAME} to an intimate setting, where you've prepared a hearty meal. {?ISCAPTIVEFEMALE}She sighs gratefully at the sight, and stammers a heartfelt thanks before joining you at the table. You eat calmly, sharing friendly conversation, and as you both finish your meal, washing it down with a mug of water, she licks her lips and slyly comments that there's another meal she'd be interested in, if you're willing...{?}He sighs gratefully at the sight, and stammers a heartfelt thanks before joining you at the table. You eat calmly, sharing friendly conversation, and as you both finish your meal, washing it down with a mug of water, he licks his lips and slyly comments that there's another meal he'd be interested in, if you're willing...{\?}</Text>
+        <Text>You lead {CAPTIVE_NAME} to an intimate setting, where you've prepared a hearty meal. {?ISCAPTIVEFEMALE}She sighs gratefully at the sight, and stammers a heartfelt thanks before joining you at the table. You eat calmly, sharing friendly conversation, and as you both finish your meal, washing it down with a mug of water, she licks her lips and slyly comments that there's another meal she'd be interested in, if you're willing...{?}He sighs gratefully at the sight, and stammers a heartfelt thanks before joining you at the table. You eat calmly, sharing friendly conversation, and as you both finish your meal, washing it down with a mug of water, he licks his lips and slyly comments that there's another meal he'd be interested in, if you're willing...{\?}</Text>
         <Backgrounds>
             <Background Name="TB_scion_naked_dinner_happy" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_naked_dinner_happy" UseConditions="BC_event_conditions_captive_pregnant" />
@@ -78,7 +78,7 @@
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12007}What shall you do next?</OptionText>
+                <OptionText>What shall you do next?</OptionText>
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <RelationTotal>R 1 4</RelationTotal>
                 <SkillsToLevel>
@@ -98,7 +98,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_date_intimate_vaginal_devoted</Name>
-        <Text>{=TBCaptorEvents_Common_006}You lead {CAPTIVE_NAME} to your bed and {?ISCAPTIVEFEMALE}she smiles, blushing. You undress each other slowly, kissing and hugging as you explore each other's bodies, and she briefly licks at your sex before looking up at you. It's obvious she wants you, and she moans in satisfaction as you push her down onto the sheets. {?ISCAPTORFEMALE}{?}She asks you to fill her womb, so that your seed might take root in her, and you oblige with a knowing smile.{\?} Your bodies intertwine, kissing, licking, thrusting, and pleasuring each other until she can take the pressure no longer and you feel her writhe in ecstasy. The sensation is overwhelming, and pushes you to your own intense climax, leaving the sheets drenched in your shared fluids.{?}he smiles, blushing. You undress each other slowly, kissing and hugging as you explore each other's bodies, and he briefly licks at your sex before looking up at you. It's obvious he wants you, and he moans in satisfaction as you push him down onto the sheets. {?ISCAPTORFEMALE}He asks if he can take your womb, so that his seed might take root in you, and you oblige with a knowing smile.{?}{\?} Your bodies intertwine, kissing, licking, thrusting, and pleasuring each other until he can take the pressure no longer and you feel him writhe in ecstasy. The sensation is overwhelming, and pushes you to your own intense climax, leaving the sheets drenched in your shared fluids.{\?}</Text>
+        <Text>You lead {CAPTIVE_NAME} to your bed and {?ISCAPTIVEFEMALE}she smiles, blushing. You undress each other slowly, kissing and hugging as you explore each other's bodies, and she briefly licks at your sex before looking up at you. It's obvious she wants you, and she moans in satisfaction as you push her down onto the sheets. {?ISCAPTORFEMALE}{?}She asks you to fill her womb, so that your seed might take root in her, and you oblige with a knowing smile.{\?} Your bodies intertwine, kissing, licking, thrusting, and pleasuring each other until she can take the pressure no longer and you feel her writhe in ecstasy. The sensation is overwhelming, and pushes you to your own intense climax, leaving the sheets drenched in your shared fluids.{?}he smiles, blushing. You undress each other slowly, kissing and hugging as you explore each other's bodies, and he briefly licks at your sex before looking up at you. It's obvious he wants you, and he moans in satisfaction as you push him down onto the sheets. {?ISCAPTORFEMALE}He asks if he can take your womb, so that his seed might take root in you, and you oblige with a knowing smile.{?}{\?} Your bodies intertwine, kissing, licking, thrusting, and pleasuring each other until he can take the pressure no longer and you feel him writhe in ecstasy. The sensation is overwhelming, and pushes you to your own intense climax, leaving the sheets drenched in your shared fluids.{\?}</Text>
         <BackgroundName>TB_scion_doggy_down</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -119,7 +119,7 @@
                     <RestrictedListOfConsequences>ImpregnationByPlayer</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12007}What shall you do next?</OptionText>
+                <OptionText>What shall you do next?</OptionText>
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero" Color="Cyan"/>
@@ -138,7 +138,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_date_intimate_anal_devoted</Name>
-        <Text>{=TBCaptorEvents_Common_007}You lead {CAPTIVE_NAME} to your bed and {?ISCAPTIVEFEMALE}she smiles, blushing. You undress each other slowly, kissing and hugging as you explore each other's bodies, and she briefly licks at your sex before looking up at you. It's obvious she wants you, and she moans in satisfaction as you push her down onto the sheets. {?ISCAPTORFEMALE}{?}She asks you to take her ass, so that her children need not be raised bastards, and you oblige with a knowing smile.{\?} Your bodies intertwine, kissing, licking, thrusting, and pleasuring each other until she can take the pressure no longer and you feel her writhe in ecstasy. The sensation is overwhelming, and pushes you to your own intense climax, leaving the sheets drenched in your shared fluids.{?}he smiles, blushing. You undress each other slowly, kissing and hugging as you explore each other's bodies, and he briefly licks at your sex before looking up at you. It's obvious he wants you, and he moans in satisfaction as you push him down onto the sheets. {?ISCAPTORFEMALE}He asks if he can take your ass, so that your children need not be raised bastards, and you oblige with a knowing smile.{?}{\?} Your bodies intertwine, kissing, licking, thrusting, and pleasuring each other until he can take the pressure no longer and you feel him writhe in ecstasy. The sensation is overwhelming, and pushes you to your own intense climax, leaving the sheets drenched in your shared fluids.{\?}</Text>
+        <Text>You lead {CAPTIVE_NAME} to your bed and {?ISCAPTIVEFEMALE}she smiles, blushing. You undress each other slowly, kissing and hugging as you explore each other's bodies, and she briefly licks at your sex before looking up at you. It's obvious she wants you, and she moans in satisfaction as you push her down onto the sheets. {?ISCAPTORFEMALE}{?}She asks you to take her ass, so that her children need not be raised bastards, and you oblige with a knowing smile.{\?} Your bodies intertwine, kissing, licking, thrusting, and pleasuring each other until she can take the pressure no longer and you feel her writhe in ecstasy. The sensation is overwhelming, and pushes you to your own intense climax, leaving the sheets drenched in your shared fluids.{?}he smiles, blushing. You undress each other slowly, kissing and hugging as you explore each other's bodies, and he briefly licks at your sex before looking up at you. It's obvious he wants you, and he moans in satisfaction as you push him down onto the sheets. {?ISCAPTORFEMALE}He asks if he can take your ass, so that your children need not be raised bastards, and you oblige with a knowing smile.{?}{\?} Your bodies intertwine, kissing, licking, thrusting, and pleasuring each other until he can take the pressure no longer and you feel him writhe in ecstasy. The sensation is overwhelming, and pushes you to your own intense climax, leaving the sheets drenched in your shared fluids.{\?}</Text>
         <Backgrounds>
             <Background Name="TB_scion_anal" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_anal" UseConditions="BC_event_conditions_captive_pregnant" />
@@ -161,7 +161,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12007}What shall you do next?</OptionText>
+                <OptionText>What shall you do next?</OptionText>
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero" Color="Cyan"/>
@@ -179,7 +179,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_date_intimate_oral_devoted</Name>
-        <Text>{=TBCaptorEvents_Common_008}You lead {CAPTIVE_NAME} to your bed and {?ISCAPTIVEFEMALE}she smiles, blushing. You undress each other slowly, kissing and hugging as you explore each other's bodies, and she briefly licks at your sex before engulfing it entirely with her mouth. She licks, sucks, and kisses your most tender flesh with adoration, and when you come, drenching her face in your fluids, she smiles and thanks you for your blessing.{?}he smiles, blushing. You undress each other slowly, kissing and hugging as you explore each other's bodies, and he briefly licks at your sex before engulfing it entirely with his mouth. He licks, sucks, and kisses your most tender flesh with adoration, and when you come, drenching his face in your fluids, he smiles and thanks you for your blessing.{\?}</Text>
+        <Text>You lead {CAPTIVE_NAME} to your bed and {?ISCAPTIVEFEMALE}she smiles, blushing. You undress each other slowly, kissing and hugging as you explore each other's bodies, and she briefly licks at your sex before engulfing it entirely with her mouth. She licks, sucks, and kisses your most tender flesh with adoration, and when you come, drenching her face in your fluids, she smiles and thanks you for your blessing.{?}he smiles, blushing. You undress each other slowly, kissing and hugging as you explore each other's bodies, and he briefly licks at your sex before engulfing it entirely with his mouth. He licks, sucks, and kisses your most tender flesh with adoration, and when you come, drenching his face in your fluids, he smiles and thanks you for your blessing.{\?}</Text>
         <Backgrounds>
             <Background Name="TB_scion_oral_facial" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_oral_facial" UseConditions="BC_event_conditions_captive_pregnant" />
@@ -203,7 +203,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12007}What shall you do next?</OptionText>
+                <OptionText>What shall you do next?</OptionText>
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero" Color="Cyan"/>
@@ -222,7 +222,7 @@
     <!-- #region Broken events -->
     <CEEvent>
         <Name>TB_captor_date_talk_broken</Name>
-        <Text>{=TBCaptorEvents_Common_009}You lead {CAPTIVE_NAME} to an intimate setting and before you can even pick an activity {?ISCAPTIVEFEMALE}she drops to her knees, massaging your groin. You start to protest, but she's unbelievably good at this, and it's mere moments before she has your pants off, groping and fondling you to a lengthy and pleasurable climax. You begin trying to get to know her, but she just looks at you, slightly fearful. After some questioning you realize that she's terrified that talking about anything other than how you can use her body will lead to more punishment.{?}he drops to his knees, massaging your groin. You start to protest, but he's unbelievably good at this, and it's mere moments before he has your pants off, groping and fondling you to a lengthy and pleasurable climax. You begin trying to get to know him, but he just looks at you, slightly fearful. After some questioning you realize that he's terrified that talking about anything other than how you can use his body will lead to more punishment.{\?}</Text>
+        <Text>You lead {CAPTIVE_NAME} to an intimate setting and before you can even pick an activity {?ISCAPTIVEFEMALE}she drops to her knees, massaging your groin. You start to protest, but she's unbelievably good at this, and it's mere moments before she has your pants off, groping and fondling you to a lengthy and pleasurable climax. You begin trying to get to know her, but she just looks at you, slightly fearful. After some questioning you realize that she's terrified that talking about anything other than how you can use her body will lead to more punishment.{?}he drops to his knees, massaging your groin. You start to protest, but he's unbelievably good at this, and it's mere moments before he has your pants off, groping and fondling you to a lengthy and pleasurable climax. You begin trying to get to know him, but he just looks at you, slightly fearful. After some questioning you realize that he's terrified that talking about anything other than how you can use his body will lead to more punishment.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_ff_sex_lick_standing" UseConditions="BC_event_conditions_captor_female_captive_female" />
             <Background Name="BC_image_sex_mf_broken_sucking" UseConditions="BC_event_conditions_captor_male_captive_female" />
@@ -247,7 +247,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationHero</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_010}Is {?ISCAPTIVEFEMALE}she{?}he{\?} *too* well trained?</OptionText>
+                <OptionText>Is {?ISCAPTIVEFEMALE}she{?}he{\?} *too* well trained?</OptionText>
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true"/>
@@ -266,7 +266,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_date_meal_broken</Name>
-        <Text>{=TBCaptorEvents_Common_011}You lead {CAPTIVE_NAME} to a table to share your meal, but just as you sit down {?ISCAPTIVEFEMALE}she lays on the floor, massaging your groin. You start to protest, but she's unbelievably good at this, and it's mere moments before she has your pants off, groping and fondling you to a lengthy and pleasurable climax. You try to point her to the food, but she misunderstands, trying to feed you as sensually as possible. After some questioning you realize that she seems uninterested in any subject other than sex or how you plan to use or abuse her next.{?}he lays on the floor, massaging your groin. You start to protest, but he's unbelievably good at this, and it's mere moments before he has your pants off, groping and fondling you to a lengthy and pleasurable climax. You try to point him to the food, but he misunderstands, trying to feed you as sensually as possible. After some questioning you realize that he seems uninterested in any subject other than sex or how you plan to use or abuse him next.{\?}</Text>
+        <Text>You lead {CAPTIVE_NAME} to a table to share your meal, but just as you sit down {?ISCAPTIVEFEMALE}she lays on the floor, massaging your groin. You start to protest, but she's unbelievably good at this, and it's mere moments before she has your pants off, groping and fondling you to a lengthy and pleasurable climax. You try to point her to the food, but she misunderstands, trying to feed you as sensually as possible. After some questioning you realize that she seems uninterested in any subject other than sex or how you plan to use or abuse her next.{?}he lays on the floor, massaging your groin. You start to protest, but he's unbelievably good at this, and it's mere moments before he has your pants off, groping and fondling you to a lengthy and pleasurable climax. You try to point him to the food, but he misunderstands, trying to feed you as sensually as possible. After some questioning you realize that he seems uninterested in any subject other than sex or how you plan to use or abuse him next.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_ff_sex_lick_standing" UseConditions="BC_event_conditions_captor_female_captive_female" />
             <Background Name="BC_image_sex_mf_broken_sucking" UseConditions="BC_event_conditions_captor_male_captive_female" />
@@ -290,7 +290,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12007}What shall you do next?</OptionText>
+                <OptionText>What shall you do next?</OptionText>
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true"/>
@@ -309,7 +309,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_date_intimate_broken</Name>
-        <Text>{=TBCaptorEvents_Common_012}You lead {CAPTIVE_NAME} to your bed and before you say a word {?ISCAPTIVEFEMALE}she drops to her knees, presenting her ass as she's been trained to do. You had something more intimate in mind, but it's difficult to resist her luscious orbs, and you take her well-trained body with relish. She pleasures you expertly, draining {?ISCAPTORFEMALE}your energy{?}your balls{\?} completely, then kneels once more, ready for you to use again.{?}You lead {CAPTIVE_NAME} to your bed and before you say a word {?ISCAPTIVEFEMALE}he drops to his knees, presenting his ass as he's been trained to do. You had something more intimate in mind, but it's difficult to resist his gorgeous cock, and you take his well-trained body with relish. He pleasures you expertly, draining {?ISCAPTORFEMALE}your energy{?}your balls{\?} completely, then kneels once more, ready for you to use again.{\?}</Text>
+        <Text>You lead {CAPTIVE_NAME} to your bed and before you say a word {?ISCAPTIVEFEMALE}she drops to her knees, presenting her ass as she's been trained to do. You had something more intimate in mind, but it's difficult to resist her luscious orbs, and you take her well-trained body with relish. She pleasures you expertly, draining {?ISCAPTORFEMALE}your energy{?}your balls{\?} completely, then kneels once more, ready for you to use again.{?}You lead {CAPTIVE_NAME} to your bed and before you say a word {?ISCAPTIVEFEMALE}he drops to his knees, presenting his ass as he's been trained to do. You had something more intimate in mind, but it's difficult to resist his gorgeous cock, and you take his well-trained body with relish. He pleasures you expertly, draining {?ISCAPTORFEMALE}your energy{?}your balls{\?} completely, then kneels once more, ready for you to use again.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_ff_sex_lick_standing" UseConditions="BC_event_conditions_captor_female_captive_female" />
             <Background Name="BC_image_sex_mf_anal_ciri_1" UseConditions="BC_event_conditions_captor_male_captive_female" />
@@ -332,7 +332,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12007}What shall you do next?</OptionText>
+                <OptionText>What shall you do next?</OptionText>
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true"/>
@@ -351,7 +351,7 @@
     <!-- #region MindBroken Events -->
     <CEEvent>
         <Name>TB_captor_date_intimate_mindbroken</Name>
-        <Text>{=TBCaptorEvents_Common_013}You lead {CAPTIVE_NAME} to your bed and before you say a word she drops to her knees, presenting her ass and begging you to fuck your pleasure from her worthless body. You had something more intimate in mind, but it's difficult to resist her luscious orbs, and you take her willing body with relish. She pleasures you expertly, draining {?ISCAPTORFEMALE}your energy{?}your balls{\?} completely, then begs you to tie her down and use her again even as her exhausted eyes beg you to let her rest.</Text>
+        <Text>You lead {CAPTIVE_NAME} to your bed and before you say a word she drops to her knees, presenting her ass and begging you to fuck your pleasure from her worthless body. You had something more intimate in mind, but it's difficult to resist her luscious orbs, and you take her willing body with relish. She pleasures you expertly, draining {?ISCAPTORFEMALE}your energy{?}your balls{\?} completely, then begs you to tie her down and use her again even as her exhausted eyes beg you to let her rest.</Text>
         <Backgrounds>
             <Background Name="BC_image_ff_sex_lick_standing" UseConditions="BC_event_conditions_captor_female_captive_female" />
             <Background Name="BC_captor_sex_f_butt_open" UseConditions="BC_event_conditions_captor_male_captive_female" />
@@ -375,7 +375,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12007}What shall you do next?</OptionText>
+                <OptionText>What shall you do next?</OptionText>
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true"/>
@@ -393,7 +393,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_date_talk_mindbroken</Name>
-        <Text>{=TBCaptorEvents_Common_014}You lead {CAPTIVE_NAME} to an intimate setting and before you can even pick an activity {?ISCAPTIVEFEMALE}she drops to her knees, massaging your groin. You start to protest, but she's unbelievably good at this, and it's mere moments before she has your pants off, groping and fondling you to a lengthy and pleasurable climax. You begin trying to get to know her, but she just looks at you, smiling. After some questioning you realize that she seems uninterested in any subject other than how you plan to use or abuse her next.{?}he drops to his knees, massaging your groin. You start to protest, but he's unbelievably good at this, and it's mere moments before he has your pants off, groping and fondling you to a lengthy and pleasurable climax. You begin trying to get to know him, but he just looks at you, smiling. After some questioning you realize that he seems uninterested in any subject other than how you plan to use or abuse him next.{\?}</Text>
+        <Text>You lead {CAPTIVE_NAME} to an intimate setting and before you can even pick an activity {?ISCAPTIVEFEMALE}she drops to her knees, massaging your groin. You start to protest, but she's unbelievably good at this, and it's mere moments before she has your pants off, groping and fondling you to a lengthy and pleasurable climax. You begin trying to get to know her, but she just looks at you, smiling. After some questioning you realize that she seems uninterested in any subject other than how you plan to use or abuse her next.{?}he drops to his knees, massaging your groin. You start to protest, but he's unbelievably good at this, and it's mere moments before he has your pants off, groping and fondling you to a lengthy and pleasurable climax. You begin trying to get to know him, but he just looks at you, smiling. After some questioning you realize that he seems uninterested in any subject other than how you plan to use or abuse him next.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_ff_sex_lick_standing" UseConditions="BC_event_conditions_captor_female_captive_female" />
             <Background Name="BC_image_sex_mf_oral_tattoos_thief" UseConditions="BC_event_conditions_captor_male_captive_female" />
@@ -419,7 +419,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationHero</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12007}What shall you do next?</OptionText>
+                <OptionText>What shall you do next?</OptionText>
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true"/>
@@ -438,7 +438,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_date_meal_mindbroken</Name>
-        <Text>{=TBCaptorEvents_Common_015}You lead {CAPTIVE_NAME} to a table to share your meal, but just as you sit down {?ISCAPTIVEFEMALE}she lays on the floor, massaging your groin. You start to protest, but she's unbelievably good at this, and it's mere moments before she has your pants off, groping and fondling you to a lengthy and pleasurable climax. You try to point her to the food, but she misunderstands, trying to feed you as sensually as possible. After some questioning you realize that she seems uninterested in any subject other than sex or how you plan to use or abuse her next.{?}he lays on the floor, massaging your groin. You start to protest, but he's unbelievably good at this, and it's mere moments before he has your pants off, groping and fondling you to a lengthy and pleasurable climax. You try to point him to the food, but he misunderstands, trying to feed you as sensually as possible. After some questioning you realize that he seems uninterested in any subject other than sex or how you plan to use or abuse him next.{\?}</Text>
+        <Text>You lead {CAPTIVE_NAME} to a table to share your meal, but just as you sit down {?ISCAPTIVEFEMALE}she lays on the floor, massaging your groin. You start to protest, but she's unbelievably good at this, and it's mere moments before she has your pants off, groping and fondling you to a lengthy and pleasurable climax. You try to point her to the food, but she misunderstands, trying to feed you as sensually as possible. After some questioning you realize that she seems uninterested in any subject other than sex or how you plan to use or abuse her next.{?}he lays on the floor, massaging your groin. You start to protest, but he's unbelievably good at this, and it's mere moments before he has your pants off, groping and fondling you to a lengthy and pleasurable climax. You try to point him to the food, but he misunderstands, trying to feed you as sensually as possible. After some questioning you realize that he seems uninterested in any subject other than sex or how you plan to use or abuse him next.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_ff_sex_lick_standing" UseConditions="BC_event_conditions_captor_female_captive_female" />
             <Background Name="BC_image_sex_mf_oral_tattoos_thief" UseConditions="BC_event_conditions_captor_male_captive_female" />
@@ -463,7 +463,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12007}What shall you do next?</OptionText>
+                <OptionText>What shall you do next?</OptionText>
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true"/>

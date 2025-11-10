@@ -2,7 +2,7 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_generic_punish</Name>
-        <Text>{=TBCaptiveEvents_Common_001}Your captor decides to have you hoisted on rough ropes and lashed by two men at once. The strikes burns intensely, and your body is covered in bloody stripes.</Text>
+        <Text>Your captor decides to have you hoisted on rough ropes and lashed by two men at once. The strikes burns intensely, and your body is covered in bloody stripes.</Text>
         <Backgrounds>
             <Background Name="BC_image_slavery_whipped_apron" UseConditions="BC_conditions_hero_female_pregnant" />
             <Background Name="BC_image_male_back_scars" UseConditions="BC_conditions_hero_male" />
@@ -24,7 +24,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_002}Stand tall, taking your punishment as bravely as possible.</OptionText>
+                <OptionText>Stand tall, taking your punishment as bravely as possible.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <HealthTotal>R -20 -40</HealthTotal>
             </Option>
@@ -35,7 +35,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_003}Give into exhaustion as they lash your unconscious body.</OptionText>
+                <OptionText>Give into exhaustion as they lash your unconscious body.</OptionText>
                 <RenownTotal>R -1 -3</RenownTotal>
                 <HealthTotal>R -25 -55</HealthTotal>
             </Option>
@@ -45,7 +45,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_004}Beg and plead for mercy.</OptionText>
+                <OptionText>Beg and plead for mercy.</OptionText>
                 <HealthTotal>R -20 -70</HealthTotal>
                 <RenownTotal>R -1 -3</RenownTotal>
             </Option>
@@ -57,7 +57,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_generic_wordplay</Name>
-        <Text>{=TBCaptiveEvents_Common_005}You overhear two of your captors jovially trading insults with each other. One of them calls the other the son of a bandersnatch, and the other counters by insulting his skill with a blade, likening it to a snicker-snack. As the first begins a brief anecdote about their brillig, you...</Text>
+        <Text>You overhear two of your captors jovially trading insults with each other. One of them calls the other the son of a bandersnatch, and the other counters by insulting his skill with a blade, likening it to a snicker-snack. As the first begins a brief anecdote about their brillig, you...</Text>
         <BackgroundName>TB_common_men_talking</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -76,7 +76,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_006}Call them both mimsy Jabberwocks.</OptionText>
+                <OptionText>Call them both mimsy Jabberwocks.</OptionText>
                 <RelationTotal>R 1 7</RelationTotal>
                 <RenownTotal>R 1 3</RenownTotal>
                 <SkillsToLevel>
@@ -90,7 +90,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_007}Tell them their jokes are awful.</OptionText>
+                <OptionText>Tell them their jokes are awful.</OptionText>
                 <RelationTotal>R 1 7</RelationTotal>
                 <RenownTotal>R 1 3</RenownTotal>
             </Option>
@@ -99,7 +99,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_008}Try to ignore them.</OptionText>
+                <OptionText>Try to ignore them.</OptionText>
             </Option>
         </Options>
         <ReqHeroSlaveLevelBelow>50</ReqHeroSlaveLevelBelow>
@@ -110,7 +110,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_interrogation</Name>
-        <Text>{=TBCaptiveEvents_Common_009}Your captor wants information about your clan's military plans, and demands that you provide it. They threaten to torture you should you defy them.</Text>
+        <Text>Your captor wants information about your clan's military plans, and demands that you provide it. They threaten to torture you should you defy them.</Text>
         <BackgroundName>BC_image_captivity_whip_tile</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -131,7 +131,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_010}Tell them what you know to avoid punishment.</OptionText>
+                <OptionText>Tell them what you know to avoid punishment.</OptionText>
                 <RelationTotal>R 1 7</RelationTotal>
                 <RenownTotal>R -1 -3</RenownTotal>
                 <HealthTotal>0</HealthTotal>
@@ -144,7 +144,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_011}Tell them nothing.</OptionText>
+                <OptionText>Tell them nothing.</OptionText>
                 <RenownTotal>2</RenownTotal>
                 <HealthTotal>R -20 -40</HealthTotal>
                 <SceneToPlay>scn_bc_whipping</SceneToPlay>
@@ -160,7 +160,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_generic_stories</Name>
-        <Text>{=TBCaptiveEvents_Common_012}Some of your fellow prisoners are swapping stories. It turns out an old man you'd thought was a tanner of some sort used to be a master with the blade, and he demonstrates with a sharpened stick. His technique is unusual but seems quite effective, and he smiles wistfully when someone asks him how such a talented swordsman could have been captured. He begins spinning a tale about the perils of forbidden love...</Text>
+        <Text>Some of your fellow prisoners are swapping stories. It turns out an old man you'd thought was a tanner of some sort used to be a master with the blade, and he demonstrates with a sharpened stick. His technique is unusual but seems quite effective, and he smiles wistfully when someone asks him how such a talented swordsman could have been captured. He begins spinning a tale about the perils of forbidden love...</Text>
         <Backgrounds>
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
             <Background Name="BC_captor_captive_male_hawk" UseConditions="BC_conditions_hero_male" />
@@ -182,7 +182,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_013}Keep listening to his stories.</OptionText>
+                <OptionText>Keep listening to his stories.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero" Color="Green"/>
                 </SkillsToLevel>
@@ -193,7 +193,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_014}Ask him to teach you his techniques.</OptionText>
+                <OptionText>Ask him to teach you his techniques.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="OneHanded" ByXP="750" Ref="Hero" Color="Green"/>
                 </SkillsToLevel>
@@ -207,7 +207,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_generic_boasts</Name>
-        <Text>{=TBCaptiveEvents_Common_015}Some of the other prisoners are boasting about their prowess, describing incredible feats of strength or skill. A miller claims he can heft a millstone with one hand, and a spindly-looking woman claims she's cooked meals for every king in Calradia.</Text>        
+        <Text>Some of the other prisoners are boasting about their prowess, describing incredible feats of strength or skill. A miller claims he can heft a millstone with one hand, and a spindly-looking woman claims she's cooked meals for every king in Calradia.</Text>        
         <Backgrounds>
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
             <Background Name="BC_captor_captive_male_hawk" UseConditions="BC_conditions_hero_male" />
@@ -230,7 +230,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_016}Boast that you've bested a thousand men in combat - barehanded!</OptionText>
+                <OptionText>Boast that you've bested a thousand men in combat - barehanded!</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero" Color="Green"/>
@@ -241,14 +241,14 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_017}Call them liars.</OptionText>
+                <OptionText>Call them liars.</OptionText>
             </Option>
             <Option>
                 <Order>2</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=DefaultCaptiveEventsFemale12}Ignore them.</OptionText>
+                <OptionText>Ignore them.</OptionText>
             </Option>
         </Options>
         <ReqHeroSlaveLevelBelow>50</ReqHeroSlaveLevelBelow>
@@ -259,7 +259,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_generic_food</Name>
-        <Text>{=TBCaptiveEvents_Common_018}It's mealtime, and you're served your captor's usual mealy porridge. It doesn't taste of much, but it's filling enough. One of your fellow prisoners reveals that he's procured a collection of herbs and mushrooms, and offers to share.</Text>
+        <Text>It's mealtime, and you're served your captor's usual mealy porridge. It doesn't taste of much, but it's filling enough. One of your fellow prisoners reveals that he's procured a collection of herbs and mushrooms, and offers to share.</Text>
         <Backgrounds>
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
             <Background Name="BC_captor_captive_male_hawk" UseConditions="BC_conditions_hero_male" />
@@ -282,7 +282,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_019}Eagerly add a touch of spice to your meal.</OptionText>
+                <OptionText>Eagerly add a touch of spice to your meal.</OptionText>
                 <HealthTotal>R -10 -20</HealthTotal>
                 <SkillsToLevel>
                     <Skill Id="Medicine" ByXP="1250" Ref="Hero" Color="Green"/>
@@ -295,7 +295,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_020}Thank them, but continue as you were.</OptionText>
+                <OptionText>Thank them, but continue as you were.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero" Color="Green"/>
                 </SkillsToLevel>
@@ -305,7 +305,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=DefaultCaptiveEventsFemale12}Ignore them.</OptionText>
+                <OptionText>Ignore them.</OptionText>
             </Option>
         </Options>
         <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
@@ -316,7 +316,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_generic_accident</Name>
-        <Text>{=TBCaptiveEvents_Common_021}The terrain you're being forced to march through is unusually rough, and you step wrong, damaging your ankle and falling to the ground. Your captors laugh as you climb to your feet, but become irritated when they realize you're slowing them down.</Text>
+        <Text>The terrain you're being forced to march through is unusually rough, and you step wrong, damaging your ankle and falling to the ground. Your captors laugh as you climb to your feet, but become irritated when they realize you're slowing them down.</Text>
         <Backgrounds>
             <Background Name="BC_captor_slave_caravan_right" UseConditions="BC_conditions_hero_female" />
             <Background Name="BC_captor_slave_caravan_right" UseConditions="BC_conditions_hero_female_pregnant" />
@@ -342,7 +342,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_022}Try to keep up despite your injury.</OptionText>
+                <OptionText>Try to keep up despite your injury.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <HealthTotal>R -10 -30</HealthTotal>
                 <SkillsToLevel>
@@ -358,7 +358,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_023}Ask to ride the caravan to avoid making your injury worse.</OptionText>
+                <OptionText>Ask to ride the caravan to avoid making your injury worse.</OptionText>
                 <RelationTotal>R -1 -3</RelationTotal>
                 <RenownTotal>R -1 -3</RenownTotal>
                 <HealthTotal>R 10 30</HealthTotal>
@@ -377,7 +377,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_generic_beating</Name>
-        <Text>{=TBCaptiveEvents_Common_024}You've angered a few of the other prisoners, and they've come to vent their displeasure. They take it in turns to hold you down while the others kick and beat you, and show no sign of stopping as your injuries get worse.</Text>
+        <Text>You've angered a few of the other prisoners, and they've come to vent their displeasure. They take it in turns to hold you down while the others kick and beat you, and show no sign of stopping as your injuries get worse.</Text>
         <Backgrounds>
             <Background Name="BC_captor_captive_male_hawk" UseConditions="BC_conditions_hero_male" />
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
@@ -418,7 +418,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_025}Try to roll with the punches.</OptionText>
+                <OptionText>Try to roll with the punches.</OptionText>
                 <HealthTotal>R -10 -30</HealthTotal>
             </Option>
             <Option>
@@ -427,7 +427,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_026}Call for help from the guards.</OptionText>
+                <OptionText>Call for help from the guards.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero" Color="Green"/>
                 </SkillsToLevel>
@@ -441,7 +441,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_generic_framed</Name>
-        <Text>{=TBCaptiveEvents_Common_027}A elaborate escape plan comes to you in your sleep. You'll frame one of the higher-ranked guards for stealing their leader's horse and selling it to a passing caravan, then in the ensuing confusion make your escape on that same horse, which you'll have cleverly hidden behind one of the rear carts, covered in hay.</Text>
+        <Text>A elaborate escape plan comes to you in your sleep. You'll frame one of the higher-ranked guards for stealing their leader's horse and selling it to a passing caravan, then in the ensuing confusion make your escape on that same horse, which you'll have cleverly hidden behind one of the rear carts, covered in hay.</Text>
                 <Backgrounds>
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
             <Background Name="BC_captor_captive_male_hawk" UseConditions="BC_conditions_hero_male" />
@@ -465,7 +465,7 @@
                     <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_028}Carefully put your plan into action.</OptionText>
+                <OptionText>Carefully put your plan into action.</OptionText>
                 <RelationTotal>R -5 -12</RelationTotal>
                 <RenownTotal>R 1 3</RenownTotal>
                 <EscapeChance>10</EscapeChance>
@@ -484,7 +484,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_029}Start your plan by insulting the guard. No, wait -</OptionText>
+                <OptionText>Start your plan by insulting the guard. No, wait -</OptionText>
                 <RelationTotal>R -1 -3</RelationTotal>
                 <RenownTotal>R -1 -3</RenownTotal>
                 <SkillsToLevel>
@@ -498,7 +498,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_030}This sounds like a really bad idea.</OptionText>
+                <OptionText>This sounds like a really bad idea.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Tactics" ByXP="250" Ref="Hero" Color="Green"/>
                 </SkillsToLevel>
@@ -511,7 +511,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_generic_gamble</Name>
-        <Text>{=TBCaptiveEvents_Common_031}Some of the prisoners are playing a game of chance, trading coin they appear to have had squirreled away in their clothing. The rules look familiar, and they ask if you'd like to join in.</Text>
+        <Text>Some of the prisoners are playing a game of chance, trading coin they appear to have had squirreled away in their clothing. The rules look familiar, and they ask if you'd like to join in.</Text>
                 <Backgrounds>
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
             <Background Name="BC_captor_captive_male_hawk" UseConditions="BC_conditions_hero_male" />
@@ -535,7 +535,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_032}[Lie] You eagerly accept, warning them that you've never played before.</OptionText>
+                <OptionText>[Lie] You eagerly accept, warning them that you've never played before.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <SkillsToLevel>
                     <Skill Id="Roguery" ByXP="250" Ref="Hero" Color="Green"/>
@@ -550,7 +550,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_033}You accept, hoping to at least pass the time.</OptionText>
+                <OptionText>You accept, hoping to at least pass the time.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Roguery" ByXP="1250" Ref="Hero" Color="Green"/>
                 </SkillsToLevel>
@@ -565,7 +565,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_034}Decline. You're pretty sure one of them is cheating.</OptionText>
+                <OptionText>Decline. You're pretty sure one of them is cheating.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <SkillsToLevel>
                     <Skill Id="Roguery" ByXP="250" Ref="Hero" Color="Green"/>
@@ -580,7 +580,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_generic_poison</Name>
-        <Text>{=TBCaptiveEvents_Common_035}During your march, you find some mushrooms you're pretty sure are poisonous.</Text>
+        <Text>During your march, you find some mushrooms you're pretty sure are poisonous.</Text>
         <Backgrounds>
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
             <Background Name="BC_captor_captive_male_hawk" UseConditions="BC_conditions_hero_male" />
@@ -601,7 +601,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_036}Sneak them into tonight's stew.</OptionText>
+                <OptionText>Sneak them into tonight's stew.</OptionText>
                 <TriggerEventName>TB_generic_poison_continue</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="Roguery" ByXP="250" Ref="Hero" Color="Green"/>
@@ -613,7 +613,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_037}Warn your fellow prisoners about them.</OptionText>
+                <OptionText>Warn your fellow prisoners about them.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" Color="Green"/>
                 </SkillsToLevel>
@@ -623,7 +623,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_038}Leave them.</OptionText>
+                <OptionText>Leave them.</OptionText>
             </Option>
         </Options>
         <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
@@ -634,7 +634,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_generic_poison_continue</Name>
-        <Text>{=TBCaptiveEvents_Common_039}You sneak the mushrooms into your captor's evening meal, then wait carefully. At first, you're not certain it's worked, but before midnight sounds of retching and screaming fill the camp.</Text>
+        <Text>You sneak the mushrooms into your captor's evening meal, then wait carefully. At first, you're not certain it's worked, but before midnight sounds of retching and screaming fill the camp.</Text>
                 <Backgrounds>
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
             <Background Name="BC_captor_captive_male_hawk" UseConditions="BC_conditions_hero_male" />
@@ -657,7 +657,7 @@
                     <RestrictedListOfConsequences>KillAllPrisoners</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_040}Take the opportunity to escape.</OptionText>
+                <OptionText>Take the opportunity to escape.</OptionText>
                 <EscapeChance>70</EscapeChance>
                 <SkillsToLevel>
                     <Skill Id="Medicine" ByXP="250" Ref="Hero" />
@@ -670,7 +670,7 @@
                     <RestrictedListOfConsequences>KillRandomPrisoners</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_041}Lead the rest of the prisoners and run for it!</OptionText>
+                <OptionText>Lead the rest of the prisoners and run for it!</OptionText>
                 <EscapeChance>40</EscapeChance>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
@@ -683,7 +683,7 @@
                     <RestrictedListOfConsequences>KillRandomPrisoners</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_042}Escape is too risky. Hide while you can.</OptionText>
+                <OptionText>Escape is too risky. Hide while you can.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Roguery" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -697,7 +697,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_generic_pregnant</Name>
-        <Text>{=TBCaptiveEvents_Common_043}As your child grows within you, your belly and breasts swell until your condition becomes undeniable. You plead with your captor to let you go free, for the babe that grows within you has done him no ill, and you will surely be too busy raising it to give them any trouble.</Text>
+        <Text>As your child grows within you, your belly and breasts swell until your condition becomes undeniable. You plead with your captor to let you go free, for the babe that grows within you has done him no ill, and you will surely be too busy raising it to give them any trouble.</Text>
         <BackgroundName>BC_image_slavery_pregnant</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -715,7 +715,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_044}Appeal to their good will.</OptionText>
+                <OptionText>Appeal to their good will.</OptionText>
                 <EscapeChance>100</EscapeChance>
                 <ReqHeroCaptorRelationAbove>50</ReqHeroCaptorRelationAbove>
             </Option>
@@ -725,7 +725,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_045}Cringe as your arguments fall on deaf ears.</OptionText>
+                <OptionText>Cringe as your arguments fall on deaf ears.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="750" Ref="Hero" />
                 </SkillsToLevel>
@@ -739,7 +739,7 @@
     <!-- Note: this event mainly exists as an easier way to get out of villages, because they don't interact much with the rest of the events system -->
     <CEEvent>
         <Name>TB_village_pregnant</Name>
-        <Text>{=TBCaptiveEvents_Common_046}As your child grows within you, your belly and breasts swell until your condition becomes undeniable. One of your captors becomes convinced the baby is his, and unshackles you with a smile. He's quite happy to have you escape and return to your clan, content in the knowledge that his child will be part of a noble house. As you make your way out of the village, you feel the life growing within you and wonder if he may be right.</Text>
+        <Text>As your child grows within you, your belly and breasts swell until your condition becomes undeniable. One of your captors becomes convinced the baby is his, and unshackles you with a smile. He's quite happy to have you escape and return to your clan, content in the knowledge that his child will be part of a noble house. As you make your way out of the village, you feel the life growing within you and wonder if he may be right.</Text>
         <BackgroundName>BC_image_slavery_pregnant</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -758,7 +758,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_047}At least you're free...</OptionText>
+                <OptionText>At least you're free...</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -769,7 +769,7 @@
     <!-- Note: this event mainly exists as an easier way to get out of villages, because they don't interact much with the rest of the events system -->
     <CEEvent>
         <Name>TB_village_bribe</Name>
-        <Text>{=TBCaptiveEvents_Common_048}One of the villagers sidles up to you, your guards suspiciously absent, and smiles, revealing a key from {?ISCAPTIVEFEMALE}his pocket. He tells you he's gone to considerable expense to acquire the means to free you, but would like a bit of consideration in exchange. He wants gold of the sort a peasant like him is hardly likely to encounter otherwise, and a chance to feel what a willing noblewoman's cunt feels like squeezing his cock.{?}her pocket. She tells you she's gone to considerable expense to acquire the means to free you, but would like a bit of consideration in exchange. She wants gold of the sort a peasant like her is hardly likely to encounter otherwise, and a chance to feel what a willing nobleman's cock feels like deep inside her cunt.{\?}</Text>
+        <Text>One of the villagers sidles up to you, your guards suspiciously absent, and smiles, revealing a key from {?ISCAPTIVEFEMALE}his pocket. He tells you he's gone to considerable expense to acquire the means to free you, but would like a bit of consideration in exchange. He wants gold of the sort a peasant like him is hardly likely to encounter otherwise, and a chance to feel what a willing noblewoman's cunt feels like squeezing his cock.{?}her pocket. She tells you she's gone to considerable expense to acquire the means to free you, but would like a bit of consideration in exchange. She wants gold of the sort a peasant like her is hardly likely to encounter otherwise, and a chance to feel what a willing nobleman's cock feels like deep inside her cunt.{\?}</Text>
         <BackgroundName>BC_image_slavery_outdoor_caught</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -788,16 +788,16 @@
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_049}Anything to get out of here. (2000{GOLD_ICON})</OptionText>
+                <OptionText>Anything to get out of here. (2000{GOLD_ICON})</OptionText>
                 <TriggerEventName>TB_village_bribe_sex</TriggerEventName>
                 <GoldTotal>-2000</GoldTotal>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_050}You're nobody's whore.</OptionText>
+                <OptionText>You're nobody's whore.</OptionText>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveLustV" Ref="Hero" Max="225" />
                 </SkillsRequired>
@@ -810,7 +810,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_village_bribe_sex</Name>
-        <Text>{=TBCaptiveEvents_Common_051}{ISCAPTIVEFEMALE}The man smiles as you agree, but makes no move to free you. It seems he wants you to fulfill your part of the bargain first. He steps up to you, loosening his breeches, and you dutifully take his penis into your mouth. He's hard as a rock, and his cock is larger than most, pushing into your throat, but he pulls out before long, pushing you onto your back and thrusting into your sex with a satisfied moan. He tries to make his pleasure last, but seems incredibly aroused by the situation, and comes almost instantly when you begin thrusting back against him. His come fills your womb and he pulls out, sated, before unlocking your chains, providing you with a cloak and fake beard to disguise you as you make your escape.{?}The woman smiles as you agree, but makes no move to free you. It seems she wants you to fulfill your part of the bargain first. She steps up to you, raising her dress, and you dutifully begin licking at her clit. She's dripping with arousal, and her legs begin twitching at your attentions, but she pushes you on your back before you can make her come. She pins you down, lowering herself onto your manhood with a sigh, and rides you to mutual ecstasy, milking your shaft with her inner muscles as she moans in triumph. After a minute or two to rest she climbs off of you, kissing your cock appreciatively, and unlocks your chains with a smile, handing you a cloak and fake beard to disguise yourself as you make your escape.{\?}</Text>
+        <Text>{ISCAPTIVEFEMALE}The man smiles as you agree, but makes no move to free you. It seems he wants you to fulfill your part of the bargain first. He steps up to you, loosening his breeches, and you dutifully take his penis into your mouth. He's hard as a rock, and his cock is larger than most, pushing into your throat, but he pulls out before long, pushing you onto your back and thrusting into your sex with a satisfied moan. He tries to make his pleasure last, but seems incredibly aroused by the situation, and comes almost instantly when you begin thrusting back against him. His come fills your womb and he pulls out, sated, before unlocking your chains, providing you with a cloak and fake beard to disguise you as you make your escape.{?}The woman smiles as you agree, but makes no move to free you. It seems she wants you to fulfill your part of the bargain first. She steps up to you, raising her dress, and you dutifully begin licking at her clit. She's dripping with arousal, and her legs begin twitching at your attentions, but she pushes you on your back before you can make her come. She pins you down, lowering herself onto your manhood with a sigh, and rides you to mutual ecstasy, milking your shaft with her inner muscles as she moans in triumph. After a minute or two to rest she climbs off of you, kissing your cock appreciatively, and unlocks your chains with a smile, handing you a cloak and fake beard to disguise yourself as you make your escape.{\?}</Text>
         <BackgroundName>BC_image_sex_mf_cum_stomach</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -824,7 +824,7 @@
                     <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_052}Make your escape.</OptionText>
+                <OptionText>Make your escape.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -834,7 +834,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_generic_abandoned</Name>
-        <Text>{=TBCaptiveEvents_Common_053}Your captor grows weary of your presence, and no longer cares to bother keeping you as their prisoner. They order their men to tie you up and leave you, without weapon or armor, so that your clever tongue might find a more appreciative audience in the wolves and bandits that roam the area.</Text>
+        <Text>Your captor grows weary of your presence, and no longer cares to bother keeping you as their prisoner. They order their men to tie you up and leave you, without weapon or armor, so that your clever tongue might find a more appreciative audience in the wolves and bandits that roam the area.</Text>
                 <Backgrounds>
             <Background Name="BC_image_captivity_wait" UseConditions="BC_conditions_hero_female" />
             <Background Name="BC_image_captivity_wait" UseConditions="BC_conditions_hero_female_pregnant" />
@@ -857,7 +857,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_054}Beg your captor to leave you your gear.</OptionText>
+                <OptionText>Beg your captor to leave you your gear.</OptionText>
                 <HealthTotal>R -10 -30</HealthTotal>
             </Option>
             <Option>
@@ -869,7 +869,7 @@
                     <RestrictedListOfConsequences>StripHero</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_055}Spit in their face and vow vengeance.</OptionText>
+                <OptionText>Spit in their face and vow vengeance.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <HealthTotal>-100</HealthTotal>
             </Option>
@@ -881,7 +881,7 @@
                     <RestrictedListOfConsequences>StripHero</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=DefaultCaptiveEventsFemale2}Accept your fate.</OptionText>
+                <OptionText>Accept your fate.</OptionText>
                 <HealthTotal>-50</HealthTotal>
             </Option>
         </Options>
@@ -892,7 +892,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_clan_name_request.~</Name>
-        <Text>{=TBCaptiveEvents_Common_056}You are escorted to the leader of your captors; they seem to be tallying their spoils, and ask you your family name.</Text>
+        <Text>You are escorted to the leader of your captors; they seem to be tallying their spoils, and ask you your family name.</Text>
         <Backgrounds>
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
             <Background Name="BC_captor_captive_male_hawk" UseConditions="BC_conditions_hero_male" />
@@ -915,7 +915,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_057}[Lie] Proudly describe your illustrious clan!</OptionText>
+                <OptionText>[Lie] Proudly describe your illustrious clan!</OptionText>
                 <RelationTotal>R 5 12</RelationTotal>
                 <RenownTotal>R 1 3</RenownTotal>
                 <TriggerEventName>TB_generic_renowned_free</TriggerEventName>
@@ -930,7 +930,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_058}Describe your clan's heroic efforts.</OptionText>
+                <OptionText>Describe your clan's heroic efforts.</OptionText>
                 <RelationTotal>R 5 12</RelationTotal>
                 <RenownTotal>R 1 3</RenownTotal>
                 <TriggerEventName>TB_generic_renowned_free</TriggerEventName>
@@ -943,7 +943,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_059}Briefly tell them your name.</OptionText>
+                <OptionText>Briefly tell them your name.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -953,7 +953,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_generic_renowned_free</Name>
-        <Text>{=TBCaptiveEvents_Common_060}You spend several hours recounting your clan's daring and honorable deeds. The leader jovially grabs you by the shoulders, a broad smile on their face. They decide that such a heroic person could not possibly remain their prisoner, and instruct their men to let you go immediately.</Text>
+        <Text>You spend several hours recounting your clan's daring and honorable deeds. The leader jovially grabs you by the shoulders, a broad smile on their face. They decide that such a heroic person could not possibly remain their prisoner, and instruct their men to let you go immediately.</Text>
         <Backgrounds>
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
             <Background Name="BC_captor_captive_male_hawk" UseConditions="BC_conditions_hero_male" />
@@ -975,16 +975,16 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_061}Stride confidently out of the camp.</OptionText>
+                <OptionText>Stride confidently out of the camp.</OptionText>
                 <RenownTotal>R 1 2</RenownTotal>
                 <EscapeChance>100</EscapeChance>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_062}Protest that to simply be let go would be dishonorable.</OptionText>
+                <OptionText>Protest that to simply be let go would be dishonorable.</OptionText>
                 <RenownTotal>R 1 4</RenownTotal>
             </Option>
         </Options>
@@ -995,7 +995,7 @@
     </CEEvent>
 	<CEEvent>
         <Name>TB_bandit_send_to_hideout</Name>
-        <Text>{=TBCaptiveEvents_Common_063}You wake in aching pain after having been fucked into unconsciousness; your holes feel tender, and the musk of semen fills your senses. You realize your captors have brought you to their hideout and chained you to a wall. You're just their plaything now.</Text>
+        <Text>You wake in aching pain after having been fucked into unconsciousness; your holes feel tender, and the musk of semen fills your senses. You realize your captors have brought you to their hideout and chained you to a wall. You're just their plaything now.</Text>
 		<Backgrounds>
             <Background Name="BC_image_captive_f_basement" UseConditions="BC_conditions_hero_female" />
             <Background Name="BC_image_captive_f_basement" UseConditions="BC_conditions_hero_female_pregnant" />
@@ -1020,7 +1020,7 @@
                     <RestrictedListOfConsequences>TeleportPlayer</RestrictedListOfConsequences>
 					<RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_064}Maybe you should have tried to escape earlier...</OptionText>
+                <OptionText>Maybe you should have tried to escape earlier...</OptionText>
 				<TeleportSettings Location="Hideout" Distance="nearest" />
 				<HealthTotal>-100</HealthTotal>
             </Option>
@@ -1032,7 +1032,7 @@
     </CEEvent>
 	<CEEvent>
         <Name>TB_captive_sell_to_town</Name>
-        <Text>{=TBCaptiveEvents_Common_065}Your captors have finally gotten tired of humiliating and abusing you, and have decided to instead sell you to a nearby town. They give you a bucket and a rag for scraping off the layers of congealed slime, and display your bruised body like a slab of beef at the nearby market.</Text>
+        <Text>Your captors have finally gotten tired of humiliating and abusing you, and have decided to instead sell you to a nearby town. They give you a bucket and a rag for scraping off the layers of congealed slime, and display your bruised body like a slab of beef at the nearby market.</Text>
 		<Backgrounds>
             <Background Name="BC_image_slavery_looking" UseConditions="BC_conditions_hero_female" />
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
@@ -1050,7 +1050,7 @@
                 <MultipleRestrictedListOfConsequences>
                      <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_066}Pray the fates will be kind.</OptionText>
+                <OptionText>Pray the fates will be kind.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_sell_to_town</EventName>
@@ -1072,7 +1072,7 @@
     </CEEvent>
 	<CEEvent>
         <Name>TB_slave_sell_to_town</Name>
-        <Text>{=TBCaptiveEvents_Common_067}Your master has finally gotten tired of molesting you, and decides to sell you to a nearby town. They give you a bucket and a rag for scraping off the layers of congealed slime, and display your luscious body like a piece of meat at the nearby market.</Text>
+        <Text>Your master has finally gotten tired of molesting you, and decides to sell you to a nearby town. They give you a bucket and a rag for scraping off the layers of congealed slime, and display your luscious body like a piece of meat at the nearby market.</Text>
 		<Backgrounds>
             <Background Name="BC_image_slavery_looking" UseConditions="BC_conditions_hero_female" />
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
@@ -1091,7 +1091,7 @@
                 <MultipleRestrictedListOfConsequences>
                      <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_066}Pray the fates will be kind.</OptionText>
+                <OptionText>Pray the fates will be kind.</OptionText>
 				<RenownTotal>R -20 -10</RenownTotal>
                 <SlaveryTotal>0</SlaveryTotal>
 				<TriggerEvents>
@@ -1115,7 +1115,7 @@
     </CEEvent>
 	<CEEvent>
         <Name>TB_sell_to_town</Name>
-        <Text>{=TBCaptiveEvents_Common_068}You catch the eye of a town official, who tells your captors he'd be happy to train such a comely, if used, slave. They haggle briefly, but before long you're marched to a holding cell, where the man explains that he will be teaching you how to obey your betters and please any man who desires you. Disobedience, he says, grinning, will simply mean more fun for him. He punctuates the remark by bending you over and smacking your ass, hard.</Text>
+        <Text>You catch the eye of a town official, who tells your captors he'd be happy to train such a comely, if used, slave. They haggle briefly, but before long you're marched to a holding cell, where the man explains that he will be teaching you how to obey your betters and please any man who desires you. Disobedience, he says, grinning, will simply mean more fun for him. He punctuates the remark by bending you over and smacking your ass, hard.</Text>
 		<Backgrounds>
             <Background Name="BC_image_captivity_chain_stars" UseConditions="BC_conditions_hero_female" />
             <Background Name="BC_image_captivity_chain_stars" UseConditions="BC_conditions_hero_female_pregnant" />
@@ -1138,7 +1138,7 @@
                     <RestrictedListOfConsequences>AddSlaveryFlag</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_069}Is this all you are now?</OptionText>
+                <OptionText>Is this all you are now?</OptionText>
 				<RenownTotal>R -20 -10</RenownTotal>
                 <SlaveryTotal>0</SlaveryTotal>
                 <SceneSettings TalkTo="random" SceneName="TheSlaveryScene" />
@@ -1152,7 +1152,7 @@
     </CEEvent>
 	<CEEvent>
         <Name>TB_sell_to_brothel</Name>
-        <Text>{=TBCaptiveEvents_Common_070}A mean-looking woman walks up to you, briefly examining your teeth, pushing your hair back, and groping your breasts and ass. She explains to your captors that she's in the market for a new whore, as one of her current stable is all used up. She offers a small pouch of coin and the chance to use you in the future in exchange.</Text>
+        <Text>A mean-looking woman walks up to you, briefly examining your teeth, pushing your hair back, and groping your breasts and ass. She explains to your captors that she's in the market for a new whore, as one of her current stable is all used up. She offers a small pouch of coin and the chance to use you in the future in exchange.</Text>
 		<Backgrounds>
             <Background Name="BC_image_slavery_ff_barb" UseConditions="BC_conditions_hero_female" />
             <Background Name="BC_image_slavery_ff_barb" UseConditions="BC_conditions_hero_female_pregnant" />
@@ -1173,7 +1173,7 @@
                      <RestrictedListOfConsequences>StripPlayer</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>TeleportPlayer</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_071}Scream that you'll be no one's whore!</OptionText>
+                <OptionText>Scream that you'll be no one's whore!</OptionText>
                 <TeleportSettings Location="Town" Distance="nearest" Faction="otherenemy" />
 				<TriggerEventName>CE_prostitution_town_brothel_2</TriggerEventName>
             </Option>
@@ -1183,7 +1183,7 @@
                      <RestrictedListOfConsequences>StripPlayer</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>TeleportPlayer</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Common_072}Whimper in shame. Is this to be your fate?</OptionText>
+                <OptionText>Whimper in shame. Is this to be your fate?</OptionText>
                 <TeleportSettings Location="Town" Distance="nearest" Faction="otherenemy" />
 				<TriggerEventName>CE_prostitution_town_brothel_2</TriggerEventName>
             </Option>

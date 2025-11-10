@@ -2,7 +2,7 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_captive_mutiny</Name>
-        <Text>{=TBCaptorEvents_Common_108}Your captives have found weapons and begun to fight back. You hear {CAPTIVE_NAME} promise the rebels that whoever slaughters the most of your men will get first pick of any prisoners they capture. You see quite a few of them glance towards you at that remark, and the battle begins...</Text>
+        <Text>Your captives have found weapons and begun to fight back. You hear {CAPTIVE_NAME} promise the rebels that whoever slaughters the most of your men will get first pick of any prisoners they capture. You see quite a few of them glance towards you at that remark, and the battle begins...</Text>
         <BackgroundName>TB_character_deserters</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -42,7 +42,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_horny_soldiers_resist_2</Name>
-        <Text>{=TBCaptorEvents_Common_109}You wake to the taste of blood and semen in your mouth, every part of your body in horrible pain. Your captors have left you for dead and fled the camp, unwilling to face responsibility for their actions. Your guards are horrified; they had been pulled away to deal with some escaping captives, and had no idea it had all been a distraction.</Text>
+        <Text>You wake to the taste of blood and semen in your mouth, every part of your body in horrible pain. Your captors have left you for dead and fled the camp, unwilling to face responsibility for their actions. Your guards are horrified; they had been pulled away to deal with some escaping captives, and had no idea it had all been a distraction.</Text>
         <BackgroundName>TB_aftersex_cum</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -56,16 +56,16 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBSlaveryEventsFemaleSexual033}Try to get some rest.</OptionText>
+                <OptionText>Try to get some rest.</OptionText>
                 <HealthTotal>R 5 15</HealthTotal>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14243}Tell them to find and kill your rapists.</OptionText>
+                <OptionText>Tell them to find and kill your rapists.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -78,7 +78,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_claimed_womb_empty</Name>
-        <Text>{=TBCaptorEvents_Common_110}{CAPTIVE_NAME}'s womb is empty, once again ready to be filled with seed. She cowers as you approach, knowing well the role you have decreed for her in the future of your clan, and begs you to have mercy. She has birthed you a child - is that not penance enough?</Text>
+        <Text>{CAPTIVE_NAME}'s womb is empty, once again ready to be filled with seed. She cowers as you approach, knowing well the role you have decreed for her in the future of your clan, and begs you to have mercy. She has birthed you a child - is that not penance enough?</Text>
         <BackgroundName>TB_scion_slave_submit</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -98,7 +98,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12693}Have your men fill her with their seed.</OptionText>
+                <OptionText>Have your men fill her with their seed.</OptionText>
                 <TriggerEventName>CE_captor_female_sexual_menu_three_next</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R -15 -30" Ref="Hero" Color="Cyan"/>
@@ -110,7 +110,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12694}Give her womb a reprieve.</OptionText>
+                <OptionText>Give her womb a reprieve.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero" Color="Cyan"/>
                     <Skill Id="ClaimedWomb" ByLevel="-100" Ref="Hero" HideNotification="true"/>

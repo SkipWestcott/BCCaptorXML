@@ -2,8 +2,8 @@
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="module_sound">
   <module_sounds>
-    <module_sound name="captivity/event/chains" is_2d="true" sound_category="event" path="chain.ogg" />
-    <module_sound name="captivity/event/kisses" is_2d="true" sound_category="event" path="kisses.ogg" />
+    <!--<module_sound name="captivity/event/chains" is_2d="true" sound_category="event" path="chain.ogg" />
+    <module_sound name="captivity/event/kisses" is_2d="true" sound_category="event" path="kisses.ogg" />-->
     <module_sound name="captivity/ui/chains" is_2d="true" sound_category="ui" path="chain.ogg" />
     <module_sound name="captivity/ui/kisses" is_2d="true" sound_category="ui" path="kisses.ogg" />
   </module_sounds>

@@ -1,0 +1,1507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    
+    <!-- Besties Devotion -->
+    <CEEvent>
+        <Name>BC_companion_devoted_besti_intro</Name>
+        <Text>{=BCCaptor_Text_12400}You enter your rooms, where you find {COMPANION_NAME_1} stripped to the waist, tongue hanging out, wearing a spiked dog collar. Her skin glistens in the fire light, and says she has been a very naughty girl, and she needs your firm hand to give her some strict discipline...</Text>
+        <Backgrounds>
+            <Background Name="BC_image_sex_ciri_canine_begin" UseConditions="BC_conditions_random_huntmistress_f" />
+            <Background Name="BC_image_companion_pet_canine" UseConditions="BC_conditions_random_prebesti_f" />
+            <Background Name="BC_image_companion_pet" />
+        </Backgrounds>
+        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>9</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12401}&quot;Get on your knees, little doggy.&quot;</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_companion_devoted_besti_not_best</EventName>
+                        <EventWeight>10</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_companion_devoted_besti_test</EventName>
+                        <EventWeight>10</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_companion_devoted_besti_hunt</EventName>
+                        <EventWeight>10</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -10 15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true"  />
+                            <Skill Id="CaptiveObedience" ByLevel="R 10 -20" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="Jealousy" ByLevel="R -10 -30" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                            <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12401}She's really too good a girl to act like this...</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -10 15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true"  />
+                            <Skill Id="CaptiveObedience" ByLevel="R -10 -20" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="Jealousy" ByLevel="R -10 30" Ref="Hero" Color="Green" />
+                            <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_presub_f" />
+        </Companions>
+        <SkillsRequired><SkillRequired Id="Roguery" Min="50" Ref="Hero" /></SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_companion_devoted_besti_not_best</Name>
+        <Text>{=BCCaptor_Text_12402}{COMPANION_NAME_1} crawls over to you, eager to bury her face into your crotch, but you roughly turn her by the neck to angle her ass toward you. She squeals with delight at the treatment, but you have much more in store. Grabbing a heavy leather strap, you hold her down and begin giving her the punishment she begged for, calling her every degrading name you can think of, laying into the meat of her ass with all your strength until she is most definitely not enjoying herself any longer.</Text>        
+        <BackgroundAnimation>
+            <BackgroundName>BC_vid_spanking_000</BackgroundName>
+            <BackgroundName>BC_vid_spanking_001</BackgroundName>
+            <BackgroundName>BC_vid_spanking_002</BackgroundName>
+            <BackgroundName>BC_vid_spanking_003</BackgroundName>
+            <BackgroundName>BC_vid_spanking_004</BackgroundName>
+            <BackgroundName>BC_vid_spanking_005</BackgroundName>
+            <BackgroundName>BC_vid_spanking_006</BackgroundName>
+            <BackgroundName>BC_vid_spanking_007</BackgroundName>
+            <BackgroundName>BC_vid_spanking_008</BackgroundName>
+            <BackgroundName>BC_vid_spanking_009</BackgroundName>
+            <BackgroundName>BC_vid_spanking_010</BackgroundName>
+            <BackgroundName>BC_vid_spanking_011</BackgroundName>
+            <BackgroundName>BC_vid_spanking_012</BackgroundName>
+            <BackgroundName>BC_vid_spanking_013</BackgroundName>
+            <BackgroundName>BC_vid_spanking_014</BackgroundName>
+            <BackgroundName>BC_vid_spanking_015</BackgroundName>
+            <BackgroundName>BC_vid_spanking_016</BackgroundName>
+            <BackgroundName>BC_vid_spanking_017</BackgroundName>
+            <BackgroundName>BC_vid_spanking_018</BackgroundName>
+            <BackgroundName>BC_vid_spanking_019</BackgroundName>
+            <BackgroundName>BC_vid_spanking_020</BackgroundName>
+            <BackgroundName>BC_vid_spanking_021</BackgroundName>
+            <BackgroundName>BC_vid_spanking_022</BackgroundName>
+            <BackgroundName>BC_vid_spanking_023</BackgroundName>
+            <BackgroundName>BC_vid_spanking_024</BackgroundName>
+            <BackgroundName>BC_vid_spanking_025</BackgroundName>
+            <BackgroundName>BC_vid_spanking_026</BackgroundName>
+            <BackgroundName>BC_vid_spanking_027</BackgroundName>
+            <BackgroundName>BC_vid_spanking_028</BackgroundName>
+            <BackgroundName>BC_vid_spanking_029</BackgroundName>
+            <BackgroundName>BC_vid_spanking_030</BackgroundName>
+            <BackgroundName>BC_vid_spanking_031</BackgroundName>
+            <BackgroundName>BC_vid_spanking_032</BackgroundName>
+            <BackgroundName>BC_vid_spanking_033</BackgroundName>
+            <BackgroundName>BC_vid_spanking_034</BackgroundName>
+            <BackgroundName>BC_vid_spanking_035</BackgroundName>
+            <BackgroundName>BC_vid_spanking_036</BackgroundName>
+            <BackgroundName>BC_vid_spanking_037</BackgroundName>
+            <BackgroundName>BC_vid_spanking_038</BackgroundName>
+            <BackgroundName>BC_vid_spanking_039</BackgroundName>
+            <BackgroundName>BC_vid_spanking_040</BackgroundName>
+            <BackgroundName>BC_vid_spanking_041</BackgroundName>
+            <BackgroundName>BC_vid_spanking_042</BackgroundName>
+            <BackgroundName>BC_vid_spanking_043</BackgroundName>
+            <BackgroundName>BC_vid_spanking_044</BackgroundName>
+            <BackgroundName>BC_vid_spanking_045</BackgroundName>
+            <BackgroundName>BC_vid_spanking_046</BackgroundName>
+            <BackgroundName>BC_vid_spanking_047</BackgroundName>
+            <BackgroundName>BC_vid_spanking_048</BackgroundName>
+            <BackgroundName>BC_vid_spanking_049</BackgroundName>
+            <BackgroundName>BC_vid_spanking_050</BackgroundName>
+            <BackgroundName>BC_vid_spanking_051</BackgroundName>
+            <BackgroundName>BC_vid_spanking_052</BackgroundName>
+            <BackgroundName>BC_vid_spanking_053</BackgroundName>
+            <BackgroundName>BC_vid_spanking_054</BackgroundName>
+            <BackgroundName>BC_vid_spanking_055</BackgroundName>
+            <BackgroundName>BC_vid_spanking_056</BackgroundName>
+            <BackgroundName>BC_vid_spanking_057</BackgroundName>
+            <BackgroundName>BC_vid_spanking_058</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>0.08</BackgroundAnimationSpeed>
+        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12403}&quot;Go cry in the corner, you bad little puppy.&quot;</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R 3 9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 3 9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 3 9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 5 15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R 5 15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R -3 -15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="Jealousy" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveObedience" ByLevel="R 5 16" Ref="Hero" Color="Yellow" />
+                            <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_random_current_actor_condition_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_companion_devoted_besti_test</Name>
+        <Text>{=BCCaptor_Text_12404}{COMPANION_NAME_1} crawls over to you, eager to bury her face into your crotch, but you roughly snatch her hair, and point to your favorite hunting dog, stretched out on the floor and fully erect. She gasps in confusion as she eyes the hound's glistening member, and protests as you pull her down and over his cock. &quot;Lay back, Rex, I have a bad little puppy to suck your cock today!&quot; {COMPANION_NAME_1}'s heart beats faster and faster, eager to do anything you say, and soon you let go of her head as she gulps down the dog's thickness on her own. She is lost in the moment, and soon Rex lets out a whine, and {COMPANION_NAME_1} slurps up the jets of dog cum eagerly.</Text>        
+        <Backgrounds>
+            <Background Name="BC_image_sex_ciri_canine_oral" UseConditions="BC_conditions_hero_female"/>
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12405}&quot;What a mess! You really are a bad little doggy.&quot;</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R 3 9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 13 29" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 3 9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 5 15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R 5 15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 3 -15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="Jealousy" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveObedience" ByLevel="R 15 30" Ref="Hero" Color="Cyan" />
+                            <Skill Id="Trustee" ByLevel="1" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R 13 30" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_prebesti_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_companion_devoted_besti_hunt</Name>
+        <Text>{=BCCaptor_Text_12406}As you open her legs for the hound to finally enter her slit, {COMPANION_NAME_1} exclaims, &quot;I'm so nervous!&quot; You give a sly smile, and tell her everything will make sense in a moment. Rex drools with anticipation of more hot human cunt, scratching the carpet as his wet cock twitches up into {COMPANION_NAME_1}. She yells as the dog settles into a rapid thrusting pace, until both of them are pushing and howling together. 
+                
+&quot;Cum for me daddy!&quot;, {COMPANION_NAME_1} begs! But the knot hasn't even entered her yet...</Text>        
+        <Backgrounds>
+            <Background Name="BC_image_sex_hunt_black_dog" />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12407}Push Rex's knot inside her!</OptionText>
+                <TriggerEventName>BC_companion_devoted_besti_huntmistress</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R 3 9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 3 19" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 3 9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 5 15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R 5 25" Ref="Hero" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R -3 5" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="Jealousy" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveObedience" ByLevel="R 15 30" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R 13 30" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveCanis" ByLevel="1" Ref="Hero" Color="Green" />
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_prepbesti_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_companion_devoted_besti_huntmistress</Name>
+        <Text>{=BCCaptor_Text_12408}{COMPANION_NAME_1}'s sloppy pussy lips milk the beast's huge knot, coating it with her frothing juices. She sounds inhuman as the hound goes feral, pumping faster and faster until he cums. The swollen cock is stuck inside her; she yelps in pain as Rex collapses from exertion, pulling her down with him.        </Text>        
+        <Backgrounds>
+            <Background Name="BC_image_captive_female_canine_knot_cum" />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12409}You stand over them and whisper, &quot;Good little doggy. We'll do something even more fun next time!&quot;</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R 3 9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 3 19" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 3 9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 5 15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R 5 25" Ref="Hero" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R -3 5" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="Jealousy" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveObedience" ByLevel="R 15 30" Ref="Hero" Color="Cyan" HideNotification="true"  />
+                            <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R 13 30" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_huntmistress_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <!-- POST_HUNT-->
+    <CEEvent>
+        <Name>BC_companion_devoted_besti_hunt_intro</Name>
+        <Text>{=BCCaptor_Text_12400}You enter your rooms, where you find {COMPANION_NAME_1} stripped to the waist, tongue hanging out, wearing a spiked dog collar. Her skin glistens in the fire light, and says she has been a very naughty girl, and she needs your firm hand to give her some strict discipline...</Text>
+        <Backgrounds>
+            <Background Name="BC_image_sex_ciri_yen_canine_begin" UseConditions="BC_conditions_hero_female" />
+            <Background Name="BC_image_sex_ciri_canine_begin" UseConditions="BC_conditions_hero_male"  />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12401}&quot;Get on your knees, little doggy.&quot;</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_companion_devoted_hunt_not_best</EventName>
+                        <EventWeight>10</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_companion_devoted_hunt_couch</EventName>
+                        <EventWeight>10</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_companion_devoted_hunt_panther</EventName>
+                        <EventWeight>40</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_companion_devoted_hunt_pack</EventName>
+                        <EventWeight>10</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_companion_devoted_hunt_bull</EventName>
+                        <EventWeight>10</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_companion_devoted_hunt_camel</EventName>
+                        <EventWeight>10</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_companion_devoted_hunt_first_bull</EventName>
+                        <EventWeight>10</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_companion_devoted_hunt_first_camel</EventName>
+                        <EventWeight>10</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_companion_devoted_hunt_elephant</EventName>
+                        <EventWeight>10</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_companion_devoted_hunt_octopus</EventName>
+                        <EventWeight>10</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustA" ByLevel="R -3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustC" ByLevel="R -3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R -3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R -3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -3 15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true"  />
+                            <Skill Id="CaptiveObedience" ByLevel="R 10 30" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="Jealousy" ByLevel="R -10 -30" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                            <Skill Id="CaptiveLustC" ByLevel="R -3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R -3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R -3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustA" ByLevel="R -3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_huntmistress_f" />
+        </Companions>
+        <SkillsRequired><SkillRequired Id="Roguery" Min="100" Ref="Hero" /></SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>60</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_companion_devoted_hunt_not_best</Name>
+        <Text>{=BCCaptor_Text_12412}{COMPANION_NAME_1} crawls over to you, eager to suck and to spread for your giant hound, but you roughly turn her by the neck to angle her ass toward you. She squeals with delight at the treatment, but you have much more in store. Grabbing a heavy leather strap, you hold her down and tear into her, calling her every degrading name you can think of, laying into the meat of her ass with all your strength until she is most definitely not enjoying herself any longer.</Text>        
+        <BackgroundAnimation>
+            <BackgroundName>BC_vid_spanking_000</BackgroundName>
+            <BackgroundName>BC_vid_spanking_001</BackgroundName>
+            <BackgroundName>BC_vid_spanking_002</BackgroundName>
+            <BackgroundName>BC_vid_spanking_003</BackgroundName>
+            <BackgroundName>BC_vid_spanking_004</BackgroundName>
+            <BackgroundName>BC_vid_spanking_005</BackgroundName>
+            <BackgroundName>BC_vid_spanking_006</BackgroundName>
+            <BackgroundName>BC_vid_spanking_007</BackgroundName>
+            <BackgroundName>BC_vid_spanking_008</BackgroundName>
+            <BackgroundName>BC_vid_spanking_009</BackgroundName>
+            <BackgroundName>BC_vid_spanking_010</BackgroundName>
+            <BackgroundName>BC_vid_spanking_011</BackgroundName>
+            <BackgroundName>BC_vid_spanking_012</BackgroundName>
+            <BackgroundName>BC_vid_spanking_013</BackgroundName>
+            <BackgroundName>BC_vid_spanking_014</BackgroundName>
+            <BackgroundName>BC_vid_spanking_015</BackgroundName>
+            <BackgroundName>BC_vid_spanking_016</BackgroundName>
+            <BackgroundName>BC_vid_spanking_017</BackgroundName>
+            <BackgroundName>BC_vid_spanking_018</BackgroundName>
+            <BackgroundName>BC_vid_spanking_019</BackgroundName>
+            <BackgroundName>BC_vid_spanking_020</BackgroundName>
+            <BackgroundName>BC_vid_spanking_021</BackgroundName>
+            <BackgroundName>BC_vid_spanking_022</BackgroundName>
+            <BackgroundName>BC_vid_spanking_023</BackgroundName>
+            <BackgroundName>BC_vid_spanking_024</BackgroundName>
+            <BackgroundName>BC_vid_spanking_025</BackgroundName>
+            <BackgroundName>BC_vid_spanking_026</BackgroundName>
+            <BackgroundName>BC_vid_spanking_027</BackgroundName>
+            <BackgroundName>BC_vid_spanking_028</BackgroundName>
+            <BackgroundName>BC_vid_spanking_029</BackgroundName>
+            <BackgroundName>BC_vid_spanking_030</BackgroundName>
+            <BackgroundName>BC_vid_spanking_031</BackgroundName>
+            <BackgroundName>BC_vid_spanking_032</BackgroundName>
+            <BackgroundName>BC_vid_spanking_033</BackgroundName>
+            <BackgroundName>BC_vid_spanking_034</BackgroundName>
+            <BackgroundName>BC_vid_spanking_035</BackgroundName>
+            <BackgroundName>BC_vid_spanking_036</BackgroundName>
+            <BackgroundName>BC_vid_spanking_037</BackgroundName>
+            <BackgroundName>BC_vid_spanking_038</BackgroundName>
+            <BackgroundName>BC_vid_spanking_039</BackgroundName>
+            <BackgroundName>BC_vid_spanking_040</BackgroundName>
+            <BackgroundName>BC_vid_spanking_041</BackgroundName>
+            <BackgroundName>BC_vid_spanking_042</BackgroundName>
+            <BackgroundName>BC_vid_spanking_043</BackgroundName>
+            <BackgroundName>BC_vid_spanking_044</BackgroundName>
+            <BackgroundName>BC_vid_spanking_045</BackgroundName>
+            <BackgroundName>BC_vid_spanking_046</BackgroundName>
+            <BackgroundName>BC_vid_spanking_047</BackgroundName>
+            <BackgroundName>BC_vid_spanking_048</BackgroundName>
+            <BackgroundName>BC_vid_spanking_049</BackgroundName>
+            <BackgroundName>BC_vid_spanking_050</BackgroundName>
+            <BackgroundName>BC_vid_spanking_051</BackgroundName>
+            <BackgroundName>BC_vid_spanking_052</BackgroundName>
+            <BackgroundName>BC_vid_spanking_053</BackgroundName>
+            <BackgroundName>BC_vid_spanking_054</BackgroundName>
+            <BackgroundName>BC_vid_spanking_055</BackgroundName>
+            <BackgroundName>BC_vid_spanking_056</BackgroundName>
+            <BackgroundName>BC_vid_spanking_057</BackgroundName>
+            <BackgroundName>BC_vid_spanking_058</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>0.08</BackgroundAnimationSpeed>
+        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12413}&quot;You bad little puppy, no treat for you tonight.&quot;</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R 3 9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 3 9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 3 9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 5 15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R 5 15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 1 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="Jealousy" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveObedience" ByLevel="R 5 16" Ref="Hero" Color="Cyan" />
+                            <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveAugment" ByLevel="R 5 -5" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_hunt_bad_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_companion_devoted_hunt_couch</Name>
+        <Text>{=BCCaptor_Text_12414}{COMPANION_NAME_1} lay on her side, and your hound leaps into position, bludgeoning at her slick pussy lips until the heavy meat splits her open. She moans in relief as the beast's huge knot reaches at her opening, each coating the other with frothing juices.</Text>        
+        <BackgroundAnimation>
+            <BackgroundName>couch_hunt_turn_000</BackgroundName>
+            <BackgroundName>couch_hunt_turn_001</BackgroundName>
+            <BackgroundName>couch_hunt_turn_002</BackgroundName>
+            <BackgroundName>couch_hunt_turn_003</BackgroundName>
+            <BackgroundName>couch_hunt_turn_004</BackgroundName>
+            <BackgroundName>couch_hunt_turn_005</BackgroundName>
+            <BackgroundName>couch_hunt_turn_006</BackgroundName>
+            <BackgroundName>couch_hunt_turn_007</BackgroundName>
+            <BackgroundName>couch_hunt_turn_008</BackgroundName>
+            <BackgroundName>couch_hunt_turn_009</BackgroundName>
+            <BackgroundName>couch_hunt_turn_010</BackgroundName>
+            <BackgroundName>couch_hunt_turn_011</BackgroundName>
+            <BackgroundName>couch_hunt_turn_012</BackgroundName>
+            <BackgroundName>couch_hunt_turn_013</BackgroundName>
+            <BackgroundName>couch_hunt_turn_014</BackgroundName>
+            <BackgroundName>couch_hunt_turn_015</BackgroundName>
+            <BackgroundName>couch_hunt_turn_016</BackgroundName>
+            <BackgroundName>couch_hunt_turn_017</BackgroundName>
+            <BackgroundName>couch_hunt_turn_018</BackgroundName>
+            <BackgroundName>couch_hunt_turn_019</BackgroundName>
+            <BackgroundName>couch_hunt_turn_020</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>0.08</BackgroundAnimationSpeed>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12415}&quot;What a dirty little doggy!&quot;</OptionText>
+                <TriggerEventName>BC_companion_devoted_hunt_couch_long</TriggerEventName>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_hunt_ready_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_companion_devoted_hunt_couch_long</Name>
+        <Text>{=BCCaptor_Text_12416}You begin idly playing with yourself as you watch {COMPANION_NAME_1} on her side, getting absolutely bludgeoned up her sloppy wet pussy by an enormous dog cock. She practically sings a song as the beast settles into a rhythm.</Text>        
+        <BackgroundAnimation>
+            <BackgroundName>couch_hunt_long_000</BackgroundName>
+            <BackgroundName>couch_hunt_long_001</BackgroundName>
+            <BackgroundName>couch_hunt_long_002</BackgroundName>
+            <BackgroundName>couch_hunt_long_003</BackgroundName>
+            <BackgroundName>couch_hunt_long_004</BackgroundName>
+            <BackgroundName>couch_hunt_long_005</BackgroundName>
+            <BackgroundName>couch_hunt_long_006</BackgroundName>
+            <BackgroundName>couch_hunt_long_007</BackgroundName>
+            <BackgroundName>couch_hunt_long_008</BackgroundName>
+            <BackgroundName>couch_hunt_long_009</BackgroundName>
+            <BackgroundName>couch_hunt_long_010</BackgroundName>
+            <BackgroundName>couch_hunt_long_011</BackgroundName>
+            <BackgroundName>couch_hunt_long_012</BackgroundName>
+            <BackgroundName>couch_hunt_long_013</BackgroundName>
+            <BackgroundName>couch_hunt_long_014</BackgroundName>
+            <BackgroundName>couch_hunt_long_015</BackgroundName>
+            <BackgroundName>couch_hunt_long_016</BackgroundName>
+            <BackgroundName>couch_hunt_long_017</BackgroundName>
+            <BackgroundName>couch_hunt_long_018</BackgroundName>
+            <BackgroundName>couch_hunt_long_019</BackgroundName>
+            <BackgroundName>couch_hunt_long_020</BackgroundName>
+            <BackgroundName>couch_hunt_long_021</BackgroundName>
+            <BackgroundName>couch_hunt_long_022</BackgroundName>
+            <BackgroundName>couch_hunt_long_023</BackgroundName>
+            <BackgroundName>couch_hunt_long_024</BackgroundName>
+            <BackgroundName>couch_hunt_long_025</BackgroundName>
+            <BackgroundName>couch_hunt_long_026</BackgroundName>
+            <BackgroundName>couch_hunt_long_027</BackgroundName>
+            <BackgroundName>couch_hunt_long_028</BackgroundName>
+            <BackgroundName>couch_hunt_long_029</BackgroundName>
+            <BackgroundName>couch_hunt_long_030</BackgroundName>
+            <BackgroundName>couch_hunt_long_031</BackgroundName>
+            <BackgroundName>couch_hunt_long_032</BackgroundName>
+            <BackgroundName>couch_hunt_long_033</BackgroundName>
+            <BackgroundName>couch_hunt_long_034</BackgroundName>
+            <BackgroundName>couch_hunt_long_035</BackgroundName>
+            <BackgroundName>couch_hunt_long_036</BackgroundName>
+            <BackgroundName>couch_hunt_long_037</BackgroundName>
+            <BackgroundName>couch_hunt_long_038</BackgroundName>
+            <BackgroundName>couch_hunt_long_039</BackgroundName>
+            <BackgroundName>couch_hunt_long_040</BackgroundName>
+            <BackgroundName>couch_hunt_long_041</BackgroundName>
+            <BackgroundName>couch_hunt_long_042</BackgroundName>
+            <BackgroundName>couch_hunt_long_043</BackgroundName>
+            <BackgroundName>couch_hunt_long_044</BackgroundName>
+            <BackgroundName>couch_hunt_long_045</BackgroundName>
+            <BackgroundName>couch_hunt_long_046</BackgroundName>
+            <BackgroundName>couch_hunt_long_047</BackgroundName>
+            <BackgroundName>couch_hunt_long_048</BackgroundName>
+            <BackgroundName>couch_hunt_long_049</BackgroundName>
+            <BackgroundName>couch_hunt_long_050</BackgroundName>
+            <BackgroundName>couch_hunt_long_051</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>0.08</BackgroundAnimationSpeed>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12417}&quot;Take that cock, little doggy...&quot;</OptionText>
+                <TriggerEventName>BC_companion_devoted_hunt_couch_short</TriggerEventName>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_random_current_actor_condition_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_companion_devoted_hunt_couch_short</Name>
+        <Text>{=BCCaptor_Text_12418}The beast jerks harder into {COMPANION_NAME_1}, slowing ever so slightly as the heavy balls begin to tighten. Slick with frothing juices, she grabs the furniture and starts out a long, guttural scream, as the sound deep between her legs grows even wetter.</Text>        
+        <BackgroundAnimation>
+            <BackgroundName>couch_hunt_short_000</BackgroundName>
+            <BackgroundName>couch_hunt_short_001</BackgroundName>
+            <BackgroundName>couch_hunt_short_002</BackgroundName>
+            <BackgroundName>couch_hunt_short_003</BackgroundName>
+            <BackgroundName>couch_hunt_short_004</BackgroundName>
+            <BackgroundName>couch_hunt_short_005</BackgroundName>
+            <BackgroundName>couch_hunt_short_006</BackgroundName>
+            <BackgroundName>couch_hunt_short_007</BackgroundName>
+            <BackgroundName>couch_hunt_short_008</BackgroundName>
+            <BackgroundName>couch_hunt_short_009</BackgroundName>
+            <BackgroundName>couch_hunt_short_010</BackgroundName>
+            <BackgroundName>couch_hunt_short_011</BackgroundName>
+            <BackgroundName>couch_hunt_short_012</BackgroundName>
+            <BackgroundName>couch_hunt_short_013</BackgroundName>
+            <BackgroundName>couch_hunt_short_014</BackgroundName>
+            <BackgroundName>couch_hunt_short_015</BackgroundName>
+            <BackgroundName>couch_hunt_short_016</BackgroundName>
+            <BackgroundName>couch_hunt_short_017</BackgroundName>
+            <BackgroundName>couch_hunt_short_018</BackgroundName>
+            <BackgroundName>couch_hunt_short_019</BackgroundName>
+            <BackgroundName>couch_hunt_short_020</BackgroundName>
+            <BackgroundName>couch_hunt_short_021</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>0.08</BackgroundAnimationSpeed>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12419}&quot;Fuck! Fuck that dog, you dirty bitch!&quot;</OptionText>
+                <TriggerEventName>BC_companion_devoted_hunt_couch_end</TriggerEventName>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_random_current_actor_condition_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_companion_devoted_hunt_couch_end</Name>
+        <Text>{=BCCaptor_Text_12420}{COMPANION_NAME_1} lay on her side, your hound nestled into position, his fat knot at the opening of her slick pussy lips. She moans in relief as the beast's huge load pulses out, reaches her womb and overflows her. The frothing juices cover the hounds belly, making a mess of {COMPANION_NAME_1} as her body quivers under it. You lean over and pat her for a job well done.</Text>        
+        <BackgroundAnimation>
+            <BackgroundName>couch_hunt_final_000</BackgroundName>
+            <BackgroundName>couch_hunt_final_001</BackgroundName>
+            <BackgroundName>couch_hunt_final_002</BackgroundName>
+            <BackgroundName>couch_hunt_final_003</BackgroundName>
+            <BackgroundName>couch_hunt_final_004</BackgroundName>
+            <BackgroundName>couch_hunt_final_005</BackgroundName>
+            <BackgroundName>couch_hunt_final_006</BackgroundName>
+            <BackgroundName>couch_hunt_final_007</BackgroundName>
+            <BackgroundName>couch_hunt_final_008</BackgroundName>
+            <BackgroundName>couch_hunt_final_009</BackgroundName>
+            <BackgroundName>couch_hunt_final_010</BackgroundName>
+            <BackgroundName>couch_hunt_final_011</BackgroundName>
+            <BackgroundName>couch_hunt_final_012</BackgroundName>
+            <BackgroundName>couch_hunt_final_013</BackgroundName>
+            <BackgroundName>couch_hunt_final_014</BackgroundName>
+            <BackgroundName>couch_hunt_final_015</BackgroundName>
+            <BackgroundName>couch_hunt_final_016</BackgroundName>
+            <BackgroundName>couch_hunt_final_017</BackgroundName>
+            <BackgroundName>couch_hunt_final_018</BackgroundName>
+            <BackgroundName>couch_hunt_final_019</BackgroundName>
+            <BackgroundName>couch_hunt_final_020</BackgroundName>
+            <BackgroundName>couch_hunt_final_021</BackgroundName>
+            <BackgroundName>couch_hunt_final_022</BackgroundName>
+            <BackgroundName>couch_hunt_final_023</BackgroundName>
+            <BackgroundName>couch_hunt_final_024</BackgroundName>
+            <BackgroundName>couch_hunt_final_025</BackgroundName>
+            <BackgroundName>couch_hunt_final_026</BackgroundName>
+            <BackgroundName>couch_hunt_final_027</BackgroundName>
+            <BackgroundName>couch_hunt_final_028</BackgroundName>
+            <BackgroundName>couch_hunt_final_029</BackgroundName>
+            <BackgroundName>couch_hunt_final_030</BackgroundName>
+            <BackgroundName>couch_hunt_final_031</BackgroundName>
+            <BackgroundName>couch_hunt_final_032</BackgroundName>
+            <BackgroundName>couch_hunt_final_033</BackgroundName>
+            <BackgroundName>couch_hunt_final_034</BackgroundName>
+            <BackgroundName>couch_hunt_final_035</BackgroundName>
+            <BackgroundName>couch_hunt_final_036</BackgroundName>
+            <BackgroundName>couch_hunt_final_037</BackgroundName>
+            <BackgroundName>couch_hunt_final_038</BackgroundName>
+            <BackgroundName>couch_hunt_final_039</BackgroundName>
+            <BackgroundName>couch_hunt_final_040</BackgroundName>
+            <BackgroundName>couch_hunt_final_041</BackgroundName>
+            <BackgroundName>couch_hunt_final_042</BackgroundName>
+            <BackgroundName>couch_hunt_final_043</BackgroundName>
+            <BackgroundName>couch_hunt_final_044</BackgroundName>
+            <BackgroundName>couch_hunt_final_045</BackgroundName>
+            <BackgroundName>couch_hunt_final_046</BackgroundName>
+            <BackgroundName>couch_hunt_final_047</BackgroundName>
+            <BackgroundName>couch_hunt_final_048</BackgroundName>
+            <BackgroundName>couch_hunt_final_049</BackgroundName>
+            <BackgroundName>couch_hunt_final_050</BackgroundName>
+            <BackgroundName>couch_hunt_final_051</BackgroundName>
+            <BackgroundName>couch_hunt_final_052</BackgroundName>
+            <BackgroundName>couch_hunt_final_053</BackgroundName>
+            <BackgroundName>couch_hunt_final_054</BackgroundName>
+            <BackgroundName>couch_hunt_final_055</BackgroundName>
+            <BackgroundName>couch_hunt_final_056</BackgroundName>
+            <BackgroundName>couch_hunt_final_057</BackgroundName>
+            <BackgroundName>couch_hunt_final_058</BackgroundName>
+            <BackgroundName>couch_hunt_final_059</BackgroundName>
+            <BackgroundName>couch_hunt_final_060</BackgroundName>
+            <BackgroundName>couch_hunt_final_061</BackgroundName>
+            <BackgroundName>couch_hunt_final_062</BackgroundName>
+            <BackgroundName>couch_hunt_final_063</BackgroundName>
+            <BackgroundName>couch_hunt_final_064</BackgroundName>
+            <BackgroundName>couch_hunt_final_065</BackgroundName>
+            <BackgroundName>couch_hunt_final_066</BackgroundName>
+            <BackgroundName>couch_hunt_final_067</BackgroundName>
+            <BackgroundName>couch_hunt_final_068</BackgroundName>
+            <BackgroundName>couch_hunt_final_069</BackgroundName>
+            <BackgroundName>couch_hunt_final_070</BackgroundName>
+            <BackgroundName>couch_hunt_final_071</BackgroundName>
+            <BackgroundName>couch_hunt_final_072</BackgroundName>
+            <BackgroundName>couch_hunt_final_073</BackgroundName>
+            <BackgroundName>couch_hunt_final_074</BackgroundName>
+            <BackgroundName>couch_hunt_final_075</BackgroundName>
+            <BackgroundName>couch_hunt_final_076</BackgroundName>
+            <BackgroundName>couch_hunt_final_077</BackgroundName>
+            <BackgroundName>couch_hunt_final_078</BackgroundName>
+            <BackgroundName>couch_hunt_final_079</BackgroundName>
+            <BackgroundName>couch_hunt_final_080</BackgroundName>
+            <BackgroundName>couch_hunt_final_081</BackgroundName>
+            <BackgroundName>couch_hunt_final_082</BackgroundName>
+            <BackgroundName>couch_hunt_final_083</BackgroundName>
+            <BackgroundName>couch_hunt_final_084</BackgroundName>
+            <BackgroundName>couch_hunt_final_085</BackgroundName>
+            <BackgroundName>couch_hunt_final_086</BackgroundName>
+            <BackgroundName>couch_hunt_final_087</BackgroundName>
+            <BackgroundName>couch_hunt_final_088</BackgroundName>
+            <BackgroundName>couch_hunt_final_089</BackgroundName>
+            <BackgroundName>couch_hunt_final_090</BackgroundName>
+            <BackgroundName>couch_hunt_final_091</BackgroundName>
+            <BackgroundName>couch_hunt_final_092</BackgroundName>
+            <BackgroundName>couch_hunt_final_093</BackgroundName>
+            <BackgroundName>couch_hunt_final_094</BackgroundName>
+            <BackgroundName>couch_hunt_final_095</BackgroundName>
+            <BackgroundName>couch_hunt_final_096</BackgroundName>
+            <BackgroundName>couch_hunt_final_097</BackgroundName>
+            <BackgroundName>couch_hunt_final_098</BackgroundName>
+            <BackgroundName>couch_hunt_final_099</BackgroundName>
+            <BackgroundName>couch_hunt_final_100</BackgroundName>
+            <BackgroundName>couch_hunt_final_101</BackgroundName>
+            <BackgroundName>couch_hunt_final_102</BackgroundName>
+            <BackgroundName>couch_hunt_final_103</BackgroundName>
+            <BackgroundName>couch_hunt_final_104</BackgroundName>
+            <BackgroundName>couch_hunt_final_105</BackgroundName>
+            <BackgroundName>couch_hunt_final_106</BackgroundName>
+            <BackgroundName>couch_hunt_final_107</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>0.08</BackgroundAnimationSpeed>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12421}&quot;What a good little doggy...&quot;</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R 3 9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 3 19" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 3 9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 5 15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R 5 25" Ref="Hero" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R -3 5" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="Jealousy" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveObedience" ByLevel="R 15 30" Ref="Hero" Color="Cyan" HideNotification="true"  />
+                            <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R 13 30" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveAugment" ByLevel="R 1 15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_random_current_actor_condition_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_companion_devoted_hunt_panther</Name>
+        <Text>{=BCCaptor_Text_12422}{COMPANION_NAME_1} has found the present you got her! She is very grateful at your exotic gift, and cannot wait to put on a show for you!</Text>        
+        <Backgrounds>
+            <Background Name="BC_image_sex_hunt_panther_1"  />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12423}&quot;Can you take on such a powerful beast, {COMPANION_NAME_1}?&quot;</OptionText>
+                <TriggerEventName>BC_companion_devoted_hunt_panther_2</TriggerEventName>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_hunt_zoo_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_companion_devoted_hunt_panther_2</Name>
+        <Text>{=BCCaptor_Text_12424}{COMPANION_NAME_1} kisses and massages the great cat's belly, then raises her ass into position. His feline penis disappears at the opening of her slick pussy lips. She shrieks in pain and fear as the beast's rhythm begins, but you are confused; you have seen her take much more formidable animal cocks than this. It dawns on you: the panther has barbs on his cock!</Text>        
+        <Backgrounds>
+            <Background Name="BC_image_sex_hunt_panther_2"  />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12425}&quot;What a good little kitten you are...&quot;</OptionText>
+                <TriggerEventName>BC_companion_devoted_hunt_panther_3</TriggerEventName>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_random_current_actor_condition_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_companion_devoted_hunt_panther_3</Name>
+        <Text>{=BCCaptor_Text_12426}{COMPANION_NAME_1} shrieks and cries and howls at the great cat, but she cannot pull herself off the hooks inside her. Its broad paws hold her down, and it licks blood out of the flesh on her neck with its rough tongue as it comes. {COMPANION_NAME_1} quivers under the black form for several minutes as the barbs withdraw from deep within her. You lean over and pat her for a job well done.</Text>        
+        <Backgrounds>
+            <Background Name="BC_image_sex_hunt_panther_3"  />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12427}&quot;Good little kitties get more treats...!&quot;</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R -3 5" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R -3 5" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R -3 5" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R -5 9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -5 15" Ref="Hero" Color="Cyan"  />
+                </SkillsToLevel>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R -13 25" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="Jealousy" ByLevel="R -13 -20" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveObedience" ByLevel="R -15 30" Ref="Hero" Color="Cyan" HideNotification="true"  />
+                            <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R 13 30" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveAugment" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_random_current_actor_condition_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_companion_devoted_hunt_pack</Name>
+        <Text>{=BCCaptor_Text_12428}{COMPANION_NAME_1} shrieks and cries and howls in your kennels, but she cannot pull herself off the shiny, wet dog cocks inside her face, pussy, and ass. Broad paws hold her down, and blood pours out of fresh scratches on her back, sides, and neck. {COMPANION_NAME_1} quivers under the pink shafts for several minutes, rubbing her face, body, and between her legs with stinking dog seed. She looks up with pride at you, hoping to hear some praise for a job well done.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_sex_hunt_whole_pack"  />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12429}&quot;Good little puppies get more treats...!&quot;</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R -35 5" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R -35 5" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R -35 15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R -45 9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -45 15" Ref="Hero" Color="Cyan"  />
+                </SkillsToLevel>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R -13 25" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="Jealousy" ByLevel="R -13 -20" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveObedience" ByLevel="R -15 -30" Ref="Hero" Color="Cyan" HideNotification="true"  />
+                            <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R 13 30" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R 30 70" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveAugment" ByLevel="R 30 70" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12430}&quot;You are a filthy fucking bitch, {COMPANION_NAME_1}! Stay in these cages and fuck dogs!&quot; (Rethink your life)</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R 3 -25" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 3 -25" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 3 -45" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R -5 -25" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -5 -35" Ref="Hero" Color="Cyan"  />
+                </SkillsToLevel>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R -60 -125" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="Jealousy" ByLevel="R 45 90" Ref="Hero" Color="Cyan" />
+                            <Skill Id="CaptiveObedience" ByLevel="R -45 -70" Ref="Hero" Color="Cyan" HideNotification="true"  />
+                            <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R 13 30" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveAugment" ByLevel="R -15 -100" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true" />
+                        </SkillsToLevel>
+                        <RelationTotal>R -5 0</RelationTotal>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_hunt_loose_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_companion_devoted_hunt_octopus</Name>
+        <Text>{=BCCaptor_Text_12432}{COMPANION_NAME_1} has found the present you got her! She is very grateful at your exotic gift, and cannot wait to put on a show for you!</Text>        
+        <Backgrounds>
+            <Background Name="BC_image_sex_hunt_octopus"  />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R 3 -19" Ref="Hero" Color="Cyan" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 3 -19" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 3 -9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 5 -15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R 5 -25" Ref="Hero" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+                <OptionText>{=BCCaptor_Text_12433}&quot;Can you take on such a cunning beast, {COMPANION_NAME_1}?&quot;</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R -13 35" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="Jealousy" ByLevel="R -13 -30" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveObedience" ByLevel="R -15 30" Ref="Hero" Color="Cyan" HideNotification="true"  />
+                            <Skill Id="CaptiveLustC" ByLevel="R 30 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R 13 30" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R 30 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustA" ByLevel="R 30 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R 30 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveAugment" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_hunt_zoo_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_companion_devoted_hunt_first_bull</Name>
+        <Text>{=BCCaptor_Text_12422}{COMPANION_NAME_1} has found the present you got her! She is very grateful at your exotic gift, and cannot wait to put on a show for you!</Text>        
+        <Backgrounds>
+            <Background Name="BC_image_sex_hunt_bull"  />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R 3 -9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 3 -19" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 3 -9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 5 -15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R 5 -25" Ref="Hero" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+                <OptionText>{=BCCaptor_Text_12423}&quot;Can you take on such a powerful beast, {COMPANION_NAME_1}?&quot;</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R -3 5" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="Jealousy" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveObedience" ByLevel="R 15 30" Ref="Hero" Color="Cyan" HideNotification="true"  />
+                            <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R 13 30" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveAugment" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveEquus" ByLevel="1" Ref="Hero" />
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_path_pre_eq_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_companion_devoted_hunt_first_camel</Name>
+        <Text>{=BCCaptor_Text_12422}{COMPANION_NAME_1} has found the present you got her! She is very grateful at your exotic gift, and cannot wait to put on a show for you!</Text>        
+        <Backgrounds>
+            <Background Name="BC_image_captive_female_camel_tent_blue"  />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R 3 -9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 3 -19" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 3 -9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 5 -15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R 5 -25" Ref="Hero" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+                <OptionText>{=BCCaptor_Text_12423}&quot;Can you take on such a powerful beast, {COMPANION_NAME_1}?&quot;</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R -3 5" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="Jealousy" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveObedience" ByLevel="R 15 30" Ref="Hero" Color="Cyan" HideNotification="true"  />
+                            <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R 13 30" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveEquus" ByLevel="1" Ref="Hero" />
+                            <Skill Id="CaptiveAugment" ByLevel="R 2 20" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_path_pre_eq_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_companion_devoted_hunt_bull</Name>
+        <Text>{=BCCaptor_Text_12422}{COMPANION_NAME_1} has found the present you got her! She is very grateful at your exotic gift, and cannot wait to put on a show for you!</Text>        
+        <Backgrounds>
+            <Background Name="BC_image_sex_hunt_bull"  />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R 3 -9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 3 -19" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 3 -9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 5 -15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R 5 -25" Ref="Hero" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+                <OptionText>{=BCCaptor_Text_12423}&quot;Can you take on such a powerful beast, {COMPANION_NAME_1}?&quot;</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R -3 5" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="Jealousy" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveObedience" ByLevel="R 15 30" Ref="Hero" Color="Cyan" HideNotification="true"  />
+                            <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R 13 30" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveAugment" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_path_eq_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_companion_devoted_hunt_camel</Name>
+        <Text>{=BCCaptor_Text_12422}{COMPANION_NAME_1} has found the present you got her! She is very grateful at your exotic gift, and cannot wait to put on a show for you!</Text>        
+        <Backgrounds>
+            <Background Name="BC_image_captive_female_camel_tent_blue"  />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R 3 -9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 3 -19" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 3 -9" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 5 -15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R 5 -25" Ref="Hero" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+                <OptionText>{=BCCaptor_Text_12423}&quot;Can you take on such a powerful beast, {COMPANION_NAME_1}?&quot;</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R -3 5" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="Jealousy" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveObedience" ByLevel="R 15 30" Ref="Hero" Color="Cyan" HideNotification="true"  />
+                            <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R 13 30" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveAugment" ByLevel="R 2 20" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_path_eq_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_companion_devoted_hunt_elephant</Name>
+        <Text>{=BCCaptor_Text_12422}{COMPANION_NAME_1} has found the present you got her! She is very grateful at your exotic gift, and cannot wait to put on a show for you!</Text>        
+        <Backgrounds>
+            <Background Name="BC_image_sex_hunt_elephant"  />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R 3 -29" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 3 -29" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 3 -29" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 5 -15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R 5 -25" Ref="Hero" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+                <OptionText>{=BCCaptor_Text_12423}&quot;Can you take on such a powerful beast, {COMPANION_NAME_1}?&quot;</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R -3 5" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="Jealousy" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveObedience" ByLevel="R 15 30" Ref="Hero" Color="Cyan" HideNotification="true"  />
+                            <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R 13 30" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true" />
+                            <Skill Id="CaptiveAugment" ByLevel="R -70 -30" Ref="Hero" Color="Cyan" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_hunt_zoo2_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

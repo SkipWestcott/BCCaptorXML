@@ -2,7 +2,7 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_captive_tds_rescue</Name>
-        <Text>{=TBCaptiveEvents_Female_203}You hear an explosion in the back of camp, and several of your guards go to investigate. After a brief while, the one that remains briefly screams as a blade runs him through, and standing in his place is a gorgeous dark-haired man with a mischievous smile. He briefly stops to clean his blade, winking at you, then picks you up and carries you into the forest. He explains that as a mercenary, he doesn't offer his services for free...</Text>
+        <Text>You hear an explosion in the back of camp, and several of your guards go to investigate. After a brief while, the one that remains briefly screams as a blade runs him through, and standing in his place is a gorgeous dark-haired man with a mischievous smile. He briefly stops to clean his blade, winking at you, then picks you up and carries you into the forest. He explains that as a mercenary, he doesn't offer his services for free...</Text>
         <BackgroundName>NK_tds_entrance</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -23,7 +23,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_204}See if he'd like to share a drink after a hard battle.</OptionText>
+                <OptionText>See if he'd like to share a drink after a hard battle.</OptionText>
                 <TriggerEventName>TB_captive_tds_rescue_sex</TriggerEventName>
                 <RelationTotal>R 1 7</RelationTotal>
                 <RenownTotal>R 1 3</RenownTotal>
@@ -36,7 +36,7 @@
                     <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_205}Your freedom's worth at least a bag of denars. (1000 {GOLD_ICON})</OptionText>
+                <OptionText>Your freedom's worth at least a bag of denars. (1000 {GOLD_ICON})</OptionText>
                 <GoldTotal>1000</GoldTotal>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero" />
@@ -49,7 +49,7 @@
                     <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_206}Balk at his impertinent request.</OptionText>
+                <OptionText>Balk at his impertinent request.</OptionText>
                 <HealthTotal>R 20 40</HealthTotal>
                 <TriggerEventName>TB_captive_tds_rescue_refuse</TriggerEventName>
             </Option>
@@ -62,7 +62,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captive_tds_rescue_sex</Name>
-        <Text>{=TBCaptiveEvents_Female_207}The man smiles greedily, as though that were exactly what he had in mind. Once you're far enough from camp, he carefully drops you to the ground, then deftly removes his clothes, gently pulling you to your knees. His manhood is neither particularly large nor long, but smells both manly and sweet, like musk and honey, and you relish the taste as you lick it to full hardness. He seems happy with your efforts, and before long he pushes you off of it, offering you his hand and pulling you to your feet. </Text>
+        <Text>The man smiles greedily, as though that were exactly what he had in mind. Once you're far enough from camp, he carefully drops you to the ground, then deftly removes his clothes, gently pulling you to your knees. His manhood is neither particularly large nor long, but smells both manly and sweet, like musk and honey, and you relish the taste as you lick it to full hardness. He seems happy with your efforts, and before long he pushes you off of it, offering you his hand and pulling you to your feet. </Text>
         <BackgroundName>NK_tds_oral_sit</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -81,7 +81,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_208}What now?</OptionText>
+                <OptionText>What now?</OptionText>
                 <TriggerEventName>TB_captive_tds_rescue_sex_2</TriggerEventName>
             </Option>
         </Options>
@@ -92,7 +92,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captive_tds_rescue_sex_2</Name>
-        <Text>{=TBCaptiveEvents_Female_209}The man grins toothily, pulling your aching breasts against his muscled chest and kissing you deeply and tenderly. You feel his manhood poke excitedly at your groin and spread your legs to allow it passage, but he seems happy to simply tease your clit with his glans, fondling and massaging your back and buttocks as your lips continue their fluttering dance until your body is singing with arousal. </Text>
+        <Text>The man grins toothily, pulling your aching breasts against his muscled chest and kissing you deeply and tenderly. You feel his manhood poke excitedly at your groin and spread your legs to allow it passage, but he seems happy to simply tease your clit with his glans, fondling and massaging your back and buttocks as your lips continue their fluttering dance until your body is singing with arousal. </Text>
         <BackgroundName>NK_tds_doggy</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -111,7 +111,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_210}Whimper with need.</OptionText>
+                <OptionText>Whimper with need.</OptionText>
                 <TriggerEventName>TB_captive_tds_rescue_sex_3</TriggerEventName>
                 <PregnancyRiskModifier>17</PregnancyRiskModifier>
             </Option>
@@ -123,7 +123,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captive_tds_rescue_sex_3</Name>
-        <Text>{=TBCaptiveEvents_Female_211}Suddenly, the man plunges his manhood into your cleft. It's neither particularly large nor long, but moves with an uncanny skill, teasing your most tender surfaces with a rhythm and force that soon become unbearably pleasurable. You come, grinding your sex against his groin and biting into his neck, but he doesn't even slow down. You spend the next hour in a state of near-constant bliss, your body surrendering completely to his expert touch, and finally pass out from pleasure as he surges inside you. When you wake, he is gone, leaving a single flower gently nestled between your breasts.</Text>
+        <Text>Suddenly, the man plunges his manhood into your cleft. It's neither particularly large nor long, but moves with an uncanny skill, teasing your most tender surfaces with a rhythm and force that soon become unbearably pleasurable. You come, grinding your sex against his groin and biting into his neck, but he doesn't even slow down. You spend the next hour in a state of near-constant bliss, your body surrendering completely to his expert touch, and finally pass out from pleasure as he surges inside you. When you wake, he is gone, leaving a single flower gently nestled between your breasts.</Text>
         <BackgroundName>NK_tds_doggy_held</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -144,7 +144,7 @@
                     <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_212}Try to stagger to your feet.</OptionText>
+                <OptionText>Try to stagger to your feet.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
             </Option>
         </Options>
@@ -155,7 +155,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captive_tds_rescue_gold</Name>
-        <Text>{=TBCaptiveEvents_Female_213}The man smiles, somehow disappointed, as though that were not exactly what he had in mind. Once you're far enough from camp, he gently drops you to the ground. He escorts you to your camp, smiling toothily at your guards as they watch him warily. You count out a goodly sum of gold, and he curtly bows before turning to leave, payment in hand.</Text>
+        <Text>The man smiles, somehow disappointed, as though that were not exactly what he had in mind. Once you're far enough from camp, he gently drops you to the ground. He escorts you to your camp, smiling toothily at your guards as they watch him warily. You count out a goodly sum of gold, and he curtly bows before turning to leave, payment in hand.</Text>
         <BackgroundName>NK_tds_farewell</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -174,7 +174,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_214}At least you're safe now.</OptionText>
+                <OptionText>At least you're safe now.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -184,7 +184,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captive_tds_rescue_refuse</Name>
-        <Text>{=TBCaptiveEvents_Female_215}The man frowns at your refusal, shaking his head in disappointment. He mentions that he's an honorable man, but his honor and reputation demand that he must extract payment for his efforts, willingly or not. Once you're far enough from camp, he swiftly drops you to the ground, then deftly removes his clothes. He pounces onto you before you can react, kissing you deeply as you struggle beneath him. Annoyed, he grabs your arms in one frightfully strong hand and holds them behind you. You feel his manhood tease your clit and whimper in fear and anticipation.</Text>
+        <Text>The man frowns at your refusal, shaking his head in disappointment. He mentions that he's an honorable man, but his honor and reputation demand that he must extract payment for his efforts, willingly or not. Once you're far enough from camp, he swiftly drops you to the ground, then deftly removes his clothes. He pounces onto you before you can react, kissing you deeply as you struggle beneath him. Annoyed, he grabs your arms in one frightfully strong hand and holds them behind you. You feel his manhood tease your clit and whimper in fear and anticipation.</Text>
         <BackgroundName>NK_tds_doggy_held</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -203,7 +203,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_216}He calls this honor?</OptionText>
+                <OptionText>He calls this honor?</OptionText>
                 <TriggerEventName>TB_captive_tds_rescue_refuse_2</TriggerEventName>
             </Option>
         </Options>
@@ -214,7 +214,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captive_tds_rescue_refuse_2</Name>
-        <Text>{=TBCaptiveEvents_Female_217}Suddenly, the man plunges his manhood into your cleft. You'd braced yourself for pain, but there is none. Instead the man moves with an uncanny skill, teasing your most tender surfaces with a rhythm and force that soon become unbearably pleasurable. You come, grinding your sex against his groin and biting into his neck, but he doesn't even slow down. You spend the next hour in a state of near-constant bliss, your body surrendering completely to his expert touch, and finally pass out from pleasure as he surges inside you. When you wake, he is gone, leaving a single flower gently nestled between your breasts.</Text>
+        <Text>Suddenly, the man plunges his manhood into your cleft. You'd braced yourself for pain, but there is none. Instead the man moves with an uncanny skill, teasing your most tender surfaces with a rhythm and force that soon become unbearably pleasurable. You come, grinding your sex against his groin and biting into his neck, but he doesn't even slow down. You spend the next hour in a state of near-constant bliss, your body surrendering completely to his expert touch, and finally pass out from pleasure as he surges inside you. When you wake, he is gone, leaving a single flower gently nestled between your breasts.</Text>
         <BackgroundName>NK_tds_doggy_held</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -235,7 +235,7 @@
                     <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_212}Try to stagger to your feet.</OptionText>
+                <OptionText>Try to stagger to your feet.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
             </Option>
         </Options>

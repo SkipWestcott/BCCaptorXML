@@ -2,7 +2,7 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
   <CEEvent>
     <Name>CE_slavery_waiting_menu</Name>
-    <Text>{=BCCaptor_Text_14451}{?DAYS}You've been {OWNER_NAME}'s slave for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}. You watch carefully for your chance to escape this hell.{?}You are a resistant slave.{\?}</Text>
+    <Text>{?DAYS}You've been {OWNER_NAME}'s slave for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}. You watch carefully for your chance to escape this hell.{?}You are a resistant slave.{\?}</Text>
     <BackgroundName>BC_image_slavery_cell_stand_touch</BackgroundName> 
     <MultipleRestrictedListOfFlags>
       <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
@@ -23,7 +23,7 @@
           <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
           <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
         </MultipleRestrictedListOfConsequences>
-        <OptionText>{=DefaultCaptiveEventsFemale73}Try to escape.</OptionText>
+        <OptionText>Try to escape.</OptionText>
         <ReqHeroHealthAbovePercentage>33</ReqHeroHealthAbovePercentage>
         <RelationTotal>R -1 -7</RelationTotal>
         <EscapeChance>10</EscapeChance>
@@ -36,7 +36,7 @@
   </CEEvent>
   <CEEvent>
     <Name>CE_slavery_waiting_menu_siege</Name>
-    <Text>{=BCCaptor_Text_14452}{?DAYS}You've been {OWNER_NAME}'s slave for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}. Your master has ordered extra guards to watch you so that you don't disappear during the siege.{?}Is there some chance you might escape?{\?}</Text>
+    <Text>{?DAYS}You've been {OWNER_NAME}'s slave for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}. Your master has ordered extra guards to watch you so that you don't disappear during the siege.{?}Is there some chance you might escape?{\?}</Text>
     <BackgroundName>BC_image_slavery_cell_stand_under</BackgroundName>
     <MultipleRestrictedListOfFlags>
       <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
@@ -58,7 +58,7 @@
           <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
           <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
         </MultipleRestrictedListOfConsequences>
-        <OptionText>{=DefaultCaptiveEventsFemale73}Try to escape.</OptionText>
+        <OptionText>Try to escape.</OptionText>
         <ReqHeroHealthAbovePercentage>33</ReqHeroHealthAbovePercentage>
         <RelationTotal>R -1 -7</RelationTotal>
         <EscapeChance>10</EscapeChance>
@@ -71,7 +71,7 @@
   </CEEvent>
   <CEEvent>
     <Name>CE_slavery_waiting_menu_2</Name>
-    <Text>{=BCCaptor_Text_14453}{?DAYS}You've been a slave for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}. You've learned that disobedience means pain, and nervously await your master's next depraved command.{?}You are a resigned slave.{\?}</Text>
+    <Text>{?DAYS}You've been a slave for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}. You've learned that disobedience means pain, and nervously await your master's next depraved command.{?}You are a resigned slave.{\?}</Text>
     <BackgroundName>BC_image_slavery_cell_stand_back</BackgroundName>
     <MultipleRestrictedListOfFlags>
       <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
@@ -93,7 +93,7 @@
           <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
           <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
         </MultipleRestrictedListOfConsequences>
-        <OptionText>{=DefaultCaptiveEventsFemale73}Try to escape.</OptionText>
+        <OptionText>Try to escape.</OptionText>
         <ReqHeroHealthAbovePercentage>33</ReqHeroHealthAbovePercentage>
         <RelationTotal>R -1 -7</RelationTotal>
         <EscapeChance>10</EscapeChance>
@@ -107,7 +107,7 @@
   </CEEvent>
   <CEEvent>
     <Name>CE_slavery_waiting_menu_2_siege</Name>
-    <Text>{=BCCaptor_Text_14454}{?DAYS}You've been a slave for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}. You'd all but given up on escape, but as the castle you're in is being sieged...{?}Is there some chance for you to escape?{\?}</Text>
+    <Text>{?DAYS}You've been a slave for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}. You'd all but given up on escape, but as the castle you're in is being sieged...{?}Is there some chance for you to escape?{\?}</Text>
     <BackgroundName>BC_image_slavery_cell_stand_touch</BackgroundName>
     <MultipleRestrictedListOfFlags>
       <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
@@ -130,7 +130,7 @@
           <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
           <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
         </MultipleRestrictedListOfConsequences>
-        <OptionText>{=DefaultCaptiveEventsFemale73}Try to escape.</OptionText>
+        <OptionText>Try to escape.</OptionText>
         <ReqHeroHealthAbovePercentage>33</ReqHeroHealthAbovePercentage>
         <RelationTotal>R -1 -7</RelationTotal>
         <EscapeChance>10</EscapeChance>
@@ -144,7 +144,7 @@
   </CEEvent>
   <CEEvent>
     <Name>CE_slavery_waiting_menu_3</Name>
-    <Text>{=BCCaptor_Text_14455}{?DAYS}You've been a slave for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}. You exist to please your master, and wait obediently to serve him, flinching occasionally at shadows.{?}You are a broken slave.{\?}</Text>
+    <Text>{?DAYS}You've been a slave for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}. You exist to please your master, and wait obediently to serve him, flinching occasionally at shadows.{?}You are a broken slave.{\?}</Text>
     <BackgroundName>BC_image_slavery_bound_look_tits</BackgroundName>
     <MultipleRestrictedListOfFlags>
       <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
@@ -168,7 +168,7 @@
           <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
           <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
         </MultipleRestrictedListOfConsequences>
-        <OptionText>{=TBSlaveryEventsFemaleSexualBroken009}Check if your master needs his slave.</OptionText>
+        <OptionText>Check if your master needs his slave.</OptionText>
         <RenownTotal>R -1 -3</RenownTotal>
         <RelationTotal>R 1 3</RelationTotal>
         <SlaveryTotal>R 4 12</SlaveryTotal>
@@ -183,7 +183,7 @@
   </CEEvent>
   <CEEvent>
     <Name>CE_slavery_waiting_menu_3_siege</Name>
-    <Text>{=BCCaptor_Text_14456}{?DAYS}You've been a slave for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}. You exist to please your master, and wait obediently to serve him, flinching occasionally at shadows. Is there a siege outside? Does it even matter?{?}You are a broken slave.{\?}</Text>
+    <Text>{?DAYS}You've been a slave for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}. You exist to please your master, and wait obediently to serve him, flinching occasionally at shadows. Is there a siege outside? Does it even matter?{?}You are a broken slave.{\?}</Text>
     <BackgroundName>BC_image_slavery_bound_look_tits</BackgroundName>
     <MultipleRestrictedListOfFlags>
       <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
@@ -208,7 +208,7 @@
           <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
           <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
         </MultipleRestrictedListOfConsequences>
-        <OptionText>{=TBSlaveryEventsFemaleSexualBroken009}Check if your master needs his slave.</OptionText>
+        <OptionText>Check if your master needs his slave.</OptionText>
         <RenownTotal>R -1 -3</RenownTotal>
         <RelationTotal>R 1 3</RelationTotal>
         <SlaveryTotal>R 4 12</SlaveryTotal>
@@ -221,7 +221,7 @@
           <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
           <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
         </MultipleRestrictedListOfConsequences>
-        <OptionText>{=DefaultCaptiveEventsFemale73}Try to escape.</OptionText>
+        <OptionText>Try to escape.</OptionText>
         <RelationTotal>R -1 -7</RelationTotal>
         <EscapeChance>10</EscapeChance>
         <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
@@ -236,7 +236,7 @@
   </CEEvent>
   <CEEvent>
     <Name>CE_slavery_waiting_menu_4</Name>
-    <Text>{=BCCaptor_Text_14457}{?DAYS}You've been forced to march as a slave {?ISCARAVAN}in the {PARTY_NAME}{?}of {PARTY_NAME}{\?} for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}.{?}You are a traveling slave {?ISCARAVAN}in the {PARTY_NAME}{?}of {PARTY_NAME}{\?}.{\?}</Text>
+    <Text>{?DAYS}You've been forced to march as a slave {?ISCARAVAN}in the {PARTY_NAME}{?}of {PARTY_NAME}{\?} for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}.{?}You are a traveling slave {?ISCARAVAN}in the {PARTY_NAME}{?}of {PARTY_NAME}{\?}.{\?}</Text>
     <!-- <BackgroundName>BC_image_slavery_white_leash_chain</BackgroundName> -->
     
     <BackgroundAnimation>
@@ -351,7 +351,7 @@
           <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
           <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
         </MultipleRestrictedListOfConsequences>
-        <OptionText>{=TBSlaveryEventsFemaleSexualBroken009}Check if your master needs his slave.</OptionText>
+        <OptionText>Check if your master needs his slave.</OptionText>
         <RenownTotal>R -1 -3</RenownTotal>
         <RelationTotal>R 1 3</RelationTotal>
         <SlaveryTotal>R 4 12</SlaveryTotal>
@@ -364,7 +364,7 @@
           <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
           <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
         </MultipleRestrictedListOfConsequences>
-        <OptionText>{=DefaultCaptiveEventsFemale73}Try to escape.</OptionText>
+        <OptionText>Try to escape.</OptionText>
         <RelationTotal>R -1 -7</RelationTotal>
         <EscapeChance>5</EscapeChance>
         <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
@@ -493,7 +493,7 @@ There's a siege going on, and you are servicing the defenders to keep up morale.
   <!-- While Party outside-->
   <CEEvent>
     <Name>CE_slavery_waiting_menu_7</Name>
-    <Text>{=BCCaptor_Text_14457}{?DAYS}You've been forced to march as a slave {?ISCARAVAN}in the {PARTY_NAME}{?}of {PARTY_NAME}{\?} for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}.{?}You are a traveling slave {?ISCARAVAN}in the {PARTY_NAME}{?}of {PARTY_NAME}{\?}.{\?}</Text>
+    <Text>{?DAYS}You've been forced to march as a slave {?ISCARAVAN}in the {PARTY_NAME}{?}of {PARTY_NAME}{\?} for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}.{?}You are a traveling slave {?ISCARAVAN}in the {PARTY_NAME}{?}of {PARTY_NAME}{\?}.{\?}</Text>
     <BackgroundName>BC_image_slavery_white_leash_chain</BackgroundName>
     <MultipleRestrictedListOfFlags>
       <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
@@ -517,7 +517,7 @@ There's a siege going on, and you are servicing the defenders to keep up morale.
           <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
           <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
         </MultipleRestrictedListOfConsequences>
-        <OptionText>{=TBSlaveryEventsFemaleSexualBroken009}Check if your master needs his slave.</OptionText>
+        <OptionText>Check if your master needs his slave.</OptionText>
         <RenownTotal>R -1 -3</RenownTotal>
         <RelationTotal>R 1 3</RelationTotal>
         <SlaveryTotal>R 4 12</SlaveryTotal>
@@ -531,7 +531,7 @@ There's a siege going on, and you are servicing the defenders to keep up morale.
           <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
           <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
         </MultipleRestrictedListOfConsequences>
-        <OptionText>{=DefaultCaptiveEventsFemale73}Try to escape.</OptionText>
+        <OptionText>Try to escape.</OptionText>
         <RelationTotal>R -1 -7</RelationTotal>
         <EscapeChance>5</EscapeChance>
         <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>

@@ -36,7 +36,7 @@
                 <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
             </Option>
             <Option>
-                <Order>2</Order>
+                <Order>3</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>SoldToSettlement</RestrictedListOfConsequences>
@@ -132,7 +132,7 @@
                 <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
             </Option>
             <Option>
-                <Order>1</Order>
+                <Order>3</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
@@ -214,7 +214,7 @@
                 <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
             </Option>
             <Option>
-                <Order>1</Order>
+                <Order>2</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>

@@ -750,7 +750,7 @@
         </MultipleRestrictedListOfFlags>
         <Options>
             <Option>
-                <Order>0</Order>
+                <Order>2</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
@@ -781,7 +781,7 @@
                 </TriggerEvents>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
@@ -1690,7 +1690,7 @@
                 <TriggerEventName>TB_captor_captive_relation_devoted_nospouse_2</TriggerEventName>
             </Option>
             <Option>
-                <Order>2</Order>
+                <Order>3</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
@@ -1821,7 +1821,7 @@
                 </SkillsToLevel>
             </Option>
             <Option>
-                <Order>2</Order>
+                <Order>3</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
@@ -2149,7 +2149,7 @@
                 <TriggerEventName>TB_captor_captive_relation_devoted_nospouse_2</TriggerEventName>
             </Option>
             <Option>
-                <Order>2</Order>
+                <Order>3</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
@@ -2205,7 +2205,7 @@
                 <TriggerEventName>TB_captor_captive_slavery_broken_nospouse_2</TriggerEventName>
             </Option>
             <Option>
-                <Order>2</Order>
+                <Order>3</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
@@ -2293,7 +2293,7 @@
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <PregnancyRiskModifier>17</PregnancyRiskModifier>
-                <OptionText>{=TBRandomEventsMale_Noncon031}Let her go.</OptionText>
+                <OptionText>Let her go.</OptionText>
             </Option>
         </Options>
         <SkillsToLevel>
@@ -3382,6 +3382,7 @@
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CaptiveAffection" Min="-50" Ref="Hero"/>
+            <SkillRequired Id="IsThief" Max="0" Ref="Hero"/>
         </SkillsRequired>
     </CEEvent>
     <CEEvent>
@@ -3452,6 +3453,7 @@
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CaptiveAffection" Min="-50" Ref="Hero"/>
+            <SkillRequired Id="IsThief" Max="0" Ref="Hero"/>
         </SkillsRequired>
     </CEEvent>
     <CEEvent>
@@ -3886,7 +3888,7 @@
                 </SkillsToLevel>
             </Option>
             <Option>
-                <Order>1</Order>
+                <Order>2</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>

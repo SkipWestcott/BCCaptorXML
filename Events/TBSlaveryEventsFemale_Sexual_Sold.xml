@@ -245,7 +245,7 @@
                 <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
             </Option>
             <Option>
-                <Order>2</Order>
+                <Order>3</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>AddSlaveryFlag</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
@@ -429,7 +429,7 @@
                 <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
             </Option>
             <Option>
-                <Order>2</Order>
+                <Order>3</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
@@ -618,7 +618,7 @@
                 <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
             </Option>
             <Option>
-                <Order>2</Order>
+                <Order>3</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>

@@ -1036,7 +1036,7 @@
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
-        <Name>BC_event_female_sex_fff_1</Name>
+        <Name>BC_event_female_sex_fff_2</Name>
         <Text>{=BCCaptor_Text_14183}You call up a wanton slut from your camp, formerly from the finest family of course, just as {CAPTIVE_NAME}. Her eyes widen and shut as you and your guest give and are given tongues, skin, fingers... You press together until neither of you can wake {CAPTIVE_NAME}, and then...</Text>
         <BackgroundName>BC_image_sex_fff_greco</BackgroundName>
         <MultipleRestrictedListOfFlags>

@@ -2,7 +2,7 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_slavery_waiting_menu_eager</Name>
-        <Text>{=BCCaptor_Text_12699}{?DAYS}You've been a slave for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}. You need to be filled. Why is your master ignoring you? It's been minutes since you last had a hard cock filling your holes.{?}You are an eager slave.{\?}</Text>
+        <Text>{?DAYS}You've been a slave for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}. You need to be filled. Why is your master ignoring you? It's been minutes since you last had a hard cock filling your holes.{?}You are an eager slave.{\?}</Text>
         <BackgroundName>BC_image_slavery_bound_look_full</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -23,7 +23,7 @@
                     <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBSlaveryEventsFemaleSexualEager016}Beg your master to fuck his slave.</OptionText>
+                <OptionText>Beg your master to fuck his slave.</OptionText>
                 <SlaveryTotal>R 4 12</SlaveryTotal>
                 <PregnancyRiskModifier>1</PregnancyRiskModifier>
                 <TriggerEvents>

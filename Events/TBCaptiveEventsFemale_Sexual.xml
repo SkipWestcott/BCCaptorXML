@@ -2,7 +2,7 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_consensual_friendly_lord_rescue</Name>
-        <Text>{=TBCaptiveEvents_Female_218}Your captors are ambushed by a group of well-armed and armored warriors, led from the front by a handsome lordling set on proving his worth. He forces your captors' army into a rout, but takes care to ensure they do not take you or the rest of the prisoners with them. The lordling dismounts, beaming at his victory, and announces that by his boundless generosity all of you are now free to go. Recognizing you as a fellow noble, he offers you both food, rest, and the use of his doctors.</Text>
+        <Text>Your captors are ambushed by a group of well-armed and armored warriors, led from the front by a handsome lordling set on proving his worth. He forces your captors' army into a rout, but takes care to ensure they do not take you or the rest of the prisoners with them. The lordling dismounts, beaming at his victory, and announces that by his boundless generosity all of you are now free to go. Recognizing you as a fellow noble, he offers you both food, rest, and the use of his doctors.</Text>
         <BackgroundName>BC_image_companion_male_youth</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -27,20 +27,20 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_219}Thank him for his timely aid.</OptionText>
+                <OptionText>Thank him for his timely aid.</OptionText>
                 <RelationTotal>R 1 7</RelationTotal>
                 <RenownTotal>R 1 3</RenownTotal>
                 <HealthTotal>R 20 40</HealthTotal>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_220}He *is* quite handsome... Offer your body as thanks.</OptionText>
+                <OptionText>He *is* quite handsome... Offer your body as thanks.</OptionText>
                 <RelationTotal>R 1 7</RelationTotal>
                 <HealthTotal>R 20 40</HealthTotal>
                 <SkillsToLevel>
@@ -62,7 +62,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_consensual_friendly_lord_rescue_sex</Name>
-        <Text>{=TBCaptiveEvents_Female_221}The noble seems taken aback, as though offended by the suggestion that he would intend anything so improper, but you watch his eyes move greedily up and down your body and share a knowing grin. You lead him to his pavilion and gently push him down against his bed, straddling his legs. Through his clothing, you feel his girth brush against your sex as you begin to remove his belt... The following morning, you share a lively if unusually suggestive conversation on the subject of tactics and leadership.</Text>
+        <Text>The noble seems taken aback, as though offended by the suggestion that he would intend anything so improper, but you watch his eyes move greedily up and down your body and share a knowing grin. You lead him to his pavilion and gently push him down against his bed, straddling his legs. Through his clothing, you feel his girth brush against your sex as you begin to remove his belt... The following morning, you share a lively if unusually suggestive conversation on the subject of tactics and leadership.</Text>
         <BackgroundName>BC_image_sex_mf_vag_cum_wood</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -84,7 +84,7 @@
                     <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_222}Take your leave. Perhaps you'll see each other again?</OptionText>
+                <OptionText>Take your leave. Perhaps you'll see each other again?</OptionText>
                 <PregnancyRiskModifier>1</PregnancyRiskModifier>
                 <RenownTotal>R 1 3</RenownTotal>
             </Option>
@@ -96,7 +96,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_consensual_friendly_caravan_rescue</Name>
-        <Text>{=TBCaptiveEvents_Female_223}Your captors stop to purchase supplies from a passing caravan, and one of its leaders recognizes your noble bearing. She offers them a discount on her wares if they include you in the trade, and though you fear her intentions as they leave, she smiles at you and offers you your freedom. She asks only that you look kindly upon her caravan the next time you meet.</Text>
+        <Text>Your captors stop to purchase supplies from a passing caravan, and one of its leaders recognizes your noble bearing. She offers them a discount on her wares if they include you in the trade, and though you fear her intentions as they leave, she smiles at you and offers you your freedom. She asks only that you look kindly upon her caravan the next time you meet.</Text>
         <BackgroundName>BC_image_companion_female_bow</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -121,18 +121,18 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_224}Thank her for her generosity.</OptionText>
+                <OptionText>Thank her for her generosity.</OptionText>
                 <HealthTotal>R 20 40</HealthTotal>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_225}Notice the way she looks at you, and offer to pleasure her as thanks.</OptionText>
+                <OptionText>Notice the way she looks at you, and offer to pleasure her as thanks.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <HealthTotal>R 20 40</HealthTotal>
                 <SkillsToLevel>
@@ -151,7 +151,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_consensual_friendly_caravan_rescue_sex</Name>
-        <Text>{=TBCaptiveEvents_Female_226}At first she seems wary of your proposal, but as you lick your lips with your talented tongue, she shivers with arousal. Leading you to a private tent, she seems unsure how to proceed until you remove your shirt with one hand, revealing your supple breasts, and slowly tease your hand up the inside of her thigh with the other. She moans at the sensation, and you both realize how unbearably horny the other is... The following morning, you find yourself sharing a delicious breakfast and chatting amicably about the prices of local goods.</Text>
+        <Text>At first she seems wary of your proposal, but as you lick your lips with your talented tongue, she shivers with arousal. Leading you to a private tent, she seems unsure how to proceed until you remove your shirt with one hand, revealing your supple breasts, and slowly tease your hand up the inside of her thigh with the other. She moans at the sensation, and you both realize how unbearably horny the other is... The following morning, you find yourself sharing a delicious breakfast and chatting amicably about the prices of local goods.</Text>
         <BackgroundName>BC_image_ff_jungle_waterfall</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -171,7 +171,7 @@
                     <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_227}Cheerfully part ways with your lover.</OptionText>
+                <OptionText>Cheerfully part ways with your lover.</OptionText>
                 <PregnancyRiskModifier>1</PregnancyRiskModifier>
             </Option>
         </Options>
@@ -182,7 +182,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_consensual_friendly_captor_rescue</Name>
-        <Text>{=TBCaptiveEvents_Female_228}While the rest of your captors are otherwise engaged, their leader orders you to follow him. He carefully walks to the edge of the camp, looking warily about before cutting your bonds. He explains that while he doesn't wish to look weak in front of his men, he feels you have suffered long enough. He asks only that you return the kindness, should your roles be reversed.</Text>
+        <Text>While the rest of your captors are otherwise engaged, their leader orders you to follow him. He carefully walks to the edge of the camp, looking warily about before cutting your bonds. He explains that while he doesn't wish to look weak in front of his men, he feels you have suffered long enough. He asks only that you return the kindness, should your roles be reversed.</Text>
         <BackgroundName>BC_image_companion_male_come_here</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -207,7 +207,7 @@
                     <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_229}Thank him for his generosity.</OptionText>
+                <OptionText>Thank him for his generosity.</OptionText>
                 <RelationTotal>R 5 12</RelationTotal>
             </Option>
             <Option>
@@ -218,7 +218,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_230}Offer to reward his generosity with your body...</OptionText>
+                <OptionText>Offer to reward his generosity with your body...</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero" />
@@ -236,7 +236,7 @@
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_231}Beg him to let you stay his captive.</OptionText>
+                <OptionText>Beg him to let you stay his captive.</OptionText>
                 <RelationTotal>R 5 12</RelationTotal>
             </Option>
         </Options>
@@ -248,7 +248,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_consensual_friendly_captor_rescue_sex</Name>
-        <Text>{=TBCaptiveEvents_Female_232}Your former captor protests that it would be improper for him to take advantage, but his jabbering stops as you shove your tongue in his mouth, kissing him deeply. You press yourself against him, mischievously moving one hand down to stroke his manhood while the other grasps his firm butt, and he gives in to his lust, pushing you to the ground with brutish, virile strength as he undoes his breeches. You spend a blissful afternoon under - and over - and against - an oak tree, and as evening approaches you find yourself curled up in his gentle embrace, watching the sun set over the horizon.</Text>
+        <Text>Your former captor protests that it would be improper for him to take advantage, but his jabbering stops as you shove your tongue in his mouth, kissing him deeply. You press yourself against him, mischievously moving one hand down to stroke his manhood while the other grasps his firm butt, and he gives in to his lust, pushing you to the ground with brutish, virile strength as he undoes his breeches. You spend a blissful afternoon under - and over - and against - an oak tree, and as evening approaches you find yourself curled up in his gentle embrace, watching the sun set over the horizon.</Text>
         <BackgroundName>BC_image_sex_mf_cowgirl_stone_pov</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -269,7 +269,7 @@
                     <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_233}Thank him for a memorable afternoon as you leave.</OptionText>
+                <OptionText>Thank him for a memorable afternoon as you leave.</OptionText>
                 <PregnancyRiskModifier>1</PregnancyRiskModifier>
             </Option>
         </Options>
@@ -280,7 +280,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_consensual_ally_rescue</Name>
-        <Text>{=TBCaptiveEvents_Female_234}One of your allies sneaks into camp to help you escape, stealthily removing your chains and carefully making their way to a couple of horses they've brought for the occasion. As your former captor's encampment fades from view, your rescuer asks you what your plans are now.</Text>
+        <Text>One of your allies sneaks into camp to help you escape, stealthily removing your chains and carefully making their way to a couple of horses they've brought for the occasion. As your former captor's encampment fades from view, your rescuer asks you what your plans are now.</Text>
         <BackgroundName>BC_image_companion_male_broadsword</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -305,7 +305,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_235}First, fame. Then, glory.</OptionText>
+                <OptionText>First, fame. Then, glory.</OptionText>
                 <EscapeChance>100</EscapeChance>
                 <RenownTotal>R 1 3</RenownTotal>
                 <SkillsToLevel>
@@ -313,14 +313,14 @@
                 </SkillsToLevel>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_236}After all that riding, you're feeling quite aroused...</OptionText>
+                <OptionText>After all that riding, you're feeling quite aroused...</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <HealthTotal>R 10 30</HealthTotal>
                 <SkillsToLevel>
@@ -342,7 +342,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_consensual_ally_rescue_sex</Name>
-        <Text>{=TBCaptiveEvents_Female_237}Your ally seems at first concerned that after your captivity you would still be interested in sex, but stops complaining as soon as you reach down his pants and grasp his balls in your hand. He's a passionate and tender lover, and kisses you deeply, his lips moist and tender. Hours later, satisfied from your exertions, you continue along your way.</Text>
+        <Text>Your ally seems at first concerned that after your captivity you would still be interested in sex, but stops complaining as soon as you reach down his pants and grasp his balls in your hand. He's a passionate and tender lover, and kisses you deeply, his lips moist and tender. Hours later, satisfied from your exertions, you continue along your way.</Text>
         <BackgroundName>BC_image_sex_mf_cowgirl_stone</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -362,7 +362,7 @@
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_238}Thank him for a memorable afternoon as you leave.</OptionText>
+                <OptionText>Thank him for a memorable afternoon as you leave.</OptionText>
                 <PregnancyRiskModifier>1</PregnancyRiskModifier>
                 <EscapeChance>100</EscapeChance>
             </Option>

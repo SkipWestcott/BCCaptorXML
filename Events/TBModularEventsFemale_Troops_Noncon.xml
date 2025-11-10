@@ -46,7 +46,7 @@
                 </TriggerEvents>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
@@ -184,7 +184,7 @@
                 <RenownTotal>R -1 -3</RenownTotal>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
@@ -193,7 +193,7 @@
                 <OptionText>{=TBModularEventsFemale_Troops_Noncon011}Weep quietly.</OptionText>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>2</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>

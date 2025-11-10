@@ -3,7 +3,7 @@
 
     <CEEvent>
         <Name>TB_captor_captive_player_sex_broken</Name>
-        <Text>{=TBCaptorEvents_Common_024}You approach {CAPTIVE_NAME} and {?ISCAPTIVEFEMALE}she automatically drops to her knees, sensing your arousal. You retreat to a quiet spot and spend a few minutes roughly fucking as she dutifully pleasures you. When you finish, covering her in your fluids, she merely thanks you for using your slave and kneels once more, ready for your next order.{?}he automatically drops to his knees, sensing your arousal. You retreat to a quiet spot and spend a few minutes roughly fucking as he dutifully pleasures you, begging you to fuck him harder and abuse your slave's body so that it may bring you pleasure. When you finish, covering him in your fluids, he merely kneels once more, ready to obey your whims.{\?}</Text>
+        <Text>You approach {CAPTIVE_NAME} and {?ISCAPTIVEFEMALE}she automatically drops to her knees, sensing your arousal. You retreat to a quiet spot and spend a few minutes roughly fucking as she dutifully pleasures you. When you finish, covering her in your fluids, she merely thanks you for using your slave and kneels once more, ready for your next order.{?}he automatically drops to his knees, sensing your arousal. You retreat to a quiet spot and spend a few minutes roughly fucking as he dutifully pleasures you, begging you to fuck him harder and abuse your slave's body so that it may bring you pleasure. When you finish, covering him in your fluids, he merely kneels once more, ready to obey your whims.{\?}</Text>
         <Backgrounds>
             <Background Name="TB_scion_cuddle" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_male_roadside" UseConditions="BC_event_conditions_captive_male" />
@@ -25,7 +25,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationHero</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_025}What would you like to do next?</OptionText>
+                <OptionText>What would you like to do next?</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>CE_captor_female_sexual_menu</EventName>
@@ -65,7 +65,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_captive_player_sex_mindbroken</Name>
-        <Text>{=TBCaptorEvents_Common_026}You approach {CAPTIVE_NAME} and {?ISCAPTIVEFEMALE}she automatically drops to her knees, sensing your arousal. You retreat to a quiet spot and spend a few minutes roughly fucking as she dutifully pleasures you, begging you to fuck her harder and abuse your slave's body so that it may bring you pleasure. When you finish, covering her in your fluids, she merely continues licking you, hatred seething in her eyes.{?}he automatically drops to his knees, sensing your arousal. You retreat to a quiet spot and spend a few minutes roughly fucking as he dutifully pleasures you, begging you to fuck him harder and abuse your slave's body so that it may bring you pleasure. When you finish, covering him in your fluids, she merely continues licking you, hatred seething in his eyes.{\?}</Text>
+        <Text>You approach {CAPTIVE_NAME} and {?ISCAPTIVEFEMALE}she automatically drops to her knees, sensing your arousal. You retreat to a quiet spot and spend a few minutes roughly fucking as she dutifully pleasures you, begging you to fuck her harder and abuse your slave's body so that it may bring you pleasure. When you finish, covering her in your fluids, she merely continues licking you, hatred seething in her eyes.{?}he automatically drops to his knees, sensing your arousal. You retreat to a quiet spot and spend a few minutes roughly fucking as he dutifully pleasures you, begging you to fuck him harder and abuse your slave's body so that it may bring you pleasure. When you finish, covering him in your fluids, she merely continues licking you, hatred seething in his eyes.{\?}</Text>
         <Backgrounds>
             <Background Name="TB_scion_cuddle" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_male_roadside" UseConditions="BC_event_conditions_captive_male" />
@@ -87,7 +87,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationHero</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_025}What would you like to do next?</OptionText>
+                <OptionText>What would you like to do next?</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>CE_captor_female_sexual_menu</EventName>
@@ -123,7 +123,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_captive_troops_sex_broken</Name>
-        <Text>{=TBCaptorEvents_Common_027}{CAPTIVE_NAME} pleasures your troops with uncanny skill. Within moments, the first of them coats {?ISCAPTIVEFEMALE}her face in his juices. She cries bitterly, but does not disobey your orders, begging the rest of them to fill her worthless holes. They descend upon her, and the camp fills with the sounds of moaning and fucking. By the time a few hours have passed {CAPTIVE_NAME} is barely conscious, still automatically pleasuring each manhood as it enters her broken, cum-coated body. With such an obedient slut at their disposal your troops have entirely forgotten their troubles...{?}his face in their juices. He cries bitterly, but does not disobey your orders, begging the rest of them to fill his worthless holes. They descend upon him, and the camp fills with the sounds of moaning and fucking. By the time a few hours have passed {CAPTIVE_NAME} is barely conscious, still automatically pleasuring each of your troops as they relieve themselves with his cum-glazed body. With such an obedient slut at their disposal your troops have entirely forgotten their troubles...{\?}</Text>
+        <Text>{CAPTIVE_NAME} pleasures your troops with uncanny skill. Within moments, the first of them coats {?ISCAPTIVEFEMALE}her face in his juices. She cries bitterly, but does not disobey your orders, begging the rest of them to fill her worthless holes. They descend upon her, and the camp fills with the sounds of moaning and fucking. By the time a few hours have passed {CAPTIVE_NAME} is barely conscious, still automatically pleasuring each manhood as it enters her broken, cum-coated body. With such an obedient slut at their disposal your troops have entirely forgotten their troubles...{?}his face in their juices. He cries bitterly, but does not disobey your orders, begging the rest of them to fill his worthless holes. They descend upon him, and the camp fills with the sounds of moaning and fucking. By the time a few hours have passed {CAPTIVE_NAME} is barely conscious, still automatically pleasuring each of your troops as they relieve themselves with his cum-glazed body. With such an obedient slut at their disposal your troops have entirely forgotten their troubles...{\?}</Text>
         <Backgrounds>
             <Background Name="TB_scion_group_bound" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_male_roadside" UseConditions="BC_event_conditions_captive_male" />
@@ -146,7 +146,7 @@
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <PregnancyRiskModifier>6</PregnancyRiskModifier>
-                <OptionText>{=TBCaptorEvents_Common_003}A good way to raise morale.</OptionText>
+                <OptionText>A good way to raise morale.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero" Color="Cyan"/>
                 </SkillsToLevel>
@@ -186,7 +186,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_captive_troops_sex_mindbroken</Name>
-        <Text>{=TBCaptorEvents_Common_028}{CAPTIVE_NAME} pleasures your troops with uncanny skill. Within moments, the first of them coats her face in his juices. She slurps it down eagerly, begging the rest of them to fill her holes with their luscious cum. They descend upon her, and the camp fills with the sounds of moaning and fucking. By the time a few hours have passed {CAPTIVE_NAME} is still eager to please, skillfully pleasuring each manhood as it enters her broken, cum-coated body. With such an obedient slut at their disposal your troops have entirely forgotten their troubles, though a few of them seem disconcerted at the horrified, furious look in her eyes.</Text>
+        <Text>{CAPTIVE_NAME} pleasures your troops with uncanny skill. Within moments, the first of them coats her face in his juices. She slurps it down eagerly, begging the rest of them to fill her holes with their luscious cum. They descend upon her, and the camp fills with the sounds of moaning and fucking. By the time a few hours have passed {CAPTIVE_NAME} is still eager to please, skillfully pleasuring each manhood as it enters her broken, cum-coated body. With such an obedient slut at their disposal your troops have entirely forgotten their troubles, though a few of them seem disconcerted at the horrified, furious look in her eyes.</Text>
         <Backgrounds>
             <Background Name="TB_scion_group_bound" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_male_roadside" UseConditions="BC_event_conditions_captive_male" />
@@ -209,7 +209,7 @@
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <PregnancyRiskModifier>6</PregnancyRiskModifier>
-                <OptionText>{=TBCaptorEvents_Common_003}A good way to raise morale.</OptionText>
+                <OptionText>A good way to raise morale.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero" Color="Cyan"/>
                 </SkillsToLevel>

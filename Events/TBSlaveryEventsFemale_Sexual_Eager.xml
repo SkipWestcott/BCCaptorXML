@@ -65,7 +65,7 @@
                 <HealthTotal>R 5 10</HealthTotal>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
@@ -75,7 +75,7 @@
                 <HealthTotal>R 5 10</HealthTotal>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>2</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
@@ -315,7 +315,7 @@
         </MultipleRestrictedListOfFlags>
         <Options>
             <Option>
-                <Order>1</Order>
+                <Order>0</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
@@ -360,7 +360,7 @@
         </MultipleRestrictedListOfFlags>
         <Options>
             <Option>
-                <Order>1</Order>
+                <Order>0</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
@@ -405,7 +405,7 @@
         </MultipleRestrictedListOfFlags>
         <Options>
             <Option>
-                <Order>1</Order>
+                <Order>0</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>

@@ -2,7 +2,7 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_captor_captive_relation_aftersex_cuddle</Name>
-        <Text>{=TBCaptorEvents_Common_000}Some time later you wake, your libido completely drained from hours of exhausting and pleasurable activity. {CAPTIVE_NAME} snuggles beside you contentedly, safe and happy in your presence.</Text>
+        <Text>Some time later you wake, your libido completely drained from hours of exhausting and pleasurable activity. {CAPTIVE_NAME} snuggles beside you contentedly, safe and happy in your presence.</Text>
         <Backgrounds>
             <Background Name="TB_scion_cuddle" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_male_roadside" UseConditions="BC_event_conditions_captive_male" />
@@ -30,7 +30,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_captive_player_sex_devoted</Name>
-        <Text>{=TBCaptorEvents_Common_001}You approach {CAPTIVE_NAME} and {?ISCAPTIVEFEMALE}she nearly leaps into your arms, sensing your arousal. You retreat to a quiet spot and spend several luxurious and exhausting hours sharing each other's bodies, kissing, stroking, grasping, thrusting, and pounding yourselves to a climactic and extremely sticky finish. She licks your body clean with enthusiasm, worshiping every inch of your skin with rapturous devotion.{?}he nearly leaps into your arms, sensing your arousal. You retreat to a quiet spot and spend several luxurious and exhausting hours sharing each other's bodies, kissing, stroking, grasping, thrusting, and pounding yourselves to a climactic and extremely sticky finish. He licks your body clean with enthusiasm, worshiping every inch of your skin with rapturous devotion.{\?}</Text>
+        <Text>You approach {CAPTIVE_NAME} and {?ISCAPTIVEFEMALE}she nearly leaps into your arms, sensing your arousal. You retreat to a quiet spot and spend several luxurious and exhausting hours sharing each other's bodies, kissing, stroking, grasping, thrusting, and pounding yourselves to a climactic and extremely sticky finish. She licks your body clean with enthusiasm, worshiping every inch of your skin with rapturous devotion.{?}he nearly leaps into your arms, sensing your arousal. You retreat to a quiet spot and spend several luxurious and exhausting hours sharing each other's bodies, kissing, stroking, grasping, thrusting, and pounding yourselves to a climactic and extremely sticky finish. He licks your body clean with enthusiasm, worshiping every inch of your skin with rapturous devotion.{\?}</Text>
         <Backgrounds>
             <Background Name="TB_scion_cuddle" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_male_roadside" UseConditions="BC_event_conditions_captive_male" />
@@ -53,7 +53,7 @@
                     <RestrictedListOfConsequences>ImpregnationByPlayer</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12007}What shall you do next?</OptionText>
+                <OptionText>What shall you do next?</OptionText>
                 <RenownTotal>R 2 5</RenownTotal>
                 <TriggerEvents>
                     <TriggerEvent>
@@ -94,7 +94,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_captive_troops_sex_devoted</Name>
-        <Text>{=TBCaptorEvents_Common_002}{CAPTIVE_NAME} pleasures your troops with uncanny skill and devotion. Within moments, the first of them coats {?ISCAPTIVEFEMALE}her face in his juices. She smiles, smacking her ass, and the rest of them descend upon her. The camp fills with the sounds of moaning and fucking, and by the time a few hours have passed {CAPTIVE_NAME} is barely conscious, still automatically pleasuring each manhood as it enters her willing, cum-coated body. With such an eager slut at their disposal your troops have entirely forgotten their troubles...{?}his face in their juices. He smiles, smacking his ass, and the rest of them descend upon him. The camp fills with the sounds of moaning and fucking, and by the time a few hours have passed {CAPTIVE_NAME} is barely conscious, still automatically pleasuring each of your troops as they approach his willing, cum-glazed body. With such an eager slut at their disposal your troops have entirely forgotten their troubles...{\?}</Text>
+        <Text>{CAPTIVE_NAME} pleasures your troops with uncanny skill and devotion. Within moments, the first of them coats {?ISCAPTIVEFEMALE}her face in his juices. She smiles, smacking her ass, and the rest of them descend upon her. The camp fills with the sounds of moaning and fucking, and by the time a few hours have passed {CAPTIVE_NAME} is barely conscious, still automatically pleasuring each manhood as it enters her willing, cum-coated body. With such an eager slut at their disposal your troops have entirely forgotten their troubles...{?}his face in their juices. He smiles, smacking his ass, and the rest of them descend upon him. The camp fills with the sounds of moaning and fucking, and by the time a few hours have passed {CAPTIVE_NAME} is barely conscious, still automatically pleasuring each of your troops as they approach his willing, cum-glazed body. With such an eager slut at their disposal your troops have entirely forgotten their troubles...{\?}</Text>
         <Backgrounds>
             <Background Name="TB_scion_group_bound" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_male_roadside" UseConditions="BC_event_conditions_captive_male" />
@@ -117,7 +117,7 @@
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <PregnancyRiskModifier>6</PregnancyRiskModifier>
-                <OptionText>{=TBCaptorEvents_Common_003}A good way to raise morale.</OptionText>
+                <OptionText>A good way to raise morale.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 5 10" Ref="Hero" Color="Cyan"/>
                 </SkillsToLevel>

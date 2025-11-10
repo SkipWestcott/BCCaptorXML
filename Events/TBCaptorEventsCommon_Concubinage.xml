@@ -2,7 +2,7 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_captor_ask_concubinage_devoted</Name>
-        <Text>{=TBCaptorEvents_Common_016}{?ISCAPTIVEFEMALE}You ask {CAPTIVE_NAME} if she will do you the honor of becoming your loving concubine, and she almost faints at the suggestion, her eyes rapturously wide. She eagerly accepts, promising to be yours for all time, to love and serve you as one of your harem, and to bear you as many children as her womb can provide.{?}You ask {CAPTIVE_NAME} if he will do you the honor of giving you his hand in concubinage, and he almost faints at the suggestion, his eyes rapturously wide. He eagerly accepts, promising to be yours for all time, to love and serve you as one of your harem, and to fill your womb that you may bear as many children as you desire.{\?}</Text>
+        <Text>{?ISCAPTIVEFEMALE}You ask {CAPTIVE_NAME} if she will do you the honor of becoming your loving concubine, and she almost faints at the suggestion, her eyes rapturously wide. She eagerly accepts, promising to be yours for all time, to love and serve you as one of your harem, and to bear you as many children as her womb can provide.{?}You ask {CAPTIVE_NAME} if he will do you the honor of giving you his hand in concubinage, and he almost faints at the suggestion, his eyes rapturously wide. He eagerly accepts, promising to be yours for all time, to love and serve you as one of your harem, and to fill your womb that you may bear as many children as you desire.{\?}</Text>
         <BackgroundName>TB_scion_clothes</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -21,7 +21,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
 					<RestrictedListOfConsequences>CaptiveLeaveSpouse</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_017}Kiss the newest loving member of your harem.</OptionText>
+                <OptionText>Kiss the newest loving member of your harem.</OptionText>
                 <SkillsToLevel>
 					<Skill Id="Concubine" ByLevel="1" Ref="Hero" Color="Magenta"/>
                     <Skill Id="CaptiveAffection" ByLevel="100" Ref="Hero" Color="Cyan"/>
@@ -39,7 +39,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_ask_concubinage_broken</Name>
-        <Text>{=TBCaptorEvents_Common_018}{?ISCAPTIVEFEMALE}You ask {CAPTIVE_NAME} if she will do you the honor of becoming your sworn concubine, and she swallows nervously at the suggestion, her lip trembling in fear. She accepts, her expression resigned, and promises to be yours for all time, to serve in your harem, and to bear you as many children as her womb can provide.{?}You ask {CAPTIVE_NAME} if he will do you the honor of becoming your concubine, and he swallows nervously at the suggestion, his lip trembling in fear. He accepts, promising to be yours for all time, to serve in your harem, and to fill your womb with as many children as you desire.{\?}</Text>
+        <Text>{?ISCAPTIVEFEMALE}You ask {CAPTIVE_NAME} if she will do you the honor of becoming your sworn concubine, and she swallows nervously at the suggestion, her lip trembling in fear. She accepts, her expression resigned, and promises to be yours for all time, to serve in your harem, and to bear you as many children as her womb can provide.{?}You ask {CAPTIVE_NAME} if he will do you the honor of becoming your concubine, and he swallows nervously at the suggestion, his lip trembling in fear. He accepts, promising to be yours for all time, to serve in your harem, and to fill your womb with as many children as you desire.{\?}</Text>
         <Backgrounds>
             <Background Name="TB_scion_slave_kneel" UseConditions="BC_event_conditions_captive_female" />
             <Background Name="TB_thief_kneeling_road" UseConditions="BC_event_conditions_captive_thief_female" />
@@ -64,7 +64,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
 					<RestrictedListOfConsequences>CaptiveLeaveSpouse</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_019}Kiss the newest obedient member of your harem.</OptionText>
+                <OptionText>Kiss the newest obedient member of your harem.</OptionText>
                 <SkillsToLevel>
 					<Skill Id="Concubine" ByLevel="1" Ref="Hero" Color="Magenta"/>
                     <Skill Id="CaptiveObedience" ByLevel="100" Ref="Hero" Color="Cyan"/>
@@ -83,7 +83,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_ask_concubinage_mindbroken</Name>
-        <Text>{=TBCaptorEvents_Common_020}{?ISCAPTIVEFEMALE}You ask {CAPTIVE_NAME} if she will do you the honor of becoming your obedient concubine, and she almost faints at the suggestion, her eyes seething in rage and horror even as she smiles eagerly at you. She accepts, kneeling before you and promising to be yours for all time, to love and serve as a member of your harem, and to bear you as many children as her womb can provide. You can almost see her body shake as the part of her that still has free will rages against her fate.{?}You ask {CAPTIVE_NAME} if he will do you the honor of becoming your loving concubine, and he almost faints at the suggestion, his eyes seething in rage and horror. He accepts, kneeling before you and promising to be yours for all time, to love and serve you as a member of your harem, and to fill your womb that you may bear as many children as you desire. You can almost see his body shake as the part of him that still has free will rages against his fate.{\?}</Text>
+        <Text>{?ISCAPTIVEFEMALE}You ask {CAPTIVE_NAME} if she will do you the honor of becoming your obedient concubine, and she almost faints at the suggestion, her eyes seething in rage and horror even as she smiles eagerly at you. She accepts, kneeling before you and promising to be yours for all time, to love and serve as a member of your harem, and to bear you as many children as her womb can provide. You can almost see her body shake as the part of her that still has free will rages against her fate.{?}You ask {CAPTIVE_NAME} if he will do you the honor of becoming your loving concubine, and he almost faints at the suggestion, his eyes seething in rage and horror. He accepts, kneeling before you and promising to be yours for all time, to love and serve you as a member of your harem, and to fill your womb that you may bear as many children as you desire. You can almost see his body shake as the part of him that still has free will rages against his fate.{\?}</Text>
         <Backgrounds>
             <Background Name="TB_scion_slave_kneel" UseConditions="BC_event_conditions_captive_female" />
             <Background Name="TB_thief_kneeling_road" UseConditions="BC_event_conditions_captive_thief_female" />
@@ -108,7 +108,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
 					<RestrictedListOfConsequences>CaptiveLeaveSpouse</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_019}Kiss the newest obedient member of your harem.</OptionText>
+                <OptionText>Kiss the newest obedient member of your harem.</OptionText>
                 <SkillsToLevel>
 					<Skill Id="Concubine" ByLevel="1" Ref="Hero" Color="Magenta"/>
                     <Skill Id="CaptiveObedience" ByLevel="100" Ref="Hero" Color="Cyan"/>
@@ -126,7 +126,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_ask_concubinage_hatred</Name>
-        <Text>{=TBCaptorEvents_Common_021}{?ISCAPTIVEFEMALE}You ask {CAPTIVE_NAME} if she will do you the honor of becoming your loving concubine. She spits in your face, snarling angrily at the audacity of such a request after all you've done; was this your goal all along? To force her to join your harem like you force your way into everything else? She swears never to submit to you - she would sooner die than become your wanton slut.{?}You ask {CAPTIVE_NAME} if he will do you the honor of becoming your loving concubine. He spits in your face, snarling angrily at the audacity of such a request after all you've done; was this your goal all along? To force him to join your harem like you force your way into everything else? He swears never to submit to you - he would sooner die than become your wanton slut.{\?}</Text>
+        <Text>{?ISCAPTIVEFEMALE}You ask {CAPTIVE_NAME} if she will do you the honor of becoming your loving concubine. She spits in your face, snarling angrily at the audacity of such a request after all you've done; was this your goal all along? To force her to join your harem like you force your way into everything else? She swears never to submit to you - she would sooner die than become your wanton slut.{?}You ask {CAPTIVE_NAME} if he will do you the honor of becoming your loving concubine. He spits in your face, snarling angrily at the audacity of such a request after all you've done; was this your goal all along? To force him to join your harem like you force your way into everything else? He swears never to submit to you - he would sooner die than become your wanton slut.{\?}</Text>
         <Backgrounds>
             <Background Name="TB_scion_slave_kneel" UseConditions="BC_event_conditions_captive_female" />
             <Background Name="TB_thief_kneeling_road" UseConditions="BC_event_conditions_captive_thief_female" />
@@ -150,7 +150,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_022}{?ISCAPTIVEFEMALE}She{?}He{\?} may regret denying you...</OptionText>
+                <OptionText>{?ISCAPTIVEFEMALE}She{?}He{\?} may regret denying you...</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="-10" Ref="Hero" Color="Cyan"/>
                     <Skill Id="CaptiveAffection" ByLevel="-10" Ref="Hero" Color="Cyan"/>
@@ -170,7 +170,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_ask_concubinage_reluctant</Name>
-        <Text>{=TBCaptorEvents_Common_023}{?ISCAPTIVEFEMALE}You ask {CAPTIVE_NAME} if she will do you the honor of becoming your sworn concubine. She hesitantly declines, not wanting to offend you, but feels the question is improper of a captor to ask their captive. Perhaps if you free her you might begin courting her in the proper fashion?{?}You ask {CAPTIVE_NAME} if he will do you the honor of becoming your loving concubine. He hesitantly declines, not wanting to offend you, but feels the question is improper of a captor to ask their captive. Perhaps if you free him you might begin courting him in the proper fashion?{\?}</Text>
+        <Text>{?ISCAPTIVEFEMALE}You ask {CAPTIVE_NAME} if she will do you the honor of becoming your sworn concubine. She hesitantly declines, not wanting to offend you, but feels the question is improper of a captor to ask their captive. Perhaps if you free her you might begin courting her in the proper fashion?{?}You ask {CAPTIVE_NAME} if he will do you the honor of becoming your loving concubine. He hesitantly declines, not wanting to offend you, but feels the question is improper of a captor to ask their captive. Perhaps if you free him you might begin courting him in the proper fashion?{\?}</Text>
         <Backgrounds>
             <Background Name="TB_scion_slave_kneel" UseConditions="BC_event_conditions_captive_female" />
             <Background Name="TB_thief_kneeling_road" UseConditions="BC_event_conditions_captive_thief_female" />
@@ -195,7 +195,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
 					<RestrictedListOfConsequences>CaptiveLeaveSpouse</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_022}{?ISCAPTIVEFEMALE}She{?}he{\?} may regret denying you...</OptionText>
+                <OptionText>{?ISCAPTIVEFEMALE}She{?}he{\?} may regret denying you...</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="-1" Ref="Hero" Color="Cyan"/>
                     <Skill Id="CaptiveAffection" ByLevel="1" Ref="Hero" Color="Cyan"/>

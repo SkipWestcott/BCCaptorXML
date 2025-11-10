@@ -290,7 +290,7 @@
                 </SkillsRequired>
             </Option>
             <Option>
-                <Order>2</Order>
+                <Order>3</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>

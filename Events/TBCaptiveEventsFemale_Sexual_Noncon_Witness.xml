@@ -2,7 +2,7 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_bard_captive_punish</Name>
-        <Text>{=TBCaptiveEvents_Female_053}One of the women in the camp has somehow angered your captors, but she makes no sound as the men gather to punish her. Her eyes are downcast, and she yelps only briefly as she is beaten, shaking slightly as her aggressors begin taking their pleasure from her bruised body. Her expression of abject resignation is a grim reminder that if you don't get out of here soon, you will doubtless share her fate. You wonder how long it will take for you to lose any will to resist...</Text>
+        <Text>One of the women in the camp has somehow angered your captors, but she makes no sound as the men gather to punish her. Her eyes are downcast, and she yelps only briefly as she is beaten, shaking slightly as her aggressors begin taking their pleasure from her bruised body. Her expression of abject resignation is a grim reminder that if you don't get out of here soon, you will doubtless share her fate. You wonder how long it will take for you to lose any will to resist...</Text>
         <BackgroundName>BC_image_sex_f_whore_battania_group</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -20,14 +20,14 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_054}Get some rest.</OptionText>
+                <OptionText>Get some rest.</OptionText>
             </Option>
             <Option>
                 <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=DefaultCaptiveEventsFemale73}Try to escape.</OptionText>
+                <OptionText>Try to escape.</OptionText>
                 <EscapeChance>10</EscapeChance>
                 <ReqHeroHealthAbovePercentage>80</ReqHeroHealthAbovePercentage>
             </Option>
@@ -40,7 +40,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_bard_captive_punish_specific</Name>
-        <Text>{=TBCaptiveEvents_Female_055}The young woman makes no sound as your captors gather to punish her. Her eyes are downcast, and she yelps only briefly as she is beaten, shaking slightly as her aggressors begin taking their pleasure from her bruised body. Her expression of abject resignation is a grim reminder that if you don't get out of here soon, you will doubtless share her fate. You wonder how long it will take for you to lose any will to resist...</Text>
+        <Text>The young woman makes no sound as your captors gather to punish her. Her eyes are downcast, and she yelps only briefly as she is beaten, shaking slightly as her aggressors begin taking their pleasure from her bruised body. Her expression of abject resignation is a grim reminder that if you don't get out of here soon, you will doubtless share her fate. You wonder how long it will take for you to lose any will to resist...</Text>
         <BackgroundName>BC_image_captivity_sex_rough_held</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -59,7 +59,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_054}Get some rest.</OptionText>
+                <OptionText>Get some rest.</OptionText>
                 <TriggerEventName>TB_dream_lobby</TriggerEventName>
             </Option>
             <Option>
@@ -67,7 +67,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=DefaultCaptiveEventsFemale73}Try to escape.</OptionText>
+                <OptionText>Try to escape.</OptionText>
                 <EscapeChance>10</EscapeChance>
                 <ReqHeroHealthAbovePercentage>80</ReqHeroHealthAbovePercentage>
             </Option>
@@ -80,7 +80,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_bard_captive</Name>
-        <Text>{=TBCaptiveEvents_Female_056}You can hear another prisoner being beaten and violated; her piercing screams and moans pierce through the sound of jeering and laughter from her captors. Her plight reminds you of your helplessness, and you feel guiltily thankful they're paying attention to her and not you.</Text>
+        <Text>You can hear another prisoner being beaten and violated; her piercing screams and moans pierce through the sound of jeering and laughter from her captors. Her plight reminds you of your helplessness, and you feel guiltily thankful they're paying attention to her and not you.</Text>
         <BackgroundName>BC_image_captivity_sex_rough_held</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -107,7 +107,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_057}Try not to get their attention.</OptionText>
+                <OptionText>Try not to get their attention.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Roguery" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -119,7 +119,7 @@
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_058}Escape while they're distracted.</OptionText>
+                <OptionText>Escape while they're distracted.</OptionText>
                 <RenownTotal>R -1 -3</RenownTotal>
                 <RelationTotal>R -1 -3</RelationTotal>
                 <EscapeChance>10</EscapeChance>
@@ -131,7 +131,7 @@
                     <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_059}Beg them to fuck you instead.</OptionText>
+                <OptionText>Beg them to fuck you instead.</OptionText>
                 <SlaveryTotal>R 4 12</SlaveryTotal>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero" />
@@ -160,7 +160,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_punish</Name>
-        <Text>{=TBCaptiveEvents_Female_060}You hear the sound of rough fucking and brief, muted moans. Looking around, you spy a familiar-looking woman being roughly used by one of your captors. Her body is covered in bruises and layers of dried cum, her expression vacant and resigned as her rapist takes his pleasure from her battered cunt. Despite her condition, you faintly recognize her as a noblewoman from one of the smaller houses. She shudders and hangs her head as the man blasts his seed inside her, and she obediently licks his cock clean before collapsing to the ground, sobbing.</Text>
+        <Text>You hear the sound of rough fucking and brief, muted moans. Looking around, you spy a familiar-looking woman being roughly used by one of your captors. Her body is covered in bruises and layers of dried cum, her expression vacant and resigned as her rapist takes his pleasure from her battered cunt. Despite her condition, you faintly recognize her as a noblewoman from one of the smaller houses. She shudders and hangs her head as the man blasts his seed inside her, and she obediently licks his cock clean before collapsing to the ground, sobbing.</Text>
         <BackgroundName>BC_image_sex_f_red_rape</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -178,7 +178,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_054}Get some rest.</OptionText>
+                <OptionText>Get some rest.</OptionText>
                 <TriggerEventName>TB_dream_lobby</TriggerEventName>
             </Option>
             <Option>
@@ -186,7 +186,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=DefaultCaptiveEventsFemale73}Try to escape.</OptionText>
+                <OptionText>Try to escape.</OptionText>
                 <EscapeChance>10</EscapeChance>
                 <ReqHeroHealthAbovePercentage>80</ReqHeroHealthAbovePercentage>
             </Option>
@@ -199,7 +199,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_multiple_captives</Name>
-        <Text>{=TBCaptiveEvents_Female_061}One of your captors orders you to hold down another prisoner. You think you've seen her before in another village. The man starts to removes his breeches and exposes his hardening cock...</Text>
+        <Text>One of your captors orders you to hold down another prisoner. You think you've seen her before in another village. The man starts to removes his breeches and exposes his hardening cock...</Text>
         <BackgroundName>BC_image_slaves_three</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -226,7 +226,7 @@
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBSlaveryEventsFemaleSexualWitness007}Reluctantly do as you're told.</OptionText>
+                <OptionText>Reluctantly do as you're told.</OptionText>
                 <RenownTotal>R -1 -10</RenownTotal>
                 <RelationTotal>R 5 12</RelationTotal>
                 <TriggerEventName>TB_common_noncon_assisting_continue</TriggerEventName>
@@ -241,7 +241,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBSlaveryEventsFemaleSexualWitness008}Volunteer to take her place.</OptionText>
+                <OptionText>Volunteer to take her place.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <RelationTotal>R 1 7</RelationTotal>
                 <HealthTotal>R -5 -15</HealthTotal>
@@ -257,7 +257,7 @@
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_062}Try to flee.</OptionText>
+                <OptionText>Try to flee.</OptionText>
                 <RelationTotal>R -1 -7</RelationTotal>
                 <EscapeChance>10</EscapeChance>
             </Option>
@@ -269,7 +269,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_common_noncon_assisting_volunteer</Name>
-        <Text>{=TBCaptiveEvents_Female_063}Your captor shrugs and commands the other woman to hold you in place as he strokes his cock. She does so, sheepishly unable to meet your eyes, and helps hold you still as the man roughly takes you. Your captor seems to take special pleasure in reminding you this was your choice, and his thrusts are brutally painful. He climaxes inside you, kissing you deeply as you feel his cock begin to soften. When he finally pulls out, the other girl falls to her knees, crying.</Text>
+        <Text>Your captor shrugs and commands the other woman to hold you in place as he strokes his cock. She does so, sheepishly unable to meet your eyes, and helps hold you still as the man roughly takes you. Your captor seems to take special pleasure in reminding you this was your choice, and his thrusts are brutally painful. He climaxes inside you, kissing you deeply as you feel his cock begin to soften. When he finally pulls out, the other girl falls to her knees, crying.</Text>
         <BackgroundName>BC_image_slaves_mff_assist</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -287,16 +287,16 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBSlaveryEventsFemaleSexualMarriage013}Try to rest.</OptionText>
+                <OptionText>Try to rest.</OptionText>
                 <TriggerEventName>TB_dream_lobby</TriggerEventName>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_064}Tell the girl she had no choice.</OptionText>
+                <OptionText>Tell the girl she had no choice.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="750" Ref="Hero" />
                 </SkillsToLevel>
@@ -313,7 +313,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_common_noncon_assisting_forgive</Name>
-        <Text>{=TBCaptiveEvents_Female_065}Though your holes are screaming at you in agony from your abuse, you turn to comfort the girl, telling her that she had no choice; if she'd disobeyed your rapist, she would have been tortured as well. She looks at you with a mixture of confusion and awe, and reaches over to hug you. The tenderness of her gesture is almost painful in such horrible circumstances.</Text>
+        <Text>Though your holes are screaming at you in agony from your abuse, you turn to comfort the girl, telling her that she had no choice; if she'd disobeyed your rapist, she would have been tortured as well. She looks at you with a mixture of confusion and awe, and reaches over to hug you. The tenderness of her gesture is almost painful in such horrible circumstances.</Text>
         <BackgroundName>BC_image_dungeon_two_shackles</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -331,7 +331,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBSlaveryEventsFemaleSexual033}Try to get some rest.</OptionText>
+                <OptionText>Try to rest.</OptionText>
                 <TriggerEventName>TB_dream_lobby</TriggerEventName>
             </Option>
         </Options>
@@ -345,7 +345,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_common_noncon_assisting_continue</Name>
-        <Text>{=TBCaptiveEvents_Female_066}You hold the other woman still, doing what you can to comfort her as she is brutally taken. Her screams turn to sobs, and as your captor climaxes, pouring his seed into her, her eyes lose their fire, growing cold and empty.</Text>
+        <Text>You hold the other woman still, doing what you can to comfort her as she is brutally taken. Her screams turn to sobs, and as your captor climaxes, pouring his seed into her, her eyes lose their fire, growing cold and empty.</Text>
         <BackgroundName>BC_image_sex_mff_sit_suck</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -363,7 +363,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_067}Try to forget what you've just done.</OptionText>
+                <OptionText>Try to forget what you've just done.</OptionText>
                 <TriggerEventName>TB_common_noncon_assisting_vengeance</TriggerEventName>
             </Option>
         </Options>
@@ -377,7 +377,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_common_noncon_assisting_vengeance</Name>
-        <Text>{=TBCaptiveEvents_Female_068}The rapist smiles cruelly at your expression, then grabs you by your hair, tying your arms. He calls the other girl over and motions towards your helpless body. She moves towards you angrily, balling one hand into a fist. You cringe, but she does not hit you, instead pushing her knuckles into you, inflicting her own agony onto you.</Text>
+        <Text>The rapist smiles cruelly at your expression, then grabs you by your hair, tying your arms. He calls the other girl over and motions towards your helpless body. She moves towards you angrily, balling one hand into a fist. You cringe, but she does not hit you, instead pushing her knuckles into you, inflicting her own agony onto you.</Text>
         <BackgroundName>BC_image_slavery_femdom_foot</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -397,7 +397,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_069}Accept your just punishment.</OptionText>
+                <OptionText>Accept your just punishment.</OptionText>
                 <HealthTotal>R 10 30</HealthTotal>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
@@ -406,14 +406,14 @@
                 </SkillsToLevel>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_070}Scream in agony and beg her to stop.</OptionText>
+                <OptionText>Scream in agony and beg her to stop.</OptionText>
                 <HealthTotal>R 5 15</HealthTotal>
                 <RenownTotal>R -1 -3</RenownTotal>
                 <SkillsToLevel>
@@ -423,13 +423,13 @@
                 </SkillsToLevel>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>2</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_071}Swear vengeance.</OptionText>
+                <OptionText>Swear vengeance.</OptionText>
                 <HealthTotal>50</HealthTotal>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
@@ -448,7 +448,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_bard_example</Name>
-        <Text>{=TBCaptiveEvents_Female_072}Two of the other female prisoners are huddled near each other, not talking, just watching each other, looking into each others' eyes. Their interest doesn't seem to be sexual, and when one of them breaks down in tears the other comforts her, nuzzling against her soundlessly.</Text>
+        <Text>Two of the other female prisoners are huddled near each other, not talking, just watching each other, looking into each others' eyes. Their interest doesn't seem to be sexual, and when one of them breaks down in tears the other comforts her, nuzzling against her soundlessly.</Text>
         <BackgroundName>BC_image_dungeon_two_standing</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -473,7 +473,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_073}Ask them what they are doing.</OptionText>
+                <OptionText>Ask them what they are doing.</OptionText>
                 <TriggerEventName>TB_bard_punish_noise</TriggerEventName>
             </Option>
             <Option>
@@ -482,7 +482,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_074}Crawl over and join them.</OptionText>
+                <OptionText>Crawl over and join them.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -492,7 +492,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=DefaultCaptiveEventsFemale12}Ignore them.</OptionText>
+                <OptionText>Ignore them.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -502,7 +502,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_bard_punish_noise</Name>
-        <Text>{=TBCaptiveEvents_Female_075}When he hears you speak, one of the guards walks up to the other prisoners and pulls the crying woman to her feet, referring to her as his favorite whore and thanking you for reminding him that it is time for his appointment. She closes her eyes in resignation and begins massaging his cock with her face...</Text>
+        <Text>When he hears you speak, one of the guards walks up to the other prisoners and pulls the crying woman to her feet, referring to her as his favorite whore and thanking you for reminding him that it is time for his appointment. She closes her eyes in resignation and begins massaging his cock with her face...</Text>
         <BackgroundName>BC_image_sex_mf_oral_close_battania</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -522,7 +522,7 @@
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_076}Tell him to get away from her.</OptionText>
+                <OptionText>Tell him to get away from her.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <RelationTotal>R -1 -3</RelationTotal>
                 <SkillsToLevel>
@@ -538,7 +538,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_077}Beg him to fuck you instead.</OptionText>
+                <OptionText>Beg him to fuck you instead.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <PregnancyRiskModifier>1</PregnancyRiskModifier>
                 <SkillsToLevel>
@@ -547,12 +547,12 @@
                 <TriggerEventName>TB_common_noncon_assisting_volunteer</TriggerEventName>
             </Option>
             <Option>
-                <Order>1</Order>
+                <Order>2</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_078}Try not to be noticed.</OptionText>
+                <OptionText>Try not to be noticed.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Roguery" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -565,7 +565,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_bard_punish_whore</Name>
-        <Text>{=TBCaptiveEvents_Female_079}The man continues tormenting his victim with sadistic glee, filling her mouth with his manhood until she begins to choke. He pleasures himself with her throat until she passes out, then shoves her body to the ground and finishes himself, spraying his seed over her back. You look at the faces of the other slaves around you - they don't seem angry, only resigned. Will this be your fate, too?</Text>
+        <Text>The man continues tormenting his victim with sadistic glee, filling her mouth with his manhood until she begins to choke. He pleasures himself with her throat until she passes out, then shoves her body to the ground and finishes himself, spraying his seed over her back. You look at the faces of the other slaves around you - they don't seem angry, only resigned. Will this be your fate, too?</Text>
         <BackgroundName>BC_image_sex_mf_oral_nose_battania</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -584,7 +584,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_080}Comfort her.</OptionText>
+                <OptionText>Comfort her.</OptionText>
                 <RenownTotal>R 1 2</RenownTotal>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero" />
@@ -597,7 +597,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_081}Move away and try to remain inconspicuous.</OptionText>
+                <OptionText>Move away and try to remain inconspicuous.</OptionText>
                 <HealthTotal>R 5 15</HealthTotal>
                 <SkillsToLevel>
                     <Skill Id="Roguery" ByXP="250" Ref="Hero" />
@@ -608,7 +608,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_082}This is too much - flee the camp.</OptionText>
+                <OptionText>This is too much - flee the camp.</OptionText>
                 <EscapeChance>10</EscapeChance>
             </Option>
         </Options>

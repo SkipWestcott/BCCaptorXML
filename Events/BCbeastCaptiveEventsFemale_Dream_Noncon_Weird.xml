@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>TB_dream_insect</Name>
+        <Text>Your nightmare shifts and you find yourself held in place by the legs of a massive, horrifying insect. You feel something huge and slimy enter you, snaking its way past your cervix and into your womb. The appendage begins to widen at your entrance as it begins trying to fill you with its eggs...</Text>
+        <BackgroundName>TB_dream_insect_struggle</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Try to push yourself off the creature.</OptionText>
+                <HealthTotal>R 5 15</HealthTotal>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_dream_resist</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_dream_insect_filled</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_dream_insect_cage</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_dream_insect_table</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Try to wake up.</OptionText>
+                <TriggerEventName>TB_dream_wake</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_dream_insect_filled</Name>
+        <Text>Your nightmare continues as your stomach begins to bloat obscenely and painfully with the creature's unborn children, but it continues to pump into you. If it keeps going, you're not sure you'll survive.</Text>
+        <BackgroundName>TB_dream_insect_filled</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Try to regain control of your dream.</OptionText>
+                <HealthTotal>R -15 -25</HealthTotal>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_dream_resist</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_dream_insect_egg_birth</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Wake up.</OptionText>
+                <TriggerEventName>TB_dream_wake</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_dream_insect_cage</Name>
+        <Text>Your nightmare continues as you find yourself locked in a cage scarcely bigger than you are. Forced to your hands and knees by the bars of the cage, you hear the insect chitter above you as it continues plunging its appendage into your helpless sex.</Text>
+        <BackgroundName>TB_dream_insect_cage_behind</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Try to regain control of your dream.</OptionText>
+                <HealthTotal>R -15 -25</HealthTotal>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_dream_resist</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_dream_insect_filled</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Wake up.</OptionText>
+                <TriggerEventName>TB_dream_wake</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_dream_insect_table</Name>
+        <Text>Your nightmare continues as you find yourself on your back, bound to a table of bones by stout leather straps. The insect holds your head still with its mandibles as it continues filling you with its massive appendage.</Text>
+        <BackgroundName>TB_dream_insect_table_miss</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Try to regain control of your dream.</OptionText>
+                <HealthTotal>R -15 -25</HealthTotal>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_dream_resist</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_dream_insect_filled</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Wake up.</OptionText>
+                <TriggerEventName>TB_dream_wake</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_dream_insect_egg_birth</Name>
+        <Text>You are filled to the brim, and the creature stands possessively over your bloated body as you feel the eggs begin to slide out. It watches you with unblinking eyes, ready to fill you up again as soon as you have finished birthing its clutch.</Text>
+        <BackgroundName>TB_dream_insect_egg_birth</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Keep trying to resist.</OptionText>
+                <HealthTotal>R -15 -25</HealthTotal>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_dream_resist</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_dream_invade</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_dream_giant</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_dream_broken</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Wake up.</OptionText>
+                <TriggerEventName>TB_dream_wake</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>
