@@ -2,7 +2,7 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_captor_mind_break</Name>
-        <Text>{=TBCaptorEvents_Common_111}You have some of your men hold {CAPTIVE_NAME} down as she struggles, and carefully pour a vial of the alchemist's potion down her throat. Pinching her nose closed to force her to drink it down or choke to death, she holds out for almost a full minute before drinking down the foul liquid. Her struggles stop, and though her eyes blaze with helpless, incandescent fury her body squirms with desire. She begs you and your men to fuck her needy cunt ragged.</Text>
+        <Text>You have some of your men hold {CAPTIVE_NAME} down as she struggles, and carefully pour a vial of the alchemist's potion down her throat. Pinching her nose closed to force her to drink it down or choke to death, she holds out for almost a full minute before drinking down the foul liquid. Her struggles stop, and though her eyes blaze with helpless, incandescent fury her body squirms with desire. She begs you and your men to fuck her needy cunt ragged.</Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <Backgrounds>
             <Background Name="TB_scion_slave_kneel" UseConditions="BC_event_conditions_captive_female" />
@@ -22,7 +22,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_112}Better to plunder her assets yourself.</OptionText>
+                <OptionText>Better to plunder her assets yourself.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_captor_captive_player_sex_mindbroken</EventName>
@@ -36,7 +36,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_113}Perhaps your men deserve a reward.</OptionText>
+                <OptionText>Perhaps your men deserve a reward.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_captor_captive_troops_sex_mindbroken</EventName>
@@ -51,7 +51,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_114}Leave her alone. For now.</OptionText>
+                <OptionText>Leave her alone. For now.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -61,7 +61,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_status_whore</Name>
-        <Text>{=TBCaptorEvents_Common_115}You proclaim that from now on, {CAPTIVE_NAME} will serve your warband as its whore. Her eyes widen in fear and, you suspect, arousal as you announce that you will officially sponsor her, to be paid not less than one gold piece per man that desires her, and that you will collect her proceeds at the end of the day and make sure she is well taken care of for her troubles. She starts to protest that she's not a whore, but stops as she sees your expression and bows to your will.</Text>
+        <Text>You proclaim that from now on, {CAPTIVE_NAME} will serve your warband as its whore. Her eyes widen in fear and, you suspect, arousal as you announce that you will officially sponsor her, to be paid not less than one gold piece per man that desires her, and that you will collect her proceeds at the end of the day and make sure she is well taken care of for her troubles. She starts to protest that she's not a whore, but stops as she sees your expression and bows to your will.</Text>
         <BackgroundName>BC_image_female_shock_pigtails</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -76,7 +76,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_13186}Use your little whore.</OptionText>
+                <OptionText>Use your little whore.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_captive_whore_use</EventName>
@@ -102,7 +102,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_117}Let her go forth to serve her new purpose.</OptionText>
+                <OptionText>Let her go forth to serve her new purpose.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R -10 -50" Ref="Hero" Color="Cyan"/>
                 </SkillsToLevel>

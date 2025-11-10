@@ -2,7 +2,7 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_captor_mindbroken_masochism_f</Name>
-        <Text>{=TBCaptorEvents_Common_048}You hear a strange cacophony of screams and moans from nearby, and discover {CAPTIVE_NAME} being roughly fucked by a group of your men. They slow down as you approach, and you hear her strained voice beg them to pound her harder, to choke her. They seem somewhat confused but quite enthusiastic, but one glimpse of her lifeless eyes is enough for you to realize she's not looking for pleasure, just begging for death... </Text>
+        <Text>You hear a strange cacophony of screams and moans from nearby, and discover {CAPTIVE_NAME} being roughly fucked by a group of your men. They slow down as you approach, and you hear her strained voice beg them to pound her harder, to choke her. They seem somewhat confused but quite enthusiastic, but one glimpse of her lifeless eyes is enough for you to realize she's not looking for pleasure, just begging for death... </Text>
         <Backgrounds>
             <Background Name="BC_captor_sex_f_butt_open"/>
         </Backgrounds>
@@ -19,7 +19,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_049}Tell them to stop abusing her.</OptionText>
+                <OptionText>Tell them to stop abusing her.</OptionText>
                 <HealthTotal>10</HealthTotal>
                 <MoraleTotal>-5</MoraleTotal>
                 <SkillsToLevel>
@@ -27,24 +27,24 @@
                 </SkillsToLevel>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=DefaultCaptiveEventsFemale12}Ignore them.</OptionText>
+                <OptionText>Ignore them.</OptionText>
                 <HealthTotal>-10</HealthTotal>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" Color="Cyan" />
                 </SkillsToLevel>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>2</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken008}Join in the fun.</OptionText>
+                <OptionText>Join in the fun.</OptionText>
                 <MoraleTotal>10</MoraleTotal>
                 <HealthTotal>-30</HealthTotal>
                 <SkillsToLevel>
@@ -63,7 +63,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_mindbroken_dirty_f</Name>
-        <Text>{=TBCaptorEvents_Common_050}You notice {CAPTIVE_NAME} slowly plodding along with your party when she falls to the ground, and you realize her body is and exhausted; she's coated from head to toe in cum, cuts, and bruises, her hair disheveled. She quickly stands, still smiling, and begs one of your troops to use her worthless holes. Her her eyes are so filled with despair and hatred that the soldier shudders and tries not to meet her gaze.</Text>
+        <Text>You notice {CAPTIVE_NAME} slowly plodding along with your party when she falls to the ground, and you realize her body is and exhausted; she's coated from head to toe in cum, cuts, and bruises, her hair disheveled. She quickly stands, still smiling, and begs one of your troops to use her worthless holes. Her her eyes are so filled with despair and hatred that the soldier shudders and tries not to meet her gaze.</Text>
         <Backgrounds>
             <Background Name="TB_scion_sleeping_dirty"/>
         </Backgrounds>
@@ -79,18 +79,18 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken009}Wash and clothe her.</OptionText>
+                <OptionText>Wash and clothe her.</OptionText>
                 <MoraleTotal>2</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Captor" Color="Cyan" />
                 </SkillsToLevel>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken010}Ignore the wretch.</OptionText>
+                <OptionText>Ignore the wretch.</OptionText>
                 <HealthTotal>10</HealthTotal>
             </Option>
         </Options>

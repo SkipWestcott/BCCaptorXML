@@ -2,7 +2,7 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_bandits_noncon_lobby</Name>
-        <Text>{=BCCaptor_Text_14401}You lay on the cold ground, filthy and used, as your captors argue about what to do next. </Text>
+        <Text>You lay on the cold ground, filthy and used, as your captors argue about what to do next. </Text>
         <BackgroundName>BC_image_captivity_lara_floor</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -15,7 +15,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14436}Scream for help as loud as you can.</OptionText>
+                <OptionText>Scream for help as loud as you can.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_bandits_noncon_ring</EventName>
@@ -66,7 +66,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBModularEventsFemale_Bitch_Noncon014}Pass out from exhaustion.</OptionText>
+                <OptionText>Pass out from exhaustion.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_bandits_noncon_exhaustion_rescue</EventName>
@@ -87,7 +87,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_bandits_noncon_resist</Name>
-        <Text>{=BCCaptor_Text_14402}The man is infuriated by your defiance, and roughly grabs your neck from behind. He yanks your head downward, choking you, using your throat as a brace to pull you down, forcing his cock against your cervix over and over. You scream in agony as he fucks you into submission, but the torture continues, unceasing, until you start to drift in and out of consciousness.</Text>
+        <Text>The man is infuriated by your defiance, and roughly grabs your neck from behind. He yanks your head downward, choking you, using your throat as a brace to pull you down, forcing his cock against your cervix over and over. You scream in agony as he fucks you into submission, but the torture continues, unceasing, until you start to drift in and out of consciousness.</Text>
         <BackgroundName>BC_image_slavery_ring_floor_choke</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -102,7 +102,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14403}Black out, despite the pain.</OptionText>
+                <OptionText>Black out, despite the pain.</OptionText>
                 <RenownTotal>R -2 -5</RenownTotal>
                 <HealthTotal>R -50 -100</HealthTotal>
                 <TriggerEvents>
@@ -129,7 +129,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_bandits_noncon_preg</Name>
-        <Text>{=BCCaptor_Text_14404}One of your tormentors strokes a finger through your raw and tender lips. He explains that he's always fantasized about knocking up a noblewoman. He takes pleasure in describing how your belly will grow fat with his child, and that your bastard will live as a permanent reminder of his power over you, then he forcefully shoves his penis into you as deep as it will go. He's so aroused at the opportunity to satisfy his kink that he doesn't last long, and against your cervix you feel his cock-head spurt its precious cargo into your womb.</Text>
+        <Text>One of your tormentors strokes a finger through your raw and tender lips. He explains that he's always fantasized about knocking up a noblewoman. He takes pleasure in describing how your belly will grow fat with his child, and that your bastard will live as a permanent reminder of his power over you, then he forcefully shoves his penis into you as deep as it will go. He's so aroused at the opportunity to satisfy his kink that he doesn't last long, and against your cervix you feel his cock-head spurt its precious cargo into your womb.</Text>
         <BackgroundName>BC_image_captivity_sex_table</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -145,7 +145,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14405}I can't have this filthy seed inside me!</OptionText>
+                <OptionText>I can't have this filthy seed inside me!</OptionText>
                 <PregnancyRiskModifier>3</PregnancyRiskModifier>
                 <HealthTotal>R -1 -5</HealthTotal>
                 <SkillsToLevel>
@@ -163,7 +163,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_bandits_noncon_gang</Name>
-        <Text>{=BCCaptor_Text_14406}Several of your aggressors approach you at once, grabbing your arms, lifting you into the air, and turning you about until your abused sex is once again filled with rigid meat. Another unwashed penis is rammed down your throat while you feel a third cock swiftly plunging into you. The friction between your sphincter and cunt is, for a brief moment, delicious, but the feeling passes to agony, and you choke and retch and spit each time the man face-fucking you pulls out of your airway. He coats your mouth and your face in messy spurts, and the others follow suit as the sight of your humiliation pushes them to their limit.</Text>
+        <Text>Several of your aggressors approach you at once, grabbing your arms, lifting you into the air, and turning you about until your abused sex is once again filled with rigid meat. Another unwashed penis is rammed down your throat while you feel a third cock swiftly plunging into you. The friction between your sphincter and cunt is, for a brief moment, delicious, but the feeling passes to agony, and you choke and retch and spit each time the man face-fucking you pulls out of your airway. He coats your mouth and your face in messy spurts, and the others follow suit as the sight of your humiliation pushes them to their limit.</Text>
         <BackgroundName>BC_image_captivity_sex_gang</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -179,7 +179,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14407}Catch your breath.</OptionText>
+                <OptionText>Catch your breath.</OptionText>
                 <HealthTotal>R -5 -10</HealthTotal>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustV" ByLevel="R -5 20" Ref="Hero" HideNotification="true" />
@@ -199,7 +199,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_bandits_noncon_spitroast</Name>
-        <Text>{=BCCaptor_Text_14408}One of the men kicks you to your knees as another sits down in front of you, grabbing your hair and shoving your face onto his cock. You feel another behind you, and he smacks your ass, then spreads your nether lips, and before long yet another rigid rod is pushing into your vagina. The two men thrust in unison, almost lifting your body in the air, and they call you a Horse-Cum-drinking slut. The one in your mouth has enough, and pinches your nose closed as he fills your throat with salty liquid. The man pounding your cunt accelerates, reaching his own ecstasy as his cock-head punches the entrance to your womb, slick with strangers' cum.</Text>
+        <Text>One of the men kicks you to your knees as another sits down in front of you, grabbing your hair and shoving your face onto his cock. You feel another behind you, and he smacks your ass, then spreads your nether lips, and before long yet another rigid rod is pushing into your vagina. The two men thrust in unison, almost lifting your body in the air, and they call you a Horse-Cum-drinking slut. The one in your mouth has enough, and pinches your nose closed as he fills your throat with salty liquid. The man pounding your cunt accelerates, reaching his own ecstasy as his cock-head punches the entrance to your womb, slick with strangers' cum.</Text>
         <BackgroundName>BC_image_captivity_sex_spitroast</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -214,7 +214,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14409}Are you really what they say you are?</OptionText>
+                <OptionText>Are you really what they say you are?</OptionText>
                 <HealthTotal>R -5 -10</HealthTotal>
                 <TriggerEventName>TB_bandits_noncon_lobby</TriggerEventName>
                 <SkillsToLevel>
@@ -233,7 +233,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_bandits_noncon_tats</Name>
-        <Text>{=BCCaptor_Text_14410}You are dragged to the barn where they keep their animals. At first you expect these degenerates to attempt to mate you with a literal horse, but you fight to keep your legs apart as you are lowered onto the iron-clad beam. The pain is excruciating, and they lash your ass until the strength in your legs goes out, laughing as your weight digs the metal ridge deeper into your tender cleft.</Text>
+        <Text>You are dragged to the barn where they keep their animals. At first you expect these degenerates to attempt to mate you with a literal horse, but you fight to keep your legs apart as you are lowered onto the iron-clad beam. The pain is excruciating, and they lash your ass until the strength in your legs goes out, laughing as your weight digs the metal ridge deeper into your tender cleft.</Text>
         <BackgroundName>BC_image_captivity_sex_whip_horse</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -248,7 +248,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14411}The pain is unbearable!</OptionText>
+                <OptionText>The pain is unbearable!</OptionText>
                 <HealthTotal>R -15 -25</HealthTotal>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustV" ByLevel="R -5 20" Ref="Hero" HideNotification="true" />
@@ -264,7 +264,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_bandits_noncon_ass</Name>
-        <Text>{=BCCaptor_Text_14412}One of your aggressors approaches you from behind, slapping your buttocks. He spits copiously onto your back, rubbing the foul liquid down your ass, across your sex and back up your ass, then without warning shoves his manhood deep into your sphincter. The assembly relishes your anguished screams for a minute or two before he pulls it out, then thrusts back in even harder. This slow torment continues for some time, and you're certain he's done permanent damage to your insides. He finally shoots you full of cum, whispering unspeakable filth into your ear as he lets it leak out of you.</Text>
+        <Text>One of your aggressors approaches you from behind, slapping your buttocks. He spits copiously onto your back, rubbing the foul liquid down your ass, across your sex and back up your ass, then without warning shoves his manhood deep into your sphincter. The assembly relishes your anguished screams for a minute or two before he pulls it out, then thrusts back in even harder. This slow torment continues for some time, and you're certain he's done permanent damage to your insides. He finally shoots you full of cum, whispering unspeakable filth into your ear as he lets it leak out of you.</Text>
         <BackgroundName>BC_image_captivity_sex_anal_wall</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -279,7 +279,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14413}Just try to put it behind you.</OptionText>
+                <OptionText>Just try to put it behind you.</OptionText>
                 <HealthTotal>R -5 -10</HealthTotal>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustV" ByLevel="R -5 20" Ref="Hero" HideNotification="true" />
@@ -298,7 +298,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_bandits_noncon_cum</Name>
-        <Text>{=BCCaptor_Text_14414}Several of your captors have been pleasuring themselves to the sight of your torture, and now they approach, the first beckoning the others towards you. One of them grabs your hair, forcing you to face upwards as a shower of semen pours forth, each orgasm setting off a chain of moans and gasps as what seems like every inch of you is coated in cum. The men laugh and jeer at your sticky plight, though some of them more thoughtfully seem to be wondering how they'll fuck you now without getting it all over them. </Text>
+        <Text>Several of your captors have been pleasuring themselves to the sight of your torture, and now they approach, the first beckoning the others towards you. One of them grabs your hair, forcing you to face upwards as a shower of semen pours forth, each orgasm setting off a chain of moans and gasps as what seems like every inch of you is coated in cum. The men laugh and jeer at your sticky plight, though some of them more thoughtfully seem to be wondering how they'll fuck you now without getting it all over them. </Text>
         <BackgroundName>BC_image_captivity_sex_bukkake</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -312,7 +312,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14415}Try to clean off your face.</OptionText>
+                <OptionText>Try to clean off your face.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustO" ByLevel="R 5 10" Ref="Hero" HideNotification="true" />
                     <Skill Id="CaptiveLustT" ByLevel="R 5 10" Ref="Hero" HideNotification="true" />
@@ -320,12 +320,12 @@
                 <TriggerEventName>TB_bandits_noncon_lobby</TriggerEventName>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14416}You're losing hope. How long has it been?</OptionText>
+                <OptionText>You're losing hope. How long has it been?</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" />
                     <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
@@ -340,7 +340,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_bandits_noncon_tally</Name>
-        <Text>{=BCCaptor_Text_14417}Your tormentors start to idly wonder how many times you've been used, but they disagree as to the precise number. To resolve the issue, their leader suggests they mark your skin each time they take you, and before long you find your holes dripping full while they sadistically cut a tally of their abuse into the meat of your ass.</Text>
+        <Text>Your tormentors start to idly wonder how many times you've been used, but they disagree as to the precise number. To resolve the issue, their leader suggests they mark your skin each time they take you, and before long you find your holes dripping full while they sadistically cut a tally of their abuse into the meat of your ass.</Text>
         <BackgroundName>BC_image_captivity_tally</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -355,7 +355,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14418}Just try to survive.</OptionText>
+                <OptionText>Just try to survive.</OptionText>
                 <HealthTotal>R -5 -10</HealthTotal>
                 <RenownTotal>R -1 -2</RenownTotal>
                 <TriggerEventName>TB_bandits_noncon_lobby</TriggerEventName>
@@ -368,7 +368,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_bandits_noncon_whore</Name>
-        <Text>{=BCCaptor_Text_14419}One of your captors is unamused by your screaming, and smacks you to attention. He tells you he prefers his women willing, and orders you to play the part of his whore, pleasuring him as you would your husband. He assures you that should you resist, he will fuck you anyway, all the more brutally for having disobeyed him.</Text>
+        <Text>One of your captors is unamused by your screaming, and smacks you to attention. He tells you he prefers his women willing, and orders you to play the part of his whore, pleasuring him as you would your husband. He assures you that should you resist, he will fuck you anyway, all the more brutally for having disobeyed him.</Text>
         <!-- <BackgroundName>BC_image_captive_f_slap</BackgroundName> -->
         <BackgroundAnimation><!-- hel8 dry slap --><!--  -->
             <BackgroundName>BC_vid_larahel8_000</BackgroundName>
@@ -408,20 +408,20 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14420}Tell him you're no man's whore.</OptionText>
+                <OptionText>Tell him you're no man's whore.</OptionText>
                 <RenownTotal>R 1 2</RenownTotal>
                 <HealthTotal>R -4 -8</HealthTotal>
                 <TriggerEventName>TB_bandits_noncon_resist</TriggerEventName>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14421}Try to smile and reach for his cock.</OptionText>
+                <OptionText>Try to smile and reach for his cock.</OptionText>
                 <RenownTotal>R -5 -10</RenownTotal>
                 <SkillsToLevel>
                     <Skill Id="Fame" ByLevel="1" Ref="Hero" HideNotification="true" />
@@ -440,7 +440,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_bandits_noncon_whore_obey</Name>
-        <Text>{=BCCaptor_Text_14422}The man smiles fondly as you begin pleasuring him, lightly fondling his testicles as you take the head of his penis into your mouth. It's surprisingly clean, and he moans lightly at your attentions. The other men jeer, gathering around and laughing to see you willingly suck on cock for mercy. He pulls out just at the end; his spunk spatters across your face as the others give a sarcastic cheer, and one of them tosses a solitary rusted copper coin at your feet.</Text>
+        <Text>The man smiles fondly as you begin pleasuring him, lightly fondling his testicles as you take the head of his penis into your mouth. It's surprisingly clean, and he moans lightly at your attentions. The other men jeer, gathering around and laughing to see you willingly suck on cock for mercy. He pulls out just at the end; his spunk spatters across your face as the others give a sarcastic cheer, and one of them tosses a solitary rusted copper coin at your feet.</Text>
         <BackgroundName>BC_image_slavery_oral_blur</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -456,7 +456,7 @@
                     <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14423}Did you really just pleasure this monster to make him finish sooner? What is happening to you?</OptionText>
+                <OptionText>Did you really just pleasure this monster to make him finish sooner? What is happening to you?</OptionText>
                 <RenownTotal>R -1 -5</RenownTotal>
                 <ProstitutionTotal>R 1 3</ProstitutionTotal>
                 <SkillsToLevel>
@@ -478,7 +478,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_bandits_noncon_ring</Name>
-        <Text>{=BCCaptor_Text_14424}Suddenly one of the men standing over you pushes your head back and manages to work his curved cock through the ring, pummeling your throat like a hammer...</Text>
+        <Text>Suddenly one of the men standing over you pushes your head back and manages to work his curved cock through the ring, pummeling your throat like a hammer...</Text>
         <BackgroundAnimation><!-- hel3 close shot, pull back -->
             <BackgroundName>BC_vid_larahel3_000</BackgroundName>
             <BackgroundName>BC_vid_larahel3_001</BackgroundName>
@@ -590,7 +590,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14425}Just hold on.</OptionText>
+                <OptionText>Just hold on.</OptionText>
                 <HealthTotal>R -5 -10</HealthTotal>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
@@ -611,7 +611,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_bandits_noncon_ring_pov</Name>
-        <Text>{=BCCaptor_Text_14426}You. Can't. Even. Think. You. Can. Barely. Breathe.</Text>
+        <Text>You. Can't. Even. Think. You. Can. Barely. Breathe.</Text>
         <BackgroundAnimation><!-- hel4 male pov loop -->        
             <BackgroundName>BC_vid_larahel4_000</BackgroundName>
             <BackgroundName>BC_vid_larahel4_001</BackgroundName>
@@ -677,7 +677,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14425}Just hold on.</OptionText>
+                <OptionText>Just hold on.</OptionText>
                 <HealthTotal>R -5 -10</HealthTotal>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
@@ -697,7 +697,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_bandits_noncon_ring_under</Name>
-        <Text>{=BCCaptor_Text_14427}He twists your head and angles his cock straight down your neck, thrusting to feel every inch inside you...</Text>
+        <Text>He twists your head and angles his cock straight down your neck, thrusting to feel every inch inside you...</Text>
         <BackgroundAnimation><!-- hel6 beneath -->
             <BackgroundName>BC_vid_larahel6_000</BackgroundName>
             <BackgroundName>BC_vid_larahel6_001</BackgroundName>
@@ -765,7 +765,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14425}Just hold on.</OptionText>
+                <OptionText>Just hold on.</OptionText>
                 <HealthTotal>R -5 -10</HealthTotal>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
@@ -789,7 +789,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_bandits_noncon_ring_wall</Name>
-        <Text>{=BCCaptor_Text_14428}His penis pummels the back of your throat completely open, pumping air and spit into your stomach fifty, one hundred, three hundred times, before you lose count in a blur...</Text>
+        <Text>His penis pummels the back of your throat completely open, pumping air and spit into your stomach fifty, one hundred, three hundred times, before you lose count in a blur...</Text>
         <BackgroundAnimation><!-- hel5 profile loop leg down hel5 --><!--  -->
             <BackgroundName>BC_vid_larahel5_000</BackgroundName>
             <BackgroundName>BC_vid_larahel5_001</BackgroundName>
@@ -847,7 +847,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14425}Just hold on.</OptionText>
+                <OptionText>Just hold on.</OptionText>
                 <HealthTotal>R -5 -10</HealthTotal>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
@@ -872,7 +872,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_bandits_noncon_ring_deep</Name>
-        <Text>{=BCCaptor_Text_14429}Your slobber is thick, and bubbles from your nose as the man slides in and out, punishing your throat.</Text>
+        <Text>Your slobber is thick, and bubbles from your nose as the man slides in and out, punishing your throat.</Text>
         <BackgroundAnimation><!-- hell5080 deep push loop leg up -->
             <BackgroundName>BC_vid_larahell_053</BackgroundName>
             <BackgroundName>BC_vid_larahell_054</BackgroundName>
@@ -913,7 +913,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14425}Just hold on.</OptionText>
+                <OptionText>Just hold on.</OptionText>
                 <HealthTotal>R -5 -10</HealthTotal>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
@@ -938,7 +938,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_bandits_noncon_ring_close</Name>
-        <Text>{=BCCaptor_Text_14430}He pulls you onto him as forcefully as possible, flattening your nose with his crotch...</Text>
+        <Text>He pulls you onto him as forcefully as possible, flattening your nose with his crotch...</Text>
         <BackgroundAnimation><!-- hell 0-14; deep push  -->
             <BackgroundName>BC_vid_larahell_000</BackgroundName>
             <BackgroundName>BC_vid_larahell_001</BackgroundName>
@@ -969,7 +969,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14425}Just hold on.</OptionText>
+                <OptionText>Just hold on.</OptionText>
                 <HealthTotal>R -5 -10</HealthTotal>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
@@ -990,7 +990,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_bandits_noncon_ring_finish</Name>
-        <Text>{=BCCaptor_Text_14431}Just as you notice your lips and tongue are numb to the sensation, the man tenses and grabs hold of your ears. His jism blocks your airway, and you try to cough for breath, then...</Text>
+        <Text>Just as you notice your lips and tongue are numb to the sensation, the man tenses and grabs hold of your ears. His jism blocks your airway, and you try to cough for breath, then...</Text>
         <BackgroundAnimation><!-- hel2 mouthshot -->
             <BackgroundName>BC_vid_larahel2_000</BackgroundName>
             <BackgroundName>BC_vid_larahel2_001</BackgroundName>
@@ -1233,7 +1233,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_bandits_noncon_exhaustion_rescue</Name>
-        <Text>{=BCCaptor_Text_14432}You fall into fitful sleep as your abused body grows too exhausted to continue. When you wake, you are once again in your camp, one of your men sheepishly watching over you. It seems you have been washed, some of your bruises tended to, and a blanket laid across your body, but the man nervously admits they arrived too late to catch any of your tormentors, and word of your fate has begun spreading around the camp.</Text>
+        <Text>You fall into fitful sleep as your abused body grows too exhausted to continue. When you wake, you are once again in your camp, one of your men sheepishly watching over you. It seems you have been washed, some of your bruises tended to, and a blanket laid across your body, but the man nervously admits they arrived too late to catch any of your tormentors, and word of your fate has begun spreading around the camp.</Text>
         <BackgroundName>BC_image_captivity_lara_escape</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1247,7 +1247,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14433}At least you're still alive...</OptionText>
+                <OptionText>At least you're still alive...</OptionText>
                 <RenownTotal>R 1 -5</RenownTotal>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R 25 50" Ref="Hero" HideNotification="true" />
@@ -1261,7 +1261,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_bandits_noncon_exhaustion_abandon</Name>
-        <Text>{=BCCaptor_Text_14434}You fall into fitful sleep as your abused body grows too exhausted to continue. When you wake, you are alone, your equipment stolen. Your body aches from abuse, and semen oozes from every pore; you feel dirty and exhausted, but you are free. For now.</Text>
+        <Text>You fall into fitful sleep as your abused body grows too exhausted to continue. When you wake, you are alone, your equipment stolen. Your body aches from abuse, and semen oozes from every pore; you feel dirty and exhausted, but you are free. For now.</Text>
         <BackgroundName>BC_image_captivity_escape_mud</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1274,7 +1274,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14433}At least you're still alive...</OptionText>
+                <OptionText>At least you're still alive...</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R 25 50" Ref="Hero" HideNotification="true" />
                 </SkillsToLevel>
@@ -1287,7 +1287,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_bandits_noncon_rescue</Name>
-        <Text>{=BCCaptor_Text_14435}As the next man shoves his cock in your face, you hear a commotion from back towards your camp. It seems some of your clansmen have come to the rescue! They quickly intervene, slaughtering your abusers to a man. One of your sergeants quickly arranges a bucket of water for you to clean with and a fresh set of clothes, but you can tell from their expressions they won't soon forget the sight of your naked, bruised flesh.</Text>
+        <Text>As the next man shoves his cock in your face, you hear a commotion from back towards your camp. It seems some of your clansmen have come to the rescue! They quickly intervene, slaughtering your abusers to a man. One of your sergeants quickly arranges a bucket of water for you to clean with and a fresh set of clothes, but you can tell from their expressions they won't soon forget the sight of your naked, bruised flesh.</Text>
         <BackgroundName>BC_image_captivity_lara_escape</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>

@@ -3,7 +3,7 @@
 <!-- Wounded section-->
     <CEEvent>
         <Name>BC_event_training_menu_exhausted</Name>
-        <Text>{=BCCaptor_Text_14458}You're trying to train {CAPTIVE_NAME}, but {?ISCAPTIVEFEMALE}she{?}he{\?} appears to be unconscious. </Text>
+        <Text>You're trying to train {CAPTIVE_NAME}, but {?ISCAPTIVEFEMALE}she{?}he{\?} appears to be unconscious. </Text>
         <Backgrounds>
             <Background Name="BC_captor_exhausted_jungle" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_male_bitch_dirty" UseConditions="BC_event_conditions_captive_male" />
@@ -18,7 +18,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14459}Have a scribe note to have her summoned again as soon as she awakens.</OptionText>
+                <OptionText>Have a scribe note to have her summoned again as soon as she awakens.</OptionText>
             </Option>
         </Options>
         <ReqHeroHealthBelowPercentage>9</ReqHeroHealthBelowPercentage>
@@ -30,7 +30,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_unconscious_captive</Name>
-        <Text>{=BCCaptor_Text_14460}As {CAPTIVE_NAME} slowly moves to follow you, {?ISCAPTIVEFEMALE}she staggers and collapses, breathing only feebly as the wounds and bruises on her abused body take their toll. There's only so much a woman can take, after all... Unless she's faking to avoid further punishment...{?}he staggers and collapses, breathing only feebly as the wounds and bruises on his abused body take their toll. There's only so much a man can take, after all... Unless he's faking to avoid further punishment...{\?}</Text>
+        <Text>As {CAPTIVE_NAME} slowly moves to follow you, {?ISCAPTIVEFEMALE}she staggers and collapses, breathing only feebly as the wounds and bruises on her abused body take their toll. There's only so much a woman can take, after all... Unless she's faking to avoid further punishment...{?}he staggers and collapses, breathing only feebly as the wounds and bruises on his abused body take their toll. There's only so much a man can take, after all... Unless he's faking to avoid further punishment...{\?}</Text>
         <Backgrounds>
             <Background Name="BC_captor_exhausted_jungle" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_male_bitch_dirty" UseConditions="BC_event_conditions_captive_male" />
@@ -53,7 +53,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <HealthTotal>-1</HealthTotal>
-                <OptionText>{=BCCaptor_Text_14461}Leave instruction to be notified as soon as she awakens.</OptionText>
+                <OptionText>Leave instruction to be notified as soon as she awakens.</OptionText>
             </Option>
         </Options>
         <ReqHeroHealthBelowPercentage>25</ReqHeroHealthBelowPercentage>
@@ -64,7 +64,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_dead_captive</Name>
-        <Text>{=BCCaptor_Text_14462}{CAPTIVE_NAME} collapses suddenly. You look down at her horribly worked body and realize she isn't responding at all. You've pushed her body too hard, and it has breathed its last. Perhaps next time you'll be a little more merciful...{?}he collapses. Too late, you realize he isn't responding at all. You've pushed his body too hard, and it has breathed its last. Perhaps next time you'll be a little more merciful...{\?}</Text>
+        <Text>{CAPTIVE_NAME} collapses suddenly. You look down at her horribly worked body and realize she isn't responding at all. You've pushed her body too hard, and it has breathed its last. Perhaps next time you'll be a little more merciful...{?}he collapses. Too late, you realize he isn't responding at all. You've pushed his body too hard, and it has breathed its last. Perhaps next time you'll be a little more merciful...{\?}</Text>
         <Backgrounds>
             <Background Name="BC_captor_exhausted_jungle" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_male_bitch_dirty" UseConditions="BC_event_conditions_captive_male" />
@@ -87,7 +87,7 @@
                     <RestrictedListOfConsequences>KillPrisoner</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14463}Bury {?ISCAPTIVEFEMALE}her{?}him{\?}.</OptionText>
+                <OptionText>Bury {?ISCAPTIVEFEMALE}her{?}him{\?}.</OptionText>
                 <TraitsToLevel>
                     <Trait Id="Mercy" ByLevel="-1" Ref="Captor" Color="Cyan"/>
                     <Trait Id="Honor" ByLevel="-1" Ref="Captor" Color="Cyan"/>
@@ -100,7 +100,7 @@
                     <RestrictedListOfConsequences>KillPrisoner</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14464}Let the crows feast on {?ISCAPTIVEFEMALE}her{?}his{\?} corpse.</OptionText>
+                <OptionText>Let the crows feast on {?ISCAPTIVEFEMALE}her{?}his{\?} corpse.</OptionText>
                 <TraitsToLevel>
                     <Trait Id="Mercy" ByLevel="-1" Ref="Captor" Color="Cyan"/>
                     <Trait Id="Honor" ByLevel="-1" Ref="Captor" Color="Cyan"/>
@@ -113,7 +113,7 @@
                     <RestrictedListOfConsequences>KillPrisoner</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14465}String {?ISCAPTIVEFEMALE}her{?}him{\?} up as an example.</OptionText>
+                <OptionText>String {?ISCAPTIVEFEMALE}her{?}him{\?} up as an example.</OptionText>
                 <TraitsToLevel>
                     <Trait Id="Mercy" ByLevel="-1" Ref="Captor" Color="Cyan"/>
                     <Trait Id="Honor" ByLevel="-1" Ref="Captor" Color="Cyan"/>
@@ -133,7 +133,7 @@
     <!-- this event exists to give captives a base amount of health upon capture to prevent overly zealous players from accidentally killing them before they are warned this is a possibility -->
     <CEEvent>
         <Name>BC_event_new_captive</Name>
-        <Text>{=BCCaptor_Text_14466}You notice {CAPTIVE_NAME}'s exhausted body is covered in bruises and cuts from {?ISCAPTIVEFEMALE}her{?}his{\?} ordeal. You may want to consider giving them a few days to rest first - there's only so much a body can take, after all.</Text>
+        <Text>You notice {CAPTIVE_NAME}'s exhausted body is covered in bruises and cuts from {?ISCAPTIVEFEMALE}her{?}his{\?} ordeal. You may want to consider giving them a few days to rest first - there's only so much a body can take, after all.</Text>
         <Backgrounds>
             <Background Name="BC_captor_sex_exhausted_female" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_male_bitch_dirty" UseConditions="BC_event_conditions_captive_male" />
@@ -158,7 +158,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <HealthTotal>R 10 50</HealthTotal>
-                <OptionText>{=BCCaptor_Text_14467}Let {?ISCAPTIVEFEMALE}her{?}him{\?} rest.</OptionText>
+                <OptionText>Let {?ISCAPTIVEFEMALE}her{?}him{\?} rest.</OptionText>
             </Option>
             <Option>
                 <Order>1</Order>
@@ -167,7 +167,7 @@
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14468}{?ISCAPTIVEFEMALE}She{?}He{\?} doesn't deserve such consideration.</OptionText>
+                <OptionText>{?ISCAPTIVEFEMALE}She{?}He{\?} doesn't deserve such consideration.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 10 30" Ref="Captor" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveLustO" ByLevel="R 10 30" Ref="Captor" Color="Yellow"  HideNotification="true" />
@@ -191,7 +191,7 @@
 <!-- Threaten events -->
     <CEEvent>
         <Name>BC_event_threaten_bestiality</Name>
-        <Text>{=BCCaptor_Text_14469}You drag {CAPTIVE_NAME} to where your hunting dogs lay, playing happily, and warn {?ISCAPTIVEFEMALE}her that if she{?}him that if he{\?} proves of no use to you or your men, {?ISCAPTIVEFEMALE}she{?}he{\?} will find new purpose as some dog's bitch. {?ISCAPTIVEFEMALE}Her{?}His{\?} eyes widen in fear at the sight of the creatures' massive members.{\?}</Text>
+        <Text>You drag {CAPTIVE_NAME} to where your hunting dogs lay, playing happily, and warn {?ISCAPTIVEFEMALE}her that if she{?}him that if he{\?} proves of no use to you or your men, {?ISCAPTIVEFEMALE}she{?}he{\?} will find new purpose as some dog's bitch. {?ISCAPTIVEFEMALE}Her{?}His{\?} eyes widen in fear at the sight of the creatures' massive members.{\?}</Text>
         <BackgroundName>TB_scene_dogs</BackgroundName>
         <NotificationName>BC_image_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -212,7 +212,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <HealthTotal>-1</HealthTotal>
-                <OptionText>{=BCCaptor_Text_14470}Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
                                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 1" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -5 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
@@ -231,7 +231,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_threaten_public_use</Name>
-        <Text>{=BCCaptor_Text_14471}You drag {CAPTIVE_NAME} to a whipping post, telling {?ISCAPTIVEFEMALE}her that if she continues her resistance, you will shackle her to it for a few hours so that anyone who fancies a feel of her struggling body can make use of her at their leisure.{?}him that if he continues his resistance, you will shackle him to it for a few hours so that anyone who fancies a feel of his struggling body can make use of him at their leisure.{\?}</Text>
+        <Text>You drag {CAPTIVE_NAME} to a whipping post, telling {?ISCAPTIVEFEMALE}her that if she continues her resistance, you will shackle her to it for a few hours so that anyone who fancies a feel of her struggling body can make use of her at their leisure.{?}him that if he continues his resistance, you will shackle him to it for a few hours so that anyone who fancies a feel of his struggling body can make use of him at their leisure.{\?}</Text>
         <BackgroundName>TB_scene_whipping_post</BackgroundName>
         <NotificationName>BC_image_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -252,7 +252,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <HealthTotal>-1</HealthTotal>
-                <OptionText>{=BCCaptor_Text_14470}Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
                                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 1" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -5 -10" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -271,7 +271,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_threaten_whipping</Name>
-        <Text>{=BCCaptor_Text_14472}You drag {CAPTIVE_NAME} to a whipping post, telling {?ISCAPTIVEFEMALE}her that if she continues her resistance, you will shackle her to it and give her a good whipping so that she understands that becoming your obedient slut is a far better fate than becoming a whipping girl.{?}him that if he continues his resistance, you will shackle him to it and give him a good whipping so that he understands that becoming your obedient slut is a far better fate than becoming a whipping boy.{\?}</Text>
+        <Text>You drag {CAPTIVE_NAME} to a whipping post, telling {?ISCAPTIVEFEMALE}her that if she continues her resistance, you will shackle her to it and give her a good whipping so that she understands that becoming your obedient slut is a far better fate than becoming a whipping girl.{?}him that if he continues his resistance, you will shackle him to it and give him a good whipping so that he understands that becoming your obedient slut is a far better fate than becoming a whipping boy.{\?}</Text>
         <BackgroundName>TB_scene_whipping_post</BackgroundName>
         <NotificationName>BC_image_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -292,7 +292,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <HealthTotal>-1</HealthTotal>
-                <OptionText>{=BCCaptor_Text_14470}Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
                                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 1" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -5 -10" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -312,7 +312,7 @@
 <!-- Humiliation events -->
     <CEEvent>
         <Name>BC_event_humiliate_pink</Name>
-        <Text>{=BCCaptor_Text_14473}The most sheer concubine outfit is prepared for {CAPTIVE_NAME}, and they are chained to a post in the officer's quarters. Eventually, the lure of the feminine fabrics proves too much for some of your men, and {CAPTIVE_NAME}'s mouth becomes the relief for their lust. The slurping and sucking can be heard til the small hours, when you deem your cadre finally needs sleep for their duties.</Text>
+        <Text>The most sheer concubine outfit is prepared for {CAPTIVE_NAME}, and they are chained to a post in the officer's quarters. Eventually, the lure of the feminine fabrics proves too much for some of your men, and {CAPTIVE_NAME}'s mouth becomes the relief for their lust. The slurping and sucking can be heard til the small hours, when you deem your cadre finally needs sleep for their duties.</Text>
         <Backgrounds>
             <Background Name="BC_humiliation_public_pink" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_male_bitch_dirty" UseConditions="BC_event_conditions_captive_male" />
@@ -337,7 +337,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14470}Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
                                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -10 -20" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -363,59 +363,8 @@
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent> 
     <CEEvent>
-        <Name>BC_event_humiliate_bestiality</Name>
-        <Text>{=BCCaptor_Text_14474}You chain {CAPTIVE_NAME} to the ground, {?ISCAPTIVEFEMALE}her ass raised high into the air, and beckon your captain to fetch your largest hunting dog. As your captive struggles, the rest of camp slowly makes their way over to watch her. Your captain leads an immense wolfhound sporting a massive erection past the woman and she screams in fear and alarm. The creature mounts her swiftly, boring into her cunt with obvious enjoyment as her cries grow faint and she passes out from the pain. The stud leaves her dripping with pints of seed in a performance your men won't soon forget.{?}his ass raised high into the air, and beckon your captain to fetch your largest hunting dog. As your captive struggles, the rest of camp slowly makes their way over to watch him. Your captain leads an immense wolfhound sporting a massive erection past the man and he screams in fear and alarm. The creature mounts him swiftly, boring into his ass with obvious enjoyment as his cries grow faint and he passes out from the pain. The stud leaves him dripping with pints of seed in a performance your troops won't soon forget.{\?}</Text>
-        <Backgrounds>
-            <Background Name="TB_scion_canine_dirty" UseConditions="BC_event_conditions_captive_female_default" />
-            <Background Name="TB_scion_male_canine_dirty" UseConditions="BC_event_conditions_captive_male" />
-        </Backgrounds>
-        <NotificationName>BC_image_notification</NotificationName>
-        <MultipleRestrictedListOfFlags>
-            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-        </MultipleRestrictedListOfFlags>
-        <Options>
-            <Option>
-                <Order>2</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14470}Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
-                                <SkillsToLevel>
-                    <Skill Id="CaptiveObedience" ByLevel="R 1 3" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                    <Skill Id="CaptiveAffection" ByLevel="R -20 -40" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                    <Skill Id="CaptiveLustC" ByLevel="R 1 3" Ref="Captor" Color="Yellow"  HideNotification="true" />
-                    <Skill Id="CaptiveLustT" ByLevel="R 1 3" Ref="Captor" Color="Yellow"  HideNotification="true" />
-                    <Skill Id="CaptiveLustV" ByLevel="R 10 30" Ref="Captor" Color="Yellow"  HideNotification="true" />
-                    <Skill Id="CaptiveLustO" ByLevel="R 10 30" Ref="Captor" Color="Yellow"  HideNotification="true" />
-                    <Skill Id="CaptiveLustA" ByLevel="R 10 30" Ref="Captor" Color="Yellow"  HideNotification="true" />
-                    <Skill Id="CaptiveCanis" ByLevel="1" Ref="Hero" Color="Green" />
-                </SkillsToLevel>
-                <HealthTotal>R -5 -10</HealthTotal>
-                <RenownTotal>R -5 -10</RenownTotal>
-                <MoraleTotal>R 1 3</MoraleTotal>
-            </Option>
-        </Options>
-        <SkillsRequired><SkillRequired Id="CaptiveCanis" Max="0" Ref="Hero" /></SkillsRequired>
-        <ReqHeroHealthAbovePercentage>19</ReqHeroHealthAbovePercentage>
-        <ReqCustomCode>true</ReqCustomCode>
-        <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-        <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
-    <CEEvent>
         <Name>BC_event_humiliate_public_use</Name>
-        <Text>{=BCCaptor_Text_14475}You drag {CAPTIVE_NAME} to a post in storehouse in near the center of camp, locking {?ISCAPTIVEFEMALE}her in, and inform her that she's been promoted from captive to camp slut. The men of camp gather round, cheering, and her ordeal begins as her holes are stuffed with rigid man-meat. Hours later, her body coated in cum and bruises, you unchain her and let her exhausted body drop to the ground.{?}him in, and inform him that he's been promoted from captive to camp slut. The women of camp gather round, cheering, and his ordeal begins as they begin pushing things into his ass and fondling his genitals. Hours later, his body coated in slime and bruises, you unchain him and let his exhausted body drop to the ground.{\?}</Text>
+        <Text>You drag {CAPTIVE_NAME} to a post in storehouse in near the center of camp, locking {?ISCAPTIVEFEMALE}her in, and inform her that she's been promoted from captive to camp slut. The men of camp gather round, cheering, and her ordeal begins as her holes are stuffed with rigid man-meat. Hours later, her body coated in cum and bruises, you unchain her and let her exhausted body drop to the ground.{?}him in, and inform him that he's been promoted from captive to camp slut. The women of camp gather round, cheering, and his ordeal begins as they begin pushing things into his ass and fondling his genitals. Hours later, his body coated in slime and bruises, you unchain him and let his exhausted body drop to the ground.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_humiliation_new_post" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_male_bound_tree_dirty" UseConditions="BC_event_conditions_captive_male" />
@@ -441,7 +390,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14470}Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
                                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 1 3" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -30 -60" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -468,7 +417,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_humiliate_mule</Name>
-        <Text>{=BCCaptor_Text_14480}{CAPTIVE_NAME} has been promoted to pack mule for the day! {?ISCAPTIVEFEMALE}Mules don't wear clothes, silly ass! She can't carry quite as much as her stable mates, but she picks up the pace when the cane switches swing!{?}He is loaded down with goods, and whipped regularly to keep him moving.{\?}</Text>
+        <Text>{CAPTIVE_NAME} has been promoted to pack mule for the day! {?ISCAPTIVEFEMALE}Mules don't wear clothes, silly ass! She can't carry quite as much as her stable mates, but she picks up the pace when the cane switches swing!{?}He is loaded down with goods, and whipped regularly to keep him moving.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_humiliation_hard_labour" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_humiliation_hard_labour" UseConditions="BC_event_conditions_captive_male" />
@@ -492,7 +441,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14470}Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
                                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 12 24" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -20 -40" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -509,7 +458,7 @@
     </CEEvent>           
     <CEEvent>
         <Name>BC_event_humiliate_bull</Name>
-        <Text>{=BCCaptor_Text_14481}{CAPTIVE_NAME} is brought to the center of camp, where the big soldier called Bull waits, erect{?ISCAPTIVEFEMALE} and drugged into a frenzy, ready for a legendary performance. The huge cock pounds against the tiny slit for what seems like forever before it slips inside, {CAPTIVE_NAME} moaning in fear and shame while Bull keeps her in arms reach. Once inside, the lady is unable to control her vocalization: her outcries bring a large crowd to the center of camp, but almost no one can stand to watch the entire hours-long ordeal.{?}, to fulfill a lost bet of his own. The women of camp gather round, cheering, and {CAPTIVE_NAME}'s ordeal begins as Bull ruts about inside him. Hours later, his body coated in slime and bruises, you unchain him and let his exhausted body drop to the ground.{\?}</Text>
+        <Text>{CAPTIVE_NAME} is brought to the center of camp, where the big soldier called Bull waits, erect{?ISCAPTIVEFEMALE} and drugged into a frenzy, ready for a legendary performance. The huge cock pounds against the tiny slit for what seems like forever before it slips inside, {CAPTIVE_NAME} moaning in fear and shame while Bull keeps her in arms reach. Once inside, the lady is unable to control her vocalization: her outcries bring a large crowd to the center of camp, but almost no one can stand to watch the entire hours-long ordeal.{?}, to fulfill a lost bet of his own. The women of camp gather round, cheering, and {CAPTIVE_NAME}'s ordeal begins as Bull ruts about inside him. Hours later, his body coated in slime and bruises, you unchain him and let his exhausted body drop to the ground.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_humiliation_public_bull" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_male_bound_tree_dirty" UseConditions="BC_event_conditions_captive_male" />
@@ -534,7 +483,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14470}Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
                                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 1 3" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -10 -15" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -561,7 +510,7 @@
     </CEEvent> 
     <CEEvent>
         <Name>BC_event_humiliate_red</Name>
-        <Text>{=BCCaptor_Text_14482}You drag {CAPTIVE_NAME} to a tree near the animal pens, tying {?ISCAPTIVEFEMALE}her arms back, and propping her mouth open. All the men queue for hours at their chance to coat the back of {CAPTIVE_NAME}'s throat, and soon she is unrecognizeable.{?}him in, and inform him that he's been promoted from captive to camp slut. The women of camp gather round, cheering, and his ordeal begins as they begin pushing things into his ass and fondling his genitals. Hours later, his body coated in slime and bruises, you unchain him and let his exhausted body drop to the ground.{\?}</Text>
+        <Text>You drag {CAPTIVE_NAME} to a tree near the animal pens, tying {?ISCAPTIVEFEMALE}her arms back, and propping her mouth open. All the men queue for hours at their chance to coat the back of {CAPTIVE_NAME}'s throat, and soon she is unrecognizeable.{?}him in, and inform him that he's been promoted from captive to camp slut. The women of camp gather round, cheering, and his ordeal begins as they begin pushing things into his ass and fondling his genitals. Hours later, his body coated in slime and bruises, you unchain him and let his exhausted body drop to the ground.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_humiliation_public_oral" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_male_bound_tree_dirty" UseConditions="BC_event_conditions_captive_male" />
@@ -586,7 +535,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14470}Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
                                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 2 6" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -10 -20" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -611,7 +560,7 @@
     </CEEvent>    
     <CEEvent>
         <Name>BC_event_humiliate_orgy</Name>
-        <Text>{=BCCaptor_Text_14483}{CAPTIVE_NAME} is to be an offering to the Gods of Debauchery! Bathed, drugged, and scented, then teased by an inexhaustible supply of depraved guests, {?ISCAPTIVEFEMALE}she is fully utilized, filled from bottom to top, and her hands hips and lips begin to respond to what is expected from her, for now and forever.{?}he is made available to any who wish to stake their claim and make their marks.{\?} Hours later, the captives are brought back to their cells. Did {CAPTIVE_NAME} actually enjoy being the center of attention?</Text>
+        <Text>{CAPTIVE_NAME} is to be an offering to the Gods of Debauchery! Bathed, drugged, and scented, then teased by an inexhaustible supply of depraved guests, {?ISCAPTIVEFEMALE}she is fully utilized, filled from bottom to top, and her hands hips and lips begin to respond to what is expected from her, for now and forever.{?}he is made available to any who wish to stake their claim and make their marks.{\?} Hours later, the captives are brought back to their cells. Did {CAPTIVE_NAME} actually enjoy being the center of attention?</Text>
         <Backgrounds>
             <Background Name="BC_humiliation_roman_orgy" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_humiliation_roman_orgy" UseConditions="BC_event_conditions_captive_male" />
@@ -637,7 +586,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14470}Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
                                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 1 6" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R 0 12" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -667,7 +616,7 @@
     </CEEvent>    
     <CEEvent>
         <Name>BC_event_humiliate_swords</Name>
-        <Text>{=BCCaptor_Text_14484}{CAPTIVE_NAME}'s oral prowess will be used to settle a dispute among the men. Stripped and manacled, knowing what is expected, {?ISCAPTIVEFEMALE}she drops to a squat and begins to slide her breasts and tongue over each man's package in turn. Masterful in its own way, her growing skills calm the men, and the nature of the dispute is forgotten as they take pleasure from {CAPTIVE_NAME}'s flesh. {?}he drops to his knees and begins pleasing the leader of each faction with his lips and tongue. {\?}Over an hour later, the dispute is settled, and {CAPTIVE_NAME} pukes up a stomachful of foul seed.</Text>
+        <Text>{CAPTIVE_NAME}'s oral prowess will be used to settle a dispute among the men. Stripped and manacled, knowing what is expected, {?ISCAPTIVEFEMALE}she drops to a squat and begins to slide her breasts and tongue over each man's package in turn. Masterful in its own way, her growing skills calm the men, and the nature of the dispute is forgotten as they take pleasure from {CAPTIVE_NAME}'s flesh. {?}he drops to his knees and begins pleasing the leader of each faction with his lips and tongue. {\?}Over an hour later, the dispute is settled, and {CAPTIVE_NAME} pukes up a stomachful of foul seed.</Text>
         <Backgrounds>
             <Background Name="BC_humiliation_squats" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_scion_bound_tree_dirty" UseConditions="BC_event_conditions_captive_male" />
@@ -692,7 +641,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14485}{CAPTIVE_NAME} is becoming quite the cocksucker.</OptionText>
+                <OptionText>{CAPTIVE_NAME} is becoming quite the cocksucker.</OptionText>
                                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 1 3" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -2 -4" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -721,7 +670,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_humiliate_bitch</Name>
-        <Text>{=BCCaptor_Text_14486}You order {CAPTIVE_NAME} to get on {?ISCAPTIVEFEMALE}her knees, then begin leading her around the camp by the collar. You loudly proclaim to your troops that she's no longer to be treated as a slave - she's been demoted to bitch, and any of them are encouraged to breed her. Her ordeal begins as they take you up on the offer, and by the time you've completed the circuit of camp she's coated head to toe in semen, whimpering softly in humiliation.{?}his knees, then begin leading him around the camp by the collar. You loudly proclaim to your troops that he's no longer to be treated as a slave - he's been demoted to bitch, and any of them are encouraged to breed him. His ordeal begins as they take you up on the offer, and by the time you've completed the circuit of camp he's coated head to toe in bruises and bodily fluids, whimpering softly in humiliation.{\?}</Text>
+        <Text>You order {CAPTIVE_NAME} to get on {?ISCAPTIVEFEMALE}her knees, then begin leading her around the camp by the collar. You loudly proclaim to your troops that she's no longer to be treated as a slave - she's been demoted to bitch, and any of them are encouraged to breed her. Her ordeal begins as they take you up on the offer, and by the time you've completed the circuit of camp she's coated head to toe in semen, whimpering softly in humiliation.{?}his knees, then begin leading him around the camp by the collar. You loudly proclaim to your troops that he's no longer to be treated as a slave - he's been demoted to bitch, and any of them are encouraged to breed him. His ordeal begins as they take you up on the offer, and by the time you've completed the circuit of camp he's coated head to toe in bruises and bodily fluids, whimpering softly in humiliation.{\?}</Text>
         <Backgrounds>
             <Background Name="TB_scion_bitch_dirty" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_male_bitch_dirty" UseConditions="BC_event_conditions_captive_male" />
@@ -747,7 +696,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14470}Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
                                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 1 3" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -10 -30" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -773,7 +722,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_humiliate_drug</Name>
-        <Text>{=BCCaptor_Text_14487}You force {CAPTIVE_NAME} to drink an interesting mix of wine, herbs and berries you procured from an alchemist, and {?ISCAPTIVEFEMALE}she quickly grows inebriated and extremely aroused. You send word to the troops that she's eager to receive them, and they line up to use her willing, semiconscious body. By the time the drug has worn off, she's in no condition to resist, and sobs quietly as your troops describe the depraved acts she willingly submitted to during her inebriation.{?}he quickly grows inebriated and extremely hard. You send word to the troops that he's eager to receive them, and they line up to use his willing, semiconscious body. By the time the drug has worn off, he's in no condition to resist, and sobs quietly as your troops describe the depraved acts he willingly submitted to during his inebriation.{\?}</Text>
+        <Text>You force {CAPTIVE_NAME} to drink an interesting mix of wine, herbs and berries you procured from an alchemist, and {?ISCAPTIVEFEMALE}she quickly grows inebriated and extremely aroused. You send word to the troops that she's eager to receive them, and they line up to use her willing, semiconscious body. By the time the drug has worn off, she's in no condition to resist, and sobs quietly as your troops describe the depraved acts she willingly submitted to during her inebriation.{?}he quickly grows inebriated and extremely hard. You send word to the troops that he's eager to receive them, and they line up to use his willing, semiconscious body. By the time the drug has worn off, he's in no condition to resist, and sobs quietly as your troops describe the depraved acts he willingly submitted to during his inebriation.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_humiliation_roman_orgy" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_male_bitch_dirty" UseConditions="BC_event_conditions_captive_male" />
@@ -799,7 +748,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14470}Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
                                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 2 7" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -10 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -829,7 +778,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_humiliate_cum</Name>
-        <Text>{=BCCaptor_Text_14488}You drag {CAPTIVE_NAME} to the center of camp, binding {?ISCAPTIVEFEMALE}her to a post. You tell your troops that they have two hours to coat every inch of her body in cum as she squeals in terror. They rise to the challenge, and when you return her belly is glutted, her mouth overflowing with semen. Not a speck of her body seems clear of the slime as you nod approvingly at your troops' performance.{?}him to a post. You tell your troops that they have two hours to coat every inch of his body in cum as he squeals in terror. They rise to the challenge, and when you return his belly is glutted, his mouth overflowing with fluids. Not a speck of his body seems clear of the slime as you nod approvingly at your troops' performance.{\?}</Text>
+        <Text>You drag {CAPTIVE_NAME} to the center of camp, binding {?ISCAPTIVEFEMALE}her to a post. You tell your troops that they have two hours to coat every inch of her body in cum as she squeals in terror. They rise to the challenge, and when you return her belly is glutted, her mouth overflowing with semen. Not a speck of her body seems clear of the slime as you nod approvingly at your troops' performance.{?}him to a post. You tell your troops that they have two hours to coat every inch of his body in cum as he squeals in terror. They rise to the challenge, and when you return his belly is glutted, his mouth overflowing with fluids. Not a speck of his body seems clear of the slime as you nod approvingly at your troops' performance.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_female_cum_covered" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_male_bound_tree_dirty" UseConditions="BC_event_conditions_captive_male" />
@@ -854,7 +803,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14470}Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
                                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 2 7" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -15 -30" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -881,7 +830,7 @@
 <!-- Torture events -->
     <CEEvent>
         <Name>BC_event_torture_start</Name>
-        <Text>{=BCCaptor_Text_14489}{CAPTIVE_NAME} is escorted to the Chamber of Devices. What manner of discipline in store for h{?ISCAPTIVEFEMALE}er{?}im{\?}?</Text>
+        <Text>{CAPTIVE_NAME} is escorted to the Chamber of Devices. What manner of discipline in store for h{?ISCAPTIVEFEMALE}er{?}im{\?}?</Text>
         <Backgrounds>
             <Background Name="BC_dungeon_hallway_right" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_dungeon_hallway_left" UseConditions="BC_event_conditions_captive_male" />
@@ -903,7 +852,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14490}Torment h{?ISCAPTIVEFEMALE}er{?}im{\?} yourself.</OptionText>
+                <OptionText>Torment h{?ISCAPTIVEFEMALE}er{?}im{\?} yourself.</OptionText>
                 <TriggerEventName>BC_event_torment_start</TriggerEventName>
                 <StripSettings QuestEnabled="false">
                     <Clothing>Custom</Clothing>
@@ -927,7 +876,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14491}Leave {CAPTIVE_NAME} in the torture chamber.</OptionText>
+                <OptionText>Leave {CAPTIVE_NAME} in the torture chamber.</OptionText>
                 <StripSettings QuestEnabled="false">
                     <Clothing>Slave</Clothing>
                 </StripSettings>
@@ -948,7 +897,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14492}Take {CAPTIVE_NAME} out of the torture chamber.</OptionText>
+                <OptionText>Take {CAPTIVE_NAME} out of the torture chamber.</OptionText>
                 <StripSettings QuestEnabled="false">
                     <Clothing>Slave</Clothing>
                     <!-- <CustomGloves>klbcloth1a</CustomGloves>
@@ -969,7 +918,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14493}Let h{?ISCAPTIVEFEMALE}er{?}im{\?} watch some other poor wretches suffer, as a warning.</OptionText>
+                <OptionText>Let h{?ISCAPTIVEFEMALE}er{?}im{\?} watch some other poor wretches suffer, as a warning.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 2 4" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -25 -25" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -997,7 +946,7 @@
 
     <CEEvent>
         <Name>BC_event_torture_bondage</Name>
-        <Text>{=BCCaptor_Text_14494}{?ISCAPTIVEFEMALE}Down in the dungeon, {CAPTIVE_NAME} is stripped and lowered onto the wooden horse. The sting of the lash is soon drowned out by the terrible pain between her legs, but her ordeal has just begun.{?}You take out a nasty-looking collection of binding devices, suspending {CAPTIVE_NAME} helplessly between two tent poles. He screams as you tighten his bonds just past the point of pain, and then just a little tighter still, then leave him there to consider how he has displeased you. His screams turn to soft sobs over the course of several hours, and when at last you free him he finds his limbs temporarily unable to obey.{\?}</Text>
+        <Text>{?ISCAPTIVEFEMALE}Down in the dungeon, {CAPTIVE_NAME} is stripped and lowered onto the wooden horse. The sting of the lash is soon drowned out by the terrible pain between her legs, but her ordeal has just begun.{?}You take out a nasty-looking collection of binding devices, suspending {CAPTIVE_NAME} helplessly between two tent poles. He screams as you tighten his bonds just past the point of pain, and then just a little tighter still, then leave him there to consider how he has displeased you. His screams turn to soft sobs over the course of several hours, and when at last you free him he finds his limbs temporarily unable to obey.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_torture_wooden_horse" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="TB_scion_male_bound_tree" UseConditions="BC_event_conditions_captive_male" />
@@ -1021,7 +970,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14470}Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 5 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -10 -30" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -1041,7 +990,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14495}Keep {CAPTIVE_NAME} with the torturers.</OptionText>
+                <OptionText>Keep {CAPTIVE_NAME} with the torturers.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 5 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -10 -30" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -1067,7 +1016,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_torture_dunking</Name>
-        <Text>{=BCCaptor_Text_14496}{CAPTIVE_NAME} is brought down to the water mill and chained to the wheel. {?ISCAPTIVEFEMALE}She makes two full passes under the water before she sputters upon surfacing, pleading for mercy. Your instructions did not include mercy, and she is spun around again and again, until the tears stop and the coughing, spitting mess becomes unresponsive. {?}He stoically bears the dunking and the jeers of your men, until the torturer is convinced he has lost consciousness.{\?}</Text>
+        <Text>{CAPTIVE_NAME} is brought down to the water mill and chained to the wheel. {?ISCAPTIVEFEMALE}She makes two full passes under the water before she sputters upon surfacing, pleading for mercy. Your instructions did not include mercy, and she is spun around again and again, until the tears stop and the coughing, spitting mess becomes unresponsive. {?}He stoically bears the dunking and the jeers of your men, until the torturer is convinced he has lost consciousness.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_torture_water_wheel" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_image_male_back_scars" UseConditions="BC_event_conditions_captive_male" />
@@ -1091,7 +1040,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14470}Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 14 28" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -30 -70" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -1112,7 +1061,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14495}Leave {CAPTIVE_NAME} with the torturers.</OptionText>
+                <OptionText>Leave {CAPTIVE_NAME} with the torturers.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 14 28" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -30 -70" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -1136,7 +1085,7 @@
     </CEEvent>    
     <CEEvent>
         <Name>BC_event_torture_caning</Name>
-        <Text>{=BCCaptor_Text_14497}{CAPTIVE_NAME} is stripped and doubled over a filthy bed in a windowless cell. {?ISCAPTIVEFEMALE}One vicious stroke of the cane is applied to tender flesh, with a sharp inhalation. Then a sponge of seawater is wrung out over the wound, with a gritting of teeth at the pain. Then the door is shut while she dries in the dark. After a few minutes, the door bursts open again, she is struck! And swabbed, and the whimpering begins anew as the door is shut. {?}His balls are target practice for a swift, merciless caning. You are assured there is nothing left of {CAPTIVE_NAME}'s manhood left to speak of.{\?}</Text>
+        <Text>{CAPTIVE_NAME} is stripped and doubled over a filthy bed in a windowless cell. {?ISCAPTIVEFEMALE}One vicious stroke of the cane is applied to tender flesh, with a sharp inhalation. Then a sponge of seawater is wrung out over the wound, with a gritting of teeth at the pain. Then the door is shut while she dries in the dark. After a few minutes, the door bursts open again, she is struck! And swabbed, and the whimpering begins anew as the door is shut. {?}His balls are target practice for a swift, merciless caning. You are assured there is nothing left of {CAPTIVE_NAME}'s manhood left to speak of.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_torture_caning" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_image_male_back_scars" UseConditions="BC_event_conditions_captive_male" />
@@ -1160,7 +1109,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14498}Have {CAPTIVE_NAME} released after 24 hours of this. Perhaps when {?ISCAPTIVEFEMALE}s{?}{\?}he is allowed to sit, {?ISCAPTIVEFEMALE}s{?}{\?}he'll appreciate it more.</OptionText>
+                <OptionText>Have {CAPTIVE_NAME} released after 24 hours of this. Perhaps when {?ISCAPTIVEFEMALE}s{?}{\?}he is allowed to sit, {?ISCAPTIVEFEMALE}s{?}{\?}he'll appreciate it more.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -10 -30" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -1183,7 +1132,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14495}Keep {CAPTIVE_NAME} with the torturers.</OptionText>
+                <OptionText>Keep {CAPTIVE_NAME} with the torturers.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -10 -30" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -1209,7 +1158,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_torture_snow</Name>
-        <Text>{=BCCaptor_Text_14499}{CAPTIVE_NAME} is stripped, bound to a wheel, and left outside the dungeon in the elements. It's not even an entire week before someone reminds you that captives need some water...{\?}</Text>
+        <Text>{CAPTIVE_NAME} is stripped, bound to a wheel, and left outside the dungeon in the elements. It's not even an entire week before someone reminds you that captives need some water...{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_torture_snow" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_image_male_back_scars" UseConditions="BC_event_conditions_captive_male" />
@@ -1233,7 +1182,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14470}Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
                 <StripSettings QuestEnabled="false">
                     <Clothing>Slave</Clothing>
                 </StripSettings>
@@ -1255,7 +1204,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14495}Leave {CAPTIVE_NAME} with the torturers.</OptionText>
+                <OptionText>Leave {CAPTIVE_NAME} with the torturers.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -10 -30" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -1280,7 +1229,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_torture_suspension_2</Name>
-        <Text>{=BCCaptor_Text_14500}{CAPTIVE_NAME} is stripped and taken to a sort of 'specialist' you employ in the dungeon. {?ISCAPTIVEFEMALE}Her breasts are tightly bound. Slowly, slowly, she is lifted off the ground. Higher and higher the rope cranks, but her toes stay at the same tantalizing distance from stability. When she's finally let down, your best soldiers should be given the first "shot" across her bruised chest.{?}The chiurgeon works his magic and when {CAPTIVE_NAME} is finally lead back to the cells, he is very quiet...{\?}</Text>
+        <Text>{CAPTIVE_NAME} is stripped and taken to a sort of 'specialist' you employ in the dungeon. {?ISCAPTIVEFEMALE}Her breasts are tightly bound. Slowly, slowly, she is lifted off the ground. Higher and higher the rope cranks, but her toes stay at the same tantalizing distance from stability. When she's finally let down, your best soldiers should be given the first "shot" across her bruised chest.{?}The chiurgeon works his magic and when {CAPTIVE_NAME} is finally lead back to the cells, he is very quiet...{\?}</Text>
         <Backgrounds>
             <Background Name="BC_torture_hanging_breasts" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_image_male_back_scars" UseConditions="BC_event_conditions_captive_male" />
@@ -1305,7 +1254,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14501}Now {?ISCAPTIVEFEMALE}s{?}{\?}he's starting to look right.</OptionText>
+                <OptionText>Now {?ISCAPTIVEFEMALE}s{?}{\?}he's starting to look right.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -1 -3" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -1329,7 +1278,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14502}Perhaps they need to be a bit longer.</OptionText>
+                <OptionText>Perhaps they need to be a bit longer.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -1 -3" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -1354,7 +1303,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_torture_sitting_vise</Name>
-        <Text>{=BCCaptor_Text_14503}{CAPTIVE_NAME} has begun to strut about the prison, proud of {?ISCAPTIVEFEMALE}her growing chest and puffy nipples.{?}his hanging meat.{\?} A bit too proud...</Text>
+        <Text>{CAPTIVE_NAME} has begun to strut about the prison, proud of {?ISCAPTIVEFEMALE}her growing chest and puffy nipples.{?}his hanging meat.{\?} A bit too proud...</Text>
         <Backgrounds>
             <Background Name="BC_torture_breasts" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_image_male_back_scars" UseConditions="BC_event_conditions_captive_male" />
@@ -1379,7 +1328,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14504}Let's see if she's still proud of those bruised udders in the morning.</OptionText>
+                <OptionText>Let's see if she's still proud of those bruised udders in the morning.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -4 -8" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -1404,7 +1353,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14495}Leave {CAPTIVE_NAME} with the torturers.</OptionText>
+                <OptionText>Leave {CAPTIVE_NAME} with the torturers.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -4 -8" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -1432,7 +1381,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_torture_standing_wedge</Name>
-        <Text>{=BCCaptor_Text_14505}{CAPTIVE_NAME} is sat upon a broad wedge, chained and weighted down. &quot;I have some ideas for things I would like to see up your ass, but they tell me this is the only way to get them to fit!&quot; </Text>
+        <Text>{CAPTIVE_NAME} is sat upon a broad wedge, chained and weighted down. &quot;I have some ideas for things I would like to see up your ass, but they tell me this is the only way to get them to fit!&quot; </Text>
         <Backgrounds>
             <Background Name="BC_image_torture_weights_wedge" />
         </Backgrounds>
@@ -1456,7 +1405,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14506}Have her sent to the harem to recover nearby.</OptionText>
+                <OptionText>Have her sent to the harem to recover nearby.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -4 -8" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -1481,7 +1430,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14495}Leave {CAPTIVE_NAME} with the torturers.</OptionText>
+                <OptionText>Leave {CAPTIVE_NAME} with the torturers.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -4 -8" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -1508,7 +1457,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_torture_crows</Name>
-        <Text>{=BCCaptor_Text_14507}{CAPTIVE_NAME} is taken back to the bloodiest ground of your last field battle, stripped, and staked out spread eagle. Honey-dipped twigs are jammed roughly into her organ. Before she is left to the elements and the torments of the carrion hunters, your torturer kneels his full weight on her stomach for several minutes. "Master explained, you will shit yourself sooner, and the insects will draw even more scavengers. See you tomorrow!"</Text>
+        <Text>{CAPTIVE_NAME} is taken back to the bloodiest ground of your last field battle, stripped, and staked out spread eagle. Honey-dipped twigs are jammed roughly into her organ. Before she is left to the elements and the torments of the carrion hunters, your torturer kneels his full weight on her stomach for several minutes. "Master explained, you will shit yourself sooner, and the insects will draw even more scavengers. See you tomorrow!"</Text>
         <Backgrounds>
             <Background Name="BC_torture_crows_nest" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_image_male_back_scars" UseConditions="BC_event_conditions_captive_male" />
@@ -1532,7 +1481,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14508}Perhaps this time, {CAPTIVE_NAME} will remember what awaits disobedience...</OptionText>
+                <OptionText>Perhaps this time, {CAPTIVE_NAME} will remember what awaits disobedience...</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 15 30" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -30 -60" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -1559,7 +1508,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_torture_human_shield</Name>
-        <Text>{=BCCaptor_Text_14509}You get word that {CAPTIVE_NAME} has begun to stand up for the other prisoners, volunteering for punishments to spare those in much worse shape. How valiant... A fresh-faced village girl is stripped and bound underneath {?ISCAPTIVEFEMALE}her{?}him{\?}. A hooded man with a bullwhip takes his time from ten feet away, being given a denar for every welt he can raise on the little one... He persists gleefully until he has over 30 pieces, and {CAPTIVE_NAME} has long since slumped unconscious from pain.</Text>
+        <Text>You get word that {CAPTIVE_NAME} has begun to stand up for the other prisoners, volunteering for punishments to spare those in much worse shape. How valiant... A fresh-faced village girl is stripped and bound underneath {?ISCAPTIVEFEMALE}her{?}him{\?}. A hooded man with a bullwhip takes his time from ten feet away, being given a denar for every welt he can raise on the little one... He persists gleefully until he has over 30 pieces, and {CAPTIVE_NAME} has long since slumped unconscious from pain.</Text>
         <Backgrounds>
             <Background Name="BC_torture_human_shield" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_image_male_back_scars" UseConditions="BC_event_conditions_captive_male" />
@@ -1583,7 +1532,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14510}Let {?ISCAPTIVEFEMALE}her{?}him{\?} rest after such heroism.</OptionText>
+                <OptionText>Let {?ISCAPTIVEFEMALE}her{?}him{\?} rest after such heroism.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 7 28" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -3 -30" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -1606,7 +1555,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14495}Leave {CAPTIVE_NAME} with the torturers.</OptionText>
+                <OptionText>Leave {CAPTIVE_NAME} with the torturers.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 7 28" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -3 -30" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -1629,182 +1578,10 @@
         <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
-    <CEEvent>
-        <Name>BC_event_torture_horse</Name>
-        <Text>{=BCCaptor_Text_14511}{CAPTIVE_NAME} is taken to the stables and is locked to a wooden horse. At first {?ISCAPTIVEFEMALE}she seems merely afraid, but as you lead a stallion towards her naked body she begins screaming incoherently for mercy. The creature has quite a bit of trouble entering her, and in the end it's necessary for you to guide it in, but once it finds a welcoming hole it thrusts mightily, savaging her helpless body. It takes only a few minutes to finish, spurting an ocean of milky seed into her, but in that time she has screamed herself hoarse and then lost consciousness. You're confident she'll remember the lesson when she wakes.{?}he seems merely afraid, but as you lead a stallion towards his naked body he begins screaming incoherently for mercy. The creature has quite a bit of trouble entering him, and in the end it's necessary for you to guide it in, but once it finds a welcoming hole it thrusts mightily, savaging his helpless body. It takes only a few minutes to finish, spurting an ocean of milky seed into him, but in that time he has screamed himself hoarse and then lost consciousness. You're confident he'll remember the lesson when he wakes.{\?}</Text>
-        <Backgrounds>
-            <Background Name="BC_image_female_horse" UseConditions="BC_event_conditions_captive_female_default" />
-            <Background Name="TB_scion_male_horse_dirty" UseConditions="BC_event_conditions_captive_male" />
-        </Backgrounds>
-        <NotificationName>BC_image_notification_torture</NotificationName>
-        <MultipleRestrictedListOfFlags>
-            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
-        </MultipleRestrictedListOfFlags>
-        <Options>
-            <Option>
-                <Order>2</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14512}Let {?ISCAPTIVEFEMALE}her{?}him{\?} recover.</OptionText>
-                <SkillsToLevel>
-                    <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                    <Skill Id="CaptiveAffection" ByLevel="R -10 -30" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                    <Skill Id="CaptiveLustV" ByLevel="R 5 15" Ref="Hero" Color="Cyan" HideNotification="true" />
-                    <Skill Id="SocialEnergy" ByLevel="-10" Ref="Hero" HideNotification="true" />
-                    <Skill Id="InTorture" ByLevel="-1" Ref="Hero" />
-                    <Skill Id="CaptiveEquus" ByLevel="1" Ref="Hero" Color="Green" />
-                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Captor" Color="Yellow" HideNotification="true" />
-                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Captor" Color="Yellow" HideNotification="true" />
-                    <Skill Id="CaptiveLustC" ByLevel="R 1 10" Ref="Captor" Color="Yellow" HideNotification="true" />
-                    <Skill Id="CaptiveLustA" ByLevel="R 10 30" Ref="Captor" Color="Yellow" HideNotification="true" />
-                    <Skill Id="CaptiveLustV" ByLevel="R 10 30" Ref="Captor" Color="Yellow" HideNotification="true" />
-                </SkillsToLevel>
-                <StripSettings QuestEnabled="false">
-                    <Clothing>Slave</Clothing>
-                </StripSettings>
-                <HealthTotal>R -25 -50</HealthTotal>
-                <RenownTotal>R -5 -10</RenownTotal>
-            </Option>
-            <Option>
-                <Order>2</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14495}Leave {CAPTIVE_NAME} with the torturers.</OptionText>
-                <SkillsToLevel>
-                    <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                    <Skill Id="CaptiveAffection" ByLevel="R -10 -30" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                    <Skill Id="CaptiveLustV" ByLevel="R 5 15" Ref="Hero" Color="Cyan" HideNotification="true" />
-                    <Skill Id="SocialEnergy" ByLevel="-10" Ref="Hero" HideNotification="true" />
-                    <Skill Id="CaptiveEquus" ByLevel="1" Ref="Hero" Color="Green" />
-                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Captor" Color="Yellow" HideNotification="true" />
-                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Captor" Color="Yellow" HideNotification="true" />
-                    <Skill Id="CaptiveLustC" ByLevel="R 1 10" Ref="Captor" Color="Yellow" HideNotification="true" />
-                    <Skill Id="CaptiveLustA" ByLevel="R 10 30" Ref="Captor" Color="Yellow" HideNotification="true" />
-                    <Skill Id="CaptiveLustV" ByLevel="R 10 30" Ref="Captor" Color="Yellow" HideNotification="true" />
-                </SkillsToLevel>
-                <StripSettings QuestEnabled="false">
-                    <Clothing>Slave</Clothing>
-                </StripSettings>
-                <HealthTotal>R -25 -50</HealthTotal>
-                <RenownTotal>R -5 -10</RenownTotal>
-            </Option>
-        </Options> 
-        <SkillsRequired>
-            <SkillRequired Id="InTorture" Ref="Hero" Min="1" />
-            <SkillRequired Id="CaptiveEquus" Ref="Hero" Max="0" />
-        </SkillsRequired>
-        <ReqHeroHealthAbovePercentage>9</ReqHeroHealthAbovePercentage>
-        <ReqCustomCode>true</ReqCustomCode>
-        <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-        <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
-    <CEEvent>
-        <Name>BC_event_torture_pigs</Name>
-        <Text>{=BCCaptor_Text_14513}{CAPTIVE_NAME} has taken so well to pleasuring your animals! She is thrown into the sty, and the hogs immediately begin jostling to breed her first. Amazingly, she reaches to pull her new lovers closer, squealing and rutting like a true beast.</Text>
-        <Backgrounds>
-            <Background Name="BC_image_torture_corkscrew"  />
-        </Backgrounds>
-        <NotificationName>BC_image_notification_torture</NotificationName>
-        <MultipleRestrictedListOfFlags>
-            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
-        </MultipleRestrictedListOfFlags>
-        <Options>
-            <Option>
-                <Order>2</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14512}Let {?ISCAPTIVEFEMALE}her{?}him{\?} recover.</OptionText>
-                <SkillsToLevel>
-                    <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                    <Skill Id="CaptiveAffection" ByLevel="R -10 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                    <Skill Id="CaptiveEsteem" ByLevel="R -10 -40" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                    <Skill Id="CaptiveLustV" ByLevel="R 15 35" Ref="Hero" Color="Cyan" HideNotification="true" />
-                    <Skill Id="InTorture" ByLevel="-1" Ref="Hero" />
-                    <Skill Id="Broken" ByLevel="1" Ref="Hero" />
-                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Captor" Color="Yellow" HideNotification="true" />
-                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Captor" Color="Yellow" HideNotification="true" />
-                    <Skill Id="CaptiveLustC" ByLevel="R 10 10" Ref="Captor" Color="Yellow" HideNotification="true" />
-                    <Skill Id="CaptiveLustA" ByLevel="R 10 30" Ref="Captor" Color="Yellow" HideNotification="true" />
-                    <Skill Id="CaptiveLustV" ByLevel="R 10 30" Ref="Captor" Color="Yellow" HideNotification="true" />
-                </SkillsToLevel>
-                <StripSettings QuestEnabled="false">
-                    <Clothing>Slave</Clothing>
-                </StripSettings>
-                <HealthTotal>R -25 -50</HealthTotal>
-                <RenownTotal>R -15 -30</RenownTotal>
-            </Option>
-            <!-- <Option>
-                <Order>2</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14495}Leave {CAPTIVE_NAME} with the torturers.</OptionText>
-                <SkillsToLevel>
-                    <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                    <Skill Id="CaptiveAffection" ByLevel="R -10 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                    <Skill Id="CaptiveLustV" ByLevel="R 15 35" Ref="Hero" Color="Cyan" HideNotification="true" />
-                    <Skill Id="SocialEnergy" ByLevel="-10" Ref="Hero" HideNotification="true" />
-                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Captor" Color="Yellow" HideNotification="true" />
-                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Captor" Color="Yellow" HideNotification="true" />
-                    <Skill Id="CaptiveLustC" ByLevel="R 1 10" Ref="Captor" Color="Yellow" HideNotification="true" />
-                    <Skill Id="CaptiveLustA" ByLevel="R 10 30" Ref="Captor" Color="Yellow" HideNotification="true" />
-                    <Skill Id="CaptiveLustV" ByLevel="R 10 30" Ref="Captor" Color="Yellow" HideNotification="true" />
-                </SkillsToLevel>
-                <StripSettings QuestEnabled="false">
-                    <Clothing>Slave</Clothing>
-                </StripSettings>
-                <HealthTotal>R -25 -50</HealthTotal>
-                <RenownTotal>R -15 -30</RenownTotal>
-            </Option> -->
-        </Options> 
-        <SkillsRequired>
-            <SkillRequired Id="InTorture" Ref="Hero" Min="1" />
-            <SkillRequired Id="CaptiveEquus" Ref="Hero" Min="1" />
-            <SkillRequired Id="CaptiveCanis" Ref="Hero" Min="1" />
-        </SkillsRequired>
-        <ReqHeroHealthAbovePercentage>9</ReqHeroHealthAbovePercentage>
-        <ReqCustomCode>true</ReqCustomCode>
-        <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-        <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
     <!-- Generic whipping punishment -->
     <CEEvent>
         <Name>BC_event_torture_whipping</Name>
-        <Text>{=BCCaptor_Text_14515}You chain {CAPTIVE_NAME} to a post as {?ISCAPTIVEFEMALE}she struggles. Taking a long, vicious-looking whip from your pack, you begin carefully applying it to her back and buttocks, taking care to let each stripe rest long enough that she can't get used to the pain. Her screams are terrible to hear, but by the time you are done she's incoherently begging you to stop, gibbering as she promises she'll do whatever you want.{?}he struggles. Taking a long, vicious-looking whip from your pack, you begin carefully applying it to his back and buttocks, taking care to let each stripe rest long enough that he can't get used to the pain. His screams are terrible to hear, but by the time you are done he's incoherently begging you to stop, gibbering as he promises he'll do whatever you want.{\?}</Text>
+        <Text>You chain {CAPTIVE_NAME} to a post as {?ISCAPTIVEFEMALE}she struggles. Taking a long, vicious-looking whip from your pack, you begin carefully applying it to her back and buttocks, taking care to let each stripe rest long enough that she can't get used to the pain. Her screams are terrible to hear, but by the time you are done she's incoherently begging you to stop, gibbering as she promises she'll do whatever you want.{?}he struggles. Taking a long, vicious-looking whip from your pack, you begin carefully applying it to his back and buttocks, taking care to let each stripe rest long enough that he can't get used to the pain. His screams are terrible to hear, but by the time you are done he's incoherently begging you to stop, gibbering as he promises he'll do whatever you want.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_captor_torture_whipping_back" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_image_male_back_scars" UseConditions="BC_event_conditions_captive_male" />
@@ -1830,7 +1607,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14514}Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more respectful.</OptionText>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more respectful.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -10 -30" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -1860,7 +1637,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_torture_whipped_stripped</Name>
-        <Text>{=BCCaptor_Text_14515}You chain {CAPTIVE_NAME} to a post as {?ISCAPTIVEFEMALE}she struggles. Taking a long, vicious-looking whip from your pack, you begin carefully applying it to her back and buttocks, taking care to let each stripe rest long enough that she can't get used to the pain. Her screams are terrible to hear, but by the time you are done she's incoherently begging you to stop, gibbering as she promises she'll do whatever you want.{?}he struggles. Taking a long, vicious-looking whip from your pack, you begin carefully applying it to his back and buttocks, taking care to let each stripe rest long enough that he can't get used to the pain. His screams are terrible to hear, but by the time you are done he's incoherently begging you to stop, gibbering as he promises he'll do whatever you want.{\?}</Text>
+        <Text>You chain {CAPTIVE_NAME} to a post as {?ISCAPTIVEFEMALE}she struggles. Taking a long, vicious-looking whip from your pack, you begin carefully applying it to her back and buttocks, taking care to let each stripe rest long enough that she can't get used to the pain. Her screams are terrible to hear, but by the time you are done she's incoherently begging you to stop, gibbering as she promises she'll do whatever you want.{?}he struggles. Taking a long, vicious-looking whip from your pack, you begin carefully applying it to his back and buttocks, taking care to let each stripe rest long enough that he can't get used to the pain. His screams are terrible to hear, but by the time you are done he's incoherently begging you to stop, gibbering as he promises he'll do whatever you want.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_captor_torture_whipping_back" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_image_male_back_scars" UseConditions="BC_event_conditions_captive_male" />
@@ -1885,7 +1662,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14514}Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more respectful.</OptionText>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more respectful.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -10 -30" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -1912,7 +1689,7 @@
 <!-- Torments section-->
     <CEEvent>
         <Name>BC_event_torment_start</Name>
-        <Text>{=BCCaptor_Text_14516}It's time to give {CAPTIVE_NAME} some personal attention.</Text>
+        <Text>It's time to give {CAPTIVE_NAME} some personal attention.</Text>
         <Backgrounds>
             <Background Name="BC_captor_torment_start" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_captor_captive_male_scar" UseConditions="BC_event_conditions_captive_male" />
@@ -1934,7 +1711,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14517}Art Appreciation.</OptionText>
+                <OptionText>Art Appreciation.</OptionText>
                 <TriggerEventName>BC_event_torment_art</TriggerEventName>
             </Option>
             <Option>
@@ -1942,7 +1719,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14518}Breast Worship.</OptionText>
+                <OptionText>Breast Worship.</OptionText>
                 <TriggerEventName>BC_event_torment_totems</TriggerEventName>
             </Option>
             <Option>
@@ -1950,7 +1727,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14551}Fatten her up.</OptionText>
+                <OptionText>Fatten her up.</OptionText>
                 <TriggerEventName>BC_event_torment_headsup</TriggerEventName>
             </Option>
             <Option>
@@ -1958,7 +1735,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14519}Solitary Confinement.</OptionText>
+                <OptionText>Solitary Confinement.</OptionText>
                 <TriggerEventName>BC_event_torment_closet</TriggerEventName>
             </Option>
             <Option>
@@ -1966,7 +1743,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14520}Start a campaign to teach her she's worthless (Mind Games).</OptionText>
+                <OptionText>Start a campaign to teach her she's worthless (Mind Games).</OptionText>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveAffection" Min="50" Ref="Hero"/>
                 </SkillsRequired>
@@ -1979,7 +1756,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14521}Force her to drink the alchemist's potion.</OptionText>
+                <OptionText>Force her to drink the alchemist's potion.</OptionText>
                 <TriggerEventName>TB_captor_mind_break</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="MindBroken" ByLevel="1" Ref="Hero" HideNotification="true"/>
@@ -1999,7 +1776,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14522}Not now.</OptionText>
+                <OptionText>Not now.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -2009,7 +1786,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_torment_art</Name>
-        <Text>{=BCCaptor_Text_14523}I had a sculpture commissioned for you, {CAPTIVE_NAME}...</Text>
+        <Text>I had a sculpture commissioned for you, {CAPTIVE_NAME}...</Text>
         <Backgrounds>
             <Background Name="BC_captor_sex_sculpture" UseConditions="BC_event_conditions_captive_female_noble" />
             <Background Name="BC_captor_torment_sculpture" UseConditions="BC_event_conditions_captive_female_default" />
@@ -2033,7 +1810,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14524}I know, you're speechless. If I remember, I'll take you down after the showing.</OptionText>
+                <OptionText>I know, you're speechless. If I remember, I'll take you down after the showing.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 4 8" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -3 -6" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -2052,7 +1829,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_torment_headsup</Name>
-        <Text>{=BCCaptor_Text_14525}{?ISCAPTIVEFEMALE}"Eat all the gravy from her snatch, {CAPTIVE_NAME}, or there'll be an extra round of 'stuffing' for you!"{?}{CAPTIVE_NAME} is stripped in the stocks. He has weights pulling his balls low, and is whipped mercilessly until he passes out.{\?}</Text>
+        <Text>{?ISCAPTIVEFEMALE}"Eat all the gravy from her snatch, {CAPTIVE_NAME}, or there'll be an extra round of 'stuffing' for you!"{?}{CAPTIVE_NAME} is stripped in the stocks. He has weights pulling his balls low, and is whipped mercilessly until he passes out.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_humiliation_ff_turkey" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="{CAPTIVE_NAME} is brought to a cell where another royal prisoner is stripped in the stocks. " UseConditions="BC_event_conditions_captive_male" />
@@ -2077,7 +1854,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14526}Such a treat!</OptionText>
+                <OptionText>Such a treat!</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 5 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -1 4" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -2102,7 +1879,7 @@
     <!-- Solitary -->
     <CEEvent>
         <Name>BC_event_torment_closet</Name>
-        <Text>{=BCCaptor_Text_14527}Trussed and gagged is a good look for you, don't you think, {CAPTIVE_NAME}? You'll be close at hand, under these floorboards should I need you...</Text>
+        <Text>Trussed and gagged is a good look for you, don't you think, {CAPTIVE_NAME}? You'll be close at hand, under these floorboards should I need you...</Text>
         <Backgrounds>
             <Background Name="BC_torment_bondage_closet" />
         </Backgrounds>
@@ -2125,7 +1902,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14528}Give her a few days to herself.</OptionText>
+                <OptionText>Give her a few days to herself.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 4 8" Ref="Hero" Color="Cyan"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -3 3" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -2145,7 +1922,7 @@
 <!-- bewbs   --> 
     <CEEvent>
         <Name>BC_event_torment_totems</Name>
-        <Text>{=BCCaptor_Text_14529}Those tits, those beautiful tits! Put them each on a pedestal, so when she writhes she's flush from fighting not to move. Not everyone has tits to drool over, and these are spectacular now that you've set them free. </Text>
+        <Text>Those tits, those beautiful tits! Put them each on a pedestal, so when she writhes she's flush from fighting not to move. Not everyone has tits to drool over, and these are spectacular now that you've set them free. </Text>
         <Backgrounds>
             <Background Name="BC_captor_torment_totems" />
         </Backgrounds>
@@ -2168,7 +1945,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14530}What else do you have in mind?</OptionText>
+                <OptionText>What else do you have in mind?</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_torment_asphyx</EventName>
@@ -2225,7 +2002,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14531}She can't even feel it anymore. Enough for now.</OptionText>
+                <OptionText>She can't even feel it anymore. Enough for now.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAugment" ByLevel="R -5 5" Ref="Hero" Color="Magenta" />
                     <Skill Id="SocialEnergy" ByLevel="-2" Ref="Hero" HideNotification="true" />
@@ -2245,7 +2022,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_torment_nipples_taste</Name>
-        <Text>{=BCCaptor_Text_14532}{CAPTIVE_NAME}'s nipples could be bigger, but they taste wonderfully...</Text>
+        <Text>{CAPTIVE_NAME}'s nipples could be bigger, but they taste wonderfully...</Text>
         <Backgrounds>
             <Background Name="BC_image_captive_ff_nipples" UseConditions="BC_event_conditions_captor_female" />            
             <Background Name="BC_image_captive_mf_nipples" UseConditions="BC_event_conditions_captor_male" />
@@ -2269,7 +2046,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14533}...What to do next?</OptionText>
+                <OptionText>...What to do next?</OptionText>
                 <TriggerEventName>BC_event_torment_totems</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -2295,7 +2072,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_torment_nipples</Name>
-        <Text>{=BCCaptor_Text_14534}{CAPTIVE_NAME}'s globes are coming along nicely, but her nipples could be bigger...</Text>
+        <Text>{CAPTIVE_NAME}'s globes are coming along nicely, but her nipples could be bigger...</Text>
         <Backgrounds>
             <Background Name="BC_captor_torment_nipples_2" />
         </Backgrounds>
@@ -2318,7 +2095,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14535}They're very raw now... What to do next?</OptionText>
+                <OptionText>They're very raw now... What to do next?</OptionText>
                 <TriggerEventName>BC_event_torment_totems</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 7 28" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -2344,7 +2121,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_torment_cowbell</Name>
-        <Text>{=BCCaptor_Text_14536}{CAPTIVE_NAME} is drugged and set up in a place of honor. No whipping today, you tell her, unless the bells ring too much. She tries so hard to be still...</Text>
+        <Text>{CAPTIVE_NAME} is drugged and set up in a place of honor. No whipping today, you tell her, unless the bells ring too much. She tries so hard to be still...</Text>
         <Backgrounds>
             <Background Name="BC_torture_cowbell" />
         </Backgrounds>
@@ -2367,7 +2144,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14537}She's very raw down there... What to do next?</OptionText>
+                <OptionText>She's very raw down there... What to do next?</OptionText>
                 <TriggerEventName>BC_event_torment_totems</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 7 28" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -2396,7 +2173,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_torment_asphyx</Name>
-        <Text>{=BCCaptor_Text_14538}You decide to calibrate how sensitive {CAPTIVE_NAME}'s breasts are at present. She is squatted onto a knobbed stool. You probe the fattest sections of her breasts and thighs with a crop, periodically tightening her collar.</Text>
+        <Text>You decide to calibrate how sensitive {CAPTIVE_NAME}'s breasts are at present. She is squatted onto a knobbed stool. You probe the fattest sections of her breasts and thighs with a crop, periodically tightening her collar.</Text>
         <Backgrounds>
             <Background Name="BC_torture_asphyx_stool" />
         </Backgrounds>
@@ -2419,7 +2196,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14535}... What to do next?</OptionText>
+                <OptionText>... What to do next?</OptionText>
                 <TriggerEventName>BC_event_torment_totems</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 3 6" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -2447,7 +2224,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_torment_wringer</Name>
-        <Text>{=BCCaptor_Text_14539}You decide to lengthen {CAPTIVE_NAME}'s sensitive breasts. She is squatted onto a crossbeam and tied securely in place. You squeeze her breasts through the device, periodically tightening the rollers, until the slightest breath wracks her with agony.</Text>
+        <Text>You decide to lengthen {CAPTIVE_NAME}'s sensitive breasts. She is squatted onto a crossbeam and tied securely in place. You squeeze her breasts through the device, periodically tightening the rollers, until the slightest breath wracks her with agony.</Text>
         <Backgrounds>
             <Background Name="BC_image_torture_wringer_breasts" />
         </Backgrounds>
@@ -2470,7 +2247,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14535}... What to do next?</OptionText>
+                <OptionText>... What to do next?</OptionText>
                 <TriggerEventName>BC_event_torment_totems</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 3 6" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -2498,7 +2275,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_torment_saddle</Name>
-        <Text>{=BCCaptor_Text_14540}You decide to calibrate how sensitive {CAPTIVE_NAME}'s breasts are at present. She is bitted and bound to a saddle. You probe the fattest sections of her breasts and sides with a lash, periodically tightening her collar. The leather saddle is frothy with your little mare's lubrication by the time your wrist tires.</Text>
+        <Text>You decide to calibrate how sensitive {CAPTIVE_NAME}'s breasts are at present. She is bitted and bound to a saddle. You probe the fattest sections of her breasts and sides with a lash, periodically tightening her collar. The leather saddle is frothy with your little mare's lubrication by the time your wrist tires.</Text>
         <Backgrounds>
             <Background Name="BC_image_torment_saddle_f" UseConditions="BC_event_conditions_captor_female_captive_female" />
             <Background Name="BC_image_torment_saddle" UseConditions="BC_event_conditions_captor_male_captive_female" />
@@ -2522,7 +2299,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14535}... What to do next?</OptionText>
+                <OptionText>... What to do next?</OptionText>
                 <TriggerEventName>BC_event_torment_totems</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 3 6" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -2552,7 +2329,7 @@
 <!-- WHITE BONDAGE SERIES-->
     <CEEvent>
         <Name>BC_event_male_sex_ttf_white_bondage</Name>
-        <Text>{=BCCaptor_Text_14541}Cleaned, combed and scented. In total privacy. Slowly, ever so slowly, you turn and bind and move {CAPTIVE_NAME}...</Text>
+        <Text>Cleaned, combed and scented. In total privacy. Slowly, ever so slowly, you turn and bind and move {CAPTIVE_NAME}...</Text>
         <BackgroundName>BC_captor_sex_white</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -2569,7 +2346,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14542}Keep her ankles apart.</OptionText>
+                <OptionText>Keep her ankles apart.</OptionText>
                 <TriggerEventName>BC_event_white_ankles</TriggerEventName>
             </Option>
             <Option>
@@ -2577,7 +2354,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14543}Keep stuffing her.</OptionText>
+                <OptionText>Keep stuffing her.</OptionText>
                 <TriggerEventName>BC_event_white_stuff</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveObedience" Min="25" Ref="Hero" />
@@ -2588,7 +2365,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14544}Now stand her up.</OptionText>
+                <OptionText>Now stand her up.</OptionText>
                 <TriggerEventName>BC_event_white_stand</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveObedience" Min="40" Ref="Hero" />
@@ -2599,7 +2376,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14545}And bend her over.</OptionText>
+                <OptionText>And bend her over.</OptionText>
                 <TriggerEventName>BC_event_white_over</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveObedience" Min="50" Ref="Hero" />
@@ -2610,7 +2387,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14546}Open up wide for me now...</OptionText>
+                <OptionText>Open up wide for me now...</OptionText>
                 <TriggerEventName>BC_event_white_open</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveObedience" Min="60" Ref="Hero" />
@@ -2621,7 +2398,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14547}And back like this for me.</OptionText>
+                <OptionText>And back like this for me.</OptionText>
                 <TriggerEventName>BC_event_white_bend</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveObedience" Min="75" Ref="Hero" />
@@ -2632,7 +2409,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14548}Can you handle a little horseplay?</OptionText>
+                <OptionText>Can you handle a little horseplay?</OptionText>
                 <TriggerEventName>BC_event_white_horse</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveObedience" Min="90" Ref="Hero" />
@@ -2645,7 +2422,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14549}That should be enough for today.</OptionText>
+                <OptionText>That should be enough for today.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 5 10" Ref="Hero" HideNotification="true"/>
                     <Skill Id="CaptiveObedience" ByLevel="R 2 6" Ref="Hero" HideNotification="true"/>
@@ -2681,7 +2458,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14550}Exquisite...</OptionText>
+                <OptionText>Exquisite...</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttf_white_bondage</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustC" ByLevel="R 3 6" Ref="Hero" Color="Yellow" HideNotification="true"/>
@@ -2714,7 +2491,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14550}</OptionText>
+                <OptionText>Exquisite...</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttf_white_bondage</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustO" ByLevel="R -3 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
@@ -2749,7 +2526,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14550}Exquisite...</OptionText>
+                <OptionText>Exquisite...</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttf_white_bondage</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustC" ByLevel="R -1 1" Ref="Hero" Color="Yellow" HideNotification="true"/>
@@ -2784,7 +2561,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14550}Exquisite...</OptionText>
+                <OptionText>Exquisite...</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttf_white_bondage</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustT" ByLevel="R -1 1" Ref="Hero" Color="Yellow" HideNotification="true"/>
@@ -2819,7 +2596,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14550}Exquisite...</OptionText>
+                <OptionText>Exquisite...</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttf_white_bondage</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R -1 1" Ref="Hero" Color="Yellow" HideNotification="true"/>
@@ -2858,7 +2635,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14550}Exquisite...</OptionText>
+                <OptionText>Exquisite...</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttf_white_bondage</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 3 6" Ref="Hero" HideNotification="true"/>
@@ -2898,7 +2675,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14550}Exquisite...</OptionText>
+                <OptionText>Exquisite...</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttf_white_bondage</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 3 6" Ref="Hero" HideNotification="true"/>

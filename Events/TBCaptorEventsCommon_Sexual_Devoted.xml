@@ -2,7 +2,7 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_captor_devoted_want_baby</Name>
-        <Text>{=TBCaptorEvents_Common_061}{CAPTIVE_NAME} approaches you, a yearning look in her eyes. She explains that she's been watching her master for some time, and adores everything about you - your generosity, your kindness, your luscious lips, hard chest, and bulging groin... In short, she's wondering if you might be willing to bless your slut's womb with your seed so that she can bear your perfect children.</Text>
+        <Text>{CAPTIVE_NAME} approaches you, a yearning look in her eyes. She explains that she's been watching her master for some time, and adores everything about you - your generosity, your kindness, your luscious lips, hard chest, and bulging groin... In short, she's wondering if you might be willing to bless your slut's womb with your seed so that she can bear your perfect children.</Text>
         <Backgrounds>
             <Background Name="TB_scion_slave_kneel" UseConditions="BC_event_conditions_captive_female" />
             <Background Name="TB_thief_eager_touch" UseConditions="BC_event_conditions_captive_thief_female" />
@@ -25,7 +25,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationByPlayer</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsCompanion_Sexual_Devoted004}}You'd be honored.</OptionText>
+                <OptionText>You'd be honored.</OptionText>
                 <HealthTotal>10</HealthTotal>
                 <TriggerEventName>TB_captor_devoted_want_baby_impregnate</TriggerEventName>
                 <PregnancyRiskModifier>17</PregnancyRiskModifier>
@@ -34,12 +34,12 @@
                 </SkillsToLevel>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsCompanion_Sexual_Devoted005}That seems rather forward.</OptionText>
+                <OptionText>That seems rather forward.</OptionText>
                 <TriggerEventName>TB_companion_devoted_want_baby_decline</TriggerEventName>
                 <HealthTotal>10</HealthTotal>
                 <SkillsToLevel>
@@ -47,12 +47,12 @@
                 </SkillsToLevel>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>2</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsCompanion_Sexual_Devoted006}Certainly not!</OptionText>
+                <OptionText>Certainly not!</OptionText>
                 <TriggerEventName>TB_companion_devoted_want_baby_decline</TriggerEventName>
                 <HealthTotal>10</HealthTotal>
                 <SkillsToLevel>
@@ -70,7 +70,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_devoted_want_baby_impregnate</Name>
-        <Text>{=TBCaptorEvents_Common_062}{CAPTIVE_NAME} smiles greedily as you accept, leading you to a quiet spot and pushing you onto the grass. She climbs atop you with commendable speed, her nipples taut and flushed with arousal, and unlaces your breeches with a desperate hunger, pausing briefly to admire your manhood before straddling you, enveloping your member with her warm flower. She pants, lowering her chest to yours and kissing you full on the mouth before pushing herself down to meet your thrusts. Her insides milk and massage your shaft, and it's not long before a thunderous climax runs through you, spurting a river of life into her womb as she moans and joins you in triumphant ecstasy.</Text>
+        <Text>{CAPTIVE_NAME} smiles greedily as you accept, leading you to a quiet spot and pushing you onto the grass. She climbs atop you with commendable speed, her nipples taut and flushed with arousal, and unlaces your breeches with a desperate hunger, pausing briefly to admire your manhood before straddling you, enveloping your member with her warm flower. She pants, lowering her chest to yours and kissing you full on the mouth before pushing herself down to meet your thrusts. Her insides milk and massage your shaft, and it's not long before a thunderous climax runs through you, spurting a river of life into her womb as she moans and joins you in triumphant ecstasy.</Text>
         <Backgrounds>
             <Background Name="TB_cowgirl"/>
         </Backgrounds>
@@ -86,7 +86,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_063}More cum for your greedy whore.</OptionText>
+                <OptionText>More cum for your greedy whore.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -96,7 +96,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_devoted_want_baby_decline</Name>
-        <Text>{=TBCaptorEvents_Common_064}{CAPTIVE_NAME} seems devastated at your refusal, and shakes her head, muttering that of course, she understands, you wouldn't want to pollute your bloodline with someone like her. She puts up a brave smile and tries vainly to hold back tears as she leaves your presence.</Text>
+        <Text>{CAPTIVE_NAME} seems devastated at your refusal, and shakes her head, muttering that of course, she understands, you wouldn't want to pollute your bloodline with someone like her. She puts up a brave smile and tries vainly to hold back tears as she leaves your presence.</Text>
         <Backgrounds>
             <Background Name="TB_scion_slave_kneel" UseConditions="BC_event_conditions_captive_female" />
             <Background Name="TB_thief_kneeling_road" UseConditions="BC_event_conditions_captive_thief_female" />
@@ -115,7 +115,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_065}She's not worth your time.</OptionText>
+                <OptionText>She's not worth your time.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -125,7 +125,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_devoted_joinclan_f</Name>
-        <Text>{=TBCaptorEvents_Common_066}{CAPTIVE_NAME} approaches you, a yearning look in her eyes. She explains that she adores you, she worships you, she cannot live without your touch, and wishes nothing more than to become a member of your clan, so that she may serve you for the rest of her life.</Text>
+        <Text>{CAPTIVE_NAME} approaches you, a yearning look in her eyes. She explains that she adores you, she worships you, she cannot live without your touch, and wishes nothing more than to become a member of your clan, so that she may serve you for the rest of her life.</Text>
         <Backgrounds>
             <Background Name="TB_scion_slave_kneel" UseConditions="BC_event_conditions_captive_female" />
             <Background Name="TB_thief_eager_touch" UseConditions="BC_event_conditions_captive_thief_female" />
@@ -147,7 +147,7 @@
                     <RestrictedListOfConsequences>JoinCaptor</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>MakeHeroCompanion</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_067}Welcome her into your clan.</OptionText>
+                <OptionText>Welcome her into your clan.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 30 50" Ref="Hero" Color="Cyan" />
                 </SkillsToLevel>
@@ -156,11 +156,11 @@
                 </ClanOptions>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_068}You prefer her chained up.</OptionText>
+                <OptionText>You prefer her chained up.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" />
                 </SkillsToLevel>
@@ -178,7 +178,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_devoted_joinclan_m</Name>
-        <Text>{=TBCaptorEvents_Common_069}{CAPTIVE_NAME} approaches you, a yearning look in his eyes. He explains that he adores you, he worships you, he cannot live without your touch, and wishes nothing more than to become a member of your clan, so that he may serve you for the rest of his life.</Text>
+        <Text>{CAPTIVE_NAME} approaches you, a yearning look in his eyes. He explains that he adores you, he worships you, he cannot live without your touch, and wishes nothing more than to become a member of your clan, so that he may serve you for the rest of his life.</Text>
         <Backgrounds>
             <Background Name="BC_image_captive_male_towel"/>
         </Backgrounds>
@@ -196,7 +196,7 @@
                     <RestrictedListOfConsequences>JoinCaptor</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>MakeHeroCompanion</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_070}Welcome him into your clan.</OptionText>
+                <OptionText>Welcome him into your clan.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 30 50" Ref="Hero" Color="Cyan" />
                 </SkillsToLevel>
@@ -205,11 +205,11 @@
                 </ClanOptions>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_071}You prefer him chained up.</OptionText>
+                <OptionText>You prefer him chained up.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" />
                 </SkillsToLevel>

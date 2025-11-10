@@ -3,7 +3,7 @@
 
     <CEEvent>
         <Name>TB_captor_broken_masochism_m</Name>
-        <Text>{=TBCaptorEvents_Common_051}You hear a strange cacophony of screams and moans from nearby, and discover {CAPTIVE_NAME} being roughly fucked by a group of your troops. They slow down as you approach, and you hear his strained voice beg them to take their pleasure from him. They seem quite enthusiastic, but one glimpse of his desperate eyes is enough for you to realize he's not looking for pleasure, just trying to survive... </Text>
+        <Text>You hear a strange cacophony of screams and moans from nearby, and discover {CAPTIVE_NAME} being roughly fucked by a group of your troops. They slow down as you approach, and you hear his strained voice beg them to take their pleasure from him. They seem quite enthusiastic, but one glimpse of his desperate eyes is enough for you to realize he's not looking for pleasure, just trying to survive... </Text>
         <Backgrounds>
             <Background Name="TB_scion_male_group_4"/>
         </Backgrounds>
@@ -20,7 +20,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_052}Tell them to stop abusing him.</OptionText>
+                <OptionText>Tell them to stop abusing him.</OptionText>
                 <HealthTotal>10</HealthTotal>
                 <MoraleTotal>-5</MoraleTotal>
                 <SkillsToLevel>
@@ -28,12 +28,12 @@
                 </SkillsToLevel>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=DefaultCaptiveEventsFemale12}Ignore them.</OptionText>
+                <OptionText>Ignore them.</OptionText>
                 <HealthTotal>10</HealthTotal>
                 <Companions>
                     <Companion Id="1">
@@ -47,12 +47,12 @@
                 </Companions>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>2</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken008}Join in the fun.</OptionText>
+                <OptionText>Join in the fun.</OptionText>
                 <MoraleTotal>10</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R -5 -10" Ref="Hero" Color="Cyan" />
@@ -70,7 +70,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_broken_dirty_f</Name>
-        <Text>{=TBCaptorEvents_Common_053}You notice {CAPTIVE_NAME} slowly plodding along with your party when she falls to the ground, and you realize she's coated from head to toe in cum, her hair disheveled, and she hasn't bothered to clothe herself. Her eyes are empty, and she seems to be ignoring the worried stares of the rest of your party. You're not sure whether she'd even react if you kicked her.</Text>
+        <Text>You notice {CAPTIVE_NAME} slowly plodding along with your party when she falls to the ground, and you realize she's coated from head to toe in cum, her hair disheveled, and she hasn't bothered to clothe herself. Her eyes are empty, and she seems to be ignoring the worried stares of the rest of your party. You're not sure whether she'd even react if you kicked her.</Text>
         <Backgrounds>
             <Background Name="TB_scion_sleeping_dirty"/>
         </Backgrounds>
@@ -86,7 +86,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken009}Wash and clothe her.</OptionText>
+                <OptionText>Wash and clothe her.</OptionText>
                 <MoraleTotal>2</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 5 10" Ref="Hero" Color="Cyan" />
@@ -94,19 +94,19 @@
                 </SkillsToLevel>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken010}Ignore the wretch.</OptionText>
+                <OptionText>Ignore the wretch.</OptionText>
                 <HealthTotal>10</HealthTotal>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>2</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken011}Order her to her feet.</OptionText>
+                <OptionText>Order her to her feet.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R -5 -10" Ref="Hero" Color="Cyan" />
                     <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" Color="Cyan" />
@@ -123,7 +123,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_broken_dirty_m</Name>
-        <Text>{=TBCaptorEvents_Common_054}You notice {CAPTIVE_NAME} slowly plodding along with your party when he falls to the ground, and you realize he's coated from head to toe in cum, his hair disheveled, and he hasn't bothered to clothe himself. His eyes are empty, and he seems to be ignoring the worried stares of the rest of your party. You're not sure whether he'd even react if you kicked him.</Text>
+        <Text>You notice {CAPTIVE_NAME} slowly plodding along with your party when he falls to the ground, and you realize he's coated from head to toe in cum, his hair disheveled, and he hasn't bothered to clothe himself. His eyes are empty, and he seems to be ignoring the worried stares of the rest of your party. You're not sure whether he'd even react if you kicked him.</Text>
         <Backgrounds>
             <Background Name="TB_scion_male_bitch_dirty"/>
         </Backgrounds>
@@ -139,7 +139,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken012}Wash and clothe him.</OptionText>
+                <OptionText>Wash and clothe him.</OptionText>
                 <MoraleTotal>2</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 5 10" Ref="Hero" Color="Cyan" />
@@ -147,19 +147,19 @@
                 </SkillsToLevel>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken010}Ignore the wretch.</OptionText>
+                <OptionText>Ignore the wretch.</OptionText>
                 <HealthTotal>10</HealthTotal>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>2</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken013}Order him to his feet.</OptionText>
+                <OptionText>Order him to his feet.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R -5 -10" Ref="Hero" Color="Cyan" />
                     <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" Color="Cyan" />
@@ -176,7 +176,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_death_f</Name>
-        <Text>{=TBCaptorEvents_Common_055}You notice {CAPTIVE_NAME} fall at the rear of your procession, only to realize she's not moving or attempting to get up. One of your soldiers whips her and orders her to move, but her body remains still. You notice the pattern of unhealed wounds and abuse that litter her body and realize that your efforts to snuff out her disobedience also snuffed out her will to live. Her shattered, lifeless body is now little more than testament to your cruelty.</Text>
+        <Text>You notice {CAPTIVE_NAME} fall at the rear of your procession, only to realize she's not moving or attempting to get up. One of your soldiers whips her and orders her to move, but her body remains still. You notice the pattern of unhealed wounds and abuse that litter her body and realize that your efforts to snuff out her disobedience also snuffed out her will to live. Her shattered, lifeless body is now little more than testament to your cruelty.</Text>
         <Backgrounds>
             <Background Name="TB_scion_sleeping_dirty"/>
         </Backgrounds>
@@ -195,21 +195,21 @@
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <RelationTotal>-25</RelationTotal>
-                <OptionText>{=TBCaptorEvents_Common_056}Order your men to bury her.</OptionText>
+                <OptionText>Order your men to bury her.</OptionText>
                 <MoraleTotal>-10</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Captor" Color="Cyan" />
                 </SkillsToLevel>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>KillPrisoner</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <RelationTotal>-50</RelationTotal>
-                <OptionText>{=TBCaptorEvents_Common_057}Let her corpse feed the crows.</OptionText>
+                <OptionText>Let her corpse feed the crows.</OptionText>
             </Option>
         </Options>
         <SkillsRequired>
@@ -224,7 +224,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_death_m</Name>
-        <Text>{=TBCaptorEvents_Common_058}You notice {CAPTIVE_NAME} fall at the rear of your procession, only to realize he's not moving or attempting to get up. One of your soldiers whips him and orders him to move, but his body remains still. You notice the pattern of unhealed wounds and abuse that litter his body and realize that your efforts to snuff out his disobedience also snuffed out his will to live. His shattered, lifeless body is now little more than testament to your cruelty.</Text>
+        <Text>You notice {CAPTIVE_NAME} fall at the rear of your procession, only to realize he's not moving or attempting to get up. One of your soldiers whips him and orders him to move, but his body remains still. You notice the pattern of unhealed wounds and abuse that litter his body and realize that your efforts to snuff out his disobedience also snuffed out his will to live. His shattered, lifeless body is now little more than testament to your cruelty.</Text>
         <Backgrounds>
             <Background Name="TB_scion_male_bitch_dirty"/>
         </Backgrounds>
@@ -243,7 +243,7 @@
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <RelationTotal>-25</RelationTotal>
-                <OptionText>{=TBCaptorEvents_Common_059}Order your men to bury him.</OptionText>
+                <OptionText>Order your men to bury him.</OptionText>
                 <MoraleTotal>-10</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Captor" Color="Cyan" />
@@ -253,14 +253,14 @@
                 </TraitsToLevel>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>KillPrisoner</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <RelationTotal>-50</RelationTotal>
-                <OptionText>{=TBCaptorEvents_Common_060}Let his corpse feed the crows.</OptionText>
+                <OptionText>Let his corpse feed the crows.</OptionText>
                 <TraitsToLevel>
                     <Trait Id="Mercy" ByLevel="-1" Ref="Captor" Color="Cyan"/>
                     <Trait Id="Honor" ByLevel="-1" Ref="Captor" Color="Cyan"/>

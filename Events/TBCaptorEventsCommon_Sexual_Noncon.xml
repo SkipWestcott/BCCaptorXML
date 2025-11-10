@@ -2,7 +2,7 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_recapture_escaped_prisoner</Name>
-        <Text>{=TBCaptorEvents_Common_029}You recapture the escaped prisoner, glaring angrily at the guard who let them escape, and drag them back into captivity. Should you punish the captive for their bid for freedom?</Text>
+        <Text>You recapture the escaped prisoner, glaring angrily at the guard who let them escape, and drag them back into captivity. Should you punish the captive for their bid for freedom?</Text>
         <BackgroundName>TB_nervous_soldiers</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -15,7 +15,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_030}Of course. How else will they learn?</OptionText>
+                <OptionText>Of course. How else will they learn?</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>CE_captor_male_sexual_menu</EventName>
@@ -44,7 +44,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_031}No. Better to show mercy.</OptionText>
+                <OptionText>No. Better to show mercy.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -109,7 +109,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_pregnant_captive</Name>
-        <Text>{=TBCaptorEvents_Common_032}You notice that {CAPTIVE_NAME}'s belly has grown fat with child, her plump breasts swollen with milk. You wonder {?ISCAPTORFEMALE}whether one of the men is the father{?}whether the babe is one of yours{\?} when she notices you staring and begins pleading for mercy. She argues that she'll soon be too busy with motherly duties to cause you any further trouble.</Text>
+        <Text>You notice that {CAPTIVE_NAME}'s belly has grown fat with child, her plump breasts swollen with milk. You wonder {?ISCAPTORFEMALE}whether one of the men is the father{?}whether the babe is one of yours{\?} when she notices you staring and begins pleading for mercy. She argues that she'll soon be too busy with motherly duties to cause you any further trouble.</Text>
         <BackgroundName>TB_scion_pregnant</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -131,7 +131,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeCaptorTrait</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_033}A fair argument. Let her go.</OptionText>
+                <OptionText>A fair argument. Let her go.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 15 30" Ref="Hero" Color="Cyan"/>
                 </SkillsToLevel>
@@ -144,7 +144,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_034}Nonsense; she's still an enemy.</OptionText>
+                <OptionText>Nonsense; she's still an enemy.</OptionText>
             </Option>
             <Option>
                 <Order>2</Order>
@@ -154,7 +154,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeTrait</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_035}She will bear you{?ISCAPTORFEMALE}r army{?}{\?} many children. This is merely the first.</OptionText>
+                <OptionText>She will bear you{?ISCAPTORFEMALE}r army{?}{\?} many children. This is merely the first.</OptionText>
                 <TriggerEventName>TB_pregnant_claimed_womb</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R -50 -100" Ref="Hero" Color="Cyan"/>
@@ -176,7 +176,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_pregnant_claimed_womb</Name>
-        <Text>{=TBCaptorEvents_Common_036}{CAPTIVE_NAME}'s eyes grow wide and her lip trembles as you decide her fate. She can look forward to a lifetime of being used to bear your {?ISCAPTORFEMALE}men's{?}{\?}children, assuring the future of your clan at the expense of her own hopes and dreams. With little option but to accept her fate, she collapses to the ground, sobbing quietly.</Text>
+        <Text>{CAPTIVE_NAME}'s eyes grow wide and her lip trembles as you decide her fate. She can look forward to a lifetime of being used to bear your {?ISCAPTORFEMALE}men's{?}{\?}children, assuring the future of your clan at the expense of her own hopes and dreams. With little option but to accept her fate, she collapses to the ground, sobbing quietly.</Text>
         <BackgroundName>TB_scion_pregnant</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -189,7 +189,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_037}She will serve you well.</OptionText>
+                <OptionText>She will serve you well.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -198,7 +198,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_pregnant_claimed_womb_retire</Name>
-        <Text>{=TBCaptorEvents_Common_038}You realize with regret that {CAPTIVE_NAME} has become too old to continue to serve as a fertile womb for your clan. She has served you well, however. Might a reward be appropriate for such diligent service? She flinches as you approach, exhausted but resigned, and kneels before you expecting to be filled once more.</Text>
+        <Text>You realize with regret that {CAPTIVE_NAME} has become too old to continue to serve as a fertile womb for your clan. She has served you well, however. Might a reward be appropriate for such diligent service? She flinches as you approach, exhausted but resigned, and kneels before you expecting to be filled once more.</Text>
         <BackgroundName>TB_scion_slave_submit</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -217,7 +217,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_039}Keep her captive.</OptionText>
+                <OptionText>Keep her captive.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="ClaimedWomb" ByLevel="-100" Ref="Hero" HideNotification="true"/>
                 </SkillsToLevel>
@@ -228,7 +228,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_040}Give her her freedom.</OptionText>
+                <OptionText>Give her her freedom.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 15 30" Ref="Hero" Color="Cyan"/>
                     <Skill Id="ClaimedWomb" ByLevel="-100" Ref="Hero" HideNotification="true"/>
@@ -241,7 +241,7 @@
                     <RestrictedListOfConsequences>JoinCaptor</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>MakeHeroCompanion</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_041}Let her join her children in your clan.</OptionText>
+                <OptionText>Let her join her children in your clan.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 15 30" Ref="Hero" Color="Cyan"/>
                     <Skill Id="ClaimedWomb" ByLevel="-100" Ref="Hero" HideNotification="true"/>
@@ -261,7 +261,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captive_riding</Name>
-        <Text>{=TBCaptorEvents_Common_042}As you ride along, {CAPTIVE_NAME} bound and sitting in front of you on your horse, you have an excellent view of her pert ass bouncing up and down on the saddle, pressed up neatly against your groin.</Text>
+        <Text>As you ride along, {CAPTIVE_NAME} bound and sitting in front of you on your horse, you have an excellent view of her pert ass bouncing up and down on the saddle, pressed up neatly against your groin.</Text>
         <BackgroundName>TB_scion_riding</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -280,7 +280,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_043}Order her to go ride on the cart.</OptionText>
+                <OptionText>Order her to go ride on the cart.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero" Color="Cyan"/>
                 </SkillsToLevel>
@@ -290,7 +290,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_044}Continue your awkward ride.</OptionText>
+                <OptionText>Continue your awkward ride.</OptionText>
             </Option>
             <Option>
                 <Order>2</Order>
@@ -298,7 +298,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationHero</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_045}Lift her onto your cock.</OptionText>
+                <OptionText>Lift her onto your cock.</OptionText>
                 <TriggerEventName>TB_noncon_riding_horse</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R -1 -3" Ref="Hero" Color="Cyan"/>
@@ -313,7 +313,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_noncon_riding_horse</Name>
-        <Text>{=TBCaptorEvents_Common_046}You pull {CAPTIVE_NAME} onto your rigid shaft, piercing into her womanhood as pleasurable sensations wash up and down your body. She squeals, but does not resist, apparently realizing that this is the price she must pay to heal her agonized feet. The ride continues, your horse's movements bouncing her flower up and down around your manhood, and you struggle to stop yourself from coming too soon. After several hours of this torment she collapses onto your steed's neck, moaning softly. You feel yourself blast into her, and stop for a moment so that she can lick you clean.</Text>
+        <Text>You pull {CAPTIVE_NAME} onto your rigid shaft, piercing into her womanhood as pleasurable sensations wash up and down your body. She squeals, but does not resist, apparently realizing that this is the price she must pay to heal her agonized feet. The ride continues, your horse's movements bouncing her flower up and down around your manhood, and you struggle to stop yourself from coming too soon. After several hours of this torment she collapses onto your steed's neck, moaning softly. You feel yourself blast into her, and stop for a moment so that she can lick you clean.</Text>
         <BackgroundName>TB_scion_oral_dirty</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -329,7 +329,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationHero</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_047}A more pleasant ride than usual.</OptionText>
+                <OptionText>A more pleasant ride than usual.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>

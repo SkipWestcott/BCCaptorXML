@@ -2,7 +2,7 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_m_thief_use</Name>
-        <Text>{=TBCaptorEvents_Common_120}You find yourself glancing at {CAPTIVE_NAME} laying bound beside your bed, recalling she earned her fate by attempting to steal from you. She looks famished and filthy, and shrinks away in fear when she catches you staring at her, but her pert breasts and luscious body are rather fetching for all that.</Text>
+        <Text>You find yourself glancing at {CAPTIVE_NAME} laying bound beside your bed, recalling she earned her fate by attempting to steal from you. She looks famished and filthy, and shrinks away in fear when she catches you staring at her, but her pert breasts and luscious body are rather fetching for all that.</Text>
         <BackgroundName>TB_thief_kneeling_outside</BackgroundName>
         <NotificationName>TB_thief_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -22,7 +22,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12237}Leave her be.</OptionText>
+                <OptionText>Leave her be.</OptionText>
                 <RelationTotal>R 1 3</RelationTotal>
             </Option>
             <Option>
@@ -31,7 +31,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_121}Wash her.</OptionText>
+                <OptionText>Wash her.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 1 3" Ref="Hero" Color="Cyan"/>
                 </SkillsToLevel>
@@ -43,7 +43,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12239}Order her to pleasure you.</OptionText>
+                <OptionText>Order her to pleasure you.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_m_thief_whore</EventName>
@@ -66,7 +66,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationHero</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12256}Fuck her senseless.</OptionText>
+                <OptionText>Fuck her senseless.</OptionText>
                 <PregnancyRiskModifier>3</PregnancyRiskModifier>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <TriggerEvents>
@@ -86,7 +86,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12240}Let your men use her holes.</OptionText>
+                <OptionText>Let your men use her holes.</OptionText>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 3 4" Ref="Hero" Color="Cyan"/>
@@ -112,7 +112,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_m_thief_wash</Name>
-        <Text>{=TBCaptorEvents_Common_122}The woman shrinks as you approach her, shaking in fear as you lift her to her feet. You bring her to a nearby stream, carefully examining her scars as you wash every inch of her body. She moans lightly and pushes against your hand as your fingers brush her sex and breasts, and she blushes with shame. By the time she is clean your manhood has become quite excited...</Text>
+        <Text>The woman shrinks as you approach her, shaking in fear as you lift her to her feet. You bring her to a nearby stream, carefully examining her scars as you wash every inch of her body. She moans lightly and pushes against your hand as your fingers brush her sex and breasts, and she blushes with shame. By the time she is clean your manhood has become quite excited...</Text>
         <BackgroundName>TB_thief_clean</BackgroundName>
         <NotificationName>TB_thief_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -125,7 +125,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12242}Chain her back to her post.</OptionText>
+                <OptionText>Chain her back to her post.</OptionText>
             </Option>
             <Option>
                 <Order>2</Order>
@@ -133,7 +133,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12239}Order her to pleasure you.</OptionText>
+                <OptionText>Order her to pleasure you.</OptionText>
                 <TriggerEventName>TB_m_thief_whore</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 1 3" Ref="Hero" Color="Cyan"/>
@@ -146,7 +146,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationHero</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12256}Fuck her senseless.</OptionText>
+                <OptionText>Fuck her senseless.</OptionText>
                 <PregnancyRiskModifier>3</PregnancyRiskModifier>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 1 3" Ref="Hero" Color="Cyan"/>
@@ -161,7 +161,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_m_thief_whore</Name>
-        <Text>{=TBCaptorEvents_Common_123}{CAPTIVE_NAME} swallows nervously as you order her to pleasure you, and gingerly makes her way over to you, kneeling down as she tugs at your pants with her teeth. Your manhood is painfully erect by the time she succeeds, and it springs out, hitting her face with a meaty slap. She takes it into her mouth, slurping and sucking with arousing desperation, her sobs pleasantly punctuating the feel of your glans punching against the back of her throat.</Text>
+        <Text>{CAPTIVE_NAME} swallows nervously as you order her to pleasure you, and gingerly makes her way over to you, kneeling down as she tugs at your pants with her teeth. Your manhood is painfully erect by the time she succeeds, and it springs out, hitting her face with a meaty slap. She takes it into her mouth, slurping and sucking with arousing desperation, her sobs pleasantly punctuating the feel of your glans punching against the back of her throat.</Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <BackgroundName>TB_thief_oral_eager</BackgroundName>
         <MultipleRestrictedListOfFlags>
@@ -174,7 +174,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_124}Continue using your whore.</OptionText>
+                <OptionText>Continue using your whore.</OptionText>
                 <TriggerEventName>TB_m_thief_whore_2</TriggerEventName>
             </Option>
         </Options>
@@ -185,7 +185,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_m_thief_whore_2</Name>
-        <Text>{=TBCaptorEvents_Common_125}Before long your cock twitches with pleasure, signaling imminent release. Grasping her head with both hands you fuck her face as she struggles to breathe, finally releasing a torrent of fresh semen into her mouth. Her eyes grow wide as you pull out, painting her face with beautiful strands of ivory before shoving your manhood back onto her tongue. She dutifully licks it clean, shaking with humiliation, and you smack her ass appreciatively as you chain her dripping body back to her post.</Text>
+        <Text>Before long your cock twitches with pleasure, signaling imminent release. Grasping her head with both hands you fuck her face as she struggles to breathe, finally releasing a torrent of fresh semen into her mouth. Her eyes grow wide as you pull out, painting her face with beautiful strands of ivory before shoving your manhood back onto her tongue. She dutifully licks it clean, shaking with humiliation, and you smack her ass appreciatively as you chain her dripping body back to her post.</Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <BackgroundName>TB_thief_oral_messy</BackgroundName>
         <MultipleRestrictedListOfFlags>
@@ -198,7 +198,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12243}You're sated for now...</OptionText>
+                <OptionText>You're sated for now...</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -208,7 +208,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_m_thief_fucking</Name>
-        <Text>{=TBCaptorEvents_Common_126}{CAPTIVE_NAME} yelps as you drag her to your bed, pushing her to the ground as you free your cock from your trousers. You lock eyes with her, painfully shoving her legs out of the way as the head of your manhood tears its way into her snatch, enjoying the expression of horror and subjugation in her eyes. You drive into her shaking body with deep, purposeful thrusts as she struggles against you, and gasp with pleasure as a thick jet of warm seed flows through your shaft, draining your aching balls into your helpless captive's womb.</Text>
+        <Text>{CAPTIVE_NAME} yelps as you drag her to your bed, pushing her to the ground as you free your cock from your trousers. You lock eyes with her, painfully shoving her legs out of the way as the head of your manhood tears its way into her snatch, enjoying the expression of horror and subjugation in her eyes. You drive into her shaking body with deep, purposeful thrusts as she struggles against you, and gasp with pleasure as a thick jet of warm seed flows through your shaft, draining your aching balls into your helpless captive's womb.</Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <BackgroundName>TB_thief_miss_noncon</BackgroundName>
         <MultipleRestrictedListOfFlags>
@@ -221,7 +221,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12245}Chain her back up for later.</OptionText>
+                <OptionText>Chain her back up for later.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -232,7 +232,7 @@
     <!-- Eager thief; happy to serve you -->
     <CEEvent>
         <Name>TB_m_thief_use_eager</Name>
-        <Text>{=TBCaptorEvents_Common_127}{CAPTIVE_NAME} kneels submissively before you, smiling earnestly. Her hips buck in obvious need as she slips one finger deep into her mouth, pulling it out slowly before using it to wet one of her pert nipples. She whispers that she is yours to use, to fill with your gorgeous manhood, and begs you to bless her holes with your delicious cum.</Text>
+        <Text>{CAPTIVE_NAME} kneels submissively before you, smiling earnestly. Her hips buck in obvious need as she slips one finger deep into her mouth, pulling it out slowly before using it to wet one of her pert nipples. She whispers that she is yours to use, to fill with your gorgeous manhood, and begs you to bless her holes with your delicious cum.</Text>
         <BackgroundName>TB_thief_eager_touch</BackgroundName>
         <NotificationName>TB_thief_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -252,7 +252,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_128}Ask if she wants to be free.</OptionText>
+                <OptionText>Ask if she wants to be free.</OptionText>
                 <TriggerEventName>TB_thief_eager_stay</TriggerEventName>
                 <RenownTotal>R 1 4</RenownTotal>
             </Option>
@@ -262,7 +262,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_129}Anoint her luscious lips.</OptionText>
+                <OptionText>Anoint her luscious lips.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_m_thief_eager_whore</EventName>
@@ -277,7 +277,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationHero</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12249}Bless her lovely cunt.</OptionText>
+                <OptionText>Bless her lovely cunt.</OptionText>
                 <PregnancyRiskModifier>3</PregnancyRiskModifier>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <TriggerEvents>
@@ -295,7 +295,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12250}Have her pleasure your troops.</OptionText>
+                <OptionText>Have her pleasure your troops.</OptionText>
                 <PregnancyRiskModifier>3</PregnancyRiskModifier>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
@@ -320,7 +320,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_m_thief_eager_whore</Name>
-        <Text>{=TBCaptorEvents_Common_130}She smiles gleefully as you order her to pleasure you, wiggling her ass as she crawls over to you and begins tugging at your pants with her teeth. Your manhood is painfully erect by the time she succeeds, and it springs out, hitting her face with a meaty slap. She takes it into her mouth, slurping and sucking with arousing enthusiasm, and sighs with pleasure as she takes you deep, your glans punching against the back of her throat.</Text>
+        <Text>She smiles gleefully as you order her to pleasure you, wiggling her ass as she crawls over to you and begins tugging at your pants with her teeth. Your manhood is painfully erect by the time she succeeds, and it springs out, hitting her face with a meaty slap. She takes it into her mouth, slurping and sucking with arousing enthusiasm, and sighs with pleasure as she takes you deep, your glans punching against the back of her throat.</Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <BackgroundName>TB_thief_oral_eager</BackgroundName>
         <MultipleRestrictedListOfFlags>
@@ -333,7 +333,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_138}Continue using your lusty slut.</OptionText>
+                <OptionText>Continue using your lusty slut.</OptionText>
                 <TriggerEventName>TB_m_thief_eager_whore_2</TriggerEventName>
             </Option>
         </Options>
@@ -344,7 +344,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_m_thief_eager_whore_2</Name>
-        <Text>{=TBCaptorEvents_Common_137}Before long your cock twitches with pleasure, signaling imminent release. She touches her clit excitedly, pulling you out of her throat so that she can taste your seed as it fills her mouth. Her eyes grow wide as you pull out, painting her face with beautiful strands of ivory, and she briefly plays with the cum in her mouth, showing off for you before gulping it down. She voraciously sucks your cock clean, fondling your balls as though trying to milk you dry, then leans back, touching herself in ecstasy as your semen drips down her breasts.</Text>
+        <Text>Before long your cock twitches with pleasure, signaling imminent release. She touches her clit excitedly, pulling you out of her throat so that she can taste your seed as it fills her mouth. Her eyes grow wide as you pull out, painting her face with beautiful strands of ivory, and she briefly plays with the cum in her mouth, showing off for you before gulping it down. She voraciously sucks your cock clean, fondling your balls as though trying to milk you dry, then leans back, touching herself in ecstasy as your semen drips down her breasts.</Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <BackgroundName>TB_thief_oral_eager</BackgroundName>
         <MultipleRestrictedListOfFlags>
@@ -357,7 +357,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12243}You're sated for now...</OptionText>
+                <OptionText>You're sated for now...</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -367,7 +367,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_m_thief_eager_fucking</Name>
-        <Text>{=TBCaptorEvents_Common_131}She yelps eagerly as you drag her to your bed, pushing her to the ground as you free your cock from your trousers. You lock eyes with her and she giggles and moans, lifting her legs to expose her dripping cleft. You drive into her needy body with deep, purposeful thrusts as she pants and thrusts back against you, and gasp with pleasure as a thick jet of warm seed flows through your shaft, draining your aching balls into your randy slut's womb. Her vagina clenches around you, milking your manhood as her body shakes with pleasure.</Text>
+        <Text>She yelps eagerly as you drag her to your bed, pushing her to the ground as you free your cock from your trousers. You lock eyes with her and she giggles and moans, lifting her legs to expose her dripping cleft. You drive into her needy body with deep, purposeful thrusts as she pants and thrusts back against you, and gasp with pleasure as a thick jet of warm seed flows through your shaft, draining your aching balls into your randy slut's womb. Her vagina clenches around you, milking your manhood as her body shakes with pleasure.</Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <BackgroundName>TB_thief_miss</BackgroundName>
         <MultipleRestrictedListOfFlags>
@@ -380,7 +380,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12254}Such a randy little slut...</OptionText>
+                <OptionText>Such a randy little slut...</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -392,7 +392,7 @@
     <!-- Broken thief; corrupted by merchant -->
     <CEEvent>
         <Name>TB_m_thief_use_broken</Name>
-        <Text>{=TBCaptorEvents_Common_132}You find yourself glancing at {CAPTIVE_NAME} beside your bed. She is staring aimlessly into space, but somehow realizes you are watching her and shudders, her lips twisting into a smile as she crawls towards you. She kneels submissively and begs you to abuse your slave, to pound her body until it breaks if it would give you the slightest pleasure. She seems unbelievably eager, but you're still unnerved by the tortured look in her eyes.</Text>
+        <Text>You find yourself glancing at {CAPTIVE_NAME} beside your bed. She is staring aimlessly into space, but somehow realizes you are watching her and shudders, her lips twisting into a smile as she crawls towards you. She kneels submissively and begs you to abuse your slave, to pound her body until it breaks if it would give you the slightest pleasure. She seems unbelievably eager, but you're still unnerved by the tortured look in her eyes.</Text>
         <BackgroundName>TB_thief_kneeling_broken</BackgroundName>
         <NotificationName>TB_thief_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -411,7 +411,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsMale_Noncon031}Let her go.</OptionText>
+                <OptionText>Let her go.</OptionText>
                 <TriggerEventName>TB_thief_broken_stay</TriggerEventName>
             </Option>
             <Option>
@@ -419,7 +419,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12239}Order her to pleasure you.</OptionText>
+                <OptionText>Order her to pleasure you.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_m_thief_broken_whore</EventName>
@@ -438,7 +438,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationByPlayer</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12256}Fuck her senseless.</OptionText>
+                <OptionText>Fuck her senseless.</OptionText>
                 <PregnancyRiskModifier>3</PregnancyRiskModifier>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
@@ -459,7 +459,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12240}Let your men use her holes.</OptionText>
+                <OptionText>Let your men use her holes.</OptionText>
                 <PregnancyRiskModifier>3</PregnancyRiskModifier>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
@@ -484,7 +484,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_m_thief_broken_whore</Name>
-        <Text>{=TBCaptorEvents_Common_133}She smiles as you order her to pleasure you, crawling over to you and tugging at your pants with her teeth. Your manhood is painfully erect by the time she succeeds, and it springs out, hitting her face with a meaty slap. She takes it into her mouth, slurping and sucking, and takes you deep, your glans punching against the back of her throat.</Text>
+        <Text>She smiles as you order her to pleasure you, crawling over to you and tugging at your pants with her teeth. Your manhood is painfully erect by the time she succeeds, and it springs out, hitting her face with a meaty slap. She takes it into her mouth, slurping and sucking, and takes you deep, your glans punching against the back of her throat.</Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <BackgroundName>TB_thief_oral_eager</BackgroundName>
         <MultipleRestrictedListOfFlags>
@@ -497,7 +497,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_134}Continue using her.</OptionText>
+                <OptionText>Continue using her.</OptionText>
                 <TriggerEventName>TB_m_thief_broken_whore_2</TriggerEventName>
             </Option>
         </Options>
@@ -508,7 +508,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_m_thief_broken_whore_2</Name>
-        <Text>{=TBCaptorEvents_Common_135}Before long your cock twitches with pleasure, signaling imminent release. She passively accepts your cum down her throat without complaining or choking, but her face begins to grow pale and you realize she's having trouble breathing. You pull out and the last few jets of semen spray across her face as she calmly sucks in breath. One of her eyes begins twitching from the stinging sensation, but she makes no move to wipe or close it, and dutifully sucks your manhood clean before kneeling once more, smiling and ready to serve your every whim.</Text>
+        <Text>Before long your cock twitches with pleasure, signaling imminent release. She passively accepts your cum down her throat without complaining or choking, but her face begins to grow pale and you realize she's having trouble breathing. You pull out and the last few jets of semen spray across her face as she calmly sucks in breath. One of her eyes begins twitching from the stinging sensation, but she makes no move to wipe or close it, and dutifully sucks your manhood clean before kneeling once more, smiling and ready to serve your every whim.</Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <BackgroundName>TB_thief_oral_messy</BackgroundName>
         <MultipleRestrictedListOfFlags>
@@ -521,7 +521,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12260}You're done for now.</OptionText>
+                <OptionText>You're done for now.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -531,7 +531,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_m_thief_broken_fucking</Name>
-        <Text>{=TBCaptorEvents_Common_136}She makes no noise as you drag her to your bed, pushing her to the ground, and free your cock from your trousers. You lock eyes with her and she smiles passively, lifting her legs and using both hands to spread open her ass, begging you to fuck her as hard as you can. Frowning, you carefully position yourself at the entrance to her cunt and drive into her slowly; she's dry enough to make your progress difficult and painful. Eventually your pre-cum lubricates her enough to ease the path, and after several minutes you gasp with pleasure as a thick jet of warm seed flows through your shaft, draining your aching balls into your slave's womb. She lays there, dripping with cum as you pull out of her, and when she's sure you're done clambers unsteadily to her knees, still smiling.</Text>
+        <Text>She makes no noise as you drag her to your bed, pushing her to the ground, and free your cock from your trousers. You lock eyes with her and she smiles passively, lifting her legs and using both hands to spread open her ass, begging you to fuck her as hard as you can. Frowning, you carefully position yourself at the entrance to her cunt and drive into her slowly; she's dry enough to make your progress difficult and painful. Eventually your pre-cum lubricates her enough to ease the path, and after several minutes you gasp with pleasure as a thick jet of warm seed flows through your shaft, draining your aching balls into your slave's womb. She lays there, dripping with cum as you pull out of her, and when she's sure you're done clambers unsteadily to her knees, still smiling.</Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <BackgroundName>TB_thief_miss</BackgroundName>
         <MultipleRestrictedListOfFlags>
@@ -544,7 +544,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12260}You're done for now.</OptionText>
+                <OptionText>You're done for now.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>

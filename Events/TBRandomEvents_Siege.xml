@@ -36,7 +36,7 @@
                 </SkillsToLevel>
             </Option>
 			<Option>
-                <Order>1</Order>
+                <Order>2</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
@@ -228,7 +228,7 @@
                 </SkillsToLevel>
             </Option>
             <Option>
-                <Order>2</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>

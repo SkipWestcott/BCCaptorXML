@@ -2,7 +2,7 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_thief_alchemist</Name>
-        <Text>{=TBCaptorEvents_Common_072}A merchant arrives in town, and walks over to hawk his wares, but stops cold when he sees {CAPTIVE_NAME} shackled and helpless, malevolent lust in his eyes. He tells you that she's stolen from him on several occasions, and he'd be pay quite a tidy sum for an hour or two alone to teach her the error of her ways. She looks up at him and her eyes widen in horrified recognition. She tearfully begs and pleads for you not to leave her alone with him.</Text>
+        <Text>A merchant arrives in town, and walks over to hawk his wares, but stops cold when he sees {CAPTIVE_NAME} shackled and helpless, malevolent lust in his eyes. He tells you that she's stolen from him on several occasions, and he'd be pay quite a tidy sum for an hour or two alone to teach her the error of her ways. She looks up at him and her eyes widen in horrified recognition. She tearfully begs and pleads for you not to leave her alone with him.</Text>
         <BackgroundName>BC_image_thief_alchemist</BackgroundName>
         <NotificationName>TB_thief_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -19,7 +19,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_073}Allow him to take his vengeance.</OptionText>
+                <OptionText>Allow him to take his vengeance.</OptionText>
                 <TriggerEventName>TB_thief_alchemist_2</TriggerEventName>
             </Option>
             <Option>
@@ -28,7 +28,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_074}Haggle a bit first.</OptionText>
+                <OptionText>Haggle a bit first.</OptionText>
 				<GoldTotal>R 3000 5000</GoldTotal>
                 <TriggerEventName>TB_thief_alchemist_2</TriggerEventName>
             </Option>
@@ -37,7 +37,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_075}She is yours, and yours alone.</OptionText>
+                <OptionText>She is yours, and yours alone.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_thief_gratitude</EventName>
@@ -59,7 +59,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_thief_gratitude</Name>
-        <Text>{=TBCaptorEvents_Common_076}The man seems furious at your refusal, but after looking into her eyes for a few moments he turns and shrugs. He comments that at least you're giving her the treatment she deserves, and he looks forward to doing business with you again sometime in the future, should you change your mind. As he walks away, {CAPTIVE_NAME} crawls over to you and tearfully thanks you for your mercy, stammering that when she was younger that man paid handsomely for a night with one of her friends, but when he brought her back the girl was changed, disturbingly spiritless, as though something in her mind had been completely shattered. Whatever he did to her was something far worse than death... She shivers, weeping openly at the memory.</Text>
+        <Text>The man seems furious at your refusal, but after looking into her eyes for a few moments he turns and shrugs. He comments that at least you're giving her the treatment she deserves, and he looks forward to doing business with you again sometime in the future, should you change your mind. As he walks away, {CAPTIVE_NAME} crawls over to you and tearfully thanks you for your mercy, stammering that when she was younger that man paid handsomely for a night with one of her friends, but when he brought her back the girl was changed, disturbingly spiritless, as though something in her mind had been completely shattered. Whatever he did to her was something far worse than death... She shivers, weeping openly at the memory.</Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <BackgroundName>BC_image_thief_alchemist_hands</BackgroundName>
         <MultipleRestrictedListOfFlags>
@@ -72,7 +72,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_077}Is she telling the truth?</OptionText>
+                <OptionText>Is she telling the truth?</OptionText>
                 <TriggerEventName>TB_thief_gratitude_2</TriggerEventName>
             </Option>
         </Options>
@@ -83,7 +83,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_thief_gratitude_2</Name>
-        <Text>{=TBCaptorEvents_Common_078}{CAPTIVE_NAME} stammers that when you first took her, she was afraid she'd end up like her friend, but though you've used her body roughly it's little more than she deserved for what she did to you. You listened to her, stood between her and the thing she most feared, and she vows from now on to serve you willingly, to eagerly lend you her body to use for your pleasure.</Text>
+        <Text>{CAPTIVE_NAME} stammers that when you first took her, she was afraid she'd end up like her friend, but though you've used her body roughly it's little more than she deserved for what she did to you. You listened to her, stood between her and the thing she most feared, and she vows from now on to serve you willingly, to eagerly lend you her body to use for your pleasure.</Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <BackgroundName>BC_image_thief_stone_close</BackgroundName>
         <MultipleRestrictedListOfFlags>
@@ -98,7 +98,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_079}Accept her vow.</OptionText>
+                <OptionText>Accept her vow.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="100" Ref="Hero" Color="Cyan"/>
                     <Skill Id="Devoted" ByLevel="1" Ref="Hero" Color="Magenta"/>
@@ -125,7 +125,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_080}A slave's oath is worth nothing.</OptionText>
+                <OptionText>A slave's oath is worth nothing.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_m_thief_use_eager</EventName>
@@ -147,7 +147,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_thief_gratitude_return</Name>
-        <Text>{=TBCaptorEvents_Common_081}The man pales as you attack him, barely blocking your blow with his cane, and acidly warns her that you'll tire of her eventually. He throws a vial of some strange liquid to the ground, emitting a cloud of stinking, eye-stinging smoke, and by the time it clears he is nowhere to be seen. {CAPTIVE_NAME} climbs over to you, coughing, and stammers her thanks for your continued protection, asking if her master wishes her to let her prove her devotion to you once more.</Text>
+        <Text>The man pales as you attack him, barely blocking your blow with his cane, and acidly warns her that you'll tire of her eventually. He throws a vial of some strange liquid to the ground, emitting a cloud of stinking, eye-stinging smoke, and by the time it clears he is nowhere to be seen. {CAPTIVE_NAME} climbs over to you, coughing, and stammers her thanks for your continued protection, asking if her master wishes her to let her prove her devotion to you once more.</Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <BackgroundName>BC_image_thief_alchemist_front</BackgroundName>
         <MultipleRestrictedListOfFlags>
@@ -161,7 +161,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_082}A little 'devotion' sounds good...</OptionText>
+                <OptionText>A little 'devotion' sounds good...</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_m_thief_use_eager</EventName>
@@ -180,7 +180,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_13137}Not right now.</OptionText>
+                <OptionText>Not right now.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -190,7 +190,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_thief_alchemist_return</Name>
-        <Text>{=TBCaptorEvents_Common_083}A familiar-looking merchant arrives in town, walking directly over to you, and asks if you're ready to let him teach {CAPTIVE_NAME} a lesson. Your slut trembles as he gropes her, unable to meet his eyes. You remember her fear at meeting him, and the strange story she told about what he did to her friend. Watching your expression, he scoffs, commenting that he's sure you wouldn't believe some thief's outlandish slander about him.</Text>
+        <Text>A familiar-looking merchant arrives in town, walking directly over to you, and asks if you're ready to let him teach {CAPTIVE_NAME} a lesson. Your slut trembles as he gropes her, unable to meet his eyes. You remember her fear at meeting him, and the strange story she told about what he did to her friend. Watching your expression, he scoffs, commenting that he's sure you wouldn't believe some thief's outlandish slander about him.</Text>
         <BackgroundName>BC_image_thief_alchemist_hands</BackgroundName>
         <NotificationName>TB_thief_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -206,7 +206,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>GiveGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_073}Allow him to take his vengeance.</OptionText>
+                <OptionText>Allow him to take his vengeance.</OptionText>
                 <GoldTotal>5000</GoldTotal>
                 <TriggerEventName>TB_thief_alchemist_2</TriggerEventName>
             </Option>
@@ -216,7 +216,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_075}She is yours, and yours alone.</OptionText>
+                <OptionText>She is yours, and yours alone.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_m_thief_use_eager</EventName>
@@ -239,7 +239,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_084}Attack him.</OptionText>
+                <OptionText>Attack him.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_thief_gratitude_return</EventName>
@@ -263,7 +263,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_thief_alchemist_2</Name>
-        <Text>{=TBCaptorEvents_Common_085}The girl begins gibbering incoherently as the man hands you a sizable quantity of gold, far more than one might pay for a tavern whore, and tells you he'll have her back without a scratch in two hours' time. She screams and tries to grab your leg, but he pulls her away, lifting her with surprising strength as she frantically claws at his face and arms.</Text>
+        <Text>The girl begins gibbering incoherently as the man hands you a sizable quantity of gold, far more than one might pay for a tavern whore, and tells you he'll have her back without a scratch in two hours' time. She screams and tries to grab your leg, but he pulls her away, lifting her with surprising strength as she frantically claws at his face and arms.</Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <BackgroundName>TB_thief_alchemist_goodbye</BackgroundName>
         <MultipleRestrictedListOfFlags>
@@ -277,7 +277,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_086}What was that all about?</OptionText>
+                <OptionText>What was that all about?</OptionText>
                 <TriggerEventName>TB_thief_alchemist_3</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="MindBroken" ByLevel="1" Ref="Hero" Color="Magenta"/>
@@ -294,7 +294,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_thief_alchemist_3</Name>
-        <Text>{=TBCaptorEvents_Common_087}Precisely two hours later the merchant returns, lightly leading {CAPTIVE_NAME} by her leash. The girl appears unharmed, without a scratch on her, and he thanks you profusely, commenting that it's rare for a merchant to get a chance to teach a criminal the error of their ways. He assures you that his sweetheart will no longer be any trouble, lightly kissing her on her smiling lips. He hands you two more bags of gold as a bonus, lightly patting her on the rump as he leaves. She waves goodbye to him cheerfully and kneels before you.</Text>
+        <Text>Precisely two hours later the merchant returns, lightly leading {CAPTIVE_NAME} by her leash. The girl appears unharmed, without a scratch on her, and he thanks you profusely, commenting that it's rare for a merchant to get a chance to teach a criminal the error of their ways. He assures you that his sweetheart will no longer be any trouble, lightly kissing her on her smiling lips. He hands you two more bags of gold as a bonus, lightly patting her on the rump as he leaves. She waves goodbye to him cheerfully and kneels before you.</Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <BackgroundName>BC_image_thief_chain_boots</BackgroundName>
         <MultipleRestrictedListOfFlags>
@@ -309,7 +309,7 @@
                     <RestrictedListOfConsequences>GiveGold</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>GiveGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_088}How..?</OptionText>
+                <OptionText>How..?</OptionText>
                 <TriggerEventName>TB_thief_alchemist_4</TriggerEventName>
             </Option>
         </Options>
@@ -320,7 +320,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_thief_alchemist_4</Name>
-        <Text>{=TBCaptorEvents_Common_089}{CAPTIVE_NAME} begs her master to let her know the instant she can please you; there is no order you can give that she will not willingly obey. She implores you to chain her up in the middle of camp and let every man have their way with her until she passes out from the pleasure, then let them do it again as soon as she wakes. Her smile is ingratiatingly beautiful, but her eyes... Her eyes scream silently at you, begging for the sweet release of death.</Text>
+        <Text>{CAPTIVE_NAME} begs her master to let her know the instant she can please you; there is no order you can give that she will not willingly obey. She implores you to chain her up in the middle of camp and let every man have their way with her until she passes out from the pleasure, then let them do it again as soon as she wakes. Her smile is ingratiatingly beautiful, but her eyes... Her eyes scream silently at you, begging for the sweet release of death.</Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <BackgroundName>BC_image_thief_stone_bush</BackgroundName>
         <MultipleRestrictedListOfFlags>
@@ -333,7 +333,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_090}What have you done?</OptionText>
+                <OptionText>What have you done?</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -344,7 +344,7 @@
     <!-- Thief gangbang events -->
     <CEEvent>
         <Name>TB_thief_alchemist_more</Name>
-        <Text>{=TBCaptorEvents_Common_091}A familiar-looking merchant arrives in town, walking directly over to you, and tells you he enjoyed his time with {CAPTIVE_NAME} so much that he'd happily pay you to enjoy her services again. She has crawled up to him, rubbing her face on his crotch, and begs you to let him abuse her worthless cunt. You remember her fear when she first saw him, and the curious, unthinking obedience she's shown since then. Watching your expression, the merchant smiles cruelly, and mentions that he could teach you how to break a girl's will just as he has...</Text>
+        <Text>A familiar-looking merchant arrives in town, walking directly over to you, and tells you he enjoyed his time with {CAPTIVE_NAME} so much that he'd happily pay you to enjoy her services again. She has crawled up to him, rubbing her face on his crotch, and begs you to let him abuse her worthless cunt. You remember her fear when she first saw him, and the curious, unthinking obedience she's shown since then. Watching your expression, the merchant smiles cruelly, and mentions that he could teach you how to break a girl's will just as he has...</Text>
         <BackgroundName>BC_image_thief_hypnotized</BackgroundName>
         <NotificationName>TB_thief_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -362,7 +362,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_092}That would be a valuable skill...</OptionText>
+                <OptionText>That would be a valuable skill...</OptionText>
                 <TriggerEventName>TB_thief_alchemist_potion</TriggerEventName>
             </Option>
             <Option>
@@ -371,7 +371,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>GiveGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_093}Allow him to enjoy his victim.</OptionText>
+                <OptionText>Allow him to enjoy his victim.</OptionText>
                 <TriggerEventName>TB_thief_alchemist_2</TriggerEventName>
             </Option>
             <Option>
@@ -380,7 +380,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_094}Refuse him.</OptionText>
+                <OptionText>Refuse him.</OptionText>
             </Option>
             <Option>
                 <Order>3</Order>
@@ -388,7 +388,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_095}Attack him for what he's done to her.</OptionText>
+                <OptionText>Attack him for what he's done to her.</OptionText>
                 <TriggerEventName>TB_thief_alchemist_vengeance</TriggerEventName>
             </Option>
         </Options>
@@ -404,7 +404,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_thief_alchemist_even_more</Name>
-        <Text>{=TBCaptorEvents_Common_096}A familiar-looking merchant arrives in town, walking directly over to you, and tells you he's happy to repeat his offer; {CAPTIVE_NAME}'s body for a few hours in exchange for a potion to enslave one of your other captives. She has already crawled up to him, rubbing her face on his crotch, and begs you to let him abuse her worthless cunt. Despite her enthusiasm, you look into her eyes and see only hatred and despair.</Text>
+        <Text>A familiar-looking merchant arrives in town, walking directly over to you, and tells you he's happy to repeat his offer; {CAPTIVE_NAME}'s body for a few hours in exchange for a potion to enslave one of your other captives. She has already crawled up to him, rubbing her face on his crotch, and begs you to let him abuse her worthless cunt. Despite her enthusiasm, you look into her eyes and see only hatred and despair.</Text>
         <BackgroundName>BC_image_thief_hypnotized</BackgroundName>
         <NotificationName>TB_thief_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -421,7 +421,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_093}Allow him to enjoy his victim.</OptionText>
+                <OptionText>Allow him to enjoy his victim.</OptionText>
                 <TriggerEventName>TB_thief_alchemist_more_potion</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SlavePotion" ByLevel="1" Ref="Captor" Color="Magenta"/>
@@ -432,14 +432,14 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_094}Refuse him.</OptionText>
+                <OptionText>Refuse him.</OptionText>
             </Option>
             <Option>
                 <Order>3</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_095}Attack him for what he's done to her.</OptionText>
+                <OptionText>Attack him for what he's done to her.</OptionText>
                 <TriggerEventName>TB_thief_alchemist_vengeance</TriggerEventName>
             </Option>
         </Options>
@@ -455,7 +455,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_thief_alchemist_more_potion</Name>
-        <Text>{=TBCaptorEvents_Common_097}Precisely two hours later the merchant returns, lightly leading {CAPTIVE_NAME} by her leash. The girl appears unharmed, without a scratch on her, and he thanks you, lightly kissing her on her smiling lips. He looks with pride into her exhausted, terrified eyes and briefly fondles her rear one last time before handing you the agreed-upon potion. She waves goodbye to him cheerfully and kneels before you.</Text>
+        <Text>Precisely two hours later the merchant returns, lightly leading {CAPTIVE_NAME} by her leash. The girl appears unharmed, without a scratch on her, and he thanks you, lightly kissing her on her smiling lips. He looks with pride into her exhausted, terrified eyes and briefly fondles her rear one last time before handing you the agreed-upon potion. She waves goodbye to him cheerfully and kneels before you.</Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <BackgroundName>BC_image_thief_chain_boots</BackgroundName>
         <MultipleRestrictedListOfFlags>
@@ -468,7 +468,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_098}Who shall you use it on this time?</OptionText>
+                <OptionText>Who shall you use it on this time?</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -478,7 +478,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_thief_alchemist_vengeance</Name>
-        <Text>{=TBCaptorEvents_Common_099}You strike out at the man more quickly than he anticipates. Your blade cuts into his throat, and he staggers backwards, reaching for a vial in his pouch. You're too quick, and stomp his pack with your boot, hearing a satisfying cracking sound as his eyes grow wide with alarm. He gurgles in pain as {CAPTIVE_NAME} runs over to him, pleading for you to save her lord, but her eyes, for once, are full of eager gratitude for what you've done. He smiles at her pleas, coughing that even in death, he is still her master. </Text>
+        <Text>You strike out at the man more quickly than he anticipates. Your blade cuts into his throat, and he staggers backwards, reaching for a vial in his pouch. You're too quick, and stomp his pack with your boot, hearing a satisfying cracking sound as his eyes grow wide with alarm. He gurgles in pain as {CAPTIVE_NAME} runs over to him, pleading for you to save her lord, but her eyes, for once, are full of eager gratitude for what you've done. He smiles at her pleas, coughing that even in death, he is still her master. </Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <BackgroundName>TB_alchemist</BackgroundName>
         <MultipleRestrictedListOfFlags>
@@ -493,7 +493,7 @@
                     <RestrictedListOfConsequences>ChangeCaptorSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_100}What on earth..?</OptionText>
+                <OptionText>What on earth..?</OptionText>
                 <TriggerEventName>TB_thief_alchemist_vengeance_2</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="AlchemistSecretKnowledge" ByLevel="-1000" Ref="Captor" HideNotification="true"/>
@@ -507,7 +507,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_thief_alchemist_vengeance_2</Name>
-        <Text>{=TBCaptorEvents_Common_101}{CAPTIVE_NAME} howls like a beast as the merchant dies, her expression rabid, and draws his weapon as she runs towards you with no thought for her own safety. You raise your blade in self-defense and she runs straight through it, gasping in pain as blood begins pouring out of the wound in her stomach. Her dagger bounces harmlessly off of your armor as she dies, but in that twilight between life and death she smiles and quietly thanks you for her freedom.</Text>
+        <Text>{CAPTIVE_NAME} howls like a beast as the merchant dies, her expression rabid, and draws his weapon as she runs towards you with no thought for her own safety. You raise your blade in self-defense and she runs straight through it, gasping in pain as blood begins pouring out of the wound in her stomach. Her dagger bounces harmlessly off of your armor as she dies, but in that twilight between life and death she smiles and quietly thanks you for her freedom.</Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <BackgroundName>BC_image_thief_mind_free</BackgroundName>
         <MultipleRestrictedListOfFlags>
@@ -521,7 +521,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>KillPrisoner</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_102}Let her rest in peace.</OptionText>
+                <OptionText>Let her rest in peace.</OptionText>
                 <TraitsToLevel>
                     <Trait Id="Mercy" ByLevel="1" Ref="Captor" Color="Cyan"/>
                     <Trait Id="Honor" ByLevel="1" Ref="Captor" Color="Cyan"/>
@@ -535,7 +535,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_thief_alchemist_potion</Name>
-        <Text>{=TBCaptorEvents_Common_103}{CAPTIVE_NAME} silently pleasures the man with her mouth as he begins his explanation. He claims to be an alchemist, and has studied for many, many years how to break the will of those he most desired. He is, he admits, not a pleasant-looking face, but faced with such temptation as these, he motions towards {CAPTIVE_NAME}'s breasts, this only steeled his resolve. He discovered a secret set of ingredients which, when properly brewed, will trap a woman in her own mind.</Text>
+        <Text>{CAPTIVE_NAME} silently pleasures the man with her mouth as he begins his explanation. He claims to be an alchemist, and has studied for many, many years how to break the will of those he most desired. He is, he admits, not a pleasant-looking face, but faced with such temptation as these, he motions towards {CAPTIVE_NAME}'s breasts, this only steeled his resolve. He discovered a secret set of ingredients which, when properly brewed, will trap a woman in her own mind.</Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <BackgroundName>BC_image_sex_mf_thief_oral</BackgroundName>
         <MultipleRestrictedListOfFlags>
@@ -548,7 +548,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_104}Wait, what?</OptionText>
+                <OptionText>Wait, what?</OptionText>
                 <TriggerEventName>TB_thief_alchemist_potion_2</TriggerEventName>
             </Option>
         </Options>
@@ -559,7 +559,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_thief_alchemist_potion_2</Name>
-        <Text>{=TBCaptorEvents_Common_105}The alchemist nods at your surprise, explaining that her old self is still trapped inside, able to feel and think. The potion merely suppresses any ability she has to resist and forces her most depraved fears into the forefront of her mind. As though to illustrate the point, she struggles to breathe as the man fills her throat with his seed, her eyes wild with hatred, but even as her body shakes she makes no move to save herself. As he finishes, The alchemist holds out a potion, telling you he'll have more for you should your arrangement continue...</Text>
+        <Text>The alchemist nods at your surprise, explaining that her old self is still trapped inside, able to feel and think. The potion merely suppresses any ability she has to resist and forces her most depraved fears into the forefront of her mind. As though to illustrate the point, she struggles to breathe as the man fills her throat with his seed, her eyes wild with hatred, but even as her body shakes she makes no move to save herself. As he finishes, The alchemist holds out a potion, telling you he'll have more for you should your arrangement continue...</Text>
         <NotificationName>TB_thief_notification</NotificationName>
         <BackgroundName>BC_image_thief_stone_lay</BackgroundName>
         <MultipleRestrictedListOfFlags>
@@ -572,7 +572,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_106}Take the potion.</OptionText>
+                <OptionText>Take the potion.</OptionText>
                 <TriggerEventName>TB_thief_alchemist_more_potion</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SlavePotion" ByLevel="1" Ref="Captor" Color="Magenta"/>
@@ -584,7 +584,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptorEvents_Common_107}Slit his monstrous throat.</OptionText>
+                <OptionText>Slit his monstrous throat.</OptionText>
                 <TriggerEventName>TB_thief_alchemist_vengeance</TriggerEventName>
             </Option>
         </Options>

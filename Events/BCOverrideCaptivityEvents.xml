@@ -3,7 +3,7 @@
     <!-- Roleplaying -->
     <CEEvent>
         <Name>TB_soldiers_roleplaying</Name>
-        <Text>{=BCCaptor_Text_14211}Your soldiers approach you, their cocks fully, tantalizingly erect, and your cunt drips with fervent arousal. One of your sergeants loudly proclaims they know what an eager slave like you needs, reaching for your arms and pushing you to the ground. They hold you down despite your feeble protests, but then whisper calmly to you, asking if this is what you want. You freeze, considering the idea.</Text>
+        <Text>Your soldiers approach you, their cocks fully, tantalizingly erect, and your cunt drips with fervent arousal. One of your sergeants loudly proclaims they know what an eager slave like you needs, reaching for your arms and pushing you to the ground. They hold you down despite your feeble protests, but then whisper calmly to you, asking if this is what you want. You freeze, considering the idea.</Text>
         <BackgroundName>TB_noncon_miss</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -18,7 +18,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsMale_Noncon046}Order them to let you go.</OptionText>
+                <OptionText>Order them to let you go.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -33,7 +33,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14212}Quietly beg them to take you.</OptionText>
+                <OptionText>Quietly beg them to take you.</OptionText>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <RenownTotal>R -1 -3</RenownTotal>
                 <SkillsToLevel>
@@ -50,7 +50,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_soldiers_roleplaying_no</Name>
-        <Text>{=BCCaptor_Text_14213}The man fairly leaps off you in alarm, arm and cock both in a rigid salute, apologizes profusely for mistaking the situation, and orders the rest of the men to leave off. He nods to you, then marches back to camp.</Text>
+        <Text>The man fairly leaps off you in alarm, arm and cock both in a rigid salute, apologizes profusely for mistaking the situation, and orders the rest of the men to leave off. He nods to you, then marches back to camp.</Text>
         <BackgroundName>TB_character_knight</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -63,7 +63,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14214}Try to still your racing heart.</OptionText>
+                <OptionText>Try to still your racing heart.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -73,7 +73,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_soldiers_roleplaying_yes</Name>
-        <Text>{=BCCaptor_Text_14215}The man smiles, dramatically telling the rest of the troops that their whore of a leader is just begging for cock, and plunges his manhood into you. It's both thick and long, and your pussy feels completely filled as he thrusts. He's gentle at first, but as you moan and cry out in ecstatic glee the pounding he's giving you becomes harder and more frenzied. He pinches your nipples, twisting them lightly as he calls you his slut, his whore, his slave, and the mix of humiliation and pleasure brings you to a shuddering climax. He smiles possessively, closing his eyes as he comes, and you both savor the sensation as your cunt milks his shaft of its potent seed. He winks at you, standing up, and beckons the others to join him.</Text>
+        <Text>The man smiles, dramatically telling the rest of the troops that their whore of a leader is just begging for cock, and plunges his manhood into you. It's both thick and long, and your pussy feels completely filled as he thrusts. He's gentle at first, but as you moan and cry out in ecstatic glee the pounding he's giving you becomes harder and more frenzied. He pinches your nipples, twisting them lightly as he calls you his slut, his whore, his slave, and the mix of humiliation and pleasure brings you to a shuddering climax. He smiles possessively, closing his eyes as he comes, and you both savor the sensation as your cunt milks his shaft of its potent seed. He winks at you, standing up, and beckons the others to join him.</Text>
         <BackgroundName>TB_noncon_miss_legsup</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -86,7 +86,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14216}&quot;Oh no, what will you dirty brutes do to me next?&quot;</OptionText>
+                <OptionText>"Oh no, what will you dirty brutes do to me next?"</OptionText>
                 <TriggerEventName>TB_troops_noncon_lobby</TriggerEventName>
             </Option>
         </Options>
@@ -98,7 +98,7 @@
     <!-- Kidnapped -->
     <CEEvent>
         <Name>TB_kidnapped_wilds</Name>
-        <Text>{=BCCaptor_Text_14217}You wake from unconsciousness in a panic, realizing your arms and legs are bound, your clothes have been stripped from you, and you have no idea where you are. You feel a horrible pain throughout your body, but particularly in your jaw and sex, and the taste of earth and salt confirms your suspicions. You've been kidnapped, and your mouth and vagina used while you were unconscious.</Text>
+        <Text>{=BCCaptor_Text_12692}You wake from unconsciousness in a panic, realizing your arms and legs are bound, your clothes have been stripped from you, and you have no idea where you are. You feel a horrible pain throughout your body, but particularly in your jaw and sex, and the taste of earth and salt confirms your suspicions. You've been kidnapped, and your mouth and vagina used while you were unconscious.</Text>
         <BackgroundName>BC_image_captive_cuffed_floor</BackgroundName>
         <NotificationName>BC_captivity_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -129,7 +129,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14218}Try to get your bearings.</OptionText>
+                <OptionText>{=BCCaptor_Text_12693}Try to get your bearings.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Scouting" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -142,7 +142,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14219}Try to free yourself.</OptionText>
+                <OptionText>{=BCCaptor_Text_12694}Try to free yourself.</OptionText>
                 <RenownTotal>R 1 2</RenownTotal>
                 <SkillsToLevel>
                     <Skill Id="Roguery" ByXP="250" Ref="Hero" />
@@ -169,7 +169,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_kidnapped_scream</Name>
-        <Text>{=BCCaptor_Text_14220}Your scream draws quite a bit of attention, but it seems only your captors are within hearing range. A collection of poorly-outfitted men, brigands and ex-soldiers, surround you with ill intent. One of them drags you upright, smiling predatorily at your cum-stained body, and moves toward you with his cock out. Another stops him, arguing that it's his turn to fuck the camp slut.</Text>
+        <Text>{=BCCaptor_Text_12695}Your scream draws quite a bit of attention, but it seems only your captors are within hearing range. A collection of poorly-outfitted men, brigands and ex-soldiers, surround you with ill intent. One of them drags you upright, smiling predatorily at your cum-stained body, and moves toward you with his cock out. Another stops him, arguing that it's his turn to fuck the camp slut.</Text>
         <BackgroundName>BC_image_slavery_dungeon_arms_back_confused</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -182,7 +182,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14221}I'm the *what* now?</OptionText>
+                <OptionText>{=BCCaptor_Text_12696}I'm the *what* now?</OptionText>
                 <TriggerEventName>TB_bandits_noncon_lobby</TriggerEventName>
             </Option>
         </Options>
@@ -193,7 +193,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_kidnapped_look</Name>
-        <Text>{=BCCaptor_Text_14222}You look around and quickly get your bearings. You're outside, in what appears to be a temporary camp of sorts. Several men are moving around, occasionally glancing towards you, and you judge from their badly-maintained armor that they are deserters or bandits. You don't recognize any of them, though from the look of the trees and mountains around you you think you probably aren't too far from where your own army last took camp.</Text>
+        <Text>{=BCCaptor_Text_12697}You look around and quickly get your bearings. You're outside, in what appears to be a temporary camp of sorts. Several men are moving around, occasionally glancing towards you, and you judge from their badly-maintained armor that they are deserters or bandits. You don't recognize any of them, though from the look of the trees and mountains around you you think you probably aren't too far from where your own army last took camp.</Text>
         <BackgroundName>TB_character_deserters</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -223,7 +223,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14219}Try to free yourself.</OptionText>
+                <OptionText>{=BCCaptor_Text_12694}Try to free yourself.</OptionText>
                 <RenownTotal>R 1 2</RenownTotal>
                 <SkillsToLevel>
                     <Skill Id="Roguery" ByXP="250" Ref="Hero" />
@@ -250,7 +250,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_kidnapped_struggle_free</Name>
-        <Text>{=BCCaptor_Text_14223}You struggle with your bonds, and though it takes some time you're eventually able to free yourself. You wrestle a blade from one of the sleeping guards, neatly slitting his neck with it, and manage to sneak your way out of the camp, eventually finding your way to freedom. Your troops are happy to see you, but appalled by the signs of the abuse you've endured. They sally forth to avenge your honor, but it seems your kidnappers noticed your escape and fled before you could try to catch them.</Text>
+        <Text>{=BCCaptor_Text_12698}You struggle with your bonds, and though it takes some time you're eventually able to free yourself. You wrestle a blade from one of the sleeping guards, neatly slitting his neck with it, and manage to sneak your way out of the camp, eventually finding your way to freedom. Your troops are happy to see you, but appalled by the signs of the abuse you've endured. They sally forth to avenge your honor, but it seems your kidnappers noticed your escape and fled before you could try to catch them.</Text>
         <BackgroundName>BC_image_captivity_escape</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -263,7 +263,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14224}Vow to chase them down and end them.</OptionText>
+                <OptionText>{=BCCaptor_Text_12699}Vow to chase them down and end them.</OptionText>
             </Option>
         </Options>
         <SkillsRequired>
@@ -276,7 +276,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_kidnapped_struggle_caught</Name>
-        <Text>{=BCCaptor_Text_14225}You struggle with your bonds, and though it takes some time you're eventually able to free yourself. You try to wrest a weapon from one of the guards, but one of the others notices you. A brief battle ensues, but naked and bruised as you are you're unable to do your skills justice. Your captors chain you up again, this time fastening your bonds more tightly, and the one who caught you holds you down as he roughly claims your asshole, tearing into it with brutal strokes as you scream and struggle beneath him. At last he gives a shout of satisfaction, and the pain and friction in your sphincter lessens as he injects it with sloppy cum.</Text>
+        <Text>{=BCCaptor_Text_12700}You struggle with your bonds, and though it takes some time you're eventually able to free yourself. You try to wrest a weapon from one of the guards, but one of the others notices you. A brief battle ensues, but naked and bruised as you are you're unable to do your skills justice. Your captors chain you up again, this time fastening your bonds more tightly, and the one who caught you holds you down as he roughly claims your asshole, tearing into it with brutal strokes as you scream and struggle beneath him. At last he gives a shout of satisfaction, and the pain and friction in your sphincter lessens as he injects it with sloppy cum.</Text>
         <BackgroundName>BC_captor_sex_ttr_anal</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -289,7 +289,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14226}Try to recover from the pain and humiliation.</OptionText>
+                <OptionText>{=BCCaptor_Text_12701}Try to recover from the pain and humiliation.</OptionText>
                 <TriggerEventName>TB_bandits_noncon_lobby</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R -10 20" Ref="Hero" />
@@ -305,7 +305,7 @@
     <!-- Soldiers Take You -->
     <CEEvent>
         <Name>TB_horny_soldiers_execute_bad</Name>
-        <Text>{=BCCaptor_Text_14227}You are about to give the word that those responsible are to be executed, but a group of men, led by the rapist, enter your bed. They hold you down, calling you a busybody and a whore as your cleft, mouth, and ass are filled with cock. You scream for help, but none arrives; they roughly take their pleasure from your unwilling body. They fill you with their treacherous cum and leave you bruised and exhausted, warning you that you'll pay dearly if you decide not to change your mind.</Text>
+        <Text>{=BCCaptor_Text_12702}You are about to give the word that those responsible are to be executed, but a group of men, led by the rapist, enter your bed. They hold you down, calling you a busybody and a whore as your cleft, mouth, and ass are filled with cock. You scream for help, but none arrives; they roughly take their pleasure from your unwilling body. They fill you with their treacherous cum and leave you bruised and exhausted, warning you that you'll pay dearly if you decide not to change your mind.</Text>
         <BackgroundName>BC_image_f_gang_aserai</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -322,7 +322,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14228}Heal your bruised body. Take no reprisals.</OptionText>
+                <OptionText>{=BCCaptor_Text_12703}Heal your bruised body. Take no reprisals.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -80 -20" Ref="Hero" Color="Cyan" HideNotification="true"/>
                 </SkillsToLevel>
@@ -340,7 +340,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14229}Find men to execute these bastards.</OptionText>
+                <OptionText>{=BCCaptor_Text_12704}Find men to execute these bastards.</OptionText>
                 <PregnancyRiskModifier>5</PregnancyRiskModifier>
                 <HealthTotal>R -20 -40</HealthTotal>
                 <SkillsToLevel>
@@ -373,7 +373,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_horny_soldiers_enslave</Name>
-        <Text>{=BCCaptor_Text_14230}You give the order for your rapists to be executed, but are shocked to discover that those given the duty have taken bribes! A guard is posted at your door as they beat you into submission, forcing themselves on you three at a time until your holes are saturated with their pungent seed. Their leader sneers at you, punching the wind out of you and kicking you to the ground, and he asks if you are ready to obey him like a good little slave.</Text>
+        <Text>{=BCCaptor_Text_12705}You give the order for your rapists to be executed, but are shocked to discover that those given the duty have taken bribes! A guard is posted at your door as they beat you into submission, forcing themselves on you three at a time until your holes are saturated with their pungent seed. Their leader sneers at you, punching the wind out of you and kicking you to the ground, and he asks if you are ready to obey him like a good little slave.</Text>
         <BackgroundName>BC_image_captivity_sex_rough_held</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -388,7 +388,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14231}Tell them that you are no slave.</OptionText>
+                <OptionText>{=BCCaptor_Text_12706}Tell them that you are no slave.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -40 -1" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveLustV" ByLevel="R -4 -1" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -410,7 +410,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14232}Scream at them in defiance.</OptionText>
+                <OptionText>{=BCCaptor_Text_12707}Scream at them in defiance.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R 10 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveLustV" ByLevel="R -4 -1" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -431,7 +431,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14234}Nod meekly in submission. You cannot take this anymore.</OptionText>
+                <OptionText>{=BCCaptor_Text_12708}Nod meekly in submission. You cannot take this anymore.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -50 -20" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveLustV" ByLevel="R -2 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -449,7 +449,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_horny_soldiers_resist</Name>
-        <Text>{=BCCaptor_Text_14235}They are angered by your resistance, and you suffer another round of brutal violations and beatings. The pain is more than you can stand, and their leader gives you an ultimatum. Submit to their cocks, and let them use your fuckmeat any time day or night, or they will tie you and fuck you to death and leave your corpse for the other men to discover.</Text>
+        <Text>{=BCCaptor_Text_12709}They are angered by your resistance, and you suffer another round of brutal violations and beatings. The pain is more than you can stand, and their leader gives you an ultimatum. Submit to their cocks, and let them use your fuckmeat any time day or night, or they will tie you and fuck you to death and leave your corpse for the other men to discover.</Text>
         <BackgroundName>BC_image_captivity_sex_choice</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -464,7 +464,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14236}Tell them they will be crow meat sooner rather than later.</OptionText>
+                <OptionText>{=BCCaptor_Text_12710}Tell them they will be crow meat sooner rather than later.</OptionText>
                 <HealthTotal>R -20 -80</HealthTotal>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R 10 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -486,7 +486,7 @@
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14237}Nod meekly in submission. Give them whatever they want.</OptionText>
+                <OptionText>{=BCCaptor_Text_12711}Nod meekly in submission. Give them whatever they want.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -50 -10" Ref="Hero" Color="Cyan" />
                     <Skill Id="CaptiveLustV" ByLevel="R 40 -1" Ref="Hero" Color="Cyan" HideNotification="true"/>
@@ -505,7 +505,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_horny_soldiers_resist_lost</Name>
-        <Text>{=BCCaptor_Text_14238}You don't remember being knocked out, but you wake to the taste of blood and semen in your mouth, every part of your body in horrible pain, and a throbbing wound on the back of your head. Your captors have left you for dead and fled the camp, unwilling to face responsibility for their actions. </Text>
+        <Text>{=BCCaptor_Text_12712}You don't remember being knocked out, but you wake to the taste of blood and semen in your mouth, every part of your body in horrible pain, and a throbbing wound on the back of your head. Your captors have left you for dead and fled the camp, unwilling to face responsibility for their actions. </Text>
         <BackgroundName>BC_image_captivity_bound_inverted</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -520,19 +520,19 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14239}Try to regain some strength.</OptionText>
+                <OptionText>{=BCCaptor_Text_12713}Try to regain some strength.</OptionText>
                 <HealthTotal>R 5 15</HealthTotal>
                 <MoraleTotal>-2</MoraleTotal>
                 <TriggerEventName>BC_horny_soldiers_lost_wait</TriggerEventName>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <MoraleTotal>-2</MoraleTotal>
-                <OptionText>{=BCCaptor_Text_14240}Scream. Surely someone will pass by.</OptionText>
+                <OptionText>{=BCCaptor_Text_12714}Scream. Surely someone will pass by.</OptionText>
                 <TriggerEventName>BC_horny_soldiers_lost_wait</TriggerEventName>
             </Option>
         </Options>
@@ -542,7 +542,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_horny_soldiers_found</Name>
-        <Text>{=BCCaptor_Text_14241}One of your patrols finally, finally hears hoarse screaming, and your guards are horrified at the state you are in. You eventually learn they had been pulled away to deal with some escaping captives, and had no idea it had all been a distraction to get to you.</Text>
+        <Text>{=BCCaptor_Text_12715}One of your patrols finally, finally hears hoarse screaming, and your guards are horrified at the state you are in. You eventually learn they had been pulled away to deal with some escaping captives, and had no idea it had all been a distraction to get to you.</Text>
         <BackgroundName>BC_image_sex_alley_ring</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -558,20 +558,20 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14242}Put this ordeal behind you.</OptionText>
+                <OptionText>{=BCCaptor_Text_12716}Put this ordeal behind you.</OptionText>
                 <HealthTotal>R 5 15</HealthTotal>
                 <RenownTotal>R -15 -25</RenownTotal>
                 <MoraleTotal>-10</MoraleTotal>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14243}Tell them to find and kill your rapists.</OptionText>
+                <OptionText>{=BCCaptor_Text_12717}Tell them to find and kill your rapists.</OptionText>
                 <RenownTotal>R -5 -15</RenownTotal>
                 <MoraleTotal>-5</MoraleTotal>
                 <SkillsToLevel>
@@ -586,7 +586,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_horny_soldiers_lost_wait</Name>
-        <Text>{=BCCaptor_Text_14244}You are still awaiting rescue from your recent abduction, every part of your body still in horrible pain. Your throat is parched and raw, as much from the dozens of cocks shoved down it as from thirst and exposure to the cold night air.</Text>
+        <Text>{=BCCaptor_Text_12718}You are still awaiting rescue from your recent abduction, every part of your body still in horrible pain. Your throat is parched and raw, as much from the dozens of cocks shoved down it as from thirst and exposure to the cold night air.</Text>
         <BackgroundName>BC_image_captivity_bound_inverted</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -601,19 +601,19 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14239}Try to regain some strength.</OptionText>
+                <OptionText>{=BCCaptor_Text_12713}Try to regain some strength.</OptionText>
                 <HealthTotal>R 5 15</HealthTotal>
                 <MoraleTotal>R -1 -3</MoraleTotal>
                 <TriggerEventName>BC_horny_soldiers_lost_wait</TriggerEventName>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14245}Scream. Keep screaming before you die here.</OptionText>
+                <OptionText>{=BCCaptor_Text_12719}Scream. Keep screaming before you die here.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_horny_soldiers_lost_wait</EventName>
@@ -636,7 +636,7 @@
     
     <CEEvent>
         <Name>BC_slavery_captivity_submit</Name>
-        <Text>{=BCCaptor_Text_14246}Thoroughly defeated, you drop your head, taking his penis into your mouth. You pleasure him expertly, kneading his testicles with one hand as you stroke his shaft with the other. You deftly curl your tongue around his cock-head and he climaxes instantaneously, a flood of salty liquid filling your mouth. You slurp it down, milking him dry for several minutes until he pats you roughly on the head, telling you that was a good start...</Text>
+        <Text>{=BCCaptor_Text_12720}Thoroughly defeated, you drop your head, taking his penis into your mouth. You pleasure him expertly, kneading his testicles with one hand as you stroke his shaft with the other. You deftly curl your tongue around his cock-head and he climaxes instantaneously, a flood of salty liquid filling your mouth. You slurp it down, milking him dry for several minutes until he pats you roughly on the head, telling you that was a good start...</Text>
         <BackgroundName>BC_image_sex_captivity_oral_wall</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>            
@@ -651,7 +651,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14247}Thank your master for his seed.</OptionText>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail025}Thank your master for his seed.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -10 -20" Ref="Hero"  />
                     <Skill Id="CaptiveLustO" ByLevel="R 10 20" Ref="Hero"  />
@@ -681,7 +681,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14248}Move to clean yourself.</OptionText>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail026}Move to clean yourself.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_slavery_captivity_vaginal</EventName>
@@ -714,7 +714,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_slavery_captivity_vaginal</Name>
-        <Text>{=BCCaptor_Text_14249}It seems the man isn't finished; as his seed drips down your chin, he shoves you onto your bed, spanking your ass twice before plunging himself into you, working off his stress in your abused cunt. You arch helplessly beneath him, your sex dripping with arousal, and he pounds into you like a man possessed. With a final thrust, your vaginal walls clench around him, thoroughly milking his iron rod. He collapses on top of you, crushing your breasts as his sticky warmth spreads inside your womb.</Text>
+        <Text>{=BCCaptor_Text_12721}It seems the man isn't finished; as his seed drips down your chin, he shoves you onto your bed, spanking your ass twice before plunging himself into you, working off his stress in your abused cunt. You arch helplessly beneath him, your sex dripping with arousal, and he pounds into you like a man possessed. With a final thrust, your vaginal walls clench around him, thoroughly milking his iron rod. He collapses on top of you, crushing your breasts as his sticky warmth spreads inside your womb.</Text>
         <BackgroundName>BC_image_sex_mf_cum_stomach</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -767,7 +767,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_slavery_captivity_anal</Name>
-        <Text>{=BCCaptor_Text_14250}Your lips still salted in his seed, the man orders you to lay back and spread open your ass. He sharply spanks you, your yelps only arousing him further, before you feel him stick a finger up your ass, lubricating it with what feels like butter. As you feel the head of his manhood breaking inside your rear he quiets your screams by shoving a piece of cloth into your mouth, holding it closed with both hands.</Text>
+        <Text>{=BCCaptor_Text_12722}Your lips still salted in his seed, the man orders you to lay back and spread open your ass. He sharply spanks you, your yelps only arousing him further, before you feel him stick a finger up your ass, lubricating it with what feels like butter. As you feel the head of his manhood breaking inside your rear he quiets your screams by shoving a piece of cloth into your mouth, holding it closed with both hands.</Text>
         <BackgroundName>BC_image_sex_mf_anal_stomach</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -792,7 +792,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_slavery_captivity_anal_2</Name>
-        <Text>{=TBRandomEventsFemale_Slavery_Blackmail010}It takes him three full minutes to push his way inside you the first time, your struggling sphincter resisting every advance, and he sighs in gratification as he bottoms out inside you. He savors your tightness for a few minutes as you shudder against him, then begins thrusting madly. Your eyes go wide as pain fills your every nerve and your mind shuts down mercifully, leaving you to dreamless unconsciousness. He is gone when you wake, leaving a pool of cum dripping from your agonized brown star.</Text>
+        <Text>{=BCCaptor_Text_12723}It takes him three full minutes to push his way inside you the first time, your struggling sphincter resisting every advance, and he sighs in gratification as he bottoms out inside you. He savors your tightness for a few minutes as you shudder against him, then begins thrusting madly. Your eyes go wide as pain fills your every nerve and your mind shuts down mercifully, leaving you to dreamless unconsciousness. He is gone when you wake, leaving a pool of cum dripping from your agonized brown star.</Text>
         <BackgroundName>BC_image_sex_mf_anal_cum_mouth_wide</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -806,7 +806,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail031}Weep quietly and leak your master's seed.</OptionText>
+                <OptionText>{=BCCaptor_Text_12724}Weep quietly and leak your master's seed.</OptionText>
                 <TriggerEventName>TB_bandits_noncon_exhaustion_rescue</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -15 -30" Ref="Hero" />
@@ -825,7 +825,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_slavery_captivity_gangbang_1</Name>
-        <Text>{=TBRandomEventsFemale_Slavery_Blackmail011}As the man's seed drips down your chin, two men you don't recognize enter the tent. Your blackmailer tells you he owes them a small sum, and his debt is your debt. The men surround you, stroking their cocks, and one of them grabs you by the neck before you can resist. He lifts you up, plunging your cleft onto his firm hardness, and you gasp for breath. He grins cruelly, and seconds later the second man slaps your face and spits on you several times, until tilting your head back as his cock rises to your lips.</Text>
+        <Text>{=BCCaptor_Text_12725}As the man's seed drips down your chin, two men you don't recognize enter the tent. Your blackmailer tells you he owes them a small sum, and his debt is your debt. The men surround you, stroking their cocks, and one of them grabs you by the neck before you can resist. He lifts you up, plunging your cleft onto his firm hardness, and you gasp for breath. He grins cruelly, and seconds later the second man slaps your face and spits on you several times, until tilting your head back as his cock rises to your lips.</Text>
         <BackgroundName>BC_image_sex_mmf_oral</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -840,7 +840,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14251}&quot;Grab his cock, bitch, or the 'deal' is forfeit.&quot;</OptionText>
+                <OptionText>{=BCCaptor_Text_12726}'Grab his cock, bitch, or the &quot;deal&quot; is forfeit.'</OptionText>
                 <TriggerEventName>BC_slavery_captivity_gangbang_2</TriggerEventName>
                 <PregnancyRiskModifier>1</PregnancyRiskModifier>
             </Option>
@@ -852,7 +852,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_slavery_captivity_gangbang_2</Name>
-        <Text>{=TBRandomEventsFemale_Slavery_Blackmail012}Your torment continues for hours, each of your holes battered, abused, stuffed and overstuffed with cock. Each new assault creates new tears and bruises, and you feel a sickening fullness in your stomach. Finally, you see through cum hardening over your eyes the two newcomers leave silently. Your blackmailer grins, continuing to fuck your mouth.</Text>
+        <Text>{=BCCaptor_Text_12727}Your torment continues for hours, each of your holes battered, abused, stuffed and overstuffed with cock. Each new assault creates new tears and bruises, and you feel a sickening fullness in your stomach. Finally, you see through cum hardening over your eyes the two newcomers leave silently. Your blackmailer grins, continuing to fuck your mouth.</Text>
         <BackgroundName>BC_image_sex_used_oral_eye_contact</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -866,7 +866,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail034}Weep quietly.</OptionText>
+                <OptionText>{=TBModularEventsFemale_Troops_Noncon011}Weep quietly.</OptionText>
                 <TriggerEventName>TB_bandits_noncon_exhaustion_rescue</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustV" ByLevel="R 2 10" Ref="Hero"  />
@@ -886,7 +886,7 @@
     <!-- Thief / Ambushers -->
     <CEEvent>
         <Name>TB_thief_chase_notroops</Name>
-        <Text>{=BCCaptor_Text_14252}You feel a light tugging on your coinpurse, and look around to see a young woman you don't recognize trying to steal your gold! She looks muscled and agile, and seems surprised that you noticed her. Grinning mischievously, she slaps your ass, quickly cuts loose your purse and takes off at a dead run.</Text>
+        <Text>{=BCCaptor_Text_12728}You feel a light tugging on your coinpurse, and look around to see a young woman you don't recognize trying to steal your gold! She looks muscled and agile, and seems surprised that you noticed her. Grinning mischievously, she slaps your ass, quickly cuts loose your purse and takes off at a dead run.</Text>
         <BackgroundName>BC_image_companion_cloak_escape</BackgroundName>
         <NotificationName>TB_village_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -903,7 +903,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsMale_Noncon022}Let them go.</OptionText>
+                <OptionText>{=TBModularEventsFemale_Troops_Noncon022}Let them go.</OptionText>
                 <RenownTotal>R -1 -2</RenownTotal>
                 <SkillsToLevel>
                     <Skill Id="Steward" ByXP="250" Ref="Hero" />
@@ -918,7 +918,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsMale_Noncon023}Run after them.</OptionText>
+                <OptionText>{=TBModularEventsFemale_Troops_Noncon023}Run after them.</OptionText>
                 <RenownTotal>R 1 2</RenownTotal>
                 <SkillsToLevel>
                     <Skill Id="Scouting" ByXP="250" Ref="Hero" />
@@ -944,7 +944,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_thief_chase</Name>
-        <Text>{=BCCaptor_Text_14252}You feel a light tugging on your coinpurse, and look around to see a young woman you don't recognize trying to steal your gold! She looks muscled and agile, and seems surprised that you noticed her. Grinning mischievously, she slaps your ass, quickly cuts loose your purse and takes off at a dead run.</Text>
+        <Text>{=BCCaptor_Text_12728}You feel a light tugging on your coinpurse, and look around to see a young woman you don't recognize trying to steal your gold! She looks muscled and agile, and seems surprised that you noticed her. Grinning mischievously, she slaps your ass, quickly cuts loose your purse and takes off at a dead run.</Text>
         <BackgroundName>BC_image_companion_cloak_escape</BackgroundName>
         <NotificationName>TB_village_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -961,7 +961,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsMale_Noncon022}Let them go.</OptionText>
+                <OptionText>{=TBModularEventsFemale_Troops_Noncon022}Let them go.</OptionText>
                 <RenownTotal>R -1 -2</RenownTotal>
                 <SkillsToLevel>
                     <Skill Id="Steward" ByXP="250" Ref="Hero" />
@@ -976,7 +976,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsMale_Noncon023}Run after them.</OptionText>
+                <OptionText>{=TBModularEventsFemale_Troops_Noncon023}Run after them.</OptionText>
                 <RenownTotal>R 1 2</RenownTotal>
                 <SkillsToLevel>
                     <Skill Id="Scouting" ByXP="250" Ref="Hero" />
@@ -1174,13 +1174,13 @@
                 <TriggerEventName>TB_thief_capture</TriggerEventName>
             </Option>
             <Option>
-                <Order>2</Order>
+                <Order>3</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsMale_Noncon031}Let her go.</OptionText>
+                <OptionText>{=BCCaptor_Text_12071}Let her go.</OptionText>
                 <RenownTotal>R 1 2</RenownTotal>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero" />
@@ -1264,7 +1264,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_thief_spanking</Name>
-        <Text>{=BCCaptor_Text_14253}You order your guards to remove her clothes so that you can return the favor, giving her a public spanking, and to your surprise you find that beneath her rags she's a rather shapely young woman. Her pert buttocks are restrained before you, and you smack her ass a few times, taking care not to permanently wound her. She yelps in pain, and maybe even arousal, and you can't help but notice your men's trousers begin to bulge at the sight.</Text>
+        <Text>{=BCCaptor_Text_12729}You order your guards to remove her clothes so that you can return the favor, giving her a public spanking, and to your surprise you find that beneath her rags she's a rather shapely young woman. Her pert buttocks are restrained before you, and you smack her ass a few times, taking care not to permanently wound her. She yelps in pain, and maybe even arousal, and you can't help but notice your men's trousers begin to bulge at the sight.</Text>
         <BackgroundName>TB_thief_group_standing</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1303,7 +1303,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsMale_Noncon031}Let her go.</OptionText>
+                <OptionText>{=BCCaptor_Text_12071}Let her go.</OptionText>
                 <RenownTotal>R 1 2</RenownTotal>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero" />
@@ -1385,7 +1385,7 @@
                 </SkillsToLevel>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
@@ -1394,7 +1394,7 @@
                 <TriggerEventName>TB_thief_capture</TriggerEventName>
             </Option>
             <Option>
-                <Order>1</Order>
+                <Order>2</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
@@ -1458,11 +1458,11 @@
                 <TriggerEventName>TB_thief_capture</TriggerEventName>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsMale_Noncon031}Let her go.</OptionText>
+                <OptionText>{=BCCaptor_Text_12071}Let her go.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -1472,7 +1472,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_thief_chase_ambush</Name>
-        <Text>{=TBRandomEventsMale_Noncon013}As you run into the distance, chasing the thief, you realize too late the signs of an ambush around you. Sure enough, your quarry stops running as a group of twenty or so bandits surround you from all sides.</Text>
+        <Text>{=BCCaptor_Text_12730}As you run into the distance, chasing the thief, you realize too late the signs of an ambush around you. Sure enough, your quarry stops running as a group of twenty or so bandits surround you from all sides.</Text>
         <BackgroundName>TB_character_deserters</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1501,7 +1501,7 @@
                 </SkillsRequired>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>StartBattle</RestrictedListOfConsequences>
@@ -1517,7 +1517,7 @@
                 </BattleSettings>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>2</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
@@ -1553,7 +1553,7 @@
                 <TriggerEventName>TB_thief_ambush_capture_gangbang</TriggerEventName>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
@@ -1572,7 +1572,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_thief_ambush_capture_gangbang</Name>
-        <Text>{=BCCaptor_Text_14254}The men seem uninterested in what you have to say, and one of them roughly pushes you onto your knees, spreading your legs with a practiced hand as he kneels on top of you, pinning your legs beneath him. You hear a brief rustling, then feel a massive, bulbous form begin poking into your sex. Another one of them grabs your neck and shoves you to the ground as you struggle, and between the hand on your neck and the cock mercilessly thrusting into your cunt you begin gasping for breath. The prodigious member inside you stretches you to your fullest, scraping against your inner walls, and when at last he bursts inside you in thunderous climax, you can't help but notice the rest of the men have begin pulling out their cocks as well.</Text>
+        <Text>{=BCCaptor_Text_12731}The men seem uninterested in what you have to say, and one of them roughly pushes you onto your knees, spreading your legs with a practiced hand as he kneels on top of you, pinning your legs beneath him. You hear a brief rustling, then feel a massive, bulbous form begin poking into your sex. Another one of them grabs your neck and shoves you to the ground as you struggle, and between the hand on your neck and the cock mercilessly thrusting into your cunt you begin gasping for breath. The prodigious member inside you stretches you to your fullest, scraping against your inner walls, and when at last he bursts inside you in thunderous climax, you can't help but notice the rest of the men have begin pulling out their cocks as well.</Text>
         <BackgroundName>BC_image_captivity_sex_gang</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1657,7 +1657,7 @@
                 <TriggerEventName>TB_thief_chase_catch</TriggerEventName>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>2</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
@@ -1674,7 +1674,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_thief_capture</Name>
-        <Text>{=BCCaptor_Text_14255}You take the thief captive, watching carefully as she is stripped of her clothes and possessions. At first she says nothing, defeat and resignation in her eyes, but as an iron collar is snapped around her neck she falls to her knees, gently weeping.</Text>
+        <Text>{=BCCaptor_Text_12732}You take the thief captive, watching carefully as she is stripped of her clothes and possessions. At first she says nothing, defeat and resignation in her eyes, but as an iron collar is snapped around her neck she falls to her knees, gently weeping.</Text>
         <BackgroundName>BC_image_thief_stone_pussy</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1714,7 +1714,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_thief_ambush_kill</Name>
-        <Text>{=TBRandomEventsMale_Noncon021}You stride towards her, skewering her in place as she briefly screams before ending her. The light fades from her eyes as she collapses, blood pouring from her chest, and you neatly step to the side to avoid further dirtying your armor. You triumphantly collect your stolen gold.</Text>
+        <Text>{=BCCaptor_Text_12733}You stride towards her, skewering her in place as she briefly screams before ending her. The light fades from her eyes as she collapses, blood pouring from her chest, and you neatly step to the side to avoid further dirtying your armor. You triumphantly collect your stolen gold.</Text>
         <BackgroundName>BC_image_thief_stab_hand</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1727,7 +1727,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBRandomEventsMale_Noncon055}Return to camp.</OptionText>
+                <OptionText>v{=TBRandomEventsMale_Noncon055}Return to camp.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -1738,7 +1738,7 @@
     <!-- Broke Troops -->
     <CEEvent>
         <Name>TB_broke_troops</Name>
-        <Text>{=BCCaptor_Text_14256}A group of your men approaches you, looking unhappy. They explain that they know you're getting low on funds, and as they much prefer to be paid, they've decided to help you make ends meet, willingly or not. The bulges in their trousers make their intent quite distressingly clear.</Text>
+        <Text>{=BCCaptor_Text_12734}A group of your men approaches you, looking unhappy. They explain that they know you're getting low on funds, and as they much prefer to be paid, they've decided to help you make ends meet, willingly or not. The bulges in their trousers make their intent quite distressingly clear.</Text>
         <BackgroundName>TB_nervous_soldiers</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1752,7 +1752,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14257}Wink, and lead them to your bed.</OptionText>
+                <OptionText>{=BCCaptor_Text_12735}Wink, and lead them to your bed.</OptionText>
                 <GoldTotal>1000</GoldTotal>
                 <TriggerEventName>TB_low_morale_sexual_choice</TriggerEventName>
             </Option>
@@ -1763,7 +1763,7 @@
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14258}Apologize and give them what you can.</OptionText>
+                <OptionText>{=BCCaptor_Text_12736}Apologize and give them what you can.</OptionText>
                 <GoldTotal>-500</GoldTotal>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero" />
@@ -1781,7 +1781,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14259}Scream for your guards to help you.</OptionText>
+                <OptionText>{=BCCaptor_Text_12737}Scream for your guards to help you.</OptionText>
                 <GoldTotal>1000</GoldTotal>
                 <TriggerEventName>TB_broke_troops_resist</TriggerEventName>
             </Option>
@@ -1795,7 +1795,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_broke_troops_placate</Name>
-        <Text>{=BCCaptor_Text_14260}It takes some gold, and convincing, but they don't seem particularly inclined to press the point...</Text>
+        <Text>{=BCCaptor_Text_12738}It takes some gold, and convincing, but they don't seem particularly inclined to press the point.</Text>
         <BackgroundName>TB_nervous_soldiers</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1808,7 +1808,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14261}Now you'd best get that money...</OptionText>
+                <OptionText>{=BCCaptor_Text_12739}Now you'd best get that money...</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -1818,7 +1818,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_broke_troops_resist</Name>
-        <Text>{=BCCaptor_Text_14262}You sigh in relief as your guards enter the room, only for them to grab you and hold you down, muttering that they haven't been paid, either. They strip your clothes off as you curse, struggling against their iron grip, but before long you feel their leader spit copiously into his hand, gently massaging your tender cleft as he undoes his breeches. His cock is prodigiously broad, and your heart races at the sight.</Text>
+        <Text>{=BCCaptor_Text_12740}You sigh in relief as your guards enter the room, only for them to grab you and hold you down, muttering that they haven't been paid, either. They strip your clothes off as you curse, struggling against their iron grip, but before long you feel their leader spit copiously into his hand, gently massaging your tender cleft as he undoes his breeches. His cock is prodigiously broad, and your heart races at the sight.</Text>
         <BackgroundName>BC_image_slavery_grabbed_group</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1832,7 +1832,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14263}&quot;I beg of thee, do not be so base as to defile your lady!&quot;</OptionText>
+                <OptionText>{=BCCaptor_Text_12741}&quot;I beg of thee, do not be so base as to defile your lady!&quot;</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -1846,7 +1846,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_broke_troops_resist_2</Name>
-        <Text>{=BCCaptor_Text_14264}He smiles, explaining that you are just a common whore while you owe him money. With that he plunges into you, the girth of his cock stretching your insides to their fullest extent. The twist of his cock pushes against your inner walls in a deeply pleasurable way, and before long you shudder and moan, your body twitching with every thrust. He lightly pinches your erect nipples as the others laugh, and finally comes, his pulsating manhood pushing you over the edge. You pant angrily as he pulls out, a thin stream of seed dripping from your sex.</Text>
+        <Text>{=BCCaptor_Text_12742}He smiles, explaining that you are just a common whore while you owe him money. With that he plunges into you, the girth of his cock stretching your insides to their fullest extent. The twist of his cock pushes against your inner walls in a deeply pleasurable way, and before long you shudder and moan, your body twitching with every thrust. He lightly pinches your erect nipples as the others laugh, and finally comes, his pulsating manhood pushing you over the edge. You pant angrily as he pulls out, a thin stream of seed dripping from your sex.</Text>
         <BackgroundName>BC_image_slavery_sub_vag_2</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1860,7 +1860,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14218}Try to get your bearings.</OptionText>
+                <OptionText>{=BCCaptor_Text_12693}Try to get your bearings.</OptionText>
                 <TriggerEventName>TB_troops_noncon_lobby</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -4 -12"  Ref="Hero" HideNotification="true"  />
@@ -1876,7 +1876,7 @@
     <!-- Catcall -->
     <CEEvent>
         <Name>TB_catcall</Name>
-        <Text>{=BCCaptor_Text_14265}As you go about your business in town, you feel the men and women of the town undressing you with their eyes, some even licking their lips in appreciation. One or two of them shout obscenities at you, or make obscene gestures, amusing themselves at your expense.</Text>
+        <Text>{=BCCaptor_Text_12743}As you go about your business in town, you feel the men and women of the town undressing you with their eyes, some even licking their lips in appreciation. One or two of them shout obscenities at you, or make obscene gestures, amusing themselves at your expense.</Text>
         <BackgroundName>BC_image_men_catcall</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1891,7 +1891,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14266}Order them to treat you with respect.</OptionText>
+                <OptionText>{=BCCaptor_Text_12744}Order them to treat you with respect.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -1903,7 +1903,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14267}Try to ignore their attentions.</OptionText>
+                <OptionText>{=BCCaptor_Text_12745}Try to ignore their attentions.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_drugged_public</EventName>
@@ -1920,7 +1920,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14268}Challenge them to a duel.</OptionText>
+                <OptionText>{=BCCaptor_Text_12746}Challenge them to a duel.</OptionText>
                 <TriggerEventName>TB_catcall_duel</TriggerEventName>
                 <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
             </Option>
@@ -1929,7 +1929,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14269}Walk over and grab their crotch.</OptionText>
+                <OptionText>{=BCCaptor_Text_12747}Walk over and grab their crotch.</OptionText>
                 <TriggerEventName>TB_catcall_willing</TriggerEventName>
             </Option>
         </Options>
@@ -1940,7 +1940,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_catcall_respect</Name>
-        <Text>{=BCCaptor_Text_14270}You loudly berate the men for their disrespect, reminding them that you are a noblewoman, and that they should know their place. Most of them seem cowed, but one of them sneers that your place is speared on his cock and full of cum.</Text>
+        <Text>{=BCCaptor_Text_12748}You loudly berate the men for their disrespect, reminding them that you are a noblewoman, and that they should know their place. Most of them seem cowed, but one of them sneers that your place is speared on his cock and full of cum.</Text>
         <BackgroundName>BC_image_men_catcall</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1953,7 +1953,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14271}Walk away from the town fool.</OptionText>
+                <OptionText>{=BCCaptor_Text_12749}Walk away from the town fool.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_drugged_public</EventName>
@@ -1969,11 +1969,11 @@
                 </SkillsToLevel>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12058}Challenge him to a duel.</OptionText>
+                <OptionText>{=BCCaptor_Text_12750}Challenge him to a duel.</OptionText>
                 <TriggerEventName>TB_catcall_duel</TriggerEventName>
             </Option>
         </Options>
@@ -1984,7 +1984,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_catcall_leave</Name>
-        <Text>{=BCCaptor_Text_14272}You continue on your journey without further incident, though the men of the town still seem quite interested in your shapely body.</Text>
+        <Text>{=BCCaptor_Text_12751}You continue on your journey without further incident, though the men of the town still seem quite interested in your shapely body.</Text>
         <BackgroundName>BC_image_companion_fox_pelt</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2010,7 +2010,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_catcall_willing</Name>
-        <Text>{=BCCaptor_Text_14273}The man swoons as you loosen his breeches, bending down and licking his little cock. He climaxes almost instantly, to the jeers and laughter of his companions, and he collapses as you lick him clean, exclaiming that you must be a sorceress. The rest of the men seem less inclined to harass you now, though whether they fear embarrassment or dark magic is less than clear.</Text>
+        <Text>{=BCCaptor_Text_12752}The man swoons as you loosen his breeches, bending down and licking his little cock. He climaxes almost instantly, to the jeers and laughter of his companions, and he collapses as you lick him clean, exclaiming that you must be a sorceress. The rest of the men seem less inclined to harass you now, though whether they fear embarrassment or dark magic is less than clear.</Text>
         <BackgroundName>BC_image_sex_mf_oral_facial_lara</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2037,7 +2037,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_catcall_duel</Name>
-        <Text>{=BCCaptor_Text_14274}The man accepts your challenge, choosing one-handed blades as the weapon, and draws a sword you hadn't previously noticed. He holds it well, and you reflect that perhaps he's more skilled than he at first appeared...</Text>
+        <Text>{=BCCaptor_Text_12753}The man accepts your challenge, choosing one-handed blades as the weapon, and draws a sword you hadn't previously noticed. He holds it well, and you reflect that perhaps he's more skilled than he at first appeared...</Text>
         <BackgroundName>BC_image_catcall_duelist</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2046,19 +2046,21 @@
         </MultipleRestrictedListOfFlags>
         <Options>
             <Option>
-                <Order>1</Order>
+                <Order>0</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>StartBattle</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14275}Try to best him in single combat.</OptionText>
+                <OptionText>{=BCCaptor_Text_12754}Try to best him in single combat.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="OneHanded" ByXP="750" Ref="Hero" />
                 </SkillsToLevel>
                 <!-- <TriggerEventName>TB_catcall_duel_win</TriggerEventName>                 -->
                 <BattleSettings Ref="City" EnemyName="Catcaller" Victory="TB_catcall_duel_win" Defeat="TB_catcall_duel_lose" PlayerTroops="0">
                     <SpawnTroops>
-                        <SpawnTroop Ref="Enemy" Id="gangleader_bodyguard_empire" Number="1" />
+                        <SpawnTroop Ref="Enemy" Id="gangleader_bodyguard_empire" Number="15" />
+                        <SpawnTroop Ref="Friendly" Id="sword_sister" Number="5" />
+                        <SpawnTroop Ref="Temporary" Id="spcwandererzbccaptorvakkenmaiden" Number="5" />
                     </SpawnTroops>
                 </BattleSettings>
             </Option>
@@ -2067,7 +2069,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14276}Surrender - you didn't mean it!</OptionText>
+                <OptionText>{=BCCaptor_Text_12755}Surrender - you didn't mean it!</OptionText>
                 <TriggerEventName>TB_catcall_duel_lose</TriggerEventName>
             </Option>
         </Options>
@@ -2078,7 +2080,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_catcall_duel_lose</Name>
-        <Text>{=BCCaptor_Text_14277}The man's skill with the blade is undeniable, and after a few painful slices to your arms and legs, laughing as your bloody clothes fall, he neatly pushes the point of his blades into your neck and kidney, demanding that you submit. He smiles, then grabs you roughly by the hair and swiftly pours a vial of some bitter liquid down your throat...</Text>
+        <Text>{=BCCaptor_Text_12756}The man's skill with the blade is undeniable, and after a few painful slices to your arms and legs, laughing as your bloody clothes fall, he neatly pushes the point of his blades into your neck and kidney, demanding that you submit. He smiles, then grabs you roughly by the hair and swiftly pours a vial of some bitter liquid down your throat...</Text>
         <BackgroundName>BC_image_catcall_duel_lose</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2091,7 +2093,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14278}It gets dark in an instant...</OptionText>
+                <OptionText>{=BCCaptor_Text_12757}It gets dark in an instant...</OptionText>
                 <TriggerEventName>TB_drugged_public</TriggerEventName>
             </Option>
         </Options>
@@ -2102,7 +2104,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_catcall_duel_win</Name>
-        <Text>{=BCCaptor_Text_14279}The man seems more interested in trying to showboat, cutting off your clothes as you fight, than to win. He dies blubbering blood.</Text>
+        <Text>{=BCCaptor_Text_12758}The man seems more interested in trying to showboat, cutting off your clothes as you fight, than to win. He dies blubbering blood.</Text>
         <BackgroundName>BC_image_companion_mace</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2115,7 +2117,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14280}Gather your clothes and leave.</OptionText>
+                <OptionText>{=BCCaptor_Text_12759}Gather your clothes and leave.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -2126,7 +2128,7 @@
     <!-- Drugged -->
     <CEEvent>
         <Name>TB_drugged_public_tavern</Name>
-        <Text>{=BCCaptor_Text_14281}A moderately handsome man sidles up to you while you've had a few too many to drink in the local tavern. He begins to chat about recent battles, and you can tell from the way his eyes linger on your breasts that he's after something else from you.</Text>
+        <Text>{=BCCaptor_Text_12760}A moderately handsome man sidles up to you while you've had a few too many to drink in the local tavern. He begins to chat about recent battles, and you can tell from the way his eyes linger on your breasts that he's after something else from you.</Text>
         <BackgroundName>BC_image_captive_male_cup</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2141,7 +2143,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14282}Order him to go away.</OptionText>
+                <OptionText>{=BCCaptor_Text_12761}Order him to go away.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -2153,7 +2155,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14283}Continue talking with him.</OptionText>
+                <OptionText>{=BCCaptor_Text_12762}Continue talking with him.</OptionText>
                 <TriggerEventName>TB_drugged_public</TriggerEventName>
                 <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
             </Option>
@@ -2163,19 +2165,19 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14284}Ask if he'd like to go upstairs...</OptionText>
+                <OptionText>{=BCCaptor_Text_12763}Ask if he'd like to go upstairs...</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
                 <TriggerEventName>TB_drugged_public_consent</TriggerEventName>
             </Option>
             <Option>
-                <Order>3</Order>
+                <Order>4</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14285}Watch him carefully...</OptionText>
+                <OptionText>{=BCCaptor_Text_12764}Watch him carefully...</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Roguery" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -2192,7 +2194,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_drugged_public_catch</Name>
-        <Text>{=BCCaptor_Text_14286}You watch the man like a hawk, and you figure out that he's just distracting you while another man drops a small packet into your drink.</Text>
+        <Text>{=BCCaptor_Text_12765}You watch the man like a hawk, and you figure out that he's just distracting you while another man drops a small packet into your drink.</Text>
         <BackgroundName>BC_image_captive_male_meal_cover</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2205,27 +2207,27 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14287}Surreptitiously switch your drinks.</OptionText>
+                <OptionText>{=BCCaptor_Text_12766}Surreptitiously switch your drinks.</OptionText>
                 <!-- to do: add turnabout event --> 
                 <SkillsRequired>
                     <SkillRequired Id="Roguery" Min="50" />
                 </SkillsRequired>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14288}Challenge the man to a duel.</OptionText>
+                <OptionText>{=BCCaptor_Text_12767}Challenge the man to a duel.</OptionText>
                 <TriggerEventName>TB_catcall_duel</TriggerEventName>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>2</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14289}'Accidentally' spill your drink.</OptionText>
+                <OptionText>{=BCCaptor_Text_12768}'Accidentally' spill your drink.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Roguery" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -2249,7 +2251,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_drugged_public_hostile</Name>
-        <Text>{=BCCaptor_Text_14290}You tell him to go away, making it clear you don't want him here, and he briefly glares at you, almost appraisingly, but stands up and walks off, leaving you alone.</Text>
+        <Text>{=BCCaptor_Text_12769}You tell him to go away, making it clear you don't want him here, and he briefly glares at you, almost appraisingly, but stands up and walks off, leaving you alone.</Text>
         <BackgroundName>BC_image_captive_male_cup</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2262,7 +2264,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14291}Continue to drink in peace.</OptionText>
+                <OptionText>{=BCCaptor_Text_12770}Continue to drink in peace.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_drugged_public</EventName>
@@ -2282,7 +2284,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_drugged_public</Name>
-        <Text>{=BCCaptor_Text_14292}You're not sure what happened, but the next thing you know you wake to the sensation of violent thrusting into your pussy. You can't see anything, and can't tell if you're upside down, or if it's day or night. Echoes of wicked laughter fill the air.</Text>
+        <Text>{=BCCaptor_Text_12771}You're not sure what happened, but the next thing you know you wake to the sensation of violent thrusting into your pussy. You can't see anything, and can't tell if you're upside down, or if it's day or night. Echoes of wicked laughter fill the air.</Text>
         <BackgroundName>BC_image_sex_public_stock</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2295,7 +2297,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14218}Try to get your bearings.</OptionText>
+                <OptionText>{=BCCaptor_Text_12693}Try to get your bearings.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="-100" Ref="Hero"  HideNotification="true" />
                 </SkillsToLevel>
@@ -2309,7 +2311,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_drugged_public_2</Name>
-        <Text>{=BCCaptor_Text_14293}You finally realize you've been drugged with something very strong. Your legs and your arms shackled; your breasts are astride a rough-hewn beam. You gag, coughing up thick helpings of stinking sperm, and try to focus. A strange man whispers into your ear that he loves slopping in goat pussy.</Text>
+        <Text>{=BCCaptor_Text_12772}You finally realize you've been drugged with something very strong. Your legs and your arms shackled; your breasts are astride a rough-hewn beam. You gag, coughing up thick helpings of stinking sperm, and try to focus. A strange man whispers into your ear that he loves slopping in goat pussy.</Text>
         <BackgroundName>BC_image_sex_public_stock</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2323,7 +2325,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14294}Try to fight back.</OptionText>
+                <OptionText>{=BCCaptor_Text_12773}Try to fight back.</OptionText>
                 <PregnancyRiskModifier>1</PregnancyRiskModifier>
                 <TriggerEventName>TB_drugged_public_resist</TriggerEventName>
                 <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
@@ -2334,14 +2336,14 @@
                 </SkillsRequired>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14295}Beg him to let you go.</OptionText>
+                <OptionText>{=BCCaptor_Text_12774}Beg him to let you go.</OptionText>
                 <PregnancyRiskModifier>1</PregnancyRiskModifier>
                 <RenownTotal>R -1 -3</RenownTotal>
                 <SkillsToLevel>
@@ -2356,14 +2358,14 @@
                 <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>2</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14296}Thrust back onto him.</OptionText>
+                <OptionText>{=BCCaptor_Text_12775}Thrust back onto him.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -5 -15" Ref="Hero" />
                 </SkillsToLevel>
@@ -2379,7 +2381,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_drugged_public_resist</Name>
-        <Text>{=BCCaptor_Text_14297}The man grows harder as you attempt to resist him, and he grabs your throat, choking you from behind as he continues to pound your slopped-up pussy. He begins spanking you roughly, calling you a whore and a slut, and finally climaxes inside you, filling your back end with cum even as it dribbles copiously out your front.</Text>
+        <Text>{=BCCaptor_Text_12776}The man grows harder as you attempt to resist him, and he grabs your throat, choking you from behind as he continues to pound your slopped-up pussy. He begins spanking you roughly, calling you a whore and a slut, and finally climaxes inside you, filling your back end with cum even as it dribbles copiously out your front.</Text>
         <BackgroundName>BC_image_sex_choke_lara</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2393,7 +2395,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14298}Swear angrily at him.</OptionText>
+                <OptionText>{=BCCaptor_Text_12777}Swear angrily at him.</OptionText>
                 <TriggerEventName>TB_alley_noncon_lobby</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveEsteem" Min="25" Ref="Hero" />
@@ -2404,13 +2406,13 @@
                 <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14299}Plead and beg for him to release you.</OptionText>
+                <OptionText>{=BCCaptor_Text_12778}Plead and beg for him to release you.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -2 -10" Ref="Hero" />
                 </SkillsToLevel>
@@ -2425,7 +2427,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_drugged_public_resign</Name>
-        <Text>{=BCCaptor_Text_14300}You thrust back onto his cock, and he laughs menacingly. He calls you a slut come to town just to get fucked by a man instead of a pig, that you're going to have a human bastard to remember him by, and on until at last you feel him surge inside you. You catch your breath, blowing bubbles in the pool of spit and semen that's been dripping out of your mouth.</Text>
+        <Text>{=BCCaptor_Text_12779}You thrust back onto his cock, and he laughs menacingly. He calls you a slut come to town just to get fucked by a man instead of a pig, that you're going to have a human bastard to remember him by, and on until at last you feel him surge inside you. You catch your breath, blowing bubbles in the pool of spit and semen that's been dripping out of your mouth.</Text>
         <BackgroundName>BC_image_sex_public_bubbles</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2438,7 +2440,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14298}Swear angrily at him.</OptionText>
+                <OptionText>{=BCCaptor_Text_12777}Swear angrily at him.</OptionText>
                 <TriggerEventName>TB_alley_noncon_lobby</TriggerEventName>
                 <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
                 <SkillsRequired>
@@ -2448,13 +2450,13 @@
                 </SkillsRequired>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14295}Beg him to let you go.</OptionText>
+                <OptionText>{=BCCaptor_Text_12774}Beg him to let you go.</OptionText>
                 <RenownTotal>R -1 -3</RenownTotal>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero" HideNotification="true" />
@@ -2469,7 +2471,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_drugged_public_consent</Name>
-        <Text>{=BCCaptor_Text_14301}The man seems surprised, but follows you upstairs to your room. You suck his cock until you're wet enough to guide him into you. He fucks you drunkly, battering against your cervix. It hits just deep enough; you scream, and claw and thrash, and his flood of seed overflows your womb.</Text>
+        <Text>{=BCCaptor_Text_12780}The man seems surprised, but follows you upstairs to your room. You suck his cock until you're wet enough to guide him into you. He fucks you drunkly, battering against your cervix. It hits just deep enough; you scream, and claw and thrash, and his flood of seed overflows your womb.</Text>
          <BackgroundName>BC_image_sex_mf_oral_cheek_lara</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2482,10 +2484,10 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14302}Thank him demurely and flatter his ego.</OptionText>
+                <OptionText>{=BCCaptor_Text_12781}Thank him demurely and flatter his ego.</OptionText>
             </Option>
             <Option>
-                <Order>0</Order>
+                <Order>1</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
@@ -2501,7 +2503,7 @@
     <!-- Celebration -->
     <CEEvent>
         <Name>TB_celebrate_birth</Name>
-        <Text>{=BCCaptor_Text_14303}You discover that the town is celebrating the birth of one of their lord's children. The merrymakers eagerly invite you to share in their Lord's happiness, and there is wine and song for all. Some of your men go missing for a time, and from the ribald jokes of your companions you guess that they've found a very appropriate way to celebrate the occasion.</Text>
+        <Text>{=BCCaptor_Text_12782}You discover that the town is celebrating the birth of one of their lord's children. The merrymakers eagerly invite you to share in their Lord's happiness, and there is wine and song for all. Some of your men go missing for a time, and from the ribald jokes of your companions you guess that they've found a very appropriate way to celebrate the occasion.</Text>
         <BackgroundName>TB_common_men_talking</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2519,7 +2521,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14304}Join in the celebrations.</OptionText>
+                <OptionText>{=BCCaptor_Text_12783}Join in the celebrations.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <TriggerEvents>
                     <TriggerEvent>
@@ -2538,7 +2540,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14305}Let your men make merry.</OptionText>
+                <OptionText>{=BCCaptor_Text_12784}Let your men make merry.</OptionText>
                 <MoraleTotal>R 1 3</MoraleTotal>
                 <TriggerEvents>
                     <TriggerEvent>
@@ -2562,7 +2564,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14306}Order your men to keep their guards up.</OptionText>
+                <OptionText>{=BCCaptor_Text_12785}Order your men to keep their guards up.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R -1 -3</MoraleTotal>
             </Option>
@@ -2575,7 +2577,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_celebrate_hangover</Name>
-        <Text>{=BCCaptor_Text_14307}You wake the following morning with an awful hangover, but otherwise refreshed from the celebrations.</Text>
+        <Text>{=BCCaptor_Text_12786}You wake the following morning with an awful hangover, but otherwise refreshed from the celebrations.</Text>
         <NotificationName>TB_sexual_notification</NotificationName>
         <Backgrounds>
             <Background Name="BC_image_captive_male_cup" UseConditions="BC_conditions_hero_male" />
@@ -2604,7 +2606,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_celebrate_men_robbed</Name>
-        <Text>{=BCCaptor_Text_14308}The following morning one of your men reports being robbed of his gold and weapons. Thankfully his armor is intact because he fell asleep on top of it. He doesn't seem to remember who might have taken it, so there's little you can do to get it back.</Text>
+        <Text>{=BCCaptor_Text_12787}The following morning one of your men reports being robbed of his gold and weapons. Thankfully his armor is intact because he fell asleep on top of it. He doesn't seem to remember who might have taken it, so there's little you can do to get it back.</Text>
         <BackgroundName>BC_image_captive_male_armcross</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2617,7 +2619,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14309}Chastise the man for his recklessness.</OptionText>
+                <OptionText>{=BCCaptor_Text_12788}Chastise the man for his recklessness.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -2628,7 +2630,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_celebrate_men_hungover</Name>
-        <Text>{=BCCaptor_Text_14310}The following morning several of your men seem elated but worse for the wear, with exhausted expressions, much yawning, and more than a few stains on their clothes.</Text>
+        <Text>{=BCCaptor_Text_12789}The following morning several of your men seem elated but worse for the wear, with exhausted expressions, much yawning, and more than a few stains on their clothes.</Text>
         <BackgroundName>TB_character_guards</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2653,7 +2655,7 @@
     <!-- Sloot Morale -->    
     <CEEvent>
         <Name>TB_low_morale_sexual</Name>
-        <Text>{=BCCaptor_Text_14311}One of your guards confronts you, explaining that morale among the men is low. He asks if you have a plan to handle the issue.</Text>
+        <Text>{=BCCaptor_Text_12790}One of your guards confronts you, explaining that morale among the men is low. He asks if you have a plan to handle the issue.</Text>
         <BackgroundName>TB_character_guards</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2669,7 +2671,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14312}Announce that you're giving the men an extra bonus this week. {GOLD_ICON}</OptionText>
+                <OptionText>{=BCCaptor_Text_12791}Announce that you're giving the men an extra bonus this week. {GOLD_ICON}</OptionText>
                 <RenownTotal>R 1 7</RenownTotal>
                 <MoraleTotal>R 5 15</MoraleTotal>
                 <GoldTotal>R -50 -100</GoldTotal>
@@ -2683,7 +2685,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14313}Order him to send any malcontents to your bed chamber tonight.</OptionText>
+                <OptionText>{=BCCaptor_Text_12792}Order him to send any malcontents to your bed chamber tonight.</OptionText>
                 <RenownTotal>R 1 10</RenownTotal>
                 <MoraleTotal>R 5 15</MoraleTotal>
                 <PregnancyRiskModifier>1</PregnancyRiskModifier>
@@ -2699,7 +2701,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14314}Get your whip, and order him to beat the men until morale improves.</OptionText>
+                <OptionText>{=BCCaptor_Text_12793}Get your whip, and order him to beat the men until morale improves.</OptionText>
                 <MoraleTotal>R 1 2</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Steward" ByXP="250" Ref="Hero" />
@@ -2715,7 +2717,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_low_morale_sexual_choice</Name>
-        <Text>{=BCCaptor_Text_14315}One of your men approaches you, and he blushes when he sees your gorgeous naked body, beckoning him towards your spread legs. He hurriedly drops his trousers, his bulging manhood at full attention.</Text>
+        <Text>{=BCCaptor_Text_12794}One of your men approaches you, and he blushes when he sees your gorgeous naked body, beckoning him towards your spread legs. He hurriedly drops his trousers, his bulging manhood at full attention.</Text>
         <BackgroundName>BC_image_lara_kneeling_back</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2729,7 +2731,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14316}Use your talented tongue.</OptionText>
+                <OptionText>{=BCCaptor_Text_12795}Use your talented tongue.</OptionText>
                 <RenownTotal>R 0 1</RenownTotal>
                 <TriggerEventName>TB_low_morale_oral</TriggerEventName>
             </Option>
@@ -2740,7 +2742,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14318}Let him flood your pussy with hot cum.</OptionText>
+                <OptionText>{=BCCaptor_Text_12796}Let him flood your pussy with hot cum.</OptionText>
                 <PregnancyRiskModifier>1</PregnancyRiskModifier>
                 <RenownTotal>R 0 1</RenownTotal>
                 <TriggerEventName>TB_low_morale_vaginal</TriggerEventName>
@@ -2751,7 +2753,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14319}Take him up your rear.</OptionText>
+                <OptionText>{=BCCaptor_Text_12797}Take him up your rear.</OptionText>
                 <RenownTotal>R 0 1</RenownTotal>
                 <TriggerEventName>TB_low_morale_anal</TriggerEventName>
             </Option>
@@ -2763,7 +2765,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14320}Walk outside and please all of your men at once.</OptionText>
+                <OptionText>{=BCCaptor_Text_12798}Walk outside and please all of your men at once.</OptionText>
                 <PregnancyRiskModifier>1</PregnancyRiskModifier>
                 <RenownTotal>R 5 -15</RenownTotal>
                 <SkillsToLevel>
@@ -2778,7 +2780,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14321}Send him away.</OptionText>
+                <OptionText>{=BCCaptor_Text_12799}Send him away.</OptionText>
                 <PregnancyRiskModifier>3</PregnancyRiskModifier>
                 <RenownTotal>R 5 -15</RenownTotal>
                 <TriggerEventName>TB_troop_finished_early</TriggerEventName>
@@ -2793,7 +2795,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_troop_finished_early</Name>
-        <Text>{=BCCaptor_Text_14322}You wave away the next man, but from the whispering outside you know your job is done; the men seem much happier knowing you will sit on their cocks.</Text>
+        <Text>{=BCCaptor_Text_12800}You wave away the next man, but from the whispering outside you know your job is done; the men seem much happier knowing you will sit on their cocks.</Text>
         <BackgroundName>BC_image_sex_f_ass_cumshot</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2822,7 +2824,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12596}Proudly wear their loyal seed.</OptionText>
+                <OptionText>{=BCCaptor_Text_12801}Proudly wear their loyal seed.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R 4 12" Ref="Hero"  HideNotification="true"  />
                     <Skill Id="CaptiveLustO" ByLevel="R 4 12" Ref="Hero"  HideNotification="true"  />
@@ -2837,7 +2839,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14323}Take a brief rest.</OptionText>
+                <OptionText>{=BCCaptor_Text_12802}Take a brief rest.</OptionText>
                 <MoraleTotal>R 1 10</MoraleTotal>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveLustO" Max="225" Ref="Hero" />
@@ -2850,7 +2852,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_low_morale_oral</Name>
-        <Text>{=BCCaptor_Text_14324}You pull the man's cock from his breeches, licking up and down its length, then engulf it with your mouth, fondling his balls as you quickly wring him to climax. His moans echo through the camp as he staggers to his knees.</Text>
+        <Text>{=BCCaptor_Text_12803}You pull the man's cock from his breeches, licking up and down its length, then engulf it with your mouth, fondling his balls as you quickly wring him to climax. His moans echo through the camp as he staggers to his knees.</Text>
         <BackgroundName>BC_image_slavery_oral_tongue</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2865,7 +2867,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14325}Gulp down his gift and lick his cock clean with flourish.</OptionText>
+                <OptionText>{=BCCaptor_Text_12804}Gulp down his gift and lick his cock clean with flourish.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustO" ByLevel="R 4 12" Ref="Hero"  HideNotification="true"  />
                 </SkillsToLevel>
@@ -2888,7 +2890,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14326}Push his naked ass out of your bed.</OptionText>
+                <OptionText>{=BCCaptor_Text_12805}Push his naked ass out of your bed.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustO" ByLevel="R 4 12" Ref="Hero"  HideNotification="true"  />
                 </SkillsToLevel>
@@ -2912,7 +2914,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_low_morale_vaginal</Name>
-        <Text>{=BCCaptor_Text_14327}You lean back onto your bed, exposing your sex, and the man's eyes widen in surprise and desire. You guide his hardness into you and, when you find his thrusts too timid, push him onto his back give him the fucking of his life. He arches into you as he comes, filling you with his loyal seed.</Text>
+        <Text>{=BCCaptor_Text_12806}You lean back onto your bed, exposing your sex, and the man's eyes widen in surprise and desire. You guide his hardness into you and, when you find his thrusts too timid, push him onto his back give him the fucking of his life. He arches into you as he comes, filling you with his loyal seed.</Text>
         <BackgroundName>BC_image_sex_mf_vag_cum_back</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2948,7 +2950,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14328}Send him out and call in the next man.</OptionText>
+                <OptionText>{=BCCaptor_Text_12807}Send him out and call in the next man.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustV" ByLevel="R 4 12" Ref="Hero" HideNotification="true"  />
                 </SkillsToLevel>
@@ -2972,7 +2974,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_low_morale_anal</Name>
-        <Text>{=BCCaptor_Text_14329}You lean back and spread your ass as you see the bulge in his breeches grow mightily. As he pulls them off and approaches, you slick his cock with grease and carefully push him inside. The feeling of fullness is intense, and you moan, leaning forward, your sphincter engulfing his iron rod as he begins bouncing you atop it. His climax is thunderous, lifting you and slapping your ass six or seven times and calling you a filthy slut.</Text>
+        <Text>{=BCCaptor_Text_12808}You lean back and spread your ass as you see the bulge in his breeches grow mightily. As he pulls them off and approaches, you slick his cock with grease and carefully push him inside. The feeling of fullness is intense, and you moan, leaning forward, your sphincter engulfing his iron rod as he begins bouncing you atop it. His climax is thunderous, lifting you and slapping your ass six or seven times and calling you a filthy slut.</Text>
         <BackgroundName>BC_image_sex_mf_anal_guide</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2987,7 +2989,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14330}Grab his stinking cock and suck it clean.</OptionText>
+                <OptionText>{=BCCaptor_Text_12809}Grab his stinking cock and suck it clean.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 4 12" Ref="Hero" HideNotification="true"  />
                     <Skill Id="CaptiveLustO" ByLevel="R 4 12" Ref="Hero" HideNotification="true"  />
@@ -3011,7 +3013,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14331}Smack his ass hard in retaliation and send for the next man.</OptionText>
+                <OptionText>{=BCCaptor_Text_12810}Smack his ass hard in retaliation and send for the next man.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 4 12" Ref="Hero" HideNotification="true"  />
                 </SkillsToLevel>
@@ -3035,7 +3037,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_low_morale_group</Name>
-        <Text>{=BCCaptor_Text_14332}As you head towards the campfire, your men look upon your naked body with surprise and no small amount of lust. You walk up to one of them, thrust your hand into his breeches and pull out his cock. He nearly faints with excitement as you begin sucking, motioning with the other hand for the rest of your men to join you as your cleft begins dripping in anticipation...</Text>
+        <Text>{=BCCaptor_Text_12811}As you head towards the campfire, your men look upon your naked body with surprise and no small amount of lust. You walk up to one of them, thrust your hand into his breeches and pull out his cock. He nearly faints with excitement as you begin sucking, motioning with the other hand for the rest of your men to join you as your cleft begins dripping in anticipation...</Text>
         <BackgroundName>BC_image_sex_fmm_vag_anal_kissing</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -3050,7 +3052,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14333}Show them how a lady of noble upbringing fucks.</OptionText>
+                <OptionText>{=BCCaptor_Text_12812}Show them how a lady of noble upbringing fucks.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 4 12" Ref="Hero"  HideNotification="true"  />
                     <Skill Id="CaptiveLustV" ByLevel="R 4 12" Ref="Hero"  HideNotification="true"  />
@@ -3072,7 +3074,7 @@
     
     <CEEvent>
         <Name>BC_drug_fantasy</Name>
-        <Text>{=BCCaptor_Text_14334}You are drifting in and out of lucid thought. You do not know this lake.</Text>
+        <Text>{=BCCaptor_Text_12813}You are drifting in and out of lucid thought. You do not know this lake.</Text>
         <BackgroundName>BC_image_f_mountain_lake</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -3086,7 +3088,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14335}Swim to the middle of the lake.</OptionText>
+                <OptionText>{=BCCaptor_Text_12814}Swim to the middle of the lake.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="5" Ref="Hero" />
                 </SkillsToLevel>
@@ -3125,7 +3127,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_drug_fantasy_dark_1</Name>
-        <Text>{=BCCaptor_Text_14336}You are drifting in and out of lucid thought. Your ass and pussy are wonderfully full of cock.</Text>
+        <Text>{=BCCaptor_Text_12815}You are drifting in and out of lucid thought. Your ass and pussy are wonderfully full of cock.</Text>
         <BackgroundName>BC_image_sex_drugged_goddess</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -3139,7 +3141,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14337}Mmmmm, this feels amazing... Wait. I was swimming...</OptionText>
+                <OptionText>{=BCCaptor_Text_12816}Mmmmm, this feels amazing... Wait. I was swimming...</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R 0 10" Ref="Hero" />
                 </SkillsToLevel>
@@ -3161,7 +3163,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_drug_fantasy_dark_2</Name>
-        <Text>{=BCCaptor_Text_14338}You are drifting in and out of lucid thought. You are in a cage, and your nipples are leaking.</Text>
+        <Text>{=BCCaptor_Text_12817}You are drifting in and out of lucid thought. You are in a cage, and your nipples are leaking.</Text>
         <BackgroundName>BC_image_sex_drugged_cage_nipples</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -3175,7 +3177,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14339}I can't be here! This isn't happening!</OptionText>
+                <OptionText>{=BCCaptor_Text_12818}I can't be here! This isn't happening!</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R 0 7" Ref="Hero" />
                 </SkillsToLevel>
@@ -3198,7 +3200,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_drug_fantasy_dark_3</Name>
-        <Text>{=BCCaptor_Text_14340}You are drifting in and out of lucid thought. You do not know this lake monster.</Text>
+        <Text>{=BCCaptor_Text_12819}You are drifting in and out of lucid thought. You do not know this lake monster.</Text>
         <BackgroundName>BC_image_sex_drugged_fish_man</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -3212,7 +3214,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14339}I can't be here! This isn't happening!</OptionText>
+                <OptionText>{=BCCaptor_Text_12818}I can't be here! This isn't happening!</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R 0 7" Ref="Hero" />
                 </SkillsToLevel>
@@ -3235,7 +3237,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_drug_fantasy_dark_4</Name>
-        <Text>{=BCCaptor_Text_14341}You are drifting in and out of lucid thought. Beautiful ladies are growing thick, veiny cocks right before your eyes.</Text>
+        <Text>{=BCCaptor_Text_12820}You are drifting in and out of lucid thought. Beautiful ladies are growing thick, veiny cocks right before your eyes.</Text>
         <BackgroundName>BC_image_sex_drugged_growth</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -3249,7 +3251,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14339}I can't be here! This isn't happening!</OptionText>
+                <OptionText>{=BCCaptor_Text_12818}I can't be here! This isn't happening!</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R 0 7" Ref="Hero" />
                 </SkillsToLevel>
@@ -3272,7 +3274,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_drug_fantasy_dark_5</Name>
-        <Text>{=BCCaptor_Text_14342}You are drifting in and out of lucid thought. Your ass is burning you from the inside.</Text>
+        <Text>{=BCCaptor_Text_12821}You are drifting in and out of lucid thought. Your ass is burning you from the inside.</Text>
         <BackgroundName>BC_image_sex_drugged_chain_skull</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -3286,7 +3288,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14339}I can't be here! This isn't happening!</OptionText>
+                <OptionText>{=BCCaptor_Text_12818}I can't be here! This isn't happening!</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R 0 10" Ref="Hero" />
                 </SkillsToLevel>
@@ -3309,7 +3311,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_drug_fantasy_dark_exit</Name>
-        <Text>{=BCCaptor_Text_14343}You are drifting in and out of lucid thought. You are being fucked by monstrous beasts with misshapen cocks.</Text>
+        <Text>{=BCCaptor_Text_12822}You are drifting in and out of lucid thought. You are being fucked by monstrous beasts with misshapen cocks.</Text>
         <BackgroundName>BC_image_sex_drugged_big_bulls</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -3323,7 +3325,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14344}Oh no. Oh no. I know why I feel like this... Don't wake up! Don't...!</OptionText>
+                <OptionText>{=BCCaptor_Text_12823}Oh no. Oh no. I know why I feel like this... Don't wake up! Don't...!</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R 10 20" Ref="Hero" />
                 </SkillsToLevel>
@@ -3343,962 +3345,4 @@
         <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
-    <!-- Captivity Bestiality -->
-        
-    <CEEvent>
-        <Name>TB_bitch_noncon_horse</Name>
-        <Text>{=BCCaptor_Text_14345}Your captor leads you to the stable master, who appears to be examining a wooden sawhorse. He startles when he sees you, eye-raping you with relish, and when your captor encourages him to breed you, he wastes little time, picking you up with strong hands and impaling you with his manhood. You feel it wriggle inside you as he tries to fit, stretching your walls and throttling the entrance to your womb, and he pulls out some as he comes, coating the outside of your sex in his seed. He proceeds to massage it into you, ensuring you're well-lubricated for what is to come...</Text>
-        <BackgroundName>BC_image_horse_before_sex</BackgroundName>
-        <NotificationName>TB_travelling_notification</NotificationName>
-        <MultipleRestrictedListOfFlags>
-        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-        <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-        <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-        </MultipleRestrictedListOfFlags>
-        <Options>
-            <Option>
-                <Order>0</Order>
-                <MultipleRestrictedListOfConsequences>
-                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14346}What more can he do to you?</OptionText>
-                <HealthTotal>R -1 -3</HealthTotal>
-                <TriggerEventName>TB_bitch_noncon_horse_2</TriggerEventName>
-            </Option>
-        </Options>
-        <ReqCustomCode>true</ReqCustomCode>
-        <ReqHeroSkill>CaptiveCanis</ReqHeroSkill>
-        <ReqHeroSkillLevelAbove>0</ReqHeroSkillLevelAbove>
-        <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
-        <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
-    <CEEvent>
-        <Name>TB_bitch_noncon_horse_2</Name>
-        <Text>{=BCCaptor_Text_14347}Your captor looks on in awe as the stable master lifts you onto the sawhorse he was working on and ties down your arms and legs, leaving you barely able to move. For a moment you panic, thinking he's going to cut you in half, but the truth is even worse. You hear the clip-clop of hooves behind you, and a crushing weight settles onto your back. You feel the gargantuan head of a horse's penis begin thrusting at your opening and cannot help but scream as your captor laughs at your predicament. The stallion's efforts finally hit home as your poor vagina is stretched beyond all reason, the creature's bulbous cock pushing so far inside you you're sure it's done permanent damage.</Text>
-        <BackgroundName>BC_image_captive_female_horse_vag_lara</BackgroundName>
-        <NotificationName>TB_travelling_notification</NotificationName>
-        <MultipleRestrictedListOfFlags>
-        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-        <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-        <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-        </MultipleRestrictedListOfFlags>
-        <Options>
-        <Option>
-            <Order>0</Order>
-            <MultipleRestrictedListOfConsequences>
-            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-            <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-            <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-            </MultipleRestrictedListOfConsequences>
-            <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail033}Try to survive the assault.</OptionText>
-            <SkillsToLevel>
-                <Skill Id="CaptiveLustA" ByLevel="R 1 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                <Skill Id="CaptiveLustV" ByLevel="R 1 30" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                <Skill Id="CaptiveLustO" ByLevel="R 1 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                <Skill Id="CaptiveLustT" ByLevel="R 1 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                <Skill Id="CaptiveLustC" ByLevel="R 1 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
-            </SkillsToLevel>
-            <HealthTotal>R -15 -20</HealthTotal>
-            <TriggerEventName>TB_bitch_noncon_horse_3</TriggerEventName>
-        </Option>
-        </Options>
-        <ReqCustomCode>true</ReqCustomCode>
-        <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
-        <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
-    <CEEvent>
-        <Name>TB_bitch_noncon_horse_3</Name>
-        <Text>{=BCCaptor_Text_14348}As you run out of breath with which to scream, your vocal chords exhausted, the creature keeps thrusting inside you. Your captor almost seems concerned as you are used as a fuck-puppet by this enormous cock, but before he takes any action the stallion bucks one last time, grinding your legs into the sawhorse, and completely fills you with its seed. The stable master quickly helps it off of you, untying your bruised arms and legs as a fountain of blood and semen pours out from your ruined pussy.</Text>
-        <BackgroundName>BC_image_horse_after_sex_2</BackgroundName>
-        <NotificationName>TB_travelling_notification</NotificationName>
-        <MultipleRestrictedListOfFlags>
-        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-        <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-        <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-        </MultipleRestrictedListOfFlags>
-        <Options>
-        <Option>
-            <Order>0</Order>
-            <MultipleRestrictedListOfConsequences>
-            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-            <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-            <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
-            <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-            </MultipleRestrictedListOfConsequences>
-            <OptionText>{=BCCaptor_Text_14349}Is there still more for you to endure?</OptionText>
-            <SkillsToLevel>
-                <Skill Id="CaptiveLustA" ByLevel="R 1 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                <Skill Id="CaptiveLustV" ByLevel="R 1 30" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                <Skill Id="CaptiveLustO" ByLevel="R 1 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                <Skill Id="CaptiveLustT" ByLevel="R 1 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                <Skill Id="CaptiveLustC" ByLevel="R -15 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                <Skill Id="Riding" ByLevel="R 3 7" Ref="Hero" HideNotification="true" />
-                <Skill Id="CaptiveEquus" ByLevel="1" Ref="Hero" Color="Green" />
-            </SkillsToLevel>
-            <HealthTotal>R -30 -50</HealthTotal>
-            <SlaveryTotal>R 3 7</SlaveryTotal>
-            <TriggerEventName>TB_bitch_noncon_exhaust</TriggerEventName>
-        </Option>
-        </Options>
-        <ReqCustomCode>true</ReqCustomCode>
-        <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
-        <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
-    <CEEvent>
-        <Name>TB_bitch_noncon_canine</Name>
-        <Text>{=BCCaptor_Text_14350}One of the kennel masters whistles appreciatively as you approach. He comments to your captor that he's rarely seen so attractive a bitch, and mentions that he's got several studs that would be happy to breed you. Your captor smiles, saying he'd hoped that was the case, and the man whistles as a large and menacing dog comes running, an immense purple rod between its legs. Your captor orders you to be still as it begins licking your sex - wouldn't want him to get rough with you...</Text>
-        <BackgroundName>BC_image_captive_female_canine_lick</BackgroundName>
-        <NotificationName>TB_travelling_notification</NotificationName>
-        <MultipleRestrictedListOfFlags>
-            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-        </MultipleRestrictedListOfFlags>
-        <Options>
-        <Option>
-            <Order>0</Order>
-            <MultipleRestrictedListOfConsequences>
-            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-            </MultipleRestrictedListOfConsequences>
-            <OptionText>{=BCCaptor_Text_14351}Try not to anger him.</OptionText>
-            <TriggerEventName>TB_bitch_noncon_canine_2</TriggerEventName>
-        </Option>
-        </Options>
-        <SkillsRequired>
-            <SkillRequired Id="CaptiveCanis" Max="0" Ref="Hero" />
-        </SkillsRequired>
-        <ReqCustomCode>true</ReqCustomCode>
-        <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
-        <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
-    <CEEvent>
-        <Name>TB_bitch_noncon_canine_2</Name>
-        <Text>{=BCCaptor_Text_14352}You yelp shamefully in pleasure as the creature's tongue rasps against your clit, and it takes that as a signal to climb on top of you. Its weight and the warmth of its fur are terrifying, and as its massive member begins pressing its way into your insides you groan. It begins fucking you far faster and harder than any human lover, and each time the knob on the base of its cock brushes your button you moan. As your vagina is roughly savaged, the two men begin stroking their cocks, and you feel your own orgasm building...</Text>
-        <BackgroundName>BC_image_captive_female_canine_drool</BackgroundName>
-        <NotificationName>TB_travelling_notification</NotificationName>
-        <MultipleRestrictedListOfFlags>
-            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-        </MultipleRestrictedListOfFlags>
-        <Options>
-        <Option>
-            <Order>0</Order>
-            <MultipleRestrictedListOfConsequences>
-            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-            <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-            </MultipleRestrictedListOfConsequences>
-            <OptionText>{=BCCaptor_Text_14353}Try not to cum.</OptionText>
-            <HealthTotal>R -5 -10</HealthTotal>
-            <TriggerEventName>TB_bitch_noncon_canine_3</TriggerEventName>
-        </Option>
-        <Option>
-            <Order>1</Order>
-            <MultipleRestrictedListOfConsequences>
-            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-            <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
-            <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-            <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-            </MultipleRestrictedListOfConsequences>
-            <OptionText>{=BCCaptor_Text_14354}Give in to your orgasm.</OptionText>
-            <SlaveryTotal>R 4 12</SlaveryTotal>
-            <HealthTotal>R -5 -10</HealthTotal>
-            <SkillsToLevel>
-                <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
-                <Skill Id="CaptiveLustO" ByLevel="R 3 1" Ref="Hero" HideNotification="true" />
-                <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
-                <Skill Id="CaptiveLustT" ByLevel="R 3 1" Ref="Hero" HideNotification="true" />
-                <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
-            </SkillsToLevel>
-            <TriggerEventName>TB_bitch_noncon_canine_3</TriggerEventName>
-        </Option>
-        </Options>
-        <ReqCustomCode>true</ReqCustomCode>
-        <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
-        <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
-    <CEEvent>
-      <Name>TB_bitch_noncon_canine_3</Name>
-      <Text>{=BCCaptor_Text_14355}You cannot resist or delay your building orgasm as your stud pounds still more furiously into you, and when he stops, filling you more deeply than ever before, you squeal in desperation. Relief comes in the form of a tremendous jet of semen inside you, the pressure and humiliation of it pushing you over the edge. You scream as wave after wave of ecstasy crashes over you. Your captor climaxes at the sight, dragging you over to clean his cock.</Text>
-      <BackgroundName>BC_image_captive_female_canine_cum</BackgroundName>
-      <NotificationName>TB_travelling_notification</NotificationName>
-      <MultipleRestrictedListOfFlags>
-        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-        <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-        <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-      </MultipleRestrictedListOfFlags>
-      <Options>
-        <Option>
-          <Order>0</Order>
-          <MultipleRestrictedListOfConsequences>
-            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-            <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
-            <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-          </MultipleRestrictedListOfConsequences>
-          <OptionText>{=BCCaptor_Text_14356}Lick your captor clean.</OptionText>
-          <SlaveryTotal>R 8 15</SlaveryTotal>
-          <SkillsToLevel>
-              <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
-              <Skill Id="CaptiveLustO" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
-              <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
-              <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
-              <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
-              <Skill Id="CaptiveEsteem" ByLevel="R -30 -10" Ref="Hero" HideNotification="true" />
-              <Skill Id="CaptiveCanis" ByLevel="1" Ref="Hero" Color="Green" />
-          </SkillsToLevel>
-          <TriggerEventName>TB_bitch_noncon_lobby</TriggerEventName>
-        </Option>
-        <Option>
-          <Order>1</Order>
-          <MultipleRestrictedListOfConsequences>
-            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-            <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-          </MultipleRestrictedListOfConsequences>
-          <OptionText>{=BCCaptor_Text_14357}Refuse to clean your captor.</OptionText>
-          <SkillsToLevel>
-              <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
-              <Skill Id="CaptiveLustO" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
-              <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
-              <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
-              <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
-              <Skill Id="CaptiveEsteem" ByLevel="R -3 -10" Ref="Hero" HideNotification="true" />
-              <Skill Id="CaptiveCanis" ByLevel="1" Ref="Hero" Color="Green" />
-          </SkillsToLevel>
-          <TriggerEventName>TB_slavery_resist</TriggerEventName>
-        </Option>
-      </Options>
-      <ReqCustomCode>true</ReqCustomCode>
-      <SexualContent>false</SexualContent>
-      <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
-      <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
-
-    <CEEvent>
-        <Name>TB_noncon_canine_comfort</Name>
-        <Text>{=BCCaptor_Text_14358}One of your captors' dogs approaches you and begins sniffing at your sex. You push it away, only for it to begin licking your exposed vulva, and you shudder reflexively. The dog's owner notices, and with a wicked expression orders you to spread your lips for it.</Text>
-        <BackgroundName>BC_image_captive_female_canine_lick</BackgroundName>
-        <NotificationName>TB_slave_notification</NotificationName>
-        <MultipleRestrictedListOfFlags>
-            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
-            <RestrictedListOfFlags>LocationCastle</RestrictedListOfFlags>
-            <RestrictedListOfFlags>LocationDungeon</RestrictedListOfFlags>
-            <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
-            <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-        </MultipleRestrictedListOfFlags>
-        <Options>
-            <Option>
-                <Order>0</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14359}Open your legs to give it better access.</OptionText>
-                <TriggerEventName>TB_noncon_canine_climax</TriggerEventName>
-                <SkillsToLevel>
-                    <Skill Id="CaptiveLustC" ByLevel="R 4 12" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustV" ByLevel="R 4 12" Ref="Hero"  HideNotification="true"  />
-                </SkillsToLevel>
-            </Option>
-            <Option>
-                <Order>1</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14360}Wait it out and hope it goes away.</OptionText>
-                <SkillsToLevel>
-                    <Skill Id="CaptiveLustC" ByLevel="R 1 4" Ref="Hero"  HideNotification="true"  />
-                </SkillsToLevel>
-                <TriggerEventName>TB_noncon_canine_climax</TriggerEventName>
-            </Option>
-            <Option>
-                <Order>1</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14361}Continue pushing it away from you.</OptionText>
-                <RelationTotal>R -1 -7</RelationTotal>
-                <TriggerEventName>TB_noncon_punish_fist</TriggerEventName>
-                <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
-            </Option>
-        </Options>
-        <SkillsRequired>
-            <SkillRequired Id="CaptiveCanis" Max="0" Ref="Hero" />
-        </SkillsRequired>
-        <ReqCustomCode>true</ReqCustomCode>
-        <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-        <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
-    <CEEvent>
-        <Name>TB_noncon_canine_climax</Name>
-        <Text>{=BCCaptor_Text_14362}The creature pushes its tongue deep into your cunt and you lose composure completely; you feel your knees fall away from under you as it continues its efforts, stimulating your clit and vaginal passage with its inhumanly talented tongue. As you climax the men watching you cheer, clearly enjoying your humiliation, and the dog's owner comments that it deserves a reward for pleasuring you.</Text>
-        <BackgroundName>BC_image_captive_female_canine_lick_shirt</BackgroundName>
-        <NotificationName>TB_slave_notification</NotificationName>
-        <MultipleRestrictedListOfFlags>
-            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-        </MultipleRestrictedListOfFlags>
-        <Options>
-            <Option>
-                <Order>0</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14363}Try to escape before anything worse can happen to you.</OptionText>
-                <EscapeChance>25</EscapeChance>
-                <RelationTotal>-2</RelationTotal>
-                <HealthTotal>R -5 15</HealthTotal>
-                <ReqHeroHealthAbovePercentage>20</ReqHeroHealthAbovePercentage>
-            </Option>
-            <Option>
-                <Order>0</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14364}Offer the dog your meal.</OptionText>
-                <SkillsToLevel>
-                    <Skill Id="CaptiveLustV" ByLevel="R -4 6" Ref="Hero"  HideNotification="true"  />
-                </SkillsToLevel>
-                <HealthTotal>R -5 15</HealthTotal>
-            </Option>
-            <Option>
-                <Order>0</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14365}Kneel down and pet the dog.</OptionText>
-                <SkillsToLevel>
-                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustC" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
-                </SkillsToLevel>
-                <RelationTotal>2</RelationTotal>
-                <HealthTotal>R 5 15</HealthTotal>
-                <TriggerEventName>TB_noncon_canine_missionary</TriggerEventName>
-            </Option>
-        </Options>
-        <ReqCustomCode>true</ReqCustomCode>
-        <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-        <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
-    <CEEvent>
-        <Name>TB_noncon_canine_missionary</Name>
-        <Text>{=BCCaptor_Text_14366}The canine leaps at you, knocking you on your ass, then stands over you, and you feel a massive rod thrust into your flower, filling you completely. It makes you its bitch, pistoning into you harder and faster than you've ever been fucked before. You realize with alarm its member is growing inside you, and as you try to push it out that the base of its cock is now too large to be removed. You whimper as you feel its seed flood your womb. After a few minutes it pulls out, leaving a thick trail of semen streaming from your cunt.</Text>
-        <BackgroundName>BC_image_captive_female_canine_missionary</BackgroundName>
-        <NotificationName>TB_slave_notification</NotificationName>
-        <MultipleRestrictedListOfFlags>
-            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-        </MultipleRestrictedListOfFlags>
-        <Options>
-            <Option>
-                <Order>0</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14367}Flee in a horrified panic.</OptionText>
-                <SkillsToLevel>
-                    <Skill Id="CaptiveLustT" ByLevel="R -1 5" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustO" ByLevel="R -1 5" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustC" ByLevel="R -1 5" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustV" ByLevel="R -1 5" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveCanis" ByLevel="1" Ref="Hero"  Color="Green" />
-                </SkillsToLevel>
-                <EscapeChance>25</EscapeChance>
-                <HealthTotal>R 5 15</HealthTotal>
-            </Option>
-            <Option>
-                <Order>1</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14368}Crawl off and try to rest.</OptionText>
-                <SkillsToLevel>
-                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustC" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveCanis" ByLevel="1" Ref="Hero"  Color="Green"  />
-                </SkillsToLevel>
-                <HealthTotal>R -1 -2</HealthTotal>
-                <TriggerEventName>TB_dream_lobby</TriggerEventName>
-            </Option>
-            <Option>
-                <Order>2</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14369}Curl up submissively beside it to sleep.</OptionText>
-                <SkillsToLevel>
-                    <Skill Id="CaptiveLustT" ByLevel="R 1 15" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustO" ByLevel="R 1 15" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustC" ByLevel="R 1 15" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustV" ByLevel="R 1 15" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveCanis" ByLevel="1" Ref="Hero"  Color="Green"/>
-                </SkillsToLevel>
-                <RenownTotal>R -3 -6</RenownTotal>
-                <HealthTotal>25</HealthTotal>
-            </Option>
-        </Options>
-        <ReqCustomCode>true</ReqCustomCode>
-        <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-        <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>    
-    <!-- Alchemist breeder-->
-    <CEEvent>
-        <Name>TB_noncon_canine_alchemist</Name>
-        <Text>{=BCCaptor_Text_14370}You find yourself manacled to the floor, your arms and legs held in place so that you cannot help but thrust your sex lewdly into the air. It seems an alchemist has paid your captor to use you in his experiments, and as your fear grows you find he's brought a wolf into the cell with you. It approaches, smelling your groin, then roughly mounts you, its hardness painfully filling your cunt. As you moan and gasp in horror it begins thrusting with inhuman speed...</Text>
-        <BackgroundName>BC_image_captive_female_canine_blonde_mount</BackgroundName>
-        <NotificationName>TB_slave_notification</NotificationName>
-        <MultipleRestrictedListOfFlags>
-            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
-            <RestrictedListOfFlags>LocationCastle</RestrictedListOfFlags>
-            <RestrictedListOfFlags>LocationDungeon</RestrictedListOfFlags>
-            <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-        </MultipleRestrictedListOfFlags>
-        <Options>
-            <Option>
-                <Order>0</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14371}Bound as you are, you can do nothing to resist...</OptionText>
-                <HealthTotal>R -10 -20</HealthTotal>
-                <TriggerEventName>TB_noncon_canine_alchemist_climax</TriggerEventName>
-            </Option>
-        </Options>
-        <SkillsRequired>
-            <SkillRequired Id="CaptiveCanis" Max="0" Ref="Hero" />
-        </SkillsRequired>
-        <ReqCustomCode>true</ReqCustomCode>
-        <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-        <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
-    <CEEvent>
-        <Name>TB_noncon_canine_alchemist_climax</Name>
-        <Text>{=BCCaptor_Text_14372}You grit your teeth and try to hold on as the creature breeds you. After a handful of minutes that feel like hours you feel its member growing inside you, and shortly thereafter your womb is flooded with warmth. The creature's organ is locked inside you as you feel your insides bloat with pressure, until finally it softens enough to slide out, bringing with it a waterfall of milky seed. Satisfied, the alchemist says he will be eagerly awaiting news about whether your mating bears fruit...</Text>
-        <BackgroundName>BC_image_captive_female_canine_knot_cum</BackgroundName>
-        <NotificationName>TB_slave_notification</NotificationName>
-        <MultipleRestrictedListOfFlags>
-            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-        </MultipleRestrictedListOfFlags>
-        <Options>
-            <Option>
-                <Order>0</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBSlaveryEventsFemaleSexualMarriage013}Try to rest.</OptionText>
-                <SkillsToLevel>
-                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustC" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveCanis" ByLevel="1" Ref="Hero"  Color="Green" />
-                </SkillsToLevel>
-                <TriggerEventName>TB_dream_lobby</TriggerEventName>
-            </Option>
-        </Options>
-        <ReqCustomCode>true</ReqCustomCode>
-        <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-        <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
-
-    <CEEvent>
-        <Name>BC_noncon_canine_huntmistress</Name>
-        <Text>{=BCCaptor_Text_14373}One of your captors' dogs approaches you and begins sniffing at your sex. It to begin licking your exposed vulva, and your body shudders reflexively. </Text>
-        <BackgroundName>BC_image_captive_female_canine_lick_me</BackgroundName>
-        <NotificationName>TB_slave_notification</NotificationName>
-        <MultipleRestrictedListOfFlags>
-            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
-            <RestrictedListOfFlags>LocationCastle</RestrictedListOfFlags>
-            <RestrictedListOfFlags>LocationDungeon</RestrictedListOfFlags>
-            <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
-            <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-        </MultipleRestrictedListOfFlags>
-        <Options>
-            <Option>
-                <Order>0</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14374}Let daddy sniff you out.</OptionText>
-                <TriggerEventName>TB_noncon_canine_hunt_oral</TriggerEventName>
-            </Option>
-        </Options>
-        <SkillsRequired>
-            <SkillRequired Id="CaptiveCanis" Min="1" Ref="Hero" />
-        </SkillsRequired>
-        <ReqCustomCode>true</ReqCustomCode>
-        <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-        <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
-    <CEEvent>
-        <Name>TB_noncon_canine_hunt_oral</Name>
-        <Text>{=BCCaptor_Text_14375}The creature rasps its tongue over your cunt and you lose composure completely; you feel your knees fall away from under you as it continues its efforts, stimulating your clit and vaginal passage with its hot breath. You lick your lips and turn toward daddy's glistening red member hanging nearly down to the ground.</Text>
-        <BackgroundName>BC_image_captive_female_canine_first_oral</BackgroundName>
-        <NotificationName>TB_slave_notification</NotificationName>
-        <MultipleRestrictedListOfFlags>
-            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-        </MultipleRestrictedListOfFlags>
-        <Options>
-            <Option>
-                <Order>0</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14376}See what it tastes like...</OptionText>
-                <SkillsToLevel>
-                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustC" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
-                </SkillsToLevel>
-                <HealthTotal>R 5 15</HealthTotal>
-                <TriggerEventName>TB_noncon_canine_hunt_climax</TriggerEventName>
-            </Option>
-        </Options>
-        <ReqCustomCode>true</ReqCustomCode>
-        <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-        <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
-    <CEEvent>
-        <Name>TB_noncon_canine_hunt_climax</Name>
-        <Text>{=BCCaptor_Text_14377}The skin of the dog cock slides across your tongue, and you can hear daddy lapping up your juices as they pour out. You lick and pull and tease the thick red shaft farther and farther into your throat, and even when daddy stops licking, you feel another orgasm building as your lips reach the giant knot at the base. You whimper in ecstasy as you feel daddy's hot seed filling your belly. After a few minutes daddy pulls it out, leaving a thick trail of semen streaming across your chest.</Text>
-        <BackgroundName>BC_image_captive_female_canine_first_load</BackgroundName>
-        <NotificationName>TB_slave_notification</NotificationName>
-        <MultipleRestrictedListOfFlags>
-            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-        </MultipleRestrictedListOfFlags>
-        <Options>
-            <Option>
-                <Order>1</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14369}Curl up submissively beside it to sleep.</OptionText>
-                <SkillsToLevel>
-                    <Skill Id="CaptiveLustT" ByLevel="R 1 15" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustO" ByLevel="R 1 15" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustC" ByLevel="R 1 15" Ref="Hero"  HideNotification="true"  />
-                    <Skill Id="CaptiveLustV" ByLevel="R 1 15" Ref="Hero"  HideNotification="true"  />
-                </SkillsToLevel>
-                <RenownTotal>R -3 -6</RenownTotal>
-                <HealthTotal>25</HealthTotal>
-            </Option>
-        </Options>
-        <ReqCustomCode>true</ReqCustomCode>
-        <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-        <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>    
-    <!-- Arena Equus -->
-        <CEEvent>
-            <Name>TB_arena_equine</Name>
-            <Text>{=BCCaptor_Text_14378}A horse and its handler exit through the gate, and the handler smiles cruelly at you as he shoves you to your knees. The man whistles, and the stallion steps over you; you feel a horrifying weight press against your rear end as its immense member pushes against your sex.</Text>
-            <BackgroundName>BC_image_horse_before_sex</BackgroundName>
-            <MultipleRestrictedListOfFlags>
-                <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-            </MultipleRestrictedListOfFlags>
-            <Options>
-                <Option>
-                    <Order>0</Order>
-                    <MultipleRestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
-                    </MultipleRestrictedListOfConsequences>
-                    <OptionText>{=BCCaptor_Text_14379}This can't be happening...</OptionText>
-                    <HealthTotal>R -2 -10</HealthTotal>
-                    <RenownTotal>R -1 -3</RenownTotal>
-                    <TriggerEvents>
-                        <TriggerEvent>
-                            <EventName>TB_arena_equine_held</EventName>
-                            <EventWeight>100</EventWeight>
-                        </TriggerEvent>
-                        <TriggerEvent>
-                            <EventName>BC_arena_equine_equestrienne</EventName>
-                            <EventWeight>100</EventWeight>
-                        </TriggerEvent>
-                    </TriggerEvents>
-                </Option>
-            </Options>
-            <ReqCustomCode>true</ReqCustomCode>
-            <SkillsRequired>
-                <SkillRequired Id="CaptiveEquus" Max="0" Ref="Hero" />
-            </SkillsRequired>
-            <SexualContent>true</SexualContent>
-            <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-            <ReqHeroMinAge>18</ReqHeroMinAge>
-        </CEEvent>
-        <CEEvent>
-            <Name>TB_arena_equine_held</Name>
-            <Text>{=BCCaptor_Text_14380}Though you have nowhere to run, the creature seems intent on keeping you still as it works its massive member into your womb, using its front legs to lock your body into place as you scream in agony. The trainer cackles with glee, muttering that the stallion has found its new favorite mare...</Text>
-            <BackgroundName>BC_image_captive_female_horse_vag_lara</BackgroundName>
-            <NotificationName>TB_slave_notification</NotificationName>
-            <MultipleRestrictedListOfFlags>
-                <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-            </MultipleRestrictedListOfFlags>
-            <Options>
-                <Option>
-                    <Order>0</Order>
-                    <MultipleRestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
-                    </MultipleRestrictedListOfConsequences>
-                    <OptionText>{=BCCaptor_Text_14379}This can't be happening...</OptionText>
-                    <HealthTotal>R -2 -10</HealthTotal>
-                    <RenownTotal>R -1 -3</RenownTotal>
-                    <TriggerEvents>
-                        <TriggerEvent>
-                            <EventName>TB_arena_equine_enjoy</EventName>
-                            <EventUseConditions>true</EventUseConditions>
-                        </TriggerEvent>
-                        <TriggerEvent>
-                            <EventName>TB_arena_equine_unconscious</EventName>
-                            <EventUseConditions>true</EventUseConditions>
-                        </TriggerEvent>
-                    </TriggerEvents>
-                </Option>
-            </Options>
-            <ReqCustomCode>true</ReqCustomCode>
-            <SexualContent>true</SexualContent>
-            <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-            <ReqHeroMinAge>18</ReqHeroMinAge>
-        </CEEvent>
-        <CEEvent>
-            <Name>TB_arena_equine_unconscious</Name>
-            <Text>{=BCCaptor_Text_14381}The horse's cock is larger around than your forearm, and its bulbous end pushes deep into your womb, shoving itself against your cervix. As it begins pushing inwards, the pain becomes so intense that you fall unconscious, your body unable to fully process what is happening to you.</Text>
-            <BackgroundName>BC_image_captive_female_horse_under</BackgroundName>
-            <NotificationName>TB_slave_notification</NotificationName>
-            <MultipleRestrictedListOfFlags>
-                <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-            </MultipleRestrictedListOfFlags>
-            <Options>
-                <Option>
-                    <Order>0</Order>
-                    <MultipleRestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
-                    </MultipleRestrictedListOfConsequences>
-                    <OptionText>{=BCCaptor_Text_14379}This can't be happening...</OptionText>
-                    <HealthTotal>R -2 -10</HealthTotal>
-                    <RenownTotal>R -1 -3</RenownTotal>
-                    <TriggerEvents>
-                        <TriggerEvent>
-                            <EventName>TB_arena_equine_end</EventName>
-                            <EventWeight>50</EventWeight>
-                        </TriggerEvent>
-                    </TriggerEvents>
-                </Option>
-            </Options>
-            <ReqCustomCode>true</ReqCustomCode>
-            <SexualContent>true</SexualContent>
-            <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-            <ReqHeroMinAge>18</ReqHeroMinAge>
-        </CEEvent>
-        <CEEvent>
-            <Name>TB_arena_equine_enjoy</Name>
-            <Text>{=BCCaptor_Text_14382}As the creature's arm-width appendage invades your most sensitive organ, you moan involuntarily, getting a cheer from the crowd. The sensation of being filled more completely than ever before is incredible, and the viscous precum sends you to wave after wave of orgasmic bliss as you shake uncontrollably.</Text>
-            <BackgroundName>BC_image_horse_broken_sex</BackgroundName>
-            <NotificationName>TB_slave_notification</NotificationName>
-            <MultipleRestrictedListOfFlags>
-                <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-            </MultipleRestrictedListOfFlags>
-            <Options>
-                <Option>
-                    <Order>0</Order>
-                    <MultipleRestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-                    </MultipleRestrictedListOfConsequences>
-                    <OptionText>{=BCCaptor_Text_14383}I've never felt like this before...</OptionText>
-                    <HealthTotal>R -2 -10</HealthTotal>
-                    <RenownTotal>R -1 -10</RenownTotal>
-                    <SkillsToLevel>
-                        <Skill Id="Fame" ByLevel="R 5 25" Ref="Hero" HideNotification="true" />
-                    </SkillsToLevel>
-                    <TriggerEvents>
-                        <TriggerEvent>
-                            <EventName>TB_arena_equine_unconscious</EventName>
-                            <EventWeight>100</EventWeight>
-                        </TriggerEvent>
-                        <TriggerEvent>
-                            <EventName>TB_arena_equine_end</EventName>
-                            <EventWeight>50</EventWeight>
-                        </TriggerEvent>
-                    </TriggerEvents>
-                </Option>
-            </Options>
-            <ReqCustomCode>true</ReqCustomCode>
-            <SexualContent>true</SexualContent>
-            <SkillsRequired>
-                <SkillRequired Id="CaptiveLustV" Min="125" Ref="Hero" />
-            </SkillsRequired>
-            <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-            <ReqHeroMinAge>18</ReqHeroMinAge>
-        </CEEvent>
-        <CEEvent>
-            <Name>BC_arena_equine_equestrienne</Name>
-            <Text>{=BCCaptor_Text_14384}As the creature's arm-width appendage fulfills your most sensitive organ, you moan in ecstasy, getting a cheer from the crowd. The sensation of being filled so completely in front of an attentive crowd is incredible, and you feel wave after wave of orgasmic bliss surge through you as you shake uncontrollably.</Text>
-            <BackgroundName>BC_image_captivity_equestrienne</BackgroundName>
-            <NotificationName>TB_slave_notification</NotificationName>
-            <MultipleRestrictedListOfFlags>
-                <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-            </MultipleRestrictedListOfFlags>
-            <Options>
-                <Option>
-                    <Order>0</Order>
-                    <MultipleRestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
-                    </MultipleRestrictedListOfConsequences>
-                    <OptionText>{=BCCaptor_Text_14385}Now, everyone has seen the real me...</OptionText>
-                    <RenownTotal>R -5 -15</RenownTotal>
-                    <SkillsToLevel>
-                        <Skill Id="CaptiveLustA" ByLevel="R 5 15" Ref="Hero" HideNotification="true" />
-                        <Skill Id="CaptiveLustC" ByLevel="R -5 15" Ref="Hero" HideNotification="true" />
-                        <Skill Id="CaptiveLustV" ByLevel="R 5 15" Ref="Hero" HideNotification="true" />
-                        <Skill Id="CaptiveLustO" ByLevel="R 5 20" Ref="Hero" HideNotification="true" />
-                        <Skill Id="CaptiveLustT" ByLevel="R 5 30" Ref="Hero" HideNotification="true" />
-                        <Skill Id="CaptiveAugment" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
-                        <Skill Id="Riding" ByLevel="R 3 7" Ref="Hero" HideNotification="true" />
-                        <Skill Id="CaptiveEsteem" ByLevel="R -50 75" Ref="Hero" />
-                    </SkillsToLevel>
-                    <TriggerEvents>
-                        <TriggerEvent>
-                            <EventName>BC_arena_equestrienne_end</EventName>
-                        </TriggerEvent>
-                    </TriggerEvents>
-                </Option>
-            </Options>
-            <ReqCustomCode>true</ReqCustomCode>
-            <SexualContent>true</SexualContent>
-            <SkillsRequired>
-                <SkillRequired Id="CaptiveEquus" Min="1" Ref="Hero" />
-            </SkillsRequired>
-            <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-            <ReqHeroMinAge>18</ReqHeroMinAge>
-        </CEEvent>
-        <CEEvent>
-            <Name>TB_arena_equine_end</Name>
-            <Text>{=BCCaptor_Text_14386}The creature comes at last, neighing loudly, and you shudder as you are filled to the brim with horse semen. The extra lubrication, combined with its softening rod, allows you to fall free from your perch, and you collapse to the ground, eager for some rest.</Text>
-            <BackgroundName>BC_image_horse_after_sex</BackgroundName>
-            <NotificationName>TB_slave_notification</NotificationName>
-            <MultipleRestrictedListOfFlags>
-                <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-            </MultipleRestrictedListOfFlags>
-            <Options>
-                <Option>
-                    <Order>0</Order>
-                    <MultipleRestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
-                    </MultipleRestrictedListOfConsequences>
-                    <OptionText>{=BCCaptor_Text_14387}Stumble to your feet as spunk sloshes out of you.</OptionText>
-                    <SkillsToLevel>
-                        <Skill Id="CaptiveLustA" ByLevel="R 5 15" Ref="Hero" HideNotification="true" />
-                        <Skill Id="CaptiveLustC" ByLevel="R -50 15" Ref="Hero" HideNotification="true" />
-                        <Skill Id="CaptiveLustV" ByLevel="R 5 15" Ref="Hero" HideNotification="true" />
-                        <Skill Id="CaptiveLustO" ByLevel="R 5 20" Ref="Hero" HideNotification="true" />
-                        <Skill Id="CaptiveLustT" ByLevel="R 15 30" Ref="Hero" HideNotification="true" />
-                        <Skill Id="CaptiveAugment" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
-                        <Skill Id="CaptiveEsteem" ByLevel="R -30 -10" Ref="Hero" HideNotification="true" />
-                        <Skill Id="Riding" ByLevel="R 3 7" Ref="Hero" HideNotification="true" />
-                        <Skill Id="CaptiveEquus" ByLevel="1" Ref="Hero" Color="Green" />
-                    </SkillsToLevel>
-                    <RenownTotal>R -4 -8</RenownTotal>
-                    <TriggerEvents>
-                        <TriggerEvent>
-                            <EventName>TB_arena_lobby</EventName>
-                            <EventWeight>100</EventWeight>
-                        </TriggerEvent>
-                    </TriggerEvents>
-                </Option>
-            </Options>
-            <ReqCustomCode>true</ReqCustomCode>
-            <SexualContent>true</SexualContent>
-            <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-            <ReqHeroMinAge>18</ReqHeroMinAge>
-        </CEEvent>
-        <CEEvent>
-            <Name>BC_arena_equestrienne_end</Name>
-            <Text>{=BCCaptor_Text_14388}The creature comes at last, neighing loudly, and you cum along with him as cups of horse semen spurt out of you with every stroke. Its softening rod allows you to fall free from your perch, and you collapse to the ground, eager for more.</Text>
-            <BackgroundName>BC_image_horse_after_sex_2</BackgroundName>
-            <NotificationName>TB_slave_notification</NotificationName>
-            <MultipleRestrictedListOfFlags>
-                <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-            </MultipleRestrictedListOfFlags>
-            <Options>
-                <Option>
-                    <Order>0</Order>
-                    <MultipleRestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
-                    </MultipleRestrictedListOfConsequences>
-                    <OptionText>{=BCCaptor_Text_14389}Would they let me suck his cock, right now?</OptionText>
-                    <RenownTotal>R -100 -300</RenownTotal>
-                    <SkillsToLevel>
-                        <Skill Id="CaptiveLustA" ByLevel="R 5 15" Ref="Hero" HideNotification="true" />
-                        <Skill Id="CaptiveLustC" ByLevel="R -50 15" Ref="Hero" HideNotification="true" />
-                        <Skill Id="CaptiveLustV" ByLevel="R 5 15" Ref="Hero" HideNotification="true" />
-                        <Skill Id="CaptiveLustO" ByLevel="R 5 20" Ref="Hero" HideNotification="true" />
-                        <Skill Id="CaptiveAugment" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
-                        <Skill Id="Riding" ByLevel="R 3 7" Ref="Hero" HideNotification="true" />
-                        <Skill Id="Fame" ByLevel="R 1 12" Ref="Hero" />
-                    </SkillsToLevel>
-                    <TriggerEvents>
-                        <TriggerEvent>
-                            <EventName>TB_arena_lobby</EventName>
-                            <EventWeight>100</EventWeight>
-                        </TriggerEvent>
-                    </TriggerEvents>
-                </Option>
-            </Options>
-            <ReqCustomCode>true</ReqCustomCode>
-            <SexualContent>true</SexualContent>
-            <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-            <ReqHeroMinAge>18</ReqHeroMinAge>
-        </CEEvent>
 </CEEvents>

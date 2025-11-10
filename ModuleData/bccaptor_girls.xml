@@ -1338,21 +1338,6 @@
                         weight="0.1744"
                         build="0.767"
                         key="001CD80B40003709647023132CB71B380645780ED9CF69777A9D9525881A9224056BD0560645665700000000000000000000000000000000000000000AD030C2" />
-                  <!-- Temun
-            
-            Above: Native Khuzait Age-start
-                  <BodyPropertiesMax version="4" 
-                         age="19.17"
-                  weight="0.9738"
-                         build="0.8133"
-                         key=""
-                  /> 
-                  Abagai:
-                  0018E00F12B4000F10745F15BB58D06570D97DC89BCE0F21676DADF08A2E383600571603052B9748770000000A00003900000000000015030000000044A42003
-                  Mela as Age-target
-                  0015740D922C001510723F15AD5AD1A270D9DD8A7C3F0F21B76DFCF08A2E38360057160305299747770000000A000039000000000000150300000000449C1003
-                  Khada
-      -->
                   <BodyPropertiesMax version="4"
                         age="39.17"
                         weight="0.1838"
@@ -1379,9 +1364,6 @@
                   <skill id="CaptiveLustV"
                         value="125" />
             </skills>
-            <!-- <upgrade_targets>
-        <upgrade_target id="NPCCharacter.harem_khuzait_t2" />
-            </upgrade_targets> -->
             <Equipments>
                   <EquipmentSet id="npc_captive_m_shirtless_ronin" />
                   <EquipmentSet id="npc_captive_m_shirtless_ronin" civilian="true" />
@@ -1389,6 +1371,11 @@
       </NPCCharacter>
 
 <!--Dancers-->
+            <!--BUG in BL 1.3 Equipments do not work
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" civilian="true" />
+            </Equipments>-->
       <NPCCharacter id="female_dancer_empire"
             default_group="Infantry"
             name="{=X3KYysuv}Dancer"
@@ -1402,8 +1389,48 @@
             </face>
             <skills></skills>
             <Equipments>
-                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" />
-                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" civilian="true" />
+                  <EquipmentRoster civilian="true">
+                        <Equipment slot="Body" id="Item.0_shyr" />
+                        <Equipment slot="Cape"
+                                          id="Item.no_hood" />
+                  </EquipmentRoster>
+                  <EquipmentRoster civilian="true">
+                        <Equipment slot="Body" id="Item.0_skull" />
+                        <Equipment slot="Cape"
+                                          id="Item.no_hood" />
+                  </EquipmentRoster>
+                  <EquipmentRoster>
+                  <Equipment slot="Cape"
+                              id="Item.battania_civil_cape" />
+                        <Equipment slot="Body" id="Item.no_armor" />
+                  <Equipment slot="Leg"
+                              id="Item.ladys_shoe" />
+                  </EquipmentRoster>
+                  <EquipmentRoster civilian="true">
+                        <Equipment slot="Cape"
+                                          id="Item.female_hood" />
+                                          <!-- <Equipment slot="Body" id="Item.no_armor" /> -->
+                        <Equipment slot="Gloves"
+                                          id="Item.klbcloth1" />
+                        <Equipment slot="Leg" 
+                                          id="Item.klbcloth2" />
+                  </EquipmentRoster>
+                  <EquipmentRoster civilian="true">
+                        <Equipment slot="Cape"
+                                    id="Item.female_hood" />
+                        <!-- <Equipment slot="Body" id="Item.no_armor" /> -->
+                        <Equipment slot="Gloves"
+                                    id="Item.klbcloth1" />
+                        <Equipment slot="Leg" id="Item.1_high_boots" />
+                  </EquipmentRoster>
+                  <EquipmentRoster civilian="true">
+                        <Equipment slot="Cape"
+                                    id="Item.battanian_chainmail_shoulder_a" />
+                        <!-- <Equipment slot="Body" id="Item.no_armor" /> -->
+                        <Equipment slot="Gloves"
+                                    id="Item.klbcloth1" />
+                        <Equipment slot="Leg" id="Item.1_high_boots" />
+                  </EquipmentRoster>
             </Equipments>
       </NPCCharacter>
       <NPCCharacter id="female_dancer_aserai"
@@ -1418,10 +1445,6 @@
                   <face_key_template value="BodyProperty.face_harem_aserai_0" />
             </face>
             <skills></skills>
-            <Equipments>
-                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" />
-                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" civilian="true" />
-            </Equipments>
       </NPCCharacter>
       <NPCCharacter id="female_dancer_sturgia"
             default_group="Infantry"
@@ -1435,10 +1458,7 @@
                   <face_key_template value="BodyProperty.face_harem_sturgia_0" />
             </face>
             <skills></skills>
-            <Equipments>
-                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" />
-                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" civilian="true" />
-            </Equipments>
+            <Equipments/>
       </NPCCharacter>
       <NPCCharacter id="female_dancer_vlandia"
             default_group="Infantry"
@@ -1452,10 +1472,7 @@
                   <face_key_template value="BodyProperty.face_harem_vlandia_0" />
             </face>
             <skills></skills>
-            <Equipments>
-                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" />
-                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" civilian="true" />
-            </Equipments>
+            <Equipments/>
       </NPCCharacter>
       <NPCCharacter id="female_dancer_battania"
             default_group="Infantry"
@@ -1469,10 +1486,7 @@
                   <face_key_template value="BodyProperty.face_harem_battania_0" />
             </face>
             <skills></skills>
-            <Equipments>
-                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" />
-                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" civilian="true" />
-            </Equipments>
+            <Equipments/>
       </NPCCharacter>
       <NPCCharacter id="female_dancer_khuzait"
             default_group="Infantry"
@@ -1486,12 +1500,10 @@
                   <face_key_template value="BodyProperty.face_harem_khuzait_0" />
             </face>
             <skills></skills>
-            <Equipments>
-                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" />
-                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" civilian="true" />
-            </Equipments>
+            <Equipments/>
       </NPCCharacter>
-
+      <!-- BUG BL 1.3 Beta, merging the Dancers & Musicians has issues such as No Instruments-->
+       <!--
       <NPCCharacter id="musician_empire"
             default_group="Infantry"
             is_hero="false"
@@ -1503,10 +1515,7 @@
                   <face_key_template value="BodyProperty.face_harem_empire_0" />
             </face>
             <skills></skills>
-            <Equipments>
-                  <EquipmentSet id="npc_captive_m_equipment_template_stripper_01" civilian="true" />
-                  <EquipmentSet id="npc_captive_f_equipment_template_nude" />
-            </Equipments>
+            <Equipments/>
       </NPCCharacter>
       <NPCCharacter id="musician_khuzait"
             default_group="Infantry"
@@ -1519,10 +1528,7 @@
                   <face_key_template value="BodyProperty.face_harem_khuzait_0" />
             </face>
             <skills></skills>
-            <Equipments>
-                  <EquipmentSet id="npc_captive_m_equipment_template_stripper_01" civilian="true" />
-                  <EquipmentSet id="npc_captive_f_equipment_template_nude" />
-            </Equipments>
+            <Equipments/>
       </NPCCharacter>
       <NPCCharacter id="musician_aserai"
             default_group="Infantry"
@@ -1535,10 +1541,7 @@
                   <face_key_template value="BodyProperty.face_harem_aserai_0" />
             </face>
             <skills></skills>
-            <Equipments>
-                  <EquipmentSet id="npc_captive_m_equipment_template_stripper_01" civilian="true" />
-                  <EquipmentSet id="npc_captive_f_equipment_template_nude" />
-            </Equipments>
+            <Equipments/>
       </NPCCharacter>
       <NPCCharacter id="musician_sturgia"
             default_group="Infantry"
@@ -1551,10 +1554,7 @@
                   <face_key_template value="BodyProperty.face_harem_sturgia_0" />
             </face>
             <skills></skills>
-            <Equipments>
-                  <EquipmentSet id="npc_captive_m_equipment_template_stripper_01" civilian="true" />
-                  <EquipmentSet id="npc_captive_f_equipment_template_nude" />
-            </Equipments>
+            <Equipments/>
       </NPCCharacter>
       <NPCCharacter id="musician_vlandia"
             default_group="Infantry"
@@ -1567,10 +1567,7 @@
                   <face_key_template value="BodyProperty.face_harem_vlandia_0" />
             </face>
             <skills></skills>
-            <Equipments>
-                  <EquipmentSet id="npc_captive_m_equipment_template_stripper_01" civilian="true" />
-                  <EquipmentSet id="npc_captive_f_equipment_template_nude" />
-            </Equipments>
+            <Equipments/>
       </NPCCharacter>
       <NPCCharacter id="musician_battania"
             default_group="Infantry"
@@ -1583,12 +1580,9 @@
                   <face_key_template value="BodyProperty.face_harem_battania_0" />
             </face>
             <skills></skills>
-            <Equipments>
-                  <EquipmentSet id="npc_captive_m_equipment_template_stripper_01" civilian="true" />
-                  <EquipmentSet id="npc_captive_f_equipment_template_nude" />
-            </Equipments>
+            <Equipments/>
       </NPCCharacter>
-
+      -->
       <!-- WAY OF THE WARRIOR special characters-->      
       <NPCCharacter id="spcwandererzbccaptorvakkenmaiden" name="{=BCCaptor_Text_12449}Vasara Vakkenhamre" age="20" voice="curt" is_female="true" culture="Culture.vakken" 
             default_group="Cavalry" is_template="true" is_hero="false" occupation="Wanderer">

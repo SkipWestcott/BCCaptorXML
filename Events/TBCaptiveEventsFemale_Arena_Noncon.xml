@@ -2,7 +2,7 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_arena_sold_city</Name>
-        <Text>{=TBCaptiveEvents_Female_001}A seedy man approaches your captor and begins negotiating, pointing towards you excitedly, a malevolent smile on his face. Some money changes hands, and he approaches you, explaining that he has purchased you for the day to use as entertainment in the arena...</Text>
+        <Text>A seedy man approaches your captor and begins negotiating, pointing towards you excitedly, a malevolent smile on his face. Some money changes hands, and he approaches you, explaining that he has purchased you for the day to use as entertainment in the arena...</Text>
         <BackgroundName>TB_character_merchant</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -25,7 +25,7 @@
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_002}Agree to follow the man to the arena.</OptionText>
+                <OptionText>Agree to follow the man to the arena.</OptionText>
                 <RelationTotal>R 1 3</RelationTotal>
                 <TriggerEvents>
                     <TriggerEvent>
@@ -39,7 +39,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_003}Beg your captor to reconsider; there are more pleasurable uses he could make of you...</OptionText>
+                <OptionText>Beg your captor to reconsider; there are more pleasurable uses he could make of you...</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_noncon_punish_fist</EventName>
@@ -69,7 +69,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_004}Refuse to follow him.</OptionText>
+                <OptionText>Refuse to follow him.</OptionText>
                 <HealthTotal>R -10 -30</HealthTotal>
                 <TriggerEventName>TB_arena_start</TriggerEventName>
             </Option>
@@ -82,7 +82,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_arena_sold_city_slave</Name>
-        <Text>{=TBCaptiveEvents_Female_005}A seedy man approaches your master and begins negotiating, pointing towards you excitedly, a malevolent smile on his face. Some money changes hands, and he approaches you, explaining that he has purchased you for the day to use as entertainment in the arena...</Text>
+        <Text>A seedy man approaches your master and begins negotiating, pointing towards you excitedly, a malevolent smile on his face. Some money changes hands, and he approaches you, explaining that he has purchased you for the day to use as entertainment in the arena...</Text>
         <BackgroundName>TB_character_merchant</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -107,7 +107,7 @@
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_002}Agree to follow the man to the arena.</OptionText>
+                <OptionText>Agree to follow the man to the arena.</OptionText>
                 <RelationTotal>R 1 3</RelationTotal>
                 <TriggerEvents>
                     <TriggerEvent>
@@ -122,7 +122,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBSlaveryEventsFemaleSexual041}Beg your master to fuck his slave instead.</OptionText>
+                <OptionText>Beg your master to fuck his slave instead.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -160,7 +160,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_004}Refuse to follow him.</OptionText>
+                <OptionText>Refuse to follow him.</OptionText>
                 <HealthTotal>R -10 -30</HealthTotal>
                 <TriggerEventName>TB_arena_start</TriggerEventName>
             </Option>
@@ -173,7 +173,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_arena_start</Name>
-        <Text>{=TBCaptiveEvents_Female_006}The man sneers, reminding you that slaves don't have opinions. He punches the wind out of you, and as you lie gasping grasps your hair in one hand and begins dragging you to the arena. You hear the crowd cheer above you, obviously enjoying whatever horrible event is taking place inside.</Text>
+        <Text>The man sneers, reminding you that slaves don't have opinions. He punches the wind out of you, and as you lie gasping grasps your hair in one hand and begins dragging you to the arena. You hear the crowd cheer above you, obviously enjoying whatever horrible event is taking place inside.</Text>
         <BackgroundName>BC_dungeon_new_kick</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -191,7 +191,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_007}Enter the arena.</OptionText>
+                <OptionText>Enter the arena.</OptionText>
                 <HealthTotal>R -5 -15</HealthTotal>
                 <TriggerEventName>TB_arena_lobby</TriggerEventName>
             </Option>
@@ -206,7 +206,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_arena_end</Name>
-        <Text>{=TBCaptiveEvents_Female_008}You wake to the clinking of coins as your captor takes their payment for your pain and humiliation. The arena master seems to think you put on an excellent show, and welcomes your captor to send you back anytime for another round...</Text>
+        <Text>You wake to the clinking of coins as your captor takes their payment for your pain and humiliation. The arena master seems to think you put on an excellent show, and welcomes your captor to send you back anytime for another round...</Text>
         <BackgroundName>BC_image_slavery_cell_kneel_straw</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -224,7 +224,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBSlaveryEventsFemaleSexual033}Try to get some rest.</OptionText>
+                <OptionText>Try to get some rest.</OptionText>
                 <SkillsToLevel>                    
                     <Skill Id="CaptiveEsteem" ByLevel="R -2 -10" Ref="Hero" Color="Cyan" />
                 </SkillsToLevel>
@@ -238,7 +238,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_arena_lobby</Name>
-        <Text>{=TBCaptiveEvents_Female_009}Shackled and defenseless, the crowd cheers at your naked body. They seem to be eagerly anticipating whatever fate awaits you in the arena. The gates opposite begin to open...</Text>
+        <Text>Shackled and defenseless, the crowd cheers at your naked body. They seem to be eagerly anticipating whatever fate awaits you in the arena. The gates opposite begin to open...</Text>
         <BackgroundName>BC_captive_f_chain_walk</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -258,7 +258,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_010}Hold your head up bravely.</OptionText>
+                <OptionText>Hold your head up bravely.</OptionText>
                 <HealthTotal>R -5 -15</HealthTotal>
                 <RenownTotal>R 1 3</RenownTotal>
                 <SkillsToLevel>
@@ -283,7 +283,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_011}Try to survive...</OptionText>
+                <OptionText>Try to survive...</OptionText>
                 <HealthTotal>R -2 -10</HealthTotal>
                 <TriggerEvents>
                     <TriggerEvent>
@@ -303,7 +303,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_012}Pass out from exhaustion...</OptionText>
+                <OptionText>Pass out from exhaustion...</OptionText>
                 <HealthTotal>R -5 -15</HealthTotal>
                 <TriggerEventName>TB_arena_end</TriggerEventName>
                 <ReqHeroHealthBelowPercentage>20</ReqHeroHealthBelowPercentage>
@@ -316,7 +316,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_arena_gangbang</Name>
-        <Text>{=TBCaptiveEvents_Female_013}A ragtag group of people enter through the gate, locking eyes on your helpless form. They begin running, you are surrounded by twenty or so men and women. They begin to grasp and fondle your flesh, kissing, smacking, and biting you, and the crowd begins to cheer...</Text>
+        <Text>A ragtag group of people enter through the gate, locking eyes on your helpless form. They begin running, you are surrounded by twenty or so men and women. They begin to grasp and fondle your flesh, kissing, smacking, and biting you, and the crowd begins to cheer...</Text>
         <BackgroundName>BC_image_sex_captivity_group_neck</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -336,7 +336,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_014}What more will they do to you?</OptionText>
+                <OptionText>What more will they do to you?</OptionText>
                 <HealthTotal>R -2 -10</HealthTotal>
                 <RenownTotal>R -1 -3</RenownTotal>
                 <SkillsToLevel>                    
@@ -373,7 +373,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_arena_gangbang_fisting</Name>
-        <Text>{=TBCaptiveEvents_Female_015}The men hold you still while another slips his cock up your ass. He plunges two of his fingers aside himself, moving your sphincter muscles to open, and you feel another greased cock fighting to penetrate at the same time! You feel as though they'll surely tear you apart, but your hellish screams only drive them harder.</Text>
+        <Text>The men hold you still while another slips his cock up your ass. He plunges two of his fingers aside himself, moving your sphincter muscles to open, and you feel another greased cock fighting to penetrate at the same time! You feel as though they'll surely tear you apart, but your hellish screams only drive them harder.</Text>
         <BackgroundName>BC_image_slavery_double_anal_lifted</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -393,7 +393,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_016}What will they do to you next?</OptionText>
+                <OptionText>What will they do to you next?</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 4 12" HideNotification="true"  />
                 </SkillsToLevel>
@@ -430,7 +430,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_arena_gangbang_sandwich</Name>
-        <Text>{=TBCaptiveEvents_Female_017}Two of the men lift you between them, filling you front and back with their hard members. The pain and pressure are intense as they alternate moving up and down, and the crowd yells for them to fuck you faster as you feel them spurt inside you.</Text>
+        <Text>Two of the men lift you between them, filling you front and back with their hard members. The pain and pressure are intense as they alternate moving up and down, and the crowd yells for them to fuck you faster as you feel them spurt inside you.</Text>
         <BackgroundName>BC_image_slavery_vag_anal_lifted</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -451,7 +451,7 @@
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_016}What will they do to you next?</OptionText>
+                <OptionText>What will they do to you next?</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 4 12" HideNotification="true"  />
                     <Skill Id="CaptiveLustV" ByLevel="R 4 12" HideNotification="true"  />
@@ -491,7 +491,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_arena_gangbang_cowgirl</Name>
-        <Text>{=TBCaptiveEvents_Female_018}One of the men picks you up, cupping your ass and breast with his hands as another positions himself beneath you. You are roughly impaled on his cock, as several more are thrust into your face, the scent of stale urine filling your nostrils.</Text>
+        <Text>One of the men picks you up, cupping your ass and breast with his hands as another positions himself beneath you. You are roughly impaled on his cock, as several more are thrust into your face, the scent of stale urine filling your nostrils.</Text>
         <BackgroundName>BC_image_slavery_gang_vag_pearls</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -511,7 +511,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_016}What will they do to you next?</OptionText>
+                <OptionText>What will they do to you next?</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 4 12" HideNotification="true"  />
                     <Skill Id="CaptiveLustV" ByLevel="R 4 12" HideNotification="true"  />
@@ -551,7 +551,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_arena_gangbang_facial</Name>
-        <Text>{=TBCaptiveEvents_Female_019}One of the men pushes the others aside, his intimidating penis thick and hard as he shoves you to the ground and pushes it into your face. He thrusts into your throat without mercy or respite as you choke, then pulls out and rubs himself to climax, coating your face in his seed.</Text>
+        <Text>One of the men pushes the others aside, his intimidating penis thick and hard as he shoves you to the ground and pushes it into your face. He thrusts into your throat without mercy or respite as you choke, then pulls out and rubs himself to climax, coating your face in his seed.</Text>
         <BackgroundName>BC_image_captivity_oral_vaginal_temple</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -571,7 +571,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_016}What will they do to you next?</OptionText>
+                <OptionText>What will they do to you next?</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustO" ByLevel="R 4 12" HideNotification="true"  />
                 </SkillsToLevel>
@@ -608,7 +608,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_arena_gangbang_end</Name>
-        <Text>{=TBCaptiveEvents_Female_020}The crowd cheers as the announcer narrates every torment inflicted on you in lurid detail. As this first team tires out, he says, it's time to get ready for the next event!</Text>
+        <Text>The crowd cheers as the announcer narrates every torment inflicted on you in lurid detail. As this first team tires out, he says, it's time to get ready for the next event!</Text>
         <BackgroundName>BC_image_sex_f_ass_cumshot</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -627,7 +627,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_021}Weep as your rapists leave you bruised on the ground.</OptionText>
+                <OptionText>Weep as your rapists leave you bruised on the ground.</OptionText>
                 <HealthTotal>5</HealthTotal>
                 <SkillsToLevel>                    
                     <Skill Id="CaptiveEsteem" ByLevel="R -2 -10" Ref="Hero" HideNotification="true" />

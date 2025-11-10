@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
-    <!-- NO TRANSLATIONS HERE - BC -->
     <CEEvent>
         <Name>TB_captor_training_menu</Name>
         <Text>You decide to teach {CAPTIVE_NAME} to better obey your commands. What approach do you take?</Text>
@@ -445,42 +444,6 @@
     </CEEvent>
     <!-- Threaten events -->
     <CEEvent>
-        <Name>TB_captor_threaten_bestiality</Name>
-        <Text>You drag {CAPTIVE_NAME} to where your hunting dogs lay, playing happily, and warn {?ISCAPTIVEFEMALE}her that if she{?}him that if he{\?} proves of no use to you or your men, {?ISCAPTIVEFEMALE}she{?}he{\?} will find new purpose as some dog's bitch. {?ISCAPTIVEFEMALE}Her{?}His{\?} eyes widen in fear at the sight of the creatures' massive members.{\?}</Text>
-        <BackgroundName>TB_scene_dogs</BackgroundName>
-        <NotificationName>TB_captor_notification</NotificationName>
-        <MultipleRestrictedListOfFlags>
-            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-        </MultipleRestrictedListOfFlags>
-        <Options>
-            <Option>
-                <Order>2</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <HealthTotal>-1</HealthTotal>
-                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
-                <TriggerEventName>TB_captor_training_menu</TriggerEventName>
-                <SkillsToLevel>
-                    <Skill Id="CaptiveObedience" ByLevel="R 1" Ref="Hero" Color="Cyan"/>
-                    <Skill Id="CaptiveAffection" ByLevel="R -5 -10" Ref="Hero" Color="Cyan"/>
-                </SkillsToLevel>
-            </Option>
-        </Options>
-        <ReqCustomCode>true</ReqCustomCode>
-        <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-        <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
-    <CEEvent>
         <Name>TB_captor_threaten_public_use</Name>
         <Text>You drag {CAPTIVE_NAME} to a whipping post, telling {?ISCAPTIVEFEMALE}her that if she continues her resistance, you will shackle her to it for a few hours so that anyone who fancies a feel of her struggling body can make use of her at their leisure.{?}him that if he continues his resistance, you will shackle him to it for a few hours so that anyone who fancies a feel of his struggling body can make use of him at their leisure.{\?}</Text>
         <BackgroundName>TB_scene_whipping_post</BackgroundName>
@@ -590,50 +553,6 @@
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <!-- Humiliation events -->
-    <CEEvent>
-        <Name>TB_captor_humiliate_bestiality</Name>
-        <Text>You chain {CAPTIVE_NAME} to the ground, {?ISCAPTIVEFEMALE}her ass raised high into the air, and beckon your captain to fetch your largest hunting dog. As your captive struggles, the rest of camp slowly makes their way over to watch her. Your captain leads an immense wolfhound sporting a massive erection past the woman and she screams in fear and alarm. The creature mounts her swiftly, boring into her cunt with obvious enjoyment as her cries grow faint and she passes out from the pain. The stud leaves her dripping with pints of seed in a performance your men won't soon forget.{?}his ass raised high into the air, and beckon your captain to fetch your largest hunting dog. As your captive struggles, the rest of camp slowly makes their way over to watch him. Your captain leads an immense wolfhound sporting a massive erection past the man and he screams in fear and alarm. The creature mounts him swiftly, boring into his ass with obvious enjoyment as his cries grow faint and he passes out from the pain. The stud leaves him dripping with pints of seed in a performance your troops won't soon forget.{\?}</Text>
-        <Backgrounds>
-            <Background Name="TB_scion_canine_dirty" UseConditions="BC_event_conditions_captive_female_default" />
-            <Background Name="TB_scion_male_canine_dirty" UseConditions="BC_event_conditions_captive_male" />
-        </Backgrounds>
-        <NotificationName>TB_captor_notification</NotificationName>
-        <MultipleRestrictedListOfFlags>
-            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-        </MultipleRestrictedListOfFlags>
-        <Options>
-            <Option>
-                <Order>2</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
-                <TriggerEventName>TB_captor_training_menu</TriggerEventName>
-                <SkillsToLevel>
-                    <Skill Id="CaptiveObedience" ByLevel="R 1 3" Ref="Hero" Color="Cyan"/>
-                    <Skill Id="CaptiveAffection" ByLevel="R -20 -40" Ref="Hero" Color="Cyan"/>
-                </SkillsToLevel>
-                <HealthTotal>R -5 -10</HealthTotal>
-                <RenownTotal>R -5 -10</RenownTotal>
-                <MoraleTotal>R 1 3</MoraleTotal>
-            </Option>
-        </Options>
-        <ReqHeroHealthAbovePercentage>9</ReqHeroHealthAbovePercentage>
-        <ReqCustomCode>true</ReqCustomCode>
-        <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-        <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
     <CEEvent>
         <Name>TB_captor_humiliate_public_use</Name>
         <Text>You drag {CAPTIVE_NAME} to a post in the center of camp, locking {?ISCAPTIVEFEMALE}her in, and inform her that she's been promoted from captive to camp slut. The men of camp gather round, cheering, and her ordeal begins as her holes are stuffed with rigid man-meat. Hours later, her body coated in cum and bruises, you unchain her and let her exhausted body drop to the ground.{?}him in, and inform him that he's been promoted from captive to camp slut. The women of camp gather round, cheering, and his ordeal begins as they begin pushing things into his ass and fondling his genitals. Hours later, his body coated in slime and bruises, you unchain him and let his exhausted body drop to the ground.{\?}</Text>
@@ -930,48 +849,6 @@
                 <TriggerEventName>TB_captor_training_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 5 10" Ref="Hero" Color="Cyan"/>
-                    <Skill Id="CaptiveAffection" ByLevel="R -10 -30" Ref="Hero" Color="Cyan"/>
-                </SkillsToLevel>
-                <HealthTotal>R -25 -50</HealthTotal>
-                <RenownTotal>R -5 -10</RenownTotal>
-            </Option>
-        </Options>
-        <ReqHeroHealthAbovePercentage>9</ReqHeroHealthAbovePercentage>
-        <ReqCustomCode>true</ReqCustomCode>
-        <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
-        <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
-    <CEEvent>
-        <Name>TB_captor_torture_horse</Name>
-        <Text>You drag {CAPTIVE_NAME} to the stables and lock {?ISCAPTIVEFEMALE}her to a wooden horse. At first she seems merely afraid, but as you lead a stallion towards her naked body she begins screaming incoherently for mercy. The creature has quite a bit of trouble entering her, and in the end it's necessary for you to guide it in, but once it finds a welcoming hole it thrusts mightily, savaging her helpless body. It takes only a few minutes to finish, spurting an ocean of milky seed into her, but in that time she has screamed herself hoarse and then lost consciousness. You're confident she'll remember the lesson when she wakes.{?}him to a wooden horse. At first he seems merely afraid, but as you lead a stallion towards his naked body he begins screaming incoherently for mercy. The creature has quite a bit of trouble entering him, and in the end it's necessary for you to guide it in, but once it finds a welcoming hole it thrusts mightily, savaging his helpless body. It takes only a few minutes to finish, spurting an ocean of milky seed into him, but in that time he has screamed himself hoarse and then lost consciousness. You're confident he'll remember the lesson when he wakes.{\?}</Text>
-        <Backgrounds>
-            <Background Name="TB_horse_aftersex_2" UseConditions="BC_event_conditions_captive_female_default" />
-            <Background Name="TB_scion_male_horse_dirty" UseConditions="BC_event_conditions_captive_male" />
-        </Backgrounds>
-        <NotificationName>TB_captor_notification</NotificationName>
-        <MultipleRestrictedListOfFlags>
-            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
-            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-        </MultipleRestrictedListOfFlags>
-        <Options>
-            <Option>
-                <Order>2</Order>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
-                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
-                <TriggerEventName>TB_captor_training_menu</TriggerEventName>
-                <SkillsToLevel>
-                    <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -10 -30" Ref="Hero" Color="Cyan"/>
                 </SkillsToLevel>
                 <HealthTotal>R -25 -50</HealthTotal>
@@ -1326,7 +1203,7 @@
                 </MultipleRestrictedListOfConsequences>
                 <HealthTotal>R 10 50</HealthTotal>
                 <RelationTotal>R 1 3</RelationTotal>
-                <OptionText>{=BCCaptor_Text_14467}Let {?ISCAPTIVEFEMALE}her{?}him{\?} rest.</OptionText>
+                <OptionText>Let {?ISCAPTIVEFEMALE}her{?}him{\?} rest.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="NotNewCaptive" Ref="Hero" ByLevel="1" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" Ref="Hero" ByLevel="R 0 3" HideNotification="true"/>

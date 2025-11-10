@@ -2,7 +2,7 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_dream_start</Name>
-        <Text>{=TBCaptiveEvents_Female_022}Your mind collapses, the strain of keeping yourself conscious in the face of an endless parade of torture and sexual abuse gives way to inner fantasies that shelter you from the pain.</Text>
+        <Text>Your mind collapses, the strain of keeping yourself conscious in the face of an endless parade of torture and sexual abuse gives way to inner fantasies that shelter you from the pain.</Text>
         <BackgroundName>BC_image_slavery_ballgag_drool</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -22,7 +22,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_023}Give in to your dream and escape...</OptionText>
+                <OptionText>Give in to your dream and escape...</OptionText>
                 <HealthTotal>R 5 15</HealthTotal>
                 <TriggerEventName>TB_dream_lobby</TriggerEventName>
             </Option>
@@ -35,7 +35,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dream_start_slave</Name>
-        <Text>{=TBCaptiveEvents_Female_024}Your mind collapses, the strain of keeping yourself conscious in the face of an endless parade of degradation and sexual abuse gives way to inner fantasies that shelter you from the pain. You dream that you're making passionate love to gentle partners, and your arousal grows; you moan in rapturous pleasure as you climax again and again, the pain and your current circumstances all but forgotten.</Text>
+        <Text>Your mind collapses, the strain of keeping yourself conscious in the face of an endless parade of degradation and sexual abuse gives way to inner fantasies that shelter you from the pain. You dream that you're making passionate love to gentle partners, and your arousal grows; you moan in rapturous pleasure as you climax again and again, the pain and your current circumstances all but forgotten.</Text>
         <BackgroundName>BC_image_slavery_ballgag_drool</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -58,7 +58,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_023}Give in to your dream and escape...</OptionText>
+                <OptionText>Give in to your dream and escape...</OptionText>
                 <HealthTotal>R 5 15</HealthTotal>
                 <SlaveryTotal>R 10 25</SlaveryTotal>
                 <TriggerEventName>TB_dream_lobby</TriggerEventName>
@@ -73,7 +73,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dream_lobby</Name>
-        <Text>{=TBCaptiveEvents_Female_025}You float wistfully through your dreamworld...</Text>
+        <Text>You float wistfully through your dreamworld...</Text>
         <BackgroundName>BC_image_slavery_ballgag_drool</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -90,7 +90,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_026}Keep dreaming...</OptionText>
+                <OptionText>Keep dreaming...</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_dream_flying</EventName>
@@ -141,7 +141,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_027}Wake up.</OptionText>
+                <OptionText>Wake up.</OptionText>
                 <HealthTotal>R 10 30</HealthTotal>
                 <TriggerEventName>TB_dream_wake</TriggerEventName>
                 <SceneToPlay>scn_bc_hang_on</SceneToPlay>
@@ -153,7 +153,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dream_wake</Name>
-        <Text>{=TBCaptiveEvents_Female_028}You force yourself to consciousness, grasping for reality. Your dreams collapse around you, and you realize that although they have given you time to recover from your wounds, they've made your captor's renewed torment all the more fresh and painful.</Text>
+        <Text>You force yourself to consciousness, grasping for reality. Your dreams collapse around you, and you realize that although they have given you time to recover from your wounds, they've made your captor's renewed torment all the more fresh and painful.</Text>
         <BackgroundName>BC_image_slavery_chair_dildo</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -170,7 +170,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_029}Take a deep breath and hope you're unchained.</OptionText>
+                <OptionText>Take a deep breath and hope you're unchained.</OptionText>
                 <TriggerEvents>
 					<TriggerEvent>
                         <EventName>TB_common_nothing</EventName>
@@ -205,7 +205,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dream_flying</Name>
-        <Text>{=TBCaptiveEvents_Female_030}You dream that you are flying over the world, able to survey castles and mountains, to visit fields and lakes in moments. You feel the rush of wind on your face and the pleasant scent of summertime fills your senses.</Text>
+        <Text>You dream that you are flying over the world, able to survey castles and mountains, to visit fields and lakes in moments. You feel the rush of wind on your face and the pleasant scent of summertime fills your senses.</Text>
         <BackgroundName>TB_dream_flying</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -223,7 +223,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_026}Keep dreaming...</OptionText>
+                <OptionText>Keep dreaming...</OptionText>
                 <HealthTotal>R 5 15</HealthTotal>
                 <TriggerEventName>TB_dream_lobby</TriggerEventName>
             </Option>
@@ -234,7 +234,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dream_none</Name>
-        <Text>{=TBCaptiveEvents_Female_031}Your sleep is surprisingly free of dreams, and you wake refreshed, feeling much better than before.</Text>
+        <Text>Your sleep is surprisingly free of dreams, and you wake refreshed, feeling much better than before.</Text>
         <BackgroundName>BC_image_slavery_left_inside</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -252,7 +252,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=DefaultCaptiveEventsFemale22}Continue.</OptionText>
+                <OptionText>Continue.</OptionText>
                 <HealthTotal>R 50 100</HealthTotal>
             </Option>
         </Options>
@@ -262,7 +262,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dream_adoration</Name>
-        <Text>{=TBCaptiveEvents_Female_032}You dream that you are adored by your people, the subject of song and story, and all is right with the world.</Text>
+        <Text>You dream that you are adored by your people, the subject of song and story, and all is right with the world.</Text>
         <BackgroundName>TB_dream_warmth</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -280,7 +280,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_026}Keep dreaming...</OptionText>
+                <OptionText>Keep dreaming...</OptionText>
                 <HealthTotal>R 5 15</HealthTotal>
                 <TriggerEventName>TB_dream_lobby</TriggerEventName>
             </Option>
@@ -291,7 +291,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dream_warmth</Name>
-        <Text>{=TBCaptiveEvents_Female_033}You dream of comforting warmth and enduring safety. There is no fear here, no pain, only love...</Text>
+        <Text>You dream of comforting warmth and enduring safety. There is no fear here, no pain, only love...</Text>
         <BackgroundName>TB_dream_warmth</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -309,7 +309,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_026}Keep dreaming...</OptionText>
+                <OptionText>Keep dreaming...</OptionText>
                 <HealthTotal>R 5 15</HealthTotal>
                 <TriggerEventName>TB_dream_lobby</TriggerEventName>
             </Option>
@@ -320,7 +320,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dream_pleasure</Name>
-        <Text>{=TBCaptiveEvents_Female_034}You dream of endless pleasure, ecstasy without pain or exhaustion; bliss without care or consequence.</Text>
+        <Text>You dream of endless pleasure, ecstasy without pain or exhaustion; bliss without care or consequence.</Text>
         <BackgroundName>TB_dream_pleasure</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -338,7 +338,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_026}Keep dreaming...</OptionText>
+                <OptionText>Keep dreaming...</OptionText>
                 <HealthTotal>R 5 15</HealthTotal>
                 <TriggerEventName>TB_dream_lobby</TriggerEventName>
             </Option>
@@ -349,7 +349,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dream_resist</Name>
-        <Text>{=TBCaptiveEvents_Female_035}You scream, not in fear but in anger, in rage, and your nightmares are blown into figments of color, bursting apart like butterflies. Your dream reshapes, its pleasant colors and images once again familiar, and you feel safe once again.</Text>
+        <Text>You scream, not in fear but in anger, in rage, and your nightmares are blown into figments of color, bursting apart like butterflies. Your dream reshapes, its pleasant colors and images once again familiar, and you feel safe once again.</Text>
         <BackgroundName>TB_dream_resist</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -372,7 +372,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_036}Continue your dream.</OptionText>
+                <OptionText>Continue your dream.</OptionText>
                 <HealthTotal>R 5 15</HealthTotal>
                 <TriggerEventName>TB_dream_lobby</TriggerEventName>
             </Option>
@@ -381,7 +381,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_027}Wake up.</OptionText>
+                <OptionText>Wake up.</OptionText>
                 <TriggerEventName>TB_dream_wake</TriggerEventName>
             </Option>
         </Options>
@@ -391,7 +391,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dream_invade</Name>
-        <Text>{=TBCaptiveEvents_Female_037}Your captors grab you pulling you onto their shafts as you struggle to resist. They pinch and prod you expertly as you scream and squeal in agony and arousal, and you feel their shafts grow painfully inside you, hardening as they take sadistic pleasure in tormenting you.</Text>
+        <Text>Your captors grab you pulling you onto their shafts as you struggle to resist. They pinch and prod you expertly as you scream and squeal in agony and arousal, and you feel their shafts grow painfully inside you, hardening as they take sadistic pleasure in tormenting you.</Text>
         <BackgroundName>TB_dream_invade</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -409,7 +409,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_038}Try to regain control over your dream.</OptionText>
+                <OptionText>Try to regain control over your dream.</OptionText>
                 <HealthTotal>R 5 15</HealthTotal>
                 <TriggerEvents>
                     <TriggerEvent>
@@ -427,7 +427,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12055}Try to wake up.</OptionText>
+                <OptionText>Try to wake up.</OptionText>
                 <TriggerEventName>TB_dream_wake</TriggerEventName>
             </Option>
         </Options>
@@ -437,7 +437,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dream_defeat</Name>
-        <Text>{=TBCaptiveEvents_Female_039}You push yourself back into your dream only to find your captors have grown stronger within it; even here they hold you down and force you to serve them, defiling not just your body but the final refuge of your mind.</Text>
+        <Text>You push yourself back into your dream only to find your captors have grown stronger within it; even here they hold you down and force you to serve them, defiling not just your body but the final refuge of your mind.</Text>
         <BackgroundName>TB_dream_defeat</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -455,7 +455,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_040}Keep fighting them.</OptionText>
+                <OptionText>Keep fighting them.</OptionText>
                 <HealthTotal>R -5 -15</HealthTotal>
                 <TriggerEvents>
                     <TriggerEvent>
@@ -481,7 +481,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12055}Try to wake up.</OptionText>
+                <OptionText>Try to wake up.</OptionText>
                 <TriggerEventName>TB_dream_wake</TriggerEventName>
             </Option>
         </Options>
@@ -491,7 +491,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dream_broken</Name>
-        <Text>{=TBCaptiveEvents_Female_041}You have become your master's willing cum-slave. Your every waking moment is spent pleasuring his shaft, drinking down gallons of his delicious semen. Your past life is a fading memory, your ambitions meaningless as you feel his cock twitch in you grasp, ready for you to milk it once more.</Text>
+        <Text>You have become your master's willing cum-slave. Your every waking moment is spent pleasuring his shaft, drinking down gallons of his delicious semen. Your past life is a fading memory, your ambitions meaningless as you feel his cock twitch in you grasp, ready for you to milk it once more.</Text>
         <BackgroundName>TB_dream_facial</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -509,7 +509,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_038}Try to regain control over your dream.</OptionText>
+                <OptionText>Try to regain control over your dream.</OptionText>
                 <HealthTotal>R 5 15</HealthTotal>
                 <TriggerEvents>
                     <TriggerEvent>
@@ -527,7 +527,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12055}Try to wake up.</OptionText>
+                <OptionText>Try to wake up.</OptionText>
                 <TriggerEventName>TB_dream_wake</TriggerEventName>
             </Option>
         </Options>
@@ -537,7 +537,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dream_broken_children</Name>
-        <Text>{=TBCaptiveEvents_Female_042}You gasp in pain as you feel yet another of your master's children kicking inside your womb. He has made you his brood whore, and you eagerly birth and raise his children with no thought to your own life or ambitions. You cannot leave them now; even were it to be offered, you would never choose to be free.</Text>
+        <Text>You gasp in pain as you feel yet another of your master's children kicking inside your womb. He has made you his brood whore, and you eagerly birth and raise his children with no thought to your own life or ambitions. You cannot leave them now; even were it to be offered, you would never choose to be free.</Text>
         <BackgroundName>TB_dream_slave_bred</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -555,7 +555,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_040}Keep fighting them.</OptionText>
+                <OptionText>Keep fighting them.</OptionText>
                 <HealthTotal>R -5 -15</HealthTotal>
                 <TriggerEvents>
                     <TriggerEvent>
@@ -581,7 +581,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12055}Try to wake up.</OptionText>
+                <OptionText>Try to wake up.</OptionText>
                 <TriggerEventName>TB_dream_wake</TriggerEventName>
             </Option>
         </Options>
@@ -591,7 +591,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dream_giant</Name>
-        <Text>{=TBCaptiveEvents_Female_043}Your master has become a giant of immense proportions. His bulbous penis is larger than your arm, and as you struggle he grasps you in firm hands, placing your tender opening directly atop his massive shaft.</Text>
+        <Text>Your master has become a giant of immense proportions. His bulbous penis is larger than your arm, and as you struggle he grasps you in firm hands, placing your tender opening directly atop his massive shaft.</Text>
         <BackgroundName>TB_dream_giant_cowgirl</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -609,7 +609,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_044}Try to push yourself off the creature.</OptionText>
+                <OptionText>Try to push yourself off the creature.</OptionText>
                 <HealthTotal>R 5 15</HealthTotal>
                 <TriggerEvents>
                     <TriggerEvent>
@@ -627,7 +627,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12055}Try to wake up.</OptionText>
+                <OptionText>Try to wake up.</OptionText>
                 <TriggerEventName>TB_dream_wake</TriggerEventName>
             </Option>
         </Options>
@@ -637,7 +637,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dream_giant_defeat</Name>
-        <Text>{=TBCaptiveEvents_Female_045}You try to prevent the giant from entering you, but your minuscule limbs are helpless before his massive girth. He impales your womb with a single horrific stroke, a cascade of unthinkable pain coursing through your body as his member dislocates your internal organs and punches the breath from your lungs. He bends you over, holding your neck in one hand, and pumps a torrent of cum so great into you it begins surging out of your nose and throat.</Text>
+        <Text>You try to prevent the giant from entering you, but your minuscule limbs are helpless before his massive girth. He impales your womb with a single horrific stroke, a cascade of unthinkable pain coursing through your body as his member dislocates your internal organs and punches the breath from your lungs. He bends you over, holding your neck in one hand, and pumps a torrent of cum so great into you it begins surging out of your nose and throat.</Text>
         <BackgroundName>TB_dream_giant_filled</BackgroundName>
         <NotificationName>TB_travelling_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -655,7 +655,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_046}Keep trying to resist.</OptionText>
+                <OptionText>Keep trying to resist.</OptionText>
                 <HealthTotal>R -15 -25</HealthTotal>
                 <TriggerEvents>
                     <TriggerEvent>
@@ -681,7 +681,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12055}Try to wake up.</OptionText>
+                <OptionText>Try to wake up.</OptionText>
                 <TriggerEventName>TB_dream_wake</TriggerEventName>
             </Option>
         </Options>

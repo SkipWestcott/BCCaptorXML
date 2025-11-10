@@ -1,0 +1,960 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <!-- Captivity Bestiality -->
+    <CEEvent>
+        <Name>TB_bitch_noncon_horse</Name>
+        <Text>Your captor leads you to the stable master, who appears to be examining a wooden sawhorse. He startles when he sees you, eye-raping you with relish, and when your captor encourages him to breed you, he wastes little time, picking you up with strong hands and impaling you with his manhood. You feel it wriggle inside you as he tries to fit, stretching your walls and throttling the entrance to your womb, and he pulls out some as he comes, coating the outside of your sex in his seed. He proceeds to massage it into you, ensuring you're well-lubricated for what is to come...</Text>
+        <BackgroundName>BC_image_horse_before_sex</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>What more can he do to you?</OptionText>
+                <HealthTotal>R -1 -3</HealthTotal>
+                <TriggerEventName>TB_bitch_noncon_horse_2</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <ReqHeroSkill>CaptiveCanis</ReqHeroSkill>
+        <ReqHeroSkillLevelAbove>0</ReqHeroSkillLevelAbove>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_bitch_noncon_horse_2</Name>
+        <Text>Your captor looks on in awe as the stable master lifts you onto the sawhorse he was working on and ties down your arms and legs, leaving you barely able to move. For a moment you panic, thinking he's going to cut you in half, but the truth is even worse. You hear the clip-clop of hooves behind you, and a crushing weight settles onto your back. You feel the gargantuan head of a horse's penis begin thrusting at your opening and cannot help but scream as your captor laughs at your predicament. The stallion's efforts finally hit home as your poor vagina is stretched beyond all reason, the creature's bulbous cock pushing so far inside you you're sure it's done permanent damage.</Text>
+        <BackgroundName>BC_image_captive_female_horse_vag_lara</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+            <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Try to survive the assault.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveLustA" ByLevel="R 1 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                <Skill Id="CaptiveLustV" ByLevel="R 1 30" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                <Skill Id="CaptiveLustO" ByLevel="R 1 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                <Skill Id="CaptiveLustT" ByLevel="R 1 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                <Skill Id="CaptiveLustC" ByLevel="R 1 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            </SkillsToLevel>
+            <HealthTotal>R -15 -20</HealthTotal>
+            <TriggerEventName>TB_bitch_noncon_horse_3</TriggerEventName>
+        </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_bitch_noncon_horse_3</Name>
+        <Text>As you run out of breath with which to scream, your vocal chords exhausted, the creature keeps thrusting inside you. Your captor almost seems concerned as you are used as a fuck-puppet by this enormous cock, but before he takes any action the stallion bucks one last time, grinding your legs into the sawhorse, and completely fills you with its seed. The stable master quickly helps it off of you, untying your bruised arms and legs as a fountain of blood and semen pours out from your ruined pussy.</Text>
+        <BackgroundName>BC_image_horse_after_sex_2</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+            <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+            <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Is there still more for you to endure?</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveLustA" ByLevel="R 1 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                <Skill Id="CaptiveLustV" ByLevel="R 1 30" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                <Skill Id="CaptiveLustO" ByLevel="R 1 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                <Skill Id="CaptiveLustT" ByLevel="R 1 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                <Skill Id="CaptiveLustC" ByLevel="R -15 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                <Skill Id="Riding" ByLevel="R 3 7" Ref="Hero" HideNotification="true" />
+                <Skill Id="CaptiveEquus" ByLevel="1" Ref="Hero" Color="Green" />
+            </SkillsToLevel>
+            <HealthTotal>R -30 -50</HealthTotal>
+            <SlaveryTotal>R 3 7</SlaveryTotal>
+            <TriggerEventName>TB_bitch_noncon_exhaust</TriggerEventName>
+        </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_bitch_noncon_canine</Name>
+        <Text>One of the kennel masters whistles appreciatively as you approach. He comments to your captor that he's rarely seen so attractive a bitch, and mentions that he's got several studs that would be happy to breed you. Your captor smiles, saying he'd hoped that was the case, and the man whistles as a large and menacing dog comes running, an immense purple rod between its legs. Your captor orders you to be still as it begins licking your sex - wouldn't want him to get rough with you...</Text>
+        <BackgroundName>BC_image_captive_female_canine_lick</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Try not to anger him.</OptionText>
+            <TriggerEventName>TB_bitch_noncon_canine_2</TriggerEventName>
+        </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveCanis" Max="0" Ref="Hero" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_bitch_noncon_canine_2</Name>
+        <Text>You yelp shamefully in pleasure as the creature's tongue rasps against your clit, and it takes that as a signal to climb on top of you. Its weight and the warmth of its fur are terrifying, and as its massive member begins pressing its way into your insides you groan. It begins fucking you far faster and harder than any human lover, and each time the knob on the base of its cock brushes your button you moan. As your vagina is roughly savaged, the two men begin stroking their cocks, and you feel your own orgasm building...</Text>
+        <BackgroundName>BC_image_captive_female_canine_drool</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Try not to cum.</OptionText>
+            <HealthTotal>R -5 -10</HealthTotal>
+            <TriggerEventName>TB_bitch_noncon_canine_3</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+            <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+            <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Give in to your orgasm.</OptionText>
+            <SlaveryTotal>R 4 12</SlaveryTotal>
+            <HealthTotal>R -5 -10</HealthTotal>
+            <SkillsToLevel>
+                <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
+                <Skill Id="CaptiveLustO" ByLevel="R 3 1" Ref="Hero" HideNotification="true" />
+                <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
+                <Skill Id="CaptiveLustT" ByLevel="R 3 1" Ref="Hero" HideNotification="true" />
+                <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
+            </SkillsToLevel>
+            <TriggerEventName>TB_bitch_noncon_canine_3</TriggerEventName>
+        </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+      <Name>TB_bitch_noncon_canine_3</Name>
+      <Text>You cannot resist or delay your building orgasm as your stud pounds still more furiously into you, and when he stops, filling you more deeply than ever before, you squeal in desperation. Relief comes in the form of a tremendous jet of semen inside you, the pressure and humiliation of it pushing you over the edge. You scream as wave after wave of ecstasy crashes over you. Your captor climaxes at the sight, dragging you over to clean his cock.</Text>
+      <BackgroundName>BC_image_captive_female_canine_cum</BackgroundName>
+      <NotificationName>TB_travelling_notification</NotificationName>
+      <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+      </MultipleRestrictedListOfFlags>
+      <Options>
+        <Option>
+          <Order>0</Order>
+          <MultipleRestrictedListOfConsequences>
+            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+            <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+          </MultipleRestrictedListOfConsequences>
+          <OptionText>Lick your captor clean.</OptionText>
+          <SlaveryTotal>R 8 15</SlaveryTotal>
+          <SkillsToLevel>
+              <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
+              <Skill Id="CaptiveLustO" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
+              <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
+              <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
+              <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
+              <Skill Id="CaptiveEsteem" ByLevel="R -30 -10" Ref="Hero" HideNotification="true" />
+              <Skill Id="CaptiveCanis" ByLevel="1" Ref="Hero" Color="Green" />
+          </SkillsToLevel>
+          <TriggerEventName>TB_bitch_noncon_lobby</TriggerEventName>
+        </Option>
+        <Option>
+          <Order>1</Order>
+          <MultipleRestrictedListOfConsequences>
+            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+          </MultipleRestrictedListOfConsequences>
+          <OptionText>Refuse to clean your captor.</OptionText>
+          <SkillsToLevel>
+              <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
+              <Skill Id="CaptiveLustO" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
+              <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
+              <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
+              <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" HideNotification="true" />
+              <Skill Id="CaptiveEsteem" ByLevel="R -3 -10" Ref="Hero" HideNotification="true" />
+              <Skill Id="CaptiveCanis" ByLevel="1" Ref="Hero" Color="Green" />
+          </SkillsToLevel>
+          <TriggerEventName>TB_slavery_resist</TriggerEventName>
+        </Option>
+      </Options>
+      <ReqCustomCode>true</ReqCustomCode>
+      <SexualContent>false</SexualContent>
+      <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
+      <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>TB_noncon_canine_comfort</Name>
+        <Text>One of your captors' dogs approaches you and begins sniffing at your sex. You push it away, only for it to begin licking your exposed vulva, and you shudder reflexively. The dog's owner notices, and with a wicked expression orders you to spread your lips for it.</Text>
+        <BackgroundName>BC_image_captive_female_canine_lick</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationCastle</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationDungeon</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Open your legs to give it better access.</OptionText>
+                <TriggerEventName>TB_noncon_canine_climax</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R 4 12" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustV" ByLevel="R 4 12" Ref="Hero"  HideNotification="true"  />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Wait it out and hope it goes away.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 4" Ref="Hero"  HideNotification="true"  />
+                </SkillsToLevel>
+                <TriggerEventName>TB_noncon_canine_climax</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue pushing it away from you.</OptionText>
+                <RelationTotal>R -1 -7</RelationTotal>
+                <TriggerEventName>TB_noncon_punish_fist</TriggerEventName>
+                <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveCanis" Max="0" Ref="Hero" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_noncon_canine_climax</Name>
+        <Text>The creature pushes its tongue deep into your cunt and you lose composure completely; you feel your knees fall away from under you as it continues its efforts, stimulating your clit and vaginal passage with its inhumanly talented tongue. As you climax the men watching you cheer, clearly enjoying your humiliation, and the dog's owner comments that it deserves a reward for pleasuring you.</Text>
+        <BackgroundName>BC_image_captive_female_canine_lick_shirt</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Try to escape before anything worse can happen to you.</OptionText>
+                <EscapeChance>25</EscapeChance>
+                <RelationTotal>-2</RelationTotal>
+                <HealthTotal>R -5 15</HealthTotal>
+                <ReqHeroHealthAbovePercentage>20</ReqHeroHealthAbovePercentage>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Offer the dog your meal.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustV" ByLevel="R -4 6" Ref="Hero"  HideNotification="true"  />
+                </SkillsToLevel>
+                <HealthTotal>R -5 15</HealthTotal>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Kneel down and pet the dog.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
+                </SkillsToLevel>
+                <RelationTotal>2</RelationTotal>
+                <HealthTotal>R 5 15</HealthTotal>
+                <TriggerEventName>TB_noncon_canine_missionary</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_noncon_canine_missionary</Name>
+        <Text>The canine leaps at you, knocking you on your ass, then stands over you, and you feel a massive rod thrust into your flower, filling you completely. It makes you its bitch, pistoning into you harder and faster than you've ever been fucked before. You realize with alarm its member is growing inside you, and as you try to push it out that the base of its cock is now too large to be removed. You whimper as you feel its seed flood your womb. After a few minutes it pulls out, leaving a thick trail of semen streaming from your cunt.</Text>
+        <BackgroundName>BC_image_captive_female_canine_missionary</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Flee in a horrified panic.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 5" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 5" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 5" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 5" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveCanis" ByLevel="1" Ref="Hero"  Color="Green" />
+                </SkillsToLevel>
+                <EscapeChance>25</EscapeChance>
+                <HealthTotal>R 5 15</HealthTotal>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Crawl off and try to rest.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveCanis" ByLevel="1" Ref="Hero"  Color="Green"  />
+                </SkillsToLevel>
+                <HealthTotal>R -1 -2</HealthTotal>
+                <TriggerEventName>TB_dream_lobby</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Curl up submissively beside it to sleep.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 15" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 15" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 15" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 15" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveCanis" ByLevel="1" Ref="Hero"  Color="Green"/>
+                </SkillsToLevel>
+                <RenownTotal>R -3 -6</RenownTotal>
+                <HealthTotal>25</HealthTotal>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>    
+    <!-- Alchemist breeder-->
+    <CEEvent>
+        <Name>TB_noncon_canine_alchemist</Name>
+        <Text>You find yourself manacled to the floor, your arms and legs held in place so that you cannot help but thrust your sex lewdly into the air. It seems an alchemist has paid your captor to use you in his experiments, and as your fear grows you find he's brought a wolf into the cell with you. It approaches, smelling your groin, then roughly mounts you, its hardness painfully filling your cunt. As you moan and gasp in horror it begins thrusting with inhuman speed...</Text>
+        <BackgroundName>BC_image_captive_female_canine_blonde_mount</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationCastle</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationDungeon</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Bound as you are, you can do nothing to resist...</OptionText>
+                <HealthTotal>R -10 -20</HealthTotal>
+                <TriggerEventName>TB_noncon_canine_alchemist_climax</TriggerEventName>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveCanis" Max="0" Ref="Hero" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_noncon_canine_alchemist_climax</Name>
+        <Text>You grit your teeth and try to hold on as the creature breeds you. After a handful of minutes that feel like hours you feel its member growing inside you, and shortly thereafter your womb is flooded with warmth. The creature's organ is locked inside you as you feel your insides bloat with pressure, until finally it softens enough to slide out, bringing with it a waterfall of milky seed. Satisfied, the alchemist says he will be eagerly awaiting news about whether your mating bears fruit...</Text>
+        <BackgroundName>BC_image_captive_female_canine_knot_cum</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Try to rest.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveCanis" ByLevel="1" Ref="Hero"  Color="Green" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_dream_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>BC_noncon_canine_huntmistress</Name>
+        <Text>One of your captors' dogs approaches you and begins sniffing at your sex. It to begin licking your exposed vulva, and your body shudders reflexively. </Text>
+        <BackgroundName>BC_image_captive_female_canine_lick_me</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationCastle</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationDungeon</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Let daddy sniff you out.</OptionText>
+                <TriggerEventName>TB_noncon_canine_hunt_oral</TriggerEventName>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveCanis" Min="1" Ref="Hero" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_noncon_canine_hunt_oral</Name>
+        <Text>The creature rasps its tongue over your cunt and you lose composure completely; you feel your knees fall away from under you as it continues its efforts, stimulating your clit and vaginal passage with its hot breath. You lick your lips and turn toward daddy's glistening red member hanging nearly down to the ground.</Text>
+        <BackgroundName>BC_image_captive_female_canine_first_oral</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>See what it tastes like...</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero"  HideNotification="true"  />
+                </SkillsToLevel>
+                <HealthTotal>R 5 15</HealthTotal>
+                <TriggerEventName>TB_noncon_canine_hunt_climax</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_noncon_canine_hunt_climax</Name>
+        <Text>The skin of the dog cock slides across your tongue, and you can hear daddy lapping up your juices as they pour out. You lick and pull and tease the thick red shaft farther and farther into your throat, and even when daddy stops licking, you feel another orgasm building as your lips reach the giant knot at the base. You whimper in ecstasy as you feel daddy's hot seed filling your belly. After a few minutes daddy pulls it out, leaving a thick trail of semen streaming across your chest.</Text>
+        <BackgroundName>BC_image_captive_female_canine_first_load</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Curl up submissively beside it to sleep.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 15" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 15" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 15" Ref="Hero"  HideNotification="true"  />
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 15" Ref="Hero"  HideNotification="true"  />
+                </SkillsToLevel>
+                <RenownTotal>R -3 -6</RenownTotal>
+                <HealthTotal>25</HealthTotal>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>    
+    <!-- Arena Equus -->
+        <CEEvent>
+            <Name>TB_arena_equine</Name>
+            <Text>A horse and its handler exit through the gate, and the handler smiles cruelly at you as he shoves you to your knees. The man whistles, and the stallion steps over you; you feel a horrifying weight press against your rear end as its immense member pushes against your sex.</Text>
+            <BackgroundName>BC_image_horse_before_sex</BackgroundName>
+            <MultipleRestrictedListOfFlags>
+                <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            </MultipleRestrictedListOfFlags>
+            <Options>
+                <Option>
+                    <Order>0</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                    <OptionText>This can't be happening...</OptionText>
+                    <HealthTotal>R -2 -10</HealthTotal>
+                    <RenownTotal>R -1 -3</RenownTotal>
+                    <TriggerEvents>
+                        <TriggerEvent>
+                            <EventName>TB_arena_equine_held</EventName>
+                            <EventWeight>100</EventWeight>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_arena_equine_equestrienne</EventName>
+                            <EventWeight>100</EventWeight>
+                        </TriggerEvent>
+                    </TriggerEvents>
+                </Option>
+            </Options>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SkillsRequired>
+                <SkillRequired Id="CaptiveEquus" Max="0" Ref="Hero" />
+            </SkillsRequired>
+            <SexualContent>true</SexualContent>
+            <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+            <ReqHeroMinAge>18</ReqHeroMinAge>
+        </CEEvent>
+        <CEEvent>
+            <Name>TB_arena_equine_held</Name>
+            <Text>Though you have nowhere to run, the creature seems intent on keeping you still as it works its massive member into your womb, using its front legs to lock your body into place as you scream in agony. The trainer cackles with glee, muttering that the stallion has found its new favorite mare...</Text>
+            <BackgroundName>BC_image_captive_female_horse_vag_lara</BackgroundName>
+            <NotificationName>TB_slave_notification</NotificationName>
+            <MultipleRestrictedListOfFlags>
+                <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            </MultipleRestrictedListOfFlags>
+            <Options>
+                <Option>
+                    <Order>0</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                    <OptionText>This can't be happening...</OptionText>
+                    <HealthTotal>R -2 -10</HealthTotal>
+                    <RenownTotal>R -1 -3</RenownTotal>
+                    <TriggerEvents>
+                        <TriggerEvent>
+                            <EventName>TB_arena_equine_enjoy</EventName>
+                            <EventUseConditions>true</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>TB_arena_equine_unconscious</EventName>
+                            <EventUseConditions>true</EventUseConditions>
+                        </TriggerEvent>
+                    </TriggerEvents>
+                </Option>
+            </Options>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
+            <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+            <ReqHeroMinAge>18</ReqHeroMinAge>
+        </CEEvent>
+        <CEEvent>
+            <Name>TB_arena_equine_unconscious</Name>
+            <Text>The horse's cock is larger around than your forearm, and its bulbous end pushes deep into your womb, shoving itself against your cervix. As it begins pushing inwards, the pain becomes so intense that you fall unconscious, your body unable to fully process what is happening to you.</Text>
+            <BackgroundName>BC_image_captive_female_horse_under</BackgroundName>
+            <NotificationName>TB_slave_notification</NotificationName>
+            <MultipleRestrictedListOfFlags>
+                <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            </MultipleRestrictedListOfFlags>
+            <Options>
+                <Option>
+                    <Order>0</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                    <OptionText>This can't be happening...</OptionText>
+                    <HealthTotal>R -2 -10</HealthTotal>
+                    <RenownTotal>R -1 -3</RenownTotal>
+                    <TriggerEvents>
+                        <TriggerEvent>
+                            <EventName>TB_arena_equine_end</EventName>
+                            <EventWeight>50</EventWeight>
+                        </TriggerEvent>
+                    </TriggerEvents>
+                </Option>
+            </Options>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
+            <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+            <ReqHeroMinAge>18</ReqHeroMinAge>
+        </CEEvent>
+        <CEEvent>
+            <Name>TB_arena_equine_enjoy</Name>
+            <Text>As the creature's arm-width appendage invades your most sensitive organ, you moan involuntarily, getting a cheer from the crowd. The sensation of being filled more completely than ever before is incredible, and the viscous precum sends you to wave after wave of orgasmic bliss as you shake uncontrollably.</Text>
+            <BackgroundName>BC_image_horse_broken_sex</BackgroundName>
+            <NotificationName>TB_slave_notification</NotificationName>
+            <MultipleRestrictedListOfFlags>
+                <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            </MultipleRestrictedListOfFlags>
+            <Options>
+                <Option>
+                    <Order>0</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                    <OptionText>I've never felt like this before...</OptionText>
+                    <HealthTotal>R -2 -10</HealthTotal>
+                    <RenownTotal>R -1 -10</RenownTotal>
+                    <SkillsToLevel>
+                        <Skill Id="Fame" ByLevel="R 5 25" Ref="Hero" HideNotification="true" />
+                    </SkillsToLevel>
+                    <TriggerEvents>
+                        <TriggerEvent>
+                            <EventName>TB_arena_equine_unconscious</EventName>
+                            <EventWeight>100</EventWeight>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>TB_arena_equine_end</EventName>
+                            <EventWeight>50</EventWeight>
+                        </TriggerEvent>
+                    </TriggerEvents>
+                </Option>
+            </Options>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
+            <SkillsRequired>
+                <SkillRequired Id="CaptiveLustV" Min="125" Ref="Hero" />
+            </SkillsRequired>
+            <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+            <ReqHeroMinAge>18</ReqHeroMinAge>
+        </CEEvent>
+        <CEEvent>
+            <Name>BC_arena_equine_equestrienne</Name>
+            <Text>As the creature's arm-width appendage fulfills your most sensitive organ, you moan in ecstasy, getting a cheer from the crowd. The sensation of being filled so completely in front of an attentive crowd is incredible, and you feel wave after wave of orgasmic bliss surge through you as you shake uncontrollably.</Text>
+            <BackgroundName>BC_image_captivity_equestrienne</BackgroundName>
+            <NotificationName>TB_slave_notification</NotificationName>
+            <MultipleRestrictedListOfFlags>
+                <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            </MultipleRestrictedListOfFlags>
+            <Options>
+                <Option>
+                    <Order>0</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                    <OptionText>Now, everyone has seen the real me...</OptionText>
+                    <RenownTotal>R -5 -15</RenownTotal>
+                    <SkillsToLevel>
+                        <Skill Id="CaptiveLustA" ByLevel="R 5 15" Ref="Hero" HideNotification="true" />
+                        <Skill Id="CaptiveLustC" ByLevel="R -5 15" Ref="Hero" HideNotification="true" />
+                        <Skill Id="CaptiveLustV" ByLevel="R 5 15" Ref="Hero" HideNotification="true" />
+                        <Skill Id="CaptiveLustO" ByLevel="R 5 20" Ref="Hero" HideNotification="true" />
+                        <Skill Id="CaptiveLustT" ByLevel="R 5 30" Ref="Hero" HideNotification="true" />
+                        <Skill Id="CaptiveAugment" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
+                        <Skill Id="Riding" ByLevel="R 3 7" Ref="Hero" HideNotification="true" />
+                        <Skill Id="CaptiveEsteem" ByLevel="R -50 75" Ref="Hero" />
+                    </SkillsToLevel>
+                    <TriggerEvents>
+                        <TriggerEvent>
+                            <EventName>BC_arena_equestrienne_end</EventName>
+                        </TriggerEvent>
+                    </TriggerEvents>
+                </Option>
+            </Options>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
+            <SkillsRequired>
+                <SkillRequired Id="CaptiveEquus" Min="1" Ref="Hero" />
+            </SkillsRequired>
+            <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+            <ReqHeroMinAge>18</ReqHeroMinAge>
+        </CEEvent>
+        <CEEvent>
+            <Name>TB_arena_equine_end</Name>
+            <Text>The creature comes at last, neighing loudly, and you shudder as you are filled to the brim with horse semen. The extra lubrication, combined with its softening rod, allows you to fall free from your perch, and you collapse to the ground, eager for some rest.</Text>
+            <BackgroundName>BC_image_horse_after_sex</BackgroundName>
+            <NotificationName>TB_slave_notification</NotificationName>
+            <MultipleRestrictedListOfFlags>
+                <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            </MultipleRestrictedListOfFlags>
+            <Options>
+                <Option>
+                    <Order>0</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                    <OptionText>Stumble to your feet as spunk sloshes out of you.</OptionText>
+                    <SkillsToLevel>
+                        <Skill Id="CaptiveLustA" ByLevel="R 5 15" Ref="Hero" HideNotification="true" />
+                        <Skill Id="CaptiveLustC" ByLevel="R -50 15" Ref="Hero" HideNotification="true" />
+                        <Skill Id="CaptiveLustV" ByLevel="R 5 15" Ref="Hero" HideNotification="true" />
+                        <Skill Id="CaptiveLustO" ByLevel="R 5 20" Ref="Hero" HideNotification="true" />
+                        <Skill Id="CaptiveLustT" ByLevel="R 15 30" Ref="Hero" HideNotification="true" />
+                        <Skill Id="CaptiveAugment" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
+                        <Skill Id="CaptiveEsteem" ByLevel="R -30 -10" Ref="Hero" HideNotification="true" />
+                        <Skill Id="Riding" ByLevel="R 3 7" Ref="Hero" HideNotification="true" />
+                        <Skill Id="CaptiveEquus" ByLevel="1" Ref="Hero" Color="Green" />
+                    </SkillsToLevel>
+                    <RenownTotal>R -4 -8</RenownTotal>
+                    <TriggerEvents>
+                        <TriggerEvent>
+                            <EventName>TB_arena_lobby</EventName>
+                            <EventWeight>100</EventWeight>
+                        </TriggerEvent>
+                    </TriggerEvents>
+                </Option>
+            </Options>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
+            <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+            <ReqHeroMinAge>18</ReqHeroMinAge>
+        </CEEvent>
+        <CEEvent>
+            <Name>BC_arena_equestrienne_end</Name>
+            <Text>The creature comes at last, neighing loudly, and you cum along with him as cups of horse semen spurt out of you with every stroke. Its softening rod allows you to fall free from your perch, and you collapse to the ground, eager for more.</Text>
+            <BackgroundName>BC_image_horse_after_sex_2</BackgroundName>
+            <NotificationName>TB_slave_notification</NotificationName>
+            <MultipleRestrictedListOfFlags>
+                <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            </MultipleRestrictedListOfFlags>
+            <Options>
+                <Option>
+                    <Order>0</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                    <OptionText>Would they let me suck his cock, right now?</OptionText>
+                    <RenownTotal>R -100 -300</RenownTotal>
+                    <SkillsToLevel>
+                        <Skill Id="CaptiveLustA" ByLevel="R 5 15" Ref="Hero" HideNotification="true" />
+                        <Skill Id="CaptiveLustC" ByLevel="R -50 15" Ref="Hero" HideNotification="true" />
+                        <Skill Id="CaptiveLustV" ByLevel="R 5 15" Ref="Hero" HideNotification="true" />
+                        <Skill Id="CaptiveLustO" ByLevel="R 5 20" Ref="Hero" HideNotification="true" />
+                        <Skill Id="CaptiveAugment" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
+                        <Skill Id="Riding" ByLevel="R 3 7" Ref="Hero" HideNotification="true" />
+                        <Skill Id="Fame" ByLevel="R 1 12" Ref="Hero" />
+                    </SkillsToLevel>
+                    <TriggerEvents>
+                        <TriggerEvent>
+                            <EventName>TB_arena_lobby</EventName>
+                            <EventWeight>100</EventWeight>
+                        </TriggerEvent>
+                    </TriggerEvents>
+                </Option>
+            </Options>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
+            <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+            <ReqHeroMinAge>18</ReqHeroMinAge>
+        </CEEvent>
+</CEEvents>

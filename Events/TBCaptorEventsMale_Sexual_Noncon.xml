@@ -2,7 +2,7 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_claimed_womb_empty_m</Name>
-        <Text>{=BCCaptor_Text_12691}{CAPTIVE_NAME}'s womb is empty, once again ready to be filled with seed. She cowers as you approach, knowing well the role you have decreed for her in the future of your clan, and begs you to have mercy. She has birthed you a child - is that not penance enough?</Text>
+        <Text>{CAPTIVE_NAME}'s womb is empty, once again ready to be filled with seed. She cowers as you approach, knowing well the role you have decreed for her in the future of your clan, and begs you to have mercy. She has birthed you a child - is that not penance enough?</Text>
         <BackgroundName>TB_scion_slave_submit</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -22,7 +22,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12692}Fill her womb with your seed.</OptionText>
+                <OptionText>Fill her womb with your seed.</OptionText>
                 <TriggerEventName>CE_captor_male_sexual_menu_three_self_next</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R -10 -15" Ref="Hero" Color="Cyan"/>
@@ -33,7 +33,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12693}Have your men fill her with their seed.</OptionText>
+                <OptionText>Have your men fill her with their seed.</OptionText>
                 <TriggerEventName>CE_captor_male_sexual_menu_three_next</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R -15 -30" Ref="Hero" Color="Cyan"/>
@@ -44,7 +44,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12694}Give her womb a reprieve.</OptionText>
+                <OptionText>Give her womb a reprieve.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero" Color="Cyan"/>
                     <Skill Id="ClaimedWomb" ByLevel="-100" Ref="Hero" HideNotification="true" />
